@@ -1,73 +1,69 @@
 {
   "version": 1,
-  "retrievalOrder": [
-    "album_catalog",
-    "official_github",
-    "wikimedia_commons",
-    "official_static_media",
-    "public_institutions",
-    "durable_editorial_media"
-  ],
-  "sources": [
+  "policy": {
+    "mode": "soft-preference",
+    "purpose": "Reduce repeated image-search work without replacing editorial judgment.",
+    "notAWhitelist": true,
+    "openDiscoveryAllowed": true,
+    "selectionRule": "Choose the source and image that best perform the editorial job. The catalog and registered sources are preferred starting points, not mandatory order.",
+    "overrideReasons": [
+      "unique first-party evidence",
+      "breaking or newly announced event",
+      "more accurate visual explanation",
+      "stronger factual relevance",
+      "necessary platform or regional context"
+    ]
+  },
+  "preferredStartingPoints": [
     {
       "id": "album_catalog",
-      "priority": 1,
-      "purpose": "Reuse an already verified, commit-pinned Pulse image.",
+      "purpose": "Reuse an already verified, commit-pinned Pulse image when it remains specific and current.",
       "catalogPath": "catalog/assets.json",
       "matchFields": ["keywords", "alt", "targetPath", "sourcePageUrl"],
       "requiresNewIngestion": false
     },
     {
       "id": "official_github",
-      "priority": 2,
       "purpose": "Software, models, developer tools, logos, screenshots and architecture diagrams.",
-      "searchMethod": "Find the official organization or project repository first, then inspect README, docs, releases and media directories.",
-      "stableDownloadHosts": [
+      "searchMethod": "Find the official organization or project repository, then inspect README, docs, releases and media directories.",
+      "knownStableHosts": [
         "raw.githubusercontent.com",
         "media.githubusercontent.com",
         "github.com"
-      ],
-      "acceptedAssets": ["jpg", "jpeg", "png", "webp", "gif"]
-    },
-    {
-      "id": "wikimedia_commons",
-      "priority": 3,
-      "purpose": "People, companies, locations, hardware, buildings and historical events.",
-      "searchMethod": "Search Wikimedia Commons with the exact entity name and verify the file page and license.",
-      "stableDownloadHosts": ["upload.wikimedia.org"],
-      "acceptedAssets": ["jpg", "jpeg", "png", "webp"]
-    },
-    {
-      "id": "official_static_media",
-      "priority": 4,
-      "purpose": "Product launches, announcements, reports, charts and first-party evidence.",
-      "searchMethod": "Use the entity's official newsroom, press kit, media library, documentation, report or paper and select a static direct raster file.",
-      "requirements": [
-        "no authentication or cookies",
-        "no JavaScript-only rendering",
-        "no expiring signature or token",
-        "no image proxy or resize route"
       ]
     },
     {
+      "id": "wikimedia_commons",
+      "purpose": "People, companies, locations, hardware, buildings and historical events.",
+      "searchMethod": "Search Wikimedia Commons with exact entity terms and verify the file page and license.",
+      "knownStableHosts": ["upload.wikimedia.org"]
+    },
+    {
+      "id": "official_static_media",
+      "purpose": "Product launches, announcements, reports, charts and first-party evidence.",
+      "searchMethod": "Use an official newsroom, press kit, media library, documentation site, report or paper when it provides the strongest image."
+    },
+    {
       "id": "public_institutions",
-      "priority": 5,
       "purpose": "Research, policy, science, energy, infrastructure and public-interest context.",
-      "searchMethod": "Use government, university, standards-body or research-institution media and publication pages."
+      "searchMethod": "Use government, university, standards-body or research-institution media when relevant."
     },
     {
       "id": "durable_editorial_media",
-      "priority": 6,
-      "purpose": "A final factual fallback when first-party or public material is unavailable.",
-      "searchMethod": "Use established technical or business publications with durable static image URLs and clear source attribution."
+      "purpose": "Credible contextual imagery when first-party or public material is unavailable or visually insufficient.",
+      "searchMethod": "Use established technical or business publications with durable static assets and clear attribution."
     }
   ],
-  "limits": {
-    "maxExternalSourceFamiliesPerImagePosition": 3,
-    "maxAttemptsPerHost": 2,
-    "preferReuseAcrossPlatformVersions": true
+  "guidance": {
+    "consultCatalogFirst": true,
+    "typicalExternalSourceFamiliesPerImagePosition": 3,
+    "searchBudgetIsAdvisory": true,
+    "switchHostAfterRepeatedFailures": true,
+    "preferReuseAcrossPlatformVersionsWhenEditoriallyFit": true,
+    "doNotReuseStaleGenericOrWeakAssets": true,
+    "stopWhenEditoriallyStrongEvidenceIsFound": true
   },
-  "reject": [
+  "hardDeliveryRejects": [
     "search-engine thumbnails",
     "social-media CDN URLs",
     "redirect wrappers",
