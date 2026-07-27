@@ -43,6 +43,7 @@ jobs:
         id: assets
         shell: bash
         run: |
+          set -euo pipefail
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
 
@@ -66,7 +67,19 @@ jobs:
             echo "No new image assets to commit."
           else
             git commit -m "Ingest Pulse image assets"
-            git push origin HEAD:master
+
+            for attempt in 1 2 3; do
+              git fetch origin master
+              git rebase -X theirs origin/master
+              if git push origin HEAD:master; then
+                break
+              fi
+              if [ "$attempt" -eq 3 ]; then
+                echo "Unable to publish image assets after three attempts." >&2
+                exit 1
+              fi
+              sleep $((attempt * 2))
+            done
           fi
 
           echo "commit=$(git rev-parse HEAD)" >> "$GITHUB_OUTPUT"
@@ -75,19 +88,28 @@ jobs:
         if: steps.requests.outputs.found == 'true'
         run: python3 scripts/ingest_requests.py finalize --asset-commit "${{ steps.assets.outputs.commit }}"
 
-      - name: Refresh reusable asset catalog
-        if: steps.requests.outputs.found == 'true'
-        run: python3 scripts/build_catalog.py
-
       - name: Commit ingestion results
         if: steps.requests.outputs.found == 'true'
         shell: bash
         run: |
-          git add results requests catalog/assets.json
+          set -euo pipefail
+          git add results requests
           if git diff --cached --quiet; then
-            echo "No request, result or catalog changes to commit."
+            echo "No request or result changes to commit."
             exit 0
           fi
+
           git commit -m "Complete Pulse image ingestion"
-          git pull --rebase origin master
-          git push origin HEAD:master
+
+          for attempt in 1 2 3; do
+            git fetch origin master
+            git rebase -X theirs origin/master
+            if git push origin HEAD:master; then
+              exit 0
+            fi
+            if [ "$attempt" -eq 3 ]; then
+              echo "Unable to publish ingestion results after three attempts." >&2
+              exit 1
+            fi
+            sleep $((attempt * 2))
+          done
