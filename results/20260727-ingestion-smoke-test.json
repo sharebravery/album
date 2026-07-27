@@ -1,0 +1,20 @@
+{
+  "version": 1,
+  "requestId": "20260727-ingestion-smoke-test",
+  "status": "completed",
+  "assetCommit": "5da981be7ac820bfa87643c846e33ffc3f6126a0",
+  "images": [
+    {
+      "index": 0,
+      "status": "completed",
+      "sourcePageUrl": "https://github.com/github/explore/tree/main/topics/typescript",
+      "downloadUrl": "https://raw.githubusercontent.com/github/explore/main/topics/typescript/typescript.png",
+      "targetPath": "pulse/tests/20260727/typescript.png",
+      "alt": "TypeScript logo used only to verify the album ingestion workflow",
+      "contentType": "image/png",
+      "bytes": 5730,
+      "rawUrl": "https://raw.githubusercontent.com/sharebravery/album/5da981be7ac820bfa87643c846e33ffc3f6126a0/pulse/tests/20260727/typescript.png",
+      "cdnUrl": "https://cdn.jsdelivr.net/gh/sharebravery/album@5da981be7ac820bfa87643c846e33ffc3f6126a0/pulse/tests/20260727/typescript.png"
+    }
+  ]
+}
