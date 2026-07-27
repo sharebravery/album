@@ -6,7 +6,6 @@ from __future__ import annotations
 import argparse
 import ipaddress
 import json
-import mimetypes
 import os
 import shutil
 import socket
@@ -92,7 +91,8 @@ def download_image(url: str, destination: Path) -> tuple[str, int]:
         url,
         headers={
             "User-Agent": "Mozilla/5.0 (compatible; PulseAlbumIngestion/1.0; +https://github.com/sharebravery/album)",
-            "Accept": "image/avif,image/webp,image/png,image/jpeg,image/gif,*/*;q=0.1",
+            "Accept": "image/webp,image/png,image/jpeg,image/gif,*/*;q=0.1",
+            "Accept-Encoding": "identity",
         },
     )
 
