@@ -84,14 +84,23 @@ def detect_mime(path: Path) -> str:
     return result.stdout.strip().lower()
 
 
+def expected_mime_for(destination: Path) -> str:
+    suffix = destination.suffix.lower()
+    for mime, suffixes in ALLOWED_MIME.items():
+        if suffix in suffixes:
+            return mime
+    fail(f"unsupported target extension: {suffix}")
+
+
 def download_image(url: str, destination: Path) -> tuple[str, int]:
     destination.parent.mkdir(parents=True, exist_ok=True)
     temporary = destination.with_suffix(destination.suffix + ".download")
+    expected_mime = expected_mime_for(destination)
     request = urllib.request.Request(
         url,
         headers={
             "User-Agent": "Mozilla/5.0 (compatible; PulseAlbumIngestion/1.0; +https://github.com/sharebravery/album)",
-            "Accept": "image/webp,image/png,image/jpeg,image/gif,*/*;q=0.1",
+            "Accept": f"{expected_mime},*/*;q=0.1",
             "Accept-Encoding": "identity",
         },
     )
@@ -126,7 +135,7 @@ def download_image(url: str, destination: Path) -> tuple[str, int]:
     if detected not in ALLOWED_MIME:
         temporary.unlink(missing_ok=True)
         fail(f"unsupported image type: {detected}")
-    if destination.suffix.lower() not in ALLOWED_MIME[detected]:
+    if detected != expected_mime:
         temporary.unlink(missing_ok=True)
         fail(f"target extension does not match detected type {detected}")
 
