@@ -1,0 +1,24 @@
+{
+  "version": 1,
+  "requestId": "20260727-amd-helios-article-fix-v3",
+  "images": [
+    {
+      "sourcePageUrl": "https://www.amd.com/en/products/rackscale-solutions/helios.html",
+      "downloadUrl": "https://www.amd.com/content/dam/amd/en/images/products/data-centers/4543000-helios-rack.png",
+      "targetPath": "pulse/article/2026/07/amd-helios/helios-rack.png",
+      "alt": "AMD Helios 机架级 AI 系统正面图"
+    },
+    {
+      "sourcePageUrl": "https://www.amd.com/en/products/accelerators/instinct/mi400/mi455x.html",
+      "downloadUrl": "https://www.amd.com/content/dam/amd/en/images/products/data-centers/5086250-instinct-mi430X-mi440X-mi455X-product.jpg",
+      "targetPath": "pulse/article/2026/07/amd-helios/instinct-mi455x.jpg",
+      "alt": "AMD Instinct MI455X 加速器产品图"
+    },
+    {
+      "sourcePageUrl": "https://www.amd.com/en.html",
+      "downloadUrl": "https://www.amd.com/content/dam/amd/en/images/partner/5130200-AAI-amd-anthropic-partner-2026.jpg",
+      "targetPath": "pulse/article/2026/07/amd-helios/amd-anthropic.jpg",
+      "alt": "AMD 与 Anthropic 战略合作官方配图"
+    }
+  ]
+}
