@@ -75,13 +75,17 @@ jobs:
         if: steps.requests.outputs.found == 'true'
         run: python3 scripts/ingest_requests.py finalize --asset-commit "${{ steps.assets.outputs.commit }}"
 
+      - name: Refresh reusable asset catalog
+        if: steps.requests.outputs.found == 'true'
+        run: python3 scripts/build_catalog.py
+
       - name: Commit ingestion results
         if: steps.requests.outputs.found == 'true'
         shell: bash
         run: |
-          git add results requests
+          git add results requests catalog/assets.json
           if git diff --cached --quiet; then
-            echo "No request or result changes to commit."
+            echo "No request, result or catalog changes to commit."
             exit 0
           fi
           git commit -m "Complete Pulse image ingestion"
