@@ -1,0 +1,91 @@
+name: Ingest Pulse images
+
+on:
+  push:
+    branches: [master]
+    paths:
+      - "requests/*.json"
+      - "scripts/ingest_requests.py"
+      - ".github/workflows/ingest-pulse-images.yml"
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+concurrency:
+  group: pulse-album-ingestion
+  cancel-in-progress: false
+
+jobs:
+  ingest:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Check for requests
+        id: requests
+        shell: bash
+        run: |
+          if compgen -G "requests/*.json" > /dev/null; then
+            echo "found=true" >> "$GITHUB_OUTPUT"
+          else
+            echo "found=false" >> "$GITHUB_OUTPUT"
+            echo "No image-ingestion requests found."
+          fi
+
+      - name: Download and validate images
+        if: steps.requests.outputs.found == 'true'
+        run: python3 scripts/ingest_requests.py prepare
+
+      - name: Commit image assets
+        if: steps.requests.outputs.found == 'true'
+        id: assets
+        shell: bash
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
+          mapfile -t paths < <(python3 - <<'PY'
+          import json
+          from pathlib import Path
+
+          summary = json.loads(Path('.album-work/summary.json').read_text(encoding='utf-8'))
+          for request in summary.get('requests', []):
+              for image in request.get('images', []):
+                  if image.get('status') == 'completed':
+                      print(image['targetPath'])
+          PY
+          )
+
+          if [ "${#paths[@]}" -gt 0 ]; then
+            git add -- "${paths[@]}"
+          fi
+
+          if git diff --cached --quiet; then
+            echo "No new image assets to commit."
+          else
+            git commit -m "Ingest Pulse image assets"
+            git push origin HEAD:master
+          fi
+
+          echo "commit=$(git rev-parse HEAD)" >> "$GITHUB_OUTPUT"
+
+      - name: Write results and remove requests
+        if: steps.requests.outputs.found == 'true'
+        run: python3 scripts/ingest_requests.py finalize --asset-commit "${{ steps.assets.outputs.commit }}"
+
+      - name: Commit ingestion results
+        if: steps.requests.outputs.found == 'true'
+        shell: bash
+        run: |
+          git add results requests
+          if git diff --cached --quiet; then
+            echo "No request or result changes to commit."
+            exit 0
+          fi
+          git commit -m "Complete Pulse image ingestion"
+          git pull --rebase origin master
+          git push origin HEAD:master
