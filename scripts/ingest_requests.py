@@ -12,6 +12,7 @@ import shutil
 import socket
 import subprocess
 import sys
+import time
 import urllib.parse
 import urllib.request
 from pathlib import Path
@@ -23,6 +24,8 @@ RESULTS_DIR = ROOT / "results"
 WORK_DIR = ROOT / ".album-work"
 SUMMARY_PATH = WORK_DIR / "summary.json"
 MAX_BYTES = 10 * 1024 * 1024
+DOWNLOAD_TIMEOUT_SECONDS = 60
+DOWNLOAD_ATTEMPTS = 2
 ALLOWED_MIME = {
     "image/jpeg": {".jpg", ".jpeg"},
     "image/png": {".png"},
@@ -88,28 +91,36 @@ def download_image(url: str, destination: Path) -> tuple[str, int]:
     request = urllib.request.Request(
         url,
         headers={
-            "User-Agent": "PulseAlbumIngestion/1.0 (+https://github.com/sharebravery/album)",
+            "User-Agent": "Mozilla/5.0 (compatible; PulseAlbumIngestion/1.0; +https://github.com/sharebravery/album)",
             "Accept": "image/avif,image/webp,image/png,image/jpeg,image/gif,*/*;q=0.1",
         },
     )
 
-    try:
-        with urllib.request.urlopen(request, timeout=30) as response, temporary.open("wb") as output:
-            declared = response.headers.get_content_type().lower()
-            if declared == "image/svg+xml":
-                fail("SVG images are not accepted")
-            total = 0
-            while True:
-                chunk = response.read(64 * 1024)
-                if not chunk:
-                    break
-                total += len(chunk)
-                if total > MAX_BYTES:
-                    fail(f"image exceeds {MAX_BYTES} bytes")
-                output.write(chunk)
-    except Exception:
+    for attempt in range(1, DOWNLOAD_ATTEMPTS + 1):
         temporary.unlink(missing_ok=True)
-        raise
+        try:
+            with urllib.request.urlopen(request, timeout=DOWNLOAD_TIMEOUT_SECONDS) as response, temporary.open("wb") as output:
+                declared = response.headers.get_content_type().lower()
+                if declared == "image/svg+xml":
+                    fail("SVG images are not accepted")
+                total = 0
+                while True:
+                    chunk = response.read(64 * 1024)
+                    if not chunk:
+                        break
+                    total += len(chunk)
+                    if total > MAX_BYTES:
+                        fail(f"image exceeds {MAX_BYTES} bytes")
+                    output.write(chunk)
+            break
+        except (TimeoutError, socket.timeout):
+            temporary.unlink(missing_ok=True)
+            if attempt == DOWNLOAD_ATTEMPTS:
+                raise
+            time.sleep(2 * attempt)
+        except Exception:
+            temporary.unlink(missing_ok=True)
+            raise
 
     detected = detect_mime(temporary)
     if detected not in ALLOWED_MIME:
