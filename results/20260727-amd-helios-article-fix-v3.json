@@ -1,0 +1,23 @@
+{
+  "version": 1,
+  "requestId": "20260727-amd-helios-article-fix-v3",
+  "status": "failed",
+  "assetCommit": null,
+  "images": [
+    {
+      "index": 0,
+      "status": "failed",
+      "error": "The read operation timed out"
+    },
+    {
+      "index": 1,
+      "status": "failed",
+      "error": "The read operation timed out"
+    },
+    {
+      "index": 2,
+      "status": "failed",
+      "error": "The read operation timed out"
+    }
+  ]
+}
