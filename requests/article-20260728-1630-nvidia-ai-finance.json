@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "requestId": "article-20260728-1630-nvidia-ai-finance",
+  "images": [
+    {
+      "sourcePageUrl": "https://blogs.nvidia.com/blog/nvidia-unlocks-ai-compute-at-scale-capital-partners-to-power-ai-infrastructure-buildout/",
+      "downloadUrl": "https://blogs.nvidia.com/wp-content/uploads/2025/03/nvendeavor-1.jpg",
+      "targetPath": "pulse/article/2026/07/nvidia-ai-finance/nvidia-headquarters.jpg",
+      "alt": "NVIDIA headquarters sign outside the company's campus"
+    },
+    {
+      "sourcePageUrl": "https://developer.nvidia.com/blog/nvidia-dsx-os-delivers-open-modular-software-for-operating-ai-factories-at-scale/",
+      "downloadUrl": "https://developer-blogs.nvidia.com/wp-content/uploads/2026/05/dsx-platform-overview-resized.webp",
+      "targetPath": "pulse/article/2026/07/nvidia-ai-finance/dsx-platform.webp",
+      "alt": "NVIDIA DSX AI Factory Platform architecture showing power, software and reference design layers"
+    },
+    {
+      "sourcePageUrl": "https://developer.nvidia.com/blog/nvidia-dsx-os-delivers-open-modular-software-for-operating-ai-factories-at-scale/",
+      "downloadUrl": "https://developer-blogs.nvidia.com/wp-content/uploads/2026/05/image2-8-625x652.png",
+      "targetPath": "pulse/article/2026/07/nvidia-ai-finance/dsx-power-grid.png",
+      "alt": "Diagram showing NVIDIA DSX coordination among AI systems, data-center power controls and the electrical grid"
+    },
+    {
+      "sourcePageUrl": "https://blogs.nvidia.com/blog/wistron-manufacturing-texas/",
+      "downloadUrl": "https://blogs.nvidia.com/wp-content/uploads/2026/07/Wistron_D1_Grand_Opening_Ceremony-Factory_Tour-40-960x540.jpeg",
+      "targetPath": "pulse/article/2026/07/nvidia-ai-finance/wistron-factory.jpeg",
+      "alt": "Inside Wistron's advanced manufacturing facility producing NVIDIA AI systems in Fort Worth"
+    }
+  ]
+}
