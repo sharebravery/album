@@ -1,0 +1,24 @@
+{
+  "version": 1,
+  "requestId": "2026-07-28-open-secure-ai-alliance-article",
+  "images": [
+    {
+      "sourcePageUrl": "https://blogs.nvidia.com/blog/open-secure-ai-alliance/",
+      "downloadUrl": "https://blogs.nvidia.com/wp-content/uploads/2026/07/osaia-logo-garden_press-kit_1920x1080_V4-1280x720.png",
+      "targetPath": "pulse/article/2026/07/open-secure-ai-alliance/alliance-members.png",
+      "alt": "Open Secure AI Alliance founding member logos"
+    },
+    {
+      "sourcePageUrl": "https://developer.nvidia.com/blog/six-agent-harness-capabilities-for-higher-model-performance/",
+      "downloadUrl": "https://developer-blogs.nvidia.com/wp-content/uploads/2026/07/Agentic-AI-NOOA-1024x576.png",
+      "targetPath": "pulse/article/2026/07/open-secure-ai-alliance/nooa-agent-harness.png",
+      "alt": "NVIDIA NOOA agent harness concept illustration"
+    },
+    {
+      "sourcePageUrl": "https://developer.nvidia.com/blog/six-agent-harness-capabilities-for-higher-model-performance/",
+      "downloadUrl": "https://developer-blogs.nvidia.com/wp-content/uploads/2026/07/image-78-e1785016764538.webp",
+      "targetPath": "pulse/article/2026/07/open-secure-ai-alliance/nooa-swebench-chart.webp",
+      "alt": "NOOA SWE-bench pass rate and token cost chart"
+    }
+  ]
+}
