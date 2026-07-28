@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "requestId": "2026-07-28-openai-presence-2030",
+  "images": [
+    {
+      "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:OpenAI_Logo_Since_February_2025.png",
+      "downloadUrl": "https://commons.wikimedia.org/wiki/Special:Redirect/file/OpenAI_Logo_Since_February_2025.png",
+      "targetPath": "pulse/article/2026/07/openai-presence/openai-logo.png",
+      "alt": "OpenAI 2025年启用的品牌标志"
+    },
+    {
+      "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:BBVA_2025.png",
+      "downloadUrl": "https://commons.wikimedia.org/wiki/Special:Redirect/file/BBVA_2025.png",
+      "targetPath": "pulse/article/2026/07/openai-presence/bbva-logo.png",
+      "alt": "OpenAI Presence设计合作伙伴BBVA的标志"
+    },
+    {
+      "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:SoftBank_logo_width.png",
+      "downloadUrl": "https://commons.wikimedia.org/wiki/Special:Redirect/file/SoftBank_logo_width.png",
+      "targetPath": "pulse/article/2026/07/openai-presence/softbank-logo.png",
+      "alt": "正在测试OpenAI Presence日语客服对话的SoftBank标志"
+    },
+    {
+      "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:IAG_logo.jpg",
+      "downloadUrl": "https://commons.wikimedia.org/wiki/Special:Redirect/file/IAG_logo.jpg",
+      "targetPath": "pulse/article/2026/07/openai-presence/iag-logo.jpg",
+      "alt": "正在探索用OpenAI Presence处理高需求客服场景的IAG标志"
+    }
+  ]
+}
