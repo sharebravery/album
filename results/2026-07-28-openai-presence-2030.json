@@ -1,0 +1,56 @@
+{
+  "version": 1,
+  "requestId": "2026-07-28-openai-presence-2030",
+  "status": "completed",
+  "assetCommit": "f3aae21a2a1eb4af53271539304f00bd76a05065",
+  "images": [
+    {
+      "index": 0,
+      "status": "completed",
+      "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:OpenAI_Logo_Since_February_2025.png",
+      "downloadUrl": "https://commons.wikimedia.org/wiki/Special:Redirect/file/OpenAI_Logo_Since_February_2025.png",
+      "targetPath": "pulse/article/2026/07/openai-presence/openai-logo.png",
+      "alt": "OpenAI 2025年启用的品牌标志",
+      "contentType": "image/png",
+      "bytes": 21789,
+      "rawUrl": "https://raw.githubusercontent.com/sharebravery/album/f3aae21a2a1eb4af53271539304f00bd76a05065/pulse/article/2026/07/openai-presence/openai-logo.png",
+      "cdnUrl": "https://cdn.jsdelivr.net/gh/sharebravery/album@f3aae21a2a1eb4af53271539304f00bd76a05065/pulse/article/2026/07/openai-presence/openai-logo.png"
+    },
+    {
+      "index": 1,
+      "status": "completed",
+      "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:BBVA_2025.png",
+      "downloadUrl": "https://commons.wikimedia.org/wiki/Special:Redirect/file/BBVA_2025.png",
+      "targetPath": "pulse/article/2026/07/openai-presence/bbva-logo.png",
+      "alt": "OpenAI Presence设计合作伙伴BBVA的标志",
+      "contentType": "image/png",
+      "bytes": 82185,
+      "rawUrl": "https://raw.githubusercontent.com/sharebravery/album/f3aae21a2a1eb4af53271539304f00bd76a05065/pulse/article/2026/07/openai-presence/bbva-logo.png",
+      "cdnUrl": "https://cdn.jsdelivr.net/gh/sharebravery/album@f3aae21a2a1eb4af53271539304f00bd76a05065/pulse/article/2026/07/openai-presence/bbva-logo.png"
+    },
+    {
+      "index": 2,
+      "status": "completed",
+      "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:SoftBank_logo_width.png",
+      "downloadUrl": "https://commons.wikimedia.org/wiki/Special:Redirect/file/SoftBank_logo_width.png",
+      "targetPath": "pulse/article/2026/07/openai-presence/softbank-logo.png",
+      "alt": "正在测试OpenAI Presence日语客服对话的SoftBank标志",
+      "contentType": "image/png",
+      "bytes": 7746,
+      "rawUrl": "https://raw.githubusercontent.com/sharebravery/album/f3aae21a2a1eb4af53271539304f00bd76a05065/pulse/article/2026/07/openai-presence/softbank-logo.png",
+      "cdnUrl": "https://cdn.jsdelivr.net/gh/sharebravery/album@f3aae21a2a1eb4af53271539304f00bd76a05065/pulse/article/2026/07/openai-presence/softbank-logo.png"
+    },
+    {
+      "index": 3,
+      "status": "completed",
+      "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:IAG_logo.jpg",
+      "downloadUrl": "https://commons.wikimedia.org/wiki/Special:Redirect/file/IAG_logo.jpg",
+      "targetPath": "pulse/article/2026/07/openai-presence/iag-logo.jpg",
+      "alt": "正在探索用OpenAI Presence处理高需求客服场景的IAG标志",
+      "contentType": "image/jpeg",
+      "bytes": 38803,
+      "rawUrl": "https://raw.githubusercontent.com/sharebravery/album/f3aae21a2a1eb4af53271539304f00bd76a05065/pulse/article/2026/07/openai-presence/iag-logo.jpg",
+      "cdnUrl": "https://cdn.jsdelivr.net/gh/sharebravery/album@f3aae21a2a1eb4af53271539304f00bd76a05065/pulse/article/2026/07/openai-presence/iag-logo.jpg"
+    }
+  ]
+}
