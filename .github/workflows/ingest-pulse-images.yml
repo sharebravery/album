@@ -59,6 +59,12 @@ jobs:
           import json
           from pathlib import Path
 
+          source_paths = Path('.album-work/normalized-source-paths.txt')
+          if source_paths.exists():
+              for line in source_paths.read_text(encoding='utf-8').splitlines():
+                  if line.strip():
+                      print(line.strip())
+
           summary = json.loads(Path('.album-work/summary.json').read_text(encoding='utf-8'))
           for request in summary.get('requests', []):
               for image in request.get('images', []):
@@ -68,7 +74,7 @@ jobs:
           )
 
           if [ "${#paths[@]}" -gt 0 ]; then
-            git add -- "${paths[@]}"
+            git add -A -- "${paths[@]}"
           fi
 
           if git diff --cached --quiet; then
