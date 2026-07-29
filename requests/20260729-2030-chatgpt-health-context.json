@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "requestId": "20260729-2030-chatgpt-health-context",
+  "images": [
+    {
+      "sourcePageUrl": "https://help.openai.com/en/articles/20001036-health-in-chatgpt",
+      "downloadUrl": "https://images.ctfassets.net/j22is2dtoxu1/5dKXKf6sMQcvF4K3TMQMeO/bc1295489ff7aae3000b7bb937597299/27766998-6ee2-4b1f-92cb-f3ecb709c3bd.png",
+      "targetPath": "pulse/article/2026/07/chatgpt-health-context/health-entry.png",
+      "alt": "ChatGPT 侧边栏 More 菜单中的 Health 入口"
+    },
+    {
+      "sourcePageUrl": "https://help.openai.com/en/articles/20001036-health-in-chatgpt",
+      "downloadUrl": "https://images.ctfassets.net/j22is2dtoxu1/2HQM3WDCK1yE9BZJONZ1dc/7cfaceadc6da691e9e6abdfc1885e9d4/image3.png",
+      "targetPath": "pulse/article/2026/07/chatgpt-health-context/connect-records.png",
+      "alt": "ChatGPT Health 中连接健康记录的界面"
+    },
+    {
+      "sourcePageUrl": "https://help.openai.com/en/articles/20001036-health-in-chatgpt",
+      "downloadUrl": "https://images.ctfassets.net/j22is2dtoxu1/3dNWlFwANJj2x2c0CmL87V/1f8bfa201c40dc260a2529c3575d0bb9/image2.png",
+      "targetPath": "pulse/article/2026/07/chatgpt-health-context/permissions.png",
+      "alt": "ChatGPT Health 的数据读取和动作权限设置"
+    },
+    {
+      "sourcePageUrl": "https://help.openai.com/en/articles/20001036-health-in-chatgpt",
+      "downloadUrl": "https://images.ctfassets.net/j22is2dtoxu1/11P7ZH5qWJwEx106dqKUwl/e26b069cbfdba867160316deb5138d68/image1.png",
+      "targetPath": "pulse/article/2026/07/chatgpt-health-context/project-memory.png",
+      "alt": "ChatGPT 项目专属记忆设置界面"
+    }
+  ]
+}
