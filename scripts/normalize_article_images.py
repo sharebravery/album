@@ -11,7 +11,9 @@ from typing import Any
 from PIL import Image, ImageOps
 
 ROOT = Path(__file__).resolve().parents[1]
-SUMMARY_PATH = ROOT / ".album-work" / "summary.json"
+WORK_DIR = ROOT / ".album-work"
+SUMMARY_PATH = WORK_DIR / "summary.json"
+SOURCE_PATHS_PATH = WORK_DIR / "normalized-source-paths.txt"
 ARTICLE_PREFIX = "pulse/article/"
 JPEG_QUALITY = 92
 
@@ -61,8 +63,9 @@ def normalize_file(source: Path, destination: Path) -> int:
     return destination.stat().st_size
 
 
-def normalize_summary(summary: dict[str, Any]) -> int:
+def normalize_summary(summary: dict[str, Any]) -> tuple[int, list[str]]:
     normalized = 0
+    source_paths: list[str] = []
     for request in summary.get("requests", []):
         for image in request.get("images", []):
             if image.get("status") != "completed":
@@ -75,22 +78,31 @@ def normalize_summary(summary: dict[str, Any]) -> int:
             destination_target = normalized_target(target)
             destination = ROOT / destination_target
             size = normalize_file(source, destination)
+            if target != destination_target:
+                source_paths.append(target)
             image["targetPath"] = destination_target
             image["contentType"] = "image/jpeg"
             image["bytes"] = size
             normalized += 1
-    return normalized
+    return normalized, source_paths
 
 
 def main() -> int:
     if not SUMMARY_PATH.exists():
         fail("missing preparation summary")
     summary = json.loads(SUMMARY_PATH.read_text(encoding="utf-8"))
-    normalized = normalize_summary(summary)
+    normalized, source_paths = normalize_summary(summary)
     SUMMARY_PATH.write_text(
         json.dumps(summary, ensure_ascii=False, indent=2) + "\n",
         encoding="utf-8",
     )
+    if source_paths:
+        SOURCE_PATHS_PATH.write_text(
+            "\n".join(dict.fromkeys(source_paths)) + "\n",
+            encoding="utf-8",
+        )
+    else:
+        SOURCE_PATHS_PATH.unlink(missing_ok=True)
     print(f"Normalized {normalized} Article image asset(s) to baseline RGB JPEG.")
     return 0
 
