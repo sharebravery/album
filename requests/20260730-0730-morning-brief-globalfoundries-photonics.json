@@ -1,0 +1,12 @@
+{
+  "version": 1,
+  "requestId": "20260730-0730-morning-brief-globalfoundries-photonics",
+  "images": [
+    {
+      "sourcePageUrl": "https://gf.com/news-and-events/news/globalfoundries-accelerates-adoption-of-co-packaged-optics-for-advanced-ai-data-centers-with-scale-optical-module-solution/",
+      "downloadUrl": "https://assets.gf.com/image/328833518282/image_2fbc1ehavd03j1oq80m8ml5j0e/-B800-FWEBP",
+      "targetPath": "pulse/article/2026/07/morning-brief-0730/globalfoundries-silicon-photonics.webp",
+      "alt": "GlobalFoundries官方芯片与光互连概念图，代表AI数据中心硅光子和共封装光学投资"
+    }
+  ]
+}
