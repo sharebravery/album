@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "requestId": "2026-07-29-beyond-zero-agent-security",
+  "images": [
+    {
+      "sourcePageUrl": "https://deepmind.google/blog/securing-the-future-of-ai-agents/",
+      "downloadUrl": "https://lh3.googleusercontent.com/3ztbyOBouDxh98WKLBrBBRphJB_ICf-D7CaRIlUKhb3-feUn-n15WWD_78F2rcBUN-a_99nVKg1Qd7_fJcaDb7LVYmueaP-NyBUp2PRJGjl_y0islA%3Dw1440-h810-n-nu",
+      "targetPath": "pulse/article/2026/07/beyond-zero-agent-security/agent-security-hero.png",
+      "alt": "Google DeepMind AI Agent 安全研究主题图"
+    },
+    {
+      "sourcePageUrl": "https://blog.google/security/google-workspaces-continuous-approach-to-mitigating-indirect-prompt-injections/",
+      "downloadUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiQW2DFy08BHE1u92K8MiOGld7PIVOPqXkC_ACb2tJTcHhA4nG84w5spynWi-W9KcgJWW9mMfyDB1bvdwr-64mtYkkvKPPocpxVUI3pyB-QHXcBgJMXpfYRneCA14pqgDFs9e14xGJGIFOGVAUUrH2up-rju3CwMPjLsl7HtIhGSgrqPRlElqYt4G2af6Dc/s1306/Screenshot%202026-03-31%20at%2010.15.44%E2%80%AFAM.png",
+      "targetPath": "pulse/article/2026/07/beyond-zero-agent-security/vulnerability-catalog.png",
+      "alt": "人工红队、自动红队、漏洞奖励和公开攻击汇入统一漏洞目录的流程图"
+    },
+    {
+      "sourcePageUrl": "https://blog.google/security/google-workspaces-continuous-approach-to-mitigating-indirect-prompt-injections/",
+      "downloadUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEghY30BDTqV9cG1siMIPHCah6tX1wVhw9WEWHx3cB9tlnm0UlAFHcRF74jzgdWRNamv2B29EpnI1sB4Ztijj9w0Y9-V82JVjSIKoZXaeKxbP_ptOzdRbTWe0W9sfHXlznjAnid0QjGleKvilFV46qk7qjbcNFFBu07HiEbBSZADgpnpZlnuHICHpUNe6Xzv/s1310/Screenshot%202026-03-31%20at%2010.16.24%E2%80%AFAM.png",
+      "targetPath": "pulse/article/2026/07/beyond-zero-agent-security/synthetic-attack-data.png",
+      "alt": "漏洞目录生成合成数据并扩展攻击样本的流程图"
+    },
+    {
+      "sourcePageUrl": "https://blog.google/security/google-workspaces-continuous-approach-to-mitigating-indirect-prompt-injections/",
+      "downloadUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj7Ue0_cO2rj4eBwCNMuiNJWHGPlw51p7ZPcSj8C0InvE64MHO3p8BJmGtG9OVg9560Se7zdGN5Pej0ZBa1qKIkzJ6r3IzDmtbNiAxpB4cA6pvX3mKngHvsr1OBgcpmPDyvFVPNRIJyUcnztSPIqLZiDVrI7-okFUz0nfeW5xvbivXAPSsyuuYIiG0rGkzn/s1308/Screenshot%202026-03-31%20at%2010.17.11%E2%80%AFAM.png",
+      "targetPath": "pulse/article/2026/07/beyond-zero-agent-security/prompt-injection-defense-flywheel.png",
+      "alt": "间接提示注入防御飞轮：攻击发现、合成数据、模型与策略更新、效果评估"
+    }
+  ]
+}
