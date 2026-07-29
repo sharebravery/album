@@ -1,0 +1,28 @@
+{
+  "version": 1,
+  "requestId": "20260729-google-atlas-ai-work",
+  "status": "failed",
+  "assetCommit": null,
+  "images": [
+    {
+      "index": 0,
+      "status": "failed",
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "index": 1,
+      "status": "failed",
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "index": 2,
+      "status": "failed",
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "index": 3,
+      "status": "failed",
+      "error": "HTTP Error 403: Forbidden"
+    }
+  ]
+}
