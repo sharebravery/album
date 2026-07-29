@@ -38,6 +38,14 @@ jobs:
         if: steps.requests.outputs.found == 'true'
         run: python3 scripts/ingest_requests.py prepare
 
+      - name: Install image normalizer
+        if: steps.requests.outputs.found == 'true'
+        run: python3 -m pip install --disable-pip-version-check --no-cache-dir "Pillow>=10,<13"
+
+      - name: Normalize Article images to JPG
+        if: steps.requests.outputs.found == 'true'
+        run: python3 scripts/normalize_article_images.py
+
       - name: Commit image assets
         if: steps.requests.outputs.found == 'true'
         id: assets
