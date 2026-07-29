@@ -1,0 +1,12 @@
+{
+  "version": 1,
+  "requestId": "2026-07-29-toutiao-format-control-hero-png",
+  "images": [
+    {
+      "sourcePageUrl": "https://deepmind.google/blog/securing-the-future-of-ai-agents/",
+      "downloadUrl": "https://wsrv.nl/?url=https%3A%2F%2Fcdn.jsdelivr.net%2Fgh%2Fsharebravery%2Falbum%4015968615e9a5429a3dd3882b84055aa95ae6b8ad%2Fpulse%2Farticle%2F2026%2F07%2Fbeyond-zero-agent-security%2Fagent-security-hero.jpg&output=png",
+      "targetPath": "pulse/tests/toutiao/2026-07-29/agent-security-hero-control.png",
+      "alt": "头条图片格式对照测试：与 JPG 完全相同画面的 PNG 版本"
+    }
+  ]
+}
