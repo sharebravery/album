@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "requestId": "20260729-google-atlas-ai-work",
+  "images": [
+    {
+      "sourcePageUrl": "https://blog.google/innovation-and-ai/technology/research/understanding-the-ai-economy/",
+      "downloadUrl": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/hero_image_3_1.width-2000.format-webp.webp",
+      "targetPath": "pulse/article/2026/07/google-atlas-ai-work/atlas-hero.webp",
+      "alt": "Google AI与经济ATLAS报告的绿色世界地图封面"
+    },
+    {
+      "sourcePageUrl": "https://blog.google/innovation-and-ai/technology/research/understanding-the-ai-economy/",
+      "downloadUrl": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Chart_1_Light.width-1200.format-webp.webp",
+      "targetPath": "pulse/article/2026/07/google-atlas-ai-work/occupation-adoption.webp",
+      "alt": "Google ATLAS展示不同职业类别AI采用情况的图表"
+    },
+    {
+      "sourcePageUrl": "https://blog.google/innovation-and-ai/technology/research/understanding-the-ai-economy/",
+      "downloadUrl": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Chart_2.width-1200.format-webp.webp",
+      "targetPath": "pulse/article/2026/07/google-atlas-ai-work/task-distribution.webp",
+      "alt": "Google ATLAS对比经济任务分布与Gemini实际使用任务分布的图表"
+    },
+    {
+      "sourcePageUrl": "https://blog.google/innovation-and-ai/technology/research/understanding-the-ai-economy/",
+      "downloadUrl": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Chart_3.width-1200.format-webp.webp",
+      "targetPath": "pulse/article/2026/07/google-atlas-ai-work/non-work-usage.webp",
+      "alt": "Google ATLAS展示非工作场景Gemini对话活动分布的图表"
+    }
+  ]
+}
