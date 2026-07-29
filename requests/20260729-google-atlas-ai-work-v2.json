@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "requestId": "20260729-google-atlas-ai-work-v2",
+  "images": [
+    {
+      "sourcePageUrl": "https://yourstory.com/ai-story/google-ai-economy-atlas-global-ai-usage",
+      "downloadUrl": "https://images.yourstory.com/cs/286/07f6d7f0ed8e11ed819979969b4b51e2/AInews3-1784882183867.png?ar=2%3A1&crop=faces&format=auto&mode=crop&q=75&w=1920",
+      "targetPath": "pulse/article/2026/07/google-atlas-ai-work/atlas-report-cover.png",
+      "alt": "Google AI与经济ATLAS报告主题封面"
+    },
+    {
+      "sourcePageUrl": "https://www.tomsguide.com/ai/google-gemini/google-sheets-just-got-an-ai-upgrade-that-analyzes-your-data-and-visualizes-it",
+      "downloadUrl": "https://cdn.mos.cms.futurecdn.net/jiBSGQ6DJFryuNKB6ijxyM.png",
+      "targetPath": "pulse/article/2026/07/google-atlas-ai-work/gemini-sheets.png",
+      "alt": "Gemini在Google Sheets中分析数据并生成热力图的界面"
+    },
+    {
+      "sourcePageUrl": "https://www.cornerstoneondemand.com/resources/article/ai-is-reshaping-work-not-destroying-it/",
+      "downloadUrl": "https://cdn.sanity.io/images/43ea2a5t/resources-new-3/aacb5457bc6881169ef0306c7e8c79202d341d75-3696x3933.png?auto=format&fit=min&h=4086&q=90&w=3840",
+      "targetPath": "pulse/article/2026/07/google-atlas-ai-work/capability-adoption-gap.png",
+      "alt": "不同职业理论AI能力覆盖与实际技能采用差距图"
+    },
+    {
+      "sourcePageUrl": "https://www.cornerstoneondemand.com/resources/article/ai-is-reshaping-work-not-destroying-it/",
+      "downloadUrl": "https://cdn.sanity.io/images/43ea2a5t/resources-new-3/3a79da93436ac18cad5235e063aab476294a53f1-3696x3291.png?auto=format&fit=min&h=3419&q=90&w=3840",
+      "targetPath": "pulse/article/2026/07/google-atlas-ai-work/occupation-skill-adoption.png",
+      "alt": "各职业类别AI技能采用率与人才供需分层图"
+    }
+  ]
+}
