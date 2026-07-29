@@ -1,0 +1,49 @@
+{
+  "version": 1,
+  "requestId": "2026-07-29-beyond-zero-agent-security",
+  "status": "partial",
+  "assetCommit": "7a1491819f90484b089b677091c2e078a6b75224",
+  "images": [
+    {
+      "index": 0,
+      "status": "failed",
+      "error": "target extension does not match detected type image/jpeg"
+    },
+    {
+      "index": 1,
+      "status": "completed",
+      "sourcePageUrl": "https://blog.google/security/google-workspaces-continuous-approach-to-mitigating-indirect-prompt-injections/",
+      "downloadUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiQW2DFy08BHE1u92K8MiOGld7PIVOPqXkC_ACb2tJTcHhA4nG84w5spynWi-W9KcgJWW9mMfyDB1bvdwr-64mtYkkvKPPocpxVUI3pyB-QHXcBgJMXpfYRneCA14pqgDFs9e14xGJGIFOGVAUUrH2up-rju3CwMPjLsl7HtIhGSgrqPRlElqYt4G2af6Dc/s1306/Screenshot%202026-03-31%20at%2010.15.44%E2%80%AFAM.png",
+      "targetPath": "pulse/article/2026/07/beyond-zero-agent-security/vulnerability-catalog.png",
+      "alt": "人工红队、自动红队、漏洞奖励和公开攻击汇入统一漏洞目录的流程图",
+      "contentType": "image/png",
+      "bytes": 62848,
+      "rawUrl": "https://raw.githubusercontent.com/sharebravery/album/7a1491819f90484b089b677091c2e078a6b75224/pulse/article/2026/07/beyond-zero-agent-security/vulnerability-catalog.png",
+      "cdnUrl": "https://cdn.jsdelivr.net/gh/sharebravery/album@7a1491819f90484b089b677091c2e078a6b75224/pulse/article/2026/07/beyond-zero-agent-security/vulnerability-catalog.png"
+    },
+    {
+      "index": 2,
+      "status": "completed",
+      "sourcePageUrl": "https://blog.google/security/google-workspaces-continuous-approach-to-mitigating-indirect-prompt-injections/",
+      "downloadUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEghY30BDTqV9cG1siMIPHCah6tX1wVhw9WEWHx3cB9tlnm0UlAFHcRF74jzgdWRNamv2B29EpnI1sB4Ztijj9w0Y9-V82JVjSIKoZXaeKxbP_ptOzdRbTWe0W9sfHXlznjAnid0QjGleKvilFV46qk7qjbcNFFBu07HiEbBSZADgpnpZlnuHICHpUNe6Xzv/s1310/Screenshot%202026-03-31%20at%2010.16.24%E2%80%AFAM.png",
+      "targetPath": "pulse/article/2026/07/beyond-zero-agent-security/synthetic-attack-data.png",
+      "alt": "漏洞目录生成合成数据并扩展攻击样本的流程图",
+      "contentType": "image/png",
+      "bytes": 52953,
+      "rawUrl": "https://raw.githubusercontent.com/sharebravery/album/7a1491819f90484b089b677091c2e078a6b75224/pulse/article/2026/07/beyond-zero-agent-security/synthetic-attack-data.png",
+      "cdnUrl": "https://cdn.jsdelivr.net/gh/sharebravery/album@7a1491819f90484b089b677091c2e078a6b75224/pulse/article/2026/07/beyond-zero-agent-security/synthetic-attack-data.png"
+    },
+    {
+      "index": 3,
+      "status": "completed",
+      "sourcePageUrl": "https://blog.google/security/google-workspaces-continuous-approach-to-mitigating-indirect-prompt-injections/",
+      "downloadUrl": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj7Ue0_cO2rj4eBwCNMuiNJWHGPlw51p7ZPcSj8C0InvE64MHO3p8BJmGtG9OVg9560Se7zdGN5Pej0ZBa1qKIkzJ6r3IzDmtbNiAxpB4cA6pvX3mKngHvsr1OBgcpmPDyvFVPNRIJyUcnztSPIqLZiDVrI7-okFUz0nfeW5xvbivXAPSsyuuYIiG0rGkzn/s1308/Screenshot%202026-03-31%20at%2010.17.11%E2%80%AFAM.png",
+      "targetPath": "pulse/article/2026/07/beyond-zero-agent-security/prompt-injection-defense-flywheel.png",
+      "alt": "间接提示注入防御飞轮：攻击发现、合成数据、模型与策略更新、效果评估",
+      "contentType": "image/png",
+      "bytes": 119096,
+      "rawUrl": "https://raw.githubusercontent.com/sharebravery/album/7a1491819f90484b089b677091c2e078a6b75224/pulse/article/2026/07/beyond-zero-agent-security/prompt-injection-defense-flywheel.png",
+      "cdnUrl": "https://cdn.jsdelivr.net/gh/sharebravery/album@7a1491819f90484b089b677091c2e078a6b75224/pulse/article/2026/07/beyond-zero-agent-security/prompt-injection-defense-flywheel.png"
+    }
+  ]
+}
