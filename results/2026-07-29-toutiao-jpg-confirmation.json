@@ -1,0 +1,32 @@
+{
+  "version": 1,
+  "requestId": "2026-07-29-toutiao-jpg-confirmation",
+  "status": "completed",
+  "assetCommit": "ee99afa8927894c9cedc05f40a249211819852b4",
+  "images": [
+    {
+      "index": 0,
+      "status": "completed",
+      "sourcePageUrl": "https://blog.google/security/google-workspaces-continuous-approach-to-mitigating-indirect-prompt-injections/",
+      "downloadUrl": "https://wsrv.nl/?url=https%3A%2F%2Fcdn.jsdelivr.net%2Fgh%2Fsharebravery%2Falbum%407a1491819f90484b089b677091c2e078a6b75224%2Fpulse%2Farticle%2F2026%2F07%2Fbeyond-zero-agent-security%2Fvulnerability-catalog.png&output=jpg&q=90",
+      "targetPath": "pulse/tests/toutiao/2026-07-29/vulnerability-catalog-control.jpg",
+      "alt": "头条 JPG 验证：漏洞目录流程图",
+      "contentType": "image/jpeg",
+      "bytes": 54740,
+      "rawUrl": "https://raw.githubusercontent.com/sharebravery/album/ee99afa8927894c9cedc05f40a249211819852b4/pulse/tests/toutiao/2026-07-29/vulnerability-catalog-control.jpg",
+      "cdnUrl": "https://cdn.jsdelivr.net/gh/sharebravery/album@ee99afa8927894c9cedc05f40a249211819852b4/pulse/tests/toutiao/2026-07-29/vulnerability-catalog-control.jpg"
+    },
+    {
+      "index": 1,
+      "status": "completed",
+      "sourcePageUrl": "https://blog.google/security/google-workspaces-continuous-approach-to-mitigating-indirect-prompt-injections/",
+      "downloadUrl": "https://wsrv.nl/?url=https%3A%2F%2Fcdn.jsdelivr.net%2Fgh%2Fsharebravery%2Falbum%407a1491819f90484b089b677091c2e078a6b75224%2Fpulse%2Farticle%2F2026%2F07%2Fbeyond-zero-agent-security%2Fprompt-injection-defense-flywheel.png&output=jpg&q=90",
+      "targetPath": "pulse/tests/toutiao/2026-07-29/prompt-injection-defense-flywheel-control.jpg",
+      "alt": "头条 JPG 验证：提示注入防御飞轮图",
+      "contentType": "image/jpeg",
+      "bytes": 90283,
+      "rawUrl": "https://raw.githubusercontent.com/sharebravery/album/ee99afa8927894c9cedc05f40a249211819852b4/pulse/tests/toutiao/2026-07-29/prompt-injection-defense-flywheel-control.jpg",
+      "cdnUrl": "https://cdn.jsdelivr.net/gh/sharebravery/album@ee99afa8927894c9cedc05f40a249211819852b4/pulse/tests/toutiao/2026-07-29/prompt-injection-defense-flywheel-control.jpg"
+    }
+  ]
+}
