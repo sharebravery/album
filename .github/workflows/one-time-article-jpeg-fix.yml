@@ -1,0 +1,72 @@
+name: One-time Article JPEG fix
+
+on:
+  push:
+    branches: [master]
+    paths:
+      - ".github/workflows/one-time-article-jpeg-fix.yml"
+
+permissions:
+  contents: write
+
+jobs:
+  apply:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Patch ingestion workflow
+        shell: bash
+        run: |
+          python3 - <<'PY'
+          from pathlib import Path
+
+          path = Path('.github/workflows/ingest-pulse-images.yml')
+          text = path.read_text(encoding='utf-8')
+          old = '''      - name: Download and validate images
+                if: steps.requests.outputs.found == 'true'
+                run: python3 scripts/ingest_requests.py prepare
+
+              - name: Commit image assets
+          '''
+          new = '''      - name: Download and validate images
+                if: steps.requests.outputs.found == 'true'
+                run: python3 scripts/ingest_requests.py prepare
+
+              - name: Install image normalizer
+                if: steps.requests.outputs.found == 'true'
+                run: python3 -m pip install --disable-pip-version-check --no-cache-dir "Pillow>=10,<13"
+
+              - name: Normalize Article images to JPG
+                if: steps.requests.outputs.found == 'true'
+                run: python3 scripts/normalize_article_images.py
+
+              - name: Commit image assets
+          '''
+          if old not in text:
+              raise SystemExit('expected ingestion workflow block not found')
+          path.write_text(text.replace(old, new, 1), encoding='utf-8')
+          PY
+
+      - name: Commit fix and remove temporary workflow
+        shell: bash
+        run: |
+          set -euo pipefail
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git rm .github/workflows/one-time-article-jpeg-fix.yml
+          git add .github/workflows/ingest-pulse-images.yml
+          git commit -m "Normalize Article images to JPG"
+          for attempt in 1 2 3; do
+            git fetch origin master
+            git rebase -X theirs origin/master
+            if git push origin HEAD:master; then
+              exit 0
+            fi
+            if [ "$attempt" -eq 3 ]; then
+              exit 1
+            fi
+            sleep $((attempt * 2))
+          done
