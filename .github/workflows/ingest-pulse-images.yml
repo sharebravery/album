@@ -5,6 +5,9 @@ on:
     branches: [master]
     paths:
       - "requests/*.json"
+      - ".github/workflows/ingest-pulse-images.yml"
+  schedule:
+    - cron: "*/10 * * * *"
   workflow_dispatch: {}
 
 permissions:
