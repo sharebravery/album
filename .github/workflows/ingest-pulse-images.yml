@@ -58,27 +58,7 @@ jobs:
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
 
-          mapfile -t paths < <(python3 - <<'PY'
-          import json
-          from pathlib import Path
-
-          source_paths = Path('.album-work/normalized-source-paths.txt')
-          if source_paths.exists():
-              for line in source_paths.read_text(encoding='utf-8').splitlines():
-                  if line.strip():
-                      print(line.strip())
-
-          summary = json.loads(Path('.album-work/summary.json').read_text(encoding='utf-8'))
-          for request in summary.get('requests', []):
-              for image in request.get('images', []):
-                  if image.get('status') == 'completed':
-                      print(image['targetPath'])
-          PY
-          )
-
-          if [ "${#paths[@]}" -gt 0 ]; then
-            git add -A -- "${paths[@]}"
-          fi
+          git add -A -- pulse
 
           if git diff --cached --quiet; then
             echo "No new image assets to commit."
