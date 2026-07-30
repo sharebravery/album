@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "requestId": "20260730-1830-web3-circle-national-trust",
+  "status": "partial",
+  "assetCommit": "c316f12868ce4eccccfb3b70d94f27bab5aabcf7",
+  "images": [
+    {
+      "index": 0,
+      "status": "failed",
+      "error": "targetPath must end in .jpg, .jpeg, .png, .webp or .gif"
+    },
+    {
+      "index": 1,
+      "status": "failed",
+      "error": "targetPath must end in .jpg, .jpeg, .png, .webp or .gif"
+    },
+    {
+      "index": 2,
+      "status": "completed",
+      "sourcePageUrl": "https://www.circle.com/pressroom",
+      "downloadUrl": "https://cdn.prod.website-files.com/67116d0daddc92483c812ead/6965015bc91c48aa7b14a3ee_jeremy-allaire.webp",
+      "targetPath": "pulse/article/2026/07/circle-national-trust/jeremy-allaire.jpg",
+      "alt": "Circle 联合创始人兼首席执行官 Jeremy Allaire 官方头像",
+      "contentType": "image/jpeg",
+      "bytes": 50562,
+      "rawUrl": "https://raw.githubusercontent.com/sharebravery/album/c316f12868ce4eccccfb3b70d94f27bab5aabcf7/pulse/article/2026/07/circle-national-trust/jeremy-allaire.jpg",
+      "cdnUrl": "https://cdn.jsdelivr.net/gh/sharebravery/album@c316f12868ce4eccccfb3b70d94f27bab5aabcf7/pulse/article/2026/07/circle-national-trust/jeremy-allaire.jpg"
+    }
+  ]
+}
