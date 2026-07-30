@@ -37,6 +37,49 @@ jobs:
             echo "No image-ingestion requests found."
           fi
 
+      - name: Validate request identity and target uniqueness
+        if: steps.requests.outputs.found == 'true'
+        shell: bash
+        run: |
+          python3 - <<'PY'
+          import json
+          from pathlib import Path
+
+          seen_targets: set[str] = set()
+          for request_path in sorted(Path("requests").glob("*.json")):
+              payload = json.loads(request_path.read_text(encoding="utf-8"))
+              request_id = payload.get("requestId")
+              if request_id != request_path.stem:
+                  raise SystemExit(
+                      f"requestId must match request filename: {request_path} contains {request_id!r}"
+                  )
+
+              result_path = Path("results") / request_path.name
+              if result_path.exists():
+                  raise SystemExit(f"requestId has already been finalized: {request_path.stem}")
+
+              images = payload.get("images")
+              if not isinstance(images, list):
+                  continue
+              for image in images:
+                  if not isinstance(image, dict):
+                      continue
+                  value = image.get("targetPath")
+                  if not isinstance(value, str) or not value.strip():
+                      continue
+                  target = Path(value.strip())
+                  if tuple(target.parts[:2]) == ("pulse", "article"):
+                      target = target.with_suffix(".jpg")
+                  normalized = target.as_posix()
+                  if normalized in seen_targets:
+                      raise SystemExit(f"duplicate targetPath across pending requests: {normalized}")
+                  seen_targets.add(normalized)
+                  if target.exists():
+                      raise SystemExit(f"targetPath already exists and will not be overwritten: {normalized}")
+
+          print(f"Validated {len(seen_targets)} unique pending target path(s).")
+          PY
+
       - name: Download and validate images
         if: steps.requests.outputs.found == 'true'
         run: python3 scripts/ingest_requests.py prepare
