@@ -1,0 +1,18 @@
+{
+  "version": 1,
+  "requestId": "morning-brief-20260731-0730",
+  "images": [
+    {
+      "sourcePageUrl": "https://news.samsung.com/global/samsung-ships-industry-first-commercial-hbm4-with-ultimate-performance-for-ai-computing",
+      "downloadUrl": "https://img.global.news.samsung.com/global/wp-content/uploads/2026/02/12151049/Samsung-Semiconductors-Industry-First-Commercial-HBM4_main2.jpg",
+      "targetPath": "pulse/article/2026/07/morning-brief-0731/samsung-hbm4-wafer.jpg",
+      "alt": "三星 HBM4 芯片置于晶圆上的官方产品图"
+    },
+    {
+      "sourcePageUrl": "https://news.samsung.com/global/samsung-ships-industry-first-commercial-hbm4-with-ultimate-performance-for-ai-computing",
+      "downloadUrl": "https://img.global.news.samsung.com/global/wp-content/uploads/2026/02/12151028/Samsung-Semiconductors-Industry-First-Commercial-HBM4_main1.jpg",
+      "targetPath": "pulse/article/2026/07/morning-brief-0731/samsung-hbm4-product.jpg",
+      "alt": "三星 HBM4 芯片正反面官方产品图"
+    }
+  ]
+}
