@@ -1,0 +1,68 @@
+{
+  "version": 1,
+  "requestId": "gemini-flash-efficiency-20260731-0041",
+  "status": "completed",
+  "assetCommit": "f5da731d0a5f2cf54acf833fa6d368bf709f25b4",
+  "images": [
+    {
+      "index": 0,
+      "status": "completed",
+      "sourcePageUrl": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-6-flash-3-5-flash-lite-3-5-flash-cyber/",
+      "downloadUrl": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/gemini-3-5_3-6_3-5-Cyber__key-art.width-200.format-webp.webp",
+      "targetPath": "pulse/article/2026/07/gemini-flash-efficiency/hero.jpg",
+      "alt": "Gemini 3.6 Flash、3.5 Flash-Lite 与 Flash Cyber 官方主视觉",
+      "contentType": "image/jpeg",
+      "bytes": 6847,
+      "rawUrl": "https://raw.githubusercontent.com/sharebravery/album/f5da731d0a5f2cf54acf833fa6d368bf709f25b4/pulse/article/2026/07/gemini-flash-efficiency/hero.jpg",
+      "cdnUrl": "https://cdn.jsdelivr.net/gh/sharebravery/album@f5da731d0a5f2cf54acf833fa6d368bf709f25b4/pulse/article/2026/07/gemini-flash-efficiency/hero.jpg"
+    },
+    {
+      "index": 1,
+      "status": "completed",
+      "sourcePageUrl": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-6-flash-3-5-flash-lite-3-5-flash-cyber/",
+      "downloadUrl": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/gemini-3-6-flash__evals__figure-.width-1200.format-webp.webp",
+      "targetPath": "pulse/article/2026/07/gemini-flash-efficiency/flash-evals.jpg",
+      "alt": "Gemini 3.6 Flash 官方评测图表",
+      "contentType": "image/jpeg",
+      "bytes": 90977,
+      "rawUrl": "https://raw.githubusercontent.com/sharebravery/album/f5da731d0a5f2cf54acf833fa6d368bf709f25b4/pulse/article/2026/07/gemini-flash-efficiency/flash-evals.jpg",
+      "cdnUrl": "https://cdn.jsdelivr.net/gh/sharebravery/album@f5da731d0a5f2cf54acf833fa6d368bf709f25b4/pulse/article/2026/07/gemini-flash-efficiency/flash-evals.jpg"
+    },
+    {
+      "index": 2,
+      "status": "completed",
+      "sourcePageUrl": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-6-flash-3-5-flash-lite-3-5-flash-cyber/",
+      "downloadUrl": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/gemini-3-6-flash__evals__quality.width-1200.format-webp.webp",
+      "targetPath": "pulse/article/2026/07/gemini-flash-efficiency/flash-quality.jpg",
+      "alt": "Gemini 3.6 Flash 质量与效率对比图",
+      "contentType": "image/jpeg",
+      "bytes": 60897,
+      "rawUrl": "https://raw.githubusercontent.com/sharebravery/album/f5da731d0a5f2cf54acf833fa6d368bf709f25b4/pulse/article/2026/07/gemini-flash-efficiency/flash-quality.jpg",
+      "cdnUrl": "https://cdn.jsdelivr.net/gh/sharebravery/album@f5da731d0a5f2cf54acf833fa6d368bf709f25b4/pulse/article/2026/07/gemini-flash-efficiency/flash-quality.jpg"
+    },
+    {
+      "index": 3,
+      "status": "completed",
+      "sourcePageUrl": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-6-flash-3-5-flash-lite-3-5-flash-cyber/",
+      "downloadUrl": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/gemini-3-5-flash-lite__evals__co.width-1200.format-webp.webp",
+      "targetPath": "pulse/article/2026/07/gemini-flash-efficiency/flash-lite-evals.jpg",
+      "alt": "Gemini 3.5 Flash-Lite 官方性能对比图",
+      "contentType": "image/jpeg",
+      "bytes": 55883,
+      "rawUrl": "https://raw.githubusercontent.com/sharebravery/album/f5da731d0a5f2cf54acf833fa6d368bf709f25b4/pulse/article/2026/07/gemini-flash-efficiency/flash-lite-evals.jpg",
+      "cdnUrl": "https://cdn.jsdelivr.net/gh/sharebravery/album@f5da731d0a5f2cf54acf833fa6d368bf709f25b4/pulse/article/2026/07/gemini-flash-efficiency/flash-lite-evals.jpg"
+    },
+    {
+      "index": 4,
+      "status": "completed",
+      "sourcePageUrl": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-6-flash-3-5-flash-lite-3-5-flash-cyber/",
+      "downloadUrl": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/gemini-3-5-flash-cyber__evals__c.width-1200.format-webp.webp",
+      "targetPath": "pulse/article/2026/07/gemini-flash-efficiency/flash-cyber-evals.jpg",
+      "alt": "Gemini 3.5 Flash Cyber 官方网络安全评测图",
+      "contentType": "image/jpeg",
+      "bytes": 56742,
+      "rawUrl": "https://raw.githubusercontent.com/sharebravery/album/f5da731d0a5f2cf54acf833fa6d368bf709f25b4/pulse/article/2026/07/gemini-flash-efficiency/flash-cyber-evals.jpg",
+      "cdnUrl": "https://cdn.jsdelivr.net/gh/sharebravery/album@f5da731d0a5f2cf54acf833fa6d368bf709f25b4/pulse/article/2026/07/gemini-flash-efficiency/flash-cyber-evals.jpg"
+    }
+  ]
+}
