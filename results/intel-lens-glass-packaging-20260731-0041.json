@@ -1,0 +1,68 @@
+{
+  "version": 1,
+  "requestId": "intel-lens-glass-packaging-20260731-0041",
+  "status": "completed",
+  "assetCommit": "2c442b542dce293862cf63cbbf0a50a3bb976b13",
+  "images": [
+    {
+      "index": 0,
+      "status": "completed",
+      "sourcePageUrl": "https://newsroom.intel.com/new-technologies/intel-and-lens-technology-collaborate-to-enable-advanced-semiconductor-packaging-for-the-ai-era",
+      "downloadUrl": "https://newsroom.intel.com/wp-content/uploads/2026/07/newsroom-intel-glass-substrate-2-1200x675.jpg",
+      "targetPath": "pulse/article/2026/07/intel-lens-glass-packaging/glass-substrate.jpg",
+      "alt": "英特尔玻璃基板先进封装官方图片",
+      "contentType": "image/jpeg",
+      "bytes": 179176,
+      "rawUrl": "https://raw.githubusercontent.com/sharebravery/album/2c442b542dce293862cf63cbbf0a50a3bb976b13/pulse/article/2026/07/intel-lens-glass-packaging/glass-substrate.jpg",
+      "cdnUrl": "https://cdn.jsdelivr.net/gh/sharebravery/album@2c442b542dce293862cf63cbbf0a50a3bb976b13/pulse/article/2026/07/intel-lens-glass-packaging/glass-substrate.jpg"
+    },
+    {
+      "index": 1,
+      "status": "completed",
+      "sourcePageUrl": "https://newsroom.intel.com/intel-foundry/intels-us-advanced-packaging-enables-next-generation-ai-semiconductors",
+      "downloadUrl": "https://newsroom.intel.com/wp-content/uploads/2026/07/AdobeStock_1556239867-1200x675.jpeg",
+      "targetPath": "pulse/article/2026/07/intel-lens-glass-packaging/advanced-packaging-line.jpg",
+      "alt": "先进半导体封装生产线与芯片封装场景",
+      "contentType": "image/jpeg",
+      "bytes": 145058,
+      "rawUrl": "https://raw.githubusercontent.com/sharebravery/album/2c442b542dce293862cf63cbbf0a50a3bb976b13/pulse/article/2026/07/intel-lens-glass-packaging/advanced-packaging-line.jpg",
+      "cdnUrl": "https://cdn.jsdelivr.net/gh/sharebravery/album@2c442b542dce293862cf63cbbf0a50a3bb976b13/pulse/article/2026/07/intel-lens-glass-packaging/advanced-packaging-line.jpg"
+    },
+    {
+      "index": 2,
+      "status": "completed",
+      "sourcePageUrl": "https://newsroom.intel.com/intel-foundry/intel-opens-fab-9-in-new-mexico",
+      "downloadUrl": "https://newsroom.intel.com/wp-content/uploads/2024/12/newsroom-new-mexico-fabs-2-scaled.jpg",
+      "targetPath": "pulse/article/2026/07/intel-lens-glass-packaging/fab-technicians.jpg",
+      "alt": "英特尔先进封装工厂洁净室技术人员",
+      "contentType": "image/jpeg",
+      "bytes": 744755,
+      "rawUrl": "https://raw.githubusercontent.com/sharebravery/album/2c442b542dce293862cf63cbbf0a50a3bb976b13/pulse/article/2026/07/intel-lens-glass-packaging/fab-technicians.jpg",
+      "cdnUrl": "https://cdn.jsdelivr.net/gh/sharebravery/album@2c442b542dce293862cf63cbbf0a50a3bb976b13/pulse/article/2026/07/intel-lens-glass-packaging/fab-technicians.jpg"
+    },
+    {
+      "index": 3,
+      "status": "completed",
+      "sourcePageUrl": "https://newsroom.intel.com/intel-foundry/intel-opens-fab-9-in-new-mexico",
+      "downloadUrl": "https://newsroom.intel.com/wp-content/uploads/2024/01/newsroom-new-mexico-fabs-4.jpg",
+      "targetPath": "pulse/article/2026/07/intel-lens-glass-packaging/wafer-process.jpg",
+      "alt": "先进封装生产中的晶圆精密处理设备",
+      "contentType": "image/jpeg",
+      "bytes": 1097532,
+      "rawUrl": "https://raw.githubusercontent.com/sharebravery/album/2c442b542dce293862cf63cbbf0a50a3bb976b13/pulse/article/2026/07/intel-lens-glass-packaging/wafer-process.jpg",
+      "cdnUrl": "https://cdn.jsdelivr.net/gh/sharebravery/album@2c442b542dce293862cf63cbbf0a50a3bb976b13/pulse/article/2026/07/intel-lens-glass-packaging/wafer-process.jpg"
+    },
+    {
+      "index": 4,
+      "status": "completed",
+      "sourcePageUrl": "https://newsroom.intel.com/intel-foundry/intel-opens-fab-9-in-new-mexico",
+      "downloadUrl": "https://newsroom.intel.com/wp-content/uploads/2024/12/newsroom-new-mexico-fabs-8r-scaled.jpg",
+      "targetPath": "pulse/article/2026/07/intel-lens-glass-packaging/wafer-inspection.jpg",
+      "alt": "英特尔技术人员展示先进封装晶圆",
+      "contentType": "image/jpeg",
+      "bytes": 661901,
+      "rawUrl": "https://raw.githubusercontent.com/sharebravery/album/2c442b542dce293862cf63cbbf0a50a3bb976b13/pulse/article/2026/07/intel-lens-glass-packaging/wafer-inspection.jpg",
+      "cdnUrl": "https://cdn.jsdelivr.net/gh/sharebravery/album@2c442b542dce293862cf63cbbf0a50a3bb976b13/pulse/article/2026/07/intel-lens-glass-packaging/wafer-inspection.jpg"
+    }
+  ]
+}
