@@ -25,16 +25,22 @@ SUMMARY_PATH = WORK_DIR / "summary.json"
 MAX_BYTES = 10 * 1024 * 1024
 DOWNLOAD_TIMEOUT_SECONDS = 60
 DOWNLOAD_ATTEMPTS = 2
+ARTICLE_PREFIX = ("pulse", "article")
 ALLOWED_MIME = {
     "image/jpeg": {".jpg", ".jpeg"},
     "image/png": {".png"},
     "image/webp": {".webp"},
     "image/gif": {".gif"},
 }
+DOWNLOADABLE_MIME = set(ALLOWED_MIME) | {"image/avif"}
 
 
 def fail(message: str) -> None:
     raise ValueError(message)
+
+
+def is_article_path(path: Path) -> bool:
+    return len(path.parts) >= 2 and tuple(path.parts[:2]) == ARTICLE_PREFIX
 
 
 def validate_public_http_url(value: Any, field: str) -> str:
@@ -67,6 +73,14 @@ def validate_target_path(value: Any) -> Path:
         fail("targetPath must be a safe relative path")
     if not posix.parts or posix.parts[0] != "pulse":
         fail("targetPath must be inside pulse/")
+
+    # Article assets always publish as JPEG. The source URL may still serve
+    # JPEG, PNG, WebP, GIF or AVIF bytes; the normalizer converts by content.
+    if is_article_path(posix):
+        if not posix.name or posix.name in {".", ".."}:
+            fail("targetPath must include a filename")
+        return posix.with_suffix(".jpg")
+
     suffix = posix.suffix.lower()
     allowed_suffixes = {ext for values in ALLOWED_MIME.values() for ext in values}
     if suffix not in allowed_suffixes:
@@ -96,11 +110,17 @@ def download_image(url: str, destination: Path) -> tuple[str, int]:
     destination.parent.mkdir(parents=True, exist_ok=True)
     temporary = destination.with_suffix(destination.suffix + ".download")
     expected_mime = expected_mime_for(destination)
+    article_target = is_article_path(destination.relative_to(ROOT))
+    accept = (
+        "image/avif,image/webp,image/png,image/jpeg,image/gif,*/*;q=0.1"
+        if article_target
+        else f"{expected_mime},*/*;q=0.1"
+    )
     request = urllib.request.Request(
         url,
         headers={
             "User-Agent": "Mozilla/5.0 (compatible; PulseAlbumIngestion/1.0; +https://github.com/sharebravery/album)",
-            "Accept": f"{expected_mime},*/*;q=0.1",
+            "Accept": accept,
             "Accept-Encoding": "identity",
         },
     )
@@ -132,10 +152,10 @@ def download_image(url: str, destination: Path) -> tuple[str, int]:
             raise
 
     detected = detect_mime(temporary)
-    if detected not in ALLOWED_MIME:
+    if detected not in DOWNLOADABLE_MIME:
         temporary.unlink(missing_ok=True)
         fail(f"unsupported image type: {detected}")
-    if detected != expected_mime:
+    if detected != expected_mime and not article_target:
         temporary.unlink(missing_ok=True)
         fail(f"target extension does not match detected type {detected}")
 
