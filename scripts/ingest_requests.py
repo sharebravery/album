@@ -175,6 +175,8 @@ def load_request(path: Path) -> dict[str, Any]:
     request_id = payload.get("requestId")
     if not isinstance(request_id, str) or not request_id.strip():
         fail("requestId must be a non-empty string")
+    if request_id.strip() != path.stem:
+        fail("requestId must match the request filename")
     images = payload.get("images")
     if not isinstance(images, list) or not images:
         fail("images must be a non-empty array")
@@ -193,6 +195,7 @@ def prepare() -> int:
         return 0
 
     summary: dict[str, Any] = {"requests": []}
+    claimed_targets: set[str] = set()
     for request_path in request_paths:
         request_result: dict[str, Any] = {
             "requestFile": request_path.relative_to(ROOT).as_posix(),
@@ -211,10 +214,16 @@ def prepare() -> int:
                     download_url = validate_public_http_url(image.get("downloadUrl"), "downloadUrl")
                     source_page_url = validate_public_http_url(image.get("sourcePageUrl"), "sourcePageUrl")
                     target = validate_target_path(image.get("targetPath"))
+                    target_key = target.as_posix()
+                    destination = ROOT / target
+                    if target_key in claimed_targets:
+                        fail("targetPath must be unique across pending requests")
+                    if destination.exists():
+                        fail("targetPath already exists")
+                    claimed_targets.add(target_key)
                     alt = image.get("alt")
                     if not isinstance(alt, str) or not alt.strip():
                         fail("alt must be a non-empty string")
-                    destination = ROOT / target
                     mime, size = download_image(download_url, destination)
                     item.update(
                         {
