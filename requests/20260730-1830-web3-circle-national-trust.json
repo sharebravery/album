@@ -1,0 +1,24 @@
+{
+  "version": 1,
+  "requestId": "20260730-1830-web3-circle-national-trust",
+  "images": [
+    {
+      "sourcePageUrl": "https://www.circle.com/pressroom",
+      "downloadUrl": "https://cdn.prod.website-files.com/67116d0daddc92483c812e88/69dd3dbaefb4c618b1393730_logo%20%281%29.avif",
+      "targetPath": "pulse/article/2026/07/circle-national-trust/circle-logo.avif",
+      "alt": "Circle 官方品牌标识，代表稳定币发行商正在进入联邦信托银行监管框架"
+    },
+    {
+      "sourcePageUrl": "https://www.circle.com/pressroom",
+      "downloadUrl": "https://cdn.prod.website-files.com/67116d0daddc92483c812e88/69dd3dbaa10d052f7061dc70_logo%20%282%29.avif",
+      "targetPath": "pulse/article/2026/07/circle-national-trust/usdc-logo.avif",
+      "alt": "USDC 官方品牌标识，代表受监管稳定币基础设施"
+    },
+    {
+      "sourcePageUrl": "https://www.circle.com/pressroom",
+      "downloadUrl": "https://cdn.prod.website-files.com/67116d0daddc92483c812ead/6965015bc91c48aa7b14a3ee_jeremy-allaire.webp",
+      "targetPath": "pulse/article/2026/07/circle-national-trust/jeremy-allaire.webp",
+      "alt": "Circle 联合创始人兼首席执行官 Jeremy Allaire 官方头像"
+    }
+  ]
+}
