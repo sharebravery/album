@@ -1,0 +1,68 @@
+{
+  "version": 1,
+  "requestId": "20260730-1830-web3-circle-national-trust-rerun",
+  "status": "completed",
+  "assetCommit": "44513d33d3655ed91812435170c874e9d0c4611d",
+  "images": [
+    {
+      "index": 0,
+      "status": "completed",
+      "sourcePageUrl": "https://www.circle.com/pressroom",
+      "downloadUrl": "https://cdn.prod.website-files.com/67116d0daddc92483c812e88/69dd3dbaefb4c618b1393730_logo%20%281%29.avif",
+      "targetPath": "pulse/article/2026/07/circle-national-trust-rerun/circle-logo.jpg",
+      "alt": "Circle 官方品牌标识，代表稳定币发行商进入美国联邦信托银行监管体系",
+      "contentType": "image/jpeg",
+      "bytes": 17006,
+      "rawUrl": "https://raw.githubusercontent.com/sharebravery/album/44513d33d3655ed91812435170c874e9d0c4611d/pulse/article/2026/07/circle-national-trust-rerun/circle-logo.jpg",
+      "cdnUrl": "https://cdn.jsdelivr.net/gh/sharebravery/album@44513d33d3655ed91812435170c874e9d0c4611d/pulse/article/2026/07/circle-national-trust-rerun/circle-logo.jpg"
+    },
+    {
+      "index": 1,
+      "status": "completed",
+      "sourcePageUrl": "https://www.circle.com/pressroom",
+      "downloadUrl": "https://cdn.prod.website-files.com/67116d0daddc92483c812ead/6965015bc91c48aa7b14a3ee_jeremy-allaire.webp",
+      "targetPath": "pulse/article/2026/07/circle-national-trust-rerun/jeremy-allaire.jpg",
+      "alt": "Circle 联合创始人兼首席执行官 Jeremy Allaire 官方头像",
+      "contentType": "image/jpeg",
+      "bytes": 50562,
+      "rawUrl": "https://raw.githubusercontent.com/sharebravery/album/44513d33d3655ed91812435170c874e9d0c4611d/pulse/article/2026/07/circle-national-trust-rerun/jeremy-allaire.jpg",
+      "cdnUrl": "https://cdn.jsdelivr.net/gh/sharebravery/album@44513d33d3655ed91812435170c874e9d0c4611d/pulse/article/2026/07/circle-national-trust-rerun/jeremy-allaire.jpg"
+    },
+    {
+      "index": 2,
+      "status": "completed",
+      "sourcePageUrl": "https://www.circle.com/usdc",
+      "downloadUrl": "https://cdn.prod.website-files.com/67116d0daddc92483c812e88/67fd6897a5542002e2e26c9d_usdc-hero-img-top.webp",
+      "targetPath": "pulse/article/2026/07/circle-national-trust-rerun/usdc-office-building.jpg",
+      "alt": "Circle USDC 官方页面中的金融办公建筑画面，代表稳定币基础设施进入机构金融体系",
+      "contentType": "image/jpeg",
+      "bytes": 168889,
+      "rawUrl": "https://raw.githubusercontent.com/sharebravery/album/44513d33d3655ed91812435170c874e9d0c4611d/pulse/article/2026/07/circle-national-trust-rerun/usdc-office-building.jpg",
+      "cdnUrl": "https://cdn.jsdelivr.net/gh/sharebravery/album@44513d33d3655ed91812435170c874e9d0c4611d/pulse/article/2026/07/circle-national-trust-rerun/usdc-office-building.jpg"
+    },
+    {
+      "index": 3,
+      "status": "completed",
+      "sourcePageUrl": "https://www.circle.com/usdc",
+      "downloadUrl": "https://cdn.prod.website-files.com/67116d0daddc92483c812e88/67fd6899ac1c2a74dc3d602f_usdc-hero-img-bottom.webp",
+      "targetPath": "pulse/article/2026/07/circle-national-trust-rerun/usdc-office-user.jpg",
+      "alt": "Circle USDC 官方页面中的企业办公场景，代表机构客户使用受监管数字美元基础设施",
+      "contentType": "image/jpeg",
+      "bytes": 64664,
+      "rawUrl": "https://raw.githubusercontent.com/sharebravery/album/44513d33d3655ed91812435170c874e9d0c4611d/pulse/article/2026/07/circle-national-trust-rerun/usdc-office-user.jpg",
+      "cdnUrl": "https://cdn.jsdelivr.net/gh/sharebravery/album@44513d33d3655ed91812435170c874e9d0c4611d/pulse/article/2026/07/circle-national-trust-rerun/usdc-office-user.jpg"
+    },
+    {
+      "index": 4,
+      "status": "completed",
+      "sourcePageUrl": "https://www.circle.com/usdc",
+      "downloadUrl": "https://cdn.prod.website-files.com/67116d0daddc92483c812e88/67116d0daddc92483c8130e8_crypto-market-capitals.avif",
+      "targetPath": "pulse/article/2026/07/circle-national-trust-rerun/digital-asset-markets.jpg",
+      "alt": "Circle 官方数字资产市场示意图，代表 USDC 在支付、结算和资本市场中的基础设施角色",
+      "contentType": "image/jpeg",
+      "bytes": 131481,
+      "rawUrl": "https://raw.githubusercontent.com/sharebravery/album/44513d33d3655ed91812435170c874e9d0c4611d/pulse/article/2026/07/circle-national-trust-rerun/digital-asset-markets.jpg",
+      "cdnUrl": "https://cdn.jsdelivr.net/gh/sharebravery/album@44513d33d3655ed91812435170c874e9d0c4611d/pulse/article/2026/07/circle-national-trust-rerun/digital-asset-markets.jpg"
+    }
+  ]
+}
