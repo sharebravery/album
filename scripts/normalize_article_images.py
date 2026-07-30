@@ -13,7 +13,6 @@ from PIL import Image, ImageOps
 ROOT = Path(__file__).resolve().parents[1]
 WORK_DIR = ROOT / ".album-work"
 SUMMARY_PATH = WORK_DIR / "summary.json"
-SOURCE_PATHS_PATH = WORK_DIR / "normalized-source-paths.txt"
 ARTICLE_PREFIX = "pulse/article/"
 JPEG_QUALITY = 92
 
@@ -46,30 +45,36 @@ def normalize_file(source: Path, destination: Path) -> int:
     temporary = destination.with_suffix(destination.suffix + ".normalize")
     temporary.unlink(missing_ok=True)
 
-    with Image.open(source) as opened:
-        rgb = flatten_to_rgb(opened)
-        rgb.save(
-            temporary,
-            format="JPEG",
-            quality=JPEG_QUALITY,
-            optimize=True,
-            progressive=False,
-            subsampling=0,
-        )
+    try:
+        with Image.open(source) as opened:
+            rgb = flatten_to_rgb(opened)
+            rgb.save(
+                temporary,
+                format="JPEG",
+                quality=JPEG_QUALITY,
+                optimize=True,
+                progressive=False,
+                subsampling=0,
+            )
+        os.replace(temporary, destination)
+    except Exception:
+        temporary.unlink(missing_ok=True)
+        raise
 
-    os.replace(temporary, destination)
     if source != destination:
         source.unlink(missing_ok=True)
     return destination.stat().st_size
 
 
-def normalize_summary(summary: dict[str, Any]) -> tuple[int, list[str]]:
+def normalize_summary(summary: dict[str, Any]) -> tuple[int, int]:
     normalized = 0
-    source_paths: list[str] = []
+    failed = 0
+
     for request in summary.get("requests", []):
         for image in request.get("images", []):
             if image.get("status") != "completed":
                 continue
+
             target = image.get("targetPath")
             if not isinstance(target, str) or not target.startswith(ARTICLE_PREFIX):
                 continue
@@ -77,33 +82,40 @@ def normalize_summary(summary: dict[str, Any]) -> tuple[int, list[str]]:
             source = ROOT / target
             destination_target = normalized_target(target)
             destination = ROOT / destination_target
-            size = normalize_file(source, destination)
-            if target != destination_target:
-                source_paths.append(target)
+
+            try:
+                size = normalize_file(source, destination)
+            except Exception as exc:
+                source.unlink(missing_ok=True)
+                image["status"] = "failed"
+                image["error"] = f"JPEG normalization failed: {exc}"
+                image.pop("contentType", None)
+                image.pop("bytes", None)
+                failed += 1
+                continue
+
             image["targetPath"] = destination_target
             image["contentType"] = "image/jpeg"
             image["bytes"] = size
             normalized += 1
-    return normalized, source_paths
+
+    return normalized, failed
 
 
 def main() -> int:
     if not SUMMARY_PATH.exists():
         fail("missing preparation summary")
+
     summary = json.loads(SUMMARY_PATH.read_text(encoding="utf-8"))
-    normalized, source_paths = normalize_summary(summary)
+    normalized, failed = normalize_summary(summary)
     SUMMARY_PATH.write_text(
         json.dumps(summary, ensure_ascii=False, indent=2) + "\n",
         encoding="utf-8",
     )
-    if source_paths:
-        SOURCE_PATHS_PATH.write_text(
-            "\n".join(dict.fromkeys(source_paths)) + "\n",
-            encoding="utf-8",
-        )
-    else:
-        SOURCE_PATHS_PATH.unlink(missing_ok=True)
-    print(f"Normalized {normalized} Article image asset(s) to baseline RGB JPEG.")
+    print(
+        f"Normalized {normalized} Article image asset(s) to baseline RGB JPEG; "
+        f"{failed} image(s) failed normalization."
+    )
     return 0
 
 
