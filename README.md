@@ -11,7 +11,7 @@ The permanent workflow runs on each new request push. A five-minute scheduled sc
 The workflow then:
 
 1. validates the request and public source URLs;
-2. downloads raster images on GitHub Actions;
+2. downloads raster images on GitHub Actions with at most four parallel downloads;
 3. accepts JPEG, PNG, WebP, GIF and article-source AVIF files up to 10 MiB;
 4. rejects SVG, non-image responses, private-network URLs and unsafe paths;
 5. normalizes Article assets to JPEG and stores all assets under `pulse/`;
