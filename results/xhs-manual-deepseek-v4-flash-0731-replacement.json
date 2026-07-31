@@ -1,0 +1,25 @@
+{
+  "version": 1,
+  "requestId": "xhs-manual-deepseek-v4-flash-0731-replacement",
+  "status": "partial",
+  "assetCommit": "e45d83be73d5522270f976b90716cccd28433415",
+  "images": [
+    {
+      "index": 0,
+      "status": "completed",
+      "sourcePageUrl": "https://api-docs.deepseek.com/updates/",
+      "downloadUrl": "https://image.thum.io/get/width/1200/crop/1600/https://api-docs.deepseek.com/updates/",
+      "targetPath": "pulse/xhs/2026/07/deepseek-v4-flash-0731/official-update.png",
+      "alt": "DeepSeek官方更新日志中2026年7月31日V4-Flash正式版更新页面",
+      "contentType": "image/png",
+      "bytes": 224757,
+      "rawUrl": "https://raw.githubusercontent.com/sharebravery/album/e45d83be73d5522270f976b90716cccd28433415/pulse/xhs/2026/07/deepseek-v4-flash-0731/official-update.png",
+      "cdnUrl": "https://cdn.jsdelivr.net/gh/sharebravery/album@e45d83be73d5522270f976b90716cccd28433415/pulse/xhs/2026/07/deepseek-v4-flash-0731/official-update.png"
+    },
+    {
+      "index": 1,
+      "status": "failed",
+      "error": "target extension does not match detected type image/png"
+    }
+  ]
+}
