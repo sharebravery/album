@@ -14,6 +14,7 @@ import sys
 import time
 import urllib.parse
 import urllib.request
+from concurrent.futures import ThreadPoolExecutor, as_completed
 from pathlib import Path
 from typing import Any
 
@@ -25,6 +26,7 @@ SUMMARY_PATH = WORK_DIR / "summary.json"
 MAX_BYTES = 10 * 1024 * 1024
 DOWNLOAD_TIMEOUT_SECONDS = 60
 DOWNLOAD_ATTEMPTS = 2
+DOWNLOAD_WORKERS = 4
 ARTICLE_PREFIX = ("pulse", "article")
 ALLOWED_MIME = {
     "image/jpeg": {".jpg", ".jpeg"},
@@ -185,6 +187,32 @@ def load_request(path: Path) -> dict[str, Any]:
     return payload
 
 
+def process_download(
+    index: int,
+    download_url: str,
+    source_page_url: str,
+    target: Path,
+    alt: str,
+) -> dict[str, Any]:
+    item: dict[str, Any] = {"index": index, "status": "failed"}
+    try:
+        mime, size = download_image(download_url, ROOT / target)
+        item.update(
+            {
+                "status": "completed",
+                "sourcePageUrl": source_page_url,
+                "downloadUrl": download_url,
+                "targetPath": target.as_posix(),
+                "alt": alt,
+                "contentType": mime,
+                "bytes": size,
+            }
+        )
+    except Exception as exc:  # Record per-image failures for operator retry.
+        item["error"] = str(exc)
+    return item
+
+
 def prepare() -> int:
     shutil.rmtree(WORK_DIR, ignore_errors=True)
     WORK_DIR.mkdir(parents=True, exist_ok=True)
@@ -196,6 +224,8 @@ def prepare() -> int:
 
     summary: dict[str, Any] = {"requests": []}
     claimed_targets: set[str] = set()
+    jobs: list[tuple[dict[str, Any], int, str, str, Path, str]] = []
+
     for request_path in request_paths:
         request_result: dict[str, Any] = {
             "requestFile": request_path.relative_to(ROOT).as_posix(),
@@ -206,6 +236,11 @@ def prepare() -> int:
         try:
             payload = load_request(request_path)
             request_result["requestId"] = payload["requestId"].strip()
+            request_result["images"] = [
+                {"index": index, "status": "failed", "error": "image was not prepared"}
+                for index in range(len(payload["images"]))
+            ]
+
             for index, image in enumerate(payload["images"]):
                 item: dict[str, Any] = {"index": index, "status": "failed"}
                 try:
@@ -224,24 +259,32 @@ def prepare() -> int:
                     alt = image.get("alt")
                     if not isinstance(alt, str) or not alt.strip():
                         fail("alt must be a non-empty string")
-                    mime, size = download_image(download_url, destination)
-                    item.update(
-                        {
-                            "status": "completed",
-                            "sourcePageUrl": source_page_url,
-                            "downloadUrl": download_url,
-                            "targetPath": target.as_posix(),
-                            "alt": alt.strip(),
-                            "contentType": mime,
-                            "bytes": size,
-                        }
-                    )
-                except Exception as exc:  # Record per-image failures for operator retry.
+                    jobs.append((request_result, index, download_url, source_page_url, target, alt.strip()))
+                except Exception as exc:
                     item["error"] = str(exc)
-                request_result["images"].append(item)
+                    request_result["images"][index] = item
         except Exception as exc:
             request_result["requestError"] = str(exc)
         summary["requests"].append(request_result)
+
+    if jobs:
+        worker_count = min(DOWNLOAD_WORKERS, len(jobs))
+        with ThreadPoolExecutor(max_workers=worker_count) as executor:
+            future_jobs = {
+                executor.submit(process_download, index, download_url, source_page_url, target, alt):
+                (request_result, index)
+                for request_result, index, download_url, source_page_url, target, alt in jobs
+            }
+            for future in as_completed(future_jobs):
+                request_result, index = future_jobs[future]
+                try:
+                    request_result["images"][index] = future.result()
+                except Exception as exc:
+                    request_result["images"][index] = {
+                        "index": index,
+                        "status": "failed",
+                        "error": str(exc),
+                    }
 
     SUMMARY_PATH.write_text(json.dumps(summary, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
     completed = sum(
@@ -250,7 +293,10 @@ def prepare() -> int:
         for image in request.get("images", [])
         if image.get("status") == "completed"
     )
-    print(f"Prepared {completed} image asset(s) from {len(request_paths)} request(s).")
+    print(
+        f"Prepared {completed} image asset(s) from {len(request_paths)} request(s) "
+        f"with up to {DOWNLOAD_WORKERS} parallel download(s)."
+    )
     return 0
 
 
