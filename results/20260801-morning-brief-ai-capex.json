@@ -1,0 +1,32 @@
+{
+  "version": 1,
+  "requestId": "20260801-morning-brief-ai-capex",
+  "status": "completed",
+  "assetCommit": "6eeaa441759d2b8756b65896f842d5167f2d2609",
+  "images": [
+    {
+      "index": 0,
+      "status": "completed",
+      "sourcePageUrl": "https://www.aboutamazon.com/news/aws/aws-project-rainier-ai-trainium-chips-compute-cluster",
+      "downloadUrl": "https://assets.aboutamazon.com/50/19/309b104648e1b00c5c7dec3fdc54/projectrainier-exterior.png",
+      "targetPath": "pulse/article/2026/08/morning-brief-ai-capex/cover-aws-rainier.jpg",
+      "alt": "AWS Project Rainier AI compute campus at dusk",
+      "contentType": "image/jpeg",
+      "bytes": 1780521,
+      "rawUrl": "https://raw.githubusercontent.com/sharebravery/album/6eeaa441759d2b8756b65896f842d5167f2d2609/pulse/article/2026/08/morning-brief-ai-capex/cover-aws-rainier.jpg",
+      "cdnUrl": "https://cdn.jsdelivr.net/gh/sharebravery/album@6eeaa441759d2b8756b65896f842d5167f2d2609/pulse/article/2026/08/morning-brief-ai-capex/cover-aws-rainier.jpg"
+    },
+    {
+      "index": 1,
+      "status": "completed",
+      "sourcePageUrl": "https://www.aboutamazon.com/news/aws/aws-project-rainier-ai-trainium-chips-compute-cluster",
+      "downloadUrl": "https://assets.aboutamazon.com/dims4/default/76e4b8c/2147483647/strip/true/crop/2548x1434%2B0%2B0/resize/2640x1486%21/quality/90/?url=https%3A%2F%2Famazon-blogs-brightspot.s3.amazonaws.com%2F7d%2F36%2F614bf5354a3a9d570976a3db3a6e%2Finterior-rainier.png",
+      "targetPath": "pulse/article/2026/08/morning-brief-ai-capex/cover-aws-rainier-interior.jpg",
+      "alt": "Interior of AWS Project Rainier AI infrastructure facility",
+      "contentType": "image/jpeg",
+      "bytes": 2215808,
+      "rawUrl": "https://raw.githubusercontent.com/sharebravery/album/6eeaa441759d2b8756b65896f842d5167f2d2609/pulse/article/2026/08/morning-brief-ai-capex/cover-aws-rainier-interior.jpg",
+      "cdnUrl": "https://cdn.jsdelivr.net/gh/sharebravery/album@6eeaa441759d2b8756b65896f842d5167f2d2609/pulse/article/2026/08/morning-brief-ai-capex/cover-aws-rainier-interior.jpg"
+    }
+  ]
+}
