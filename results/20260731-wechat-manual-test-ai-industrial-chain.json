@@ -1,0 +1,68 @@
+{
+  "version": 1,
+  "requestId": "20260731-wechat-manual-test-ai-industrial-chain",
+  "status": "completed",
+  "assetCommit": "f510d4077daef11b63dab27670329aace32ca9a1",
+  "images": [
+    {
+      "index": 0,
+      "status": "completed",
+      "sourcePageUrl": "https://blogs.nvidia.com/blog/nvidia-and-partners-build-in-america-for-america/",
+      "downloadUrl": "https://blogs.nvidia.com/wp-content/uploads/2026/07/Wistron_D1_Grand_Opening_Ceremony-Factory_Tour-21-MY-edit-scaled.jpg",
+      "targetPath": "pulse/article/2026/07/wechat-manual-test-ai-industrial-chain/wistron-fort-worth.jpg",
+      "alt": "Wistron Fort Worth advanced manufacturing plant opening and factory tour",
+      "contentType": "image/jpeg",
+      "bytes": 459581,
+      "rawUrl": "https://raw.githubusercontent.com/sharebravery/album/f510d4077daef11b63dab27670329aace32ca9a1/pulse/article/2026/07/wechat-manual-test-ai-industrial-chain/wistron-fort-worth.jpg",
+      "cdnUrl": "https://cdn.jsdelivr.net/gh/sharebravery/album@f510d4077daef11b63dab27670329aace32ca9a1/pulse/article/2026/07/wechat-manual-test-ai-industrial-chain/wistron-fort-worth.jpg"
+    },
+    {
+      "index": 1,
+      "status": "completed",
+      "sourcePageUrl": "https://blogs.nvidia.com/blog/nvidia-and-partners-build-in-america-for-america/",
+      "downloadUrl": "https://blogs.nvidia.com/wp-content/uploads/2026/06/united-states-map-nvidia-1-scaled.jpg",
+      "targetPath": "pulse/article/2026/07/wechat-manual-test-ai-industrial-chain/us-ai-supply-chain-map.jpg",
+      "alt": "NVIDIA map showing its United States manufacturing and supplier network",
+      "contentType": "image/jpeg",
+      "bytes": 254747,
+      "rawUrl": "https://raw.githubusercontent.com/sharebravery/album/f510d4077daef11b63dab27670329aace32ca9a1/pulse/article/2026/07/wechat-manual-test-ai-industrial-chain/us-ai-supply-chain-map.jpg",
+      "cdnUrl": "https://cdn.jsdelivr.net/gh/sharebravery/album@f510d4077daef11b63dab27670329aace32ca9a1/pulse/article/2026/07/wechat-manual-test-ai-industrial-chain/us-ai-supply-chain-map.jpg"
+    },
+    {
+      "index": 2,
+      "status": "completed",
+      "sourcePageUrl": "https://blogs.nvidia.com/blog/nvidia-and-partners-build-in-america-for-america/",
+      "downloadUrl": "https://blogs.nvidia.com/wp-content/uploads/2026/07/TSMC-Arizona_SE-View_Aug-2025-scaled.png",
+      "targetPath": "pulse/article/2026/07/wechat-manual-test-ai-industrial-chain/tsmc-arizona-fab.jpg",
+      "alt": "TSMC semiconductor fabrication facility in Arizona",
+      "contentType": "image/jpeg",
+      "bytes": 689989,
+      "rawUrl": "https://raw.githubusercontent.com/sharebravery/album/f510d4077daef11b63dab27670329aace32ca9a1/pulse/article/2026/07/wechat-manual-test-ai-industrial-chain/tsmc-arizona-fab.jpg",
+      "cdnUrl": "https://cdn.jsdelivr.net/gh/sharebravery/album@f510d4077daef11b63dab27670329aace32ca9a1/pulse/article/2026/07/wechat-manual-test-ai-industrial-chain/tsmc-arizona-fab.jpg"
+    },
+    {
+      "index": 3,
+      "status": "completed",
+      "sourcePageUrl": "https://blogs.nvidia.com/blog/nvidia-and-partners-build-in-america-for-america/",
+      "downloadUrl": "https://blogs.nvidia.com/wp-content/uploads/2026/07/5lc-6.30.26-r5%404x-100-scaled.jpg",
+      "targetPath": "pulse/article/2026/07/wechat-manual-test-ai-industrial-chain/ai-five-layer-stack.jpg",
+      "alt": "Five-layer AI stack covering energy chips infrastructure models and applications",
+      "contentType": "image/jpeg",
+      "bytes": 698498,
+      "rawUrl": "https://raw.githubusercontent.com/sharebravery/album/f510d4077daef11b63dab27670329aace32ca9a1/pulse/article/2026/07/wechat-manual-test-ai-industrial-chain/ai-five-layer-stack.jpg",
+      "cdnUrl": "https://cdn.jsdelivr.net/gh/sharebravery/album@f510d4077daef11b63dab27670329aace32ca9a1/pulse/article/2026/07/wechat-manual-test-ai-industrial-chain/ai-five-layer-stack.jpg"
+    },
+    {
+      "index": 4,
+      "status": "completed",
+      "sourcePageUrl": "https://blogs.nvidia.com/blog/nvidia-and-partners-build-in-america-for-america/",
+      "downloadUrl": "https://blogs.nvidia.com/wp-content/uploads/2026/07/three-types-of-factories-updated-scaled.jpg",
+      "targetPath": "pulse/article/2026/07/wechat-manual-test-ai-industrial-chain/three-ai-factory-types.jpg",
+      "alt": "Diagram of semiconductor fabs electronics manufacturing plants and AI factories",
+      "contentType": "image/jpeg",
+      "bytes": 501428,
+      "rawUrl": "https://raw.githubusercontent.com/sharebravery/album/f510d4077daef11b63dab27670329aace32ca9a1/pulse/article/2026/07/wechat-manual-test-ai-industrial-chain/three-ai-factory-types.jpg",
+      "cdnUrl": "https://cdn.jsdelivr.net/gh/sharebravery/album@f510d4077daef11b63dab27670329aace32ca9a1/pulse/article/2026/07/wechat-manual-test-ai-industrial-chain/three-ai-factory-types.jpg"
+    }
+  ]
+}
