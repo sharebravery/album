@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "requestId": "xhs-manual-deepseek-v4-flash-0731",
+  "status": "partial",
+  "assetCommit": "05b91bcb4b4ed2b0c98925249887ed52870cfba4",
+  "images": [
+    {
+      "index": 0,
+      "status": "failed",
+      "error": "target extension does not match detected type image/png"
+    },
+    {
+      "index": 1,
+      "status": "failed",
+      "error": "target extension does not match detected type image/gif"
+    },
+    {
+      "index": 2,
+      "status": "completed",
+      "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:Deepseek-logo-icon.png",
+      "downloadUrl": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Deepseek-logo-icon.png",
+      "targetPath": "pulse/xhs/2026/07/deepseek-v4-flash-0731/deepseek-logo.png",
+      "alt": "DeepSeek品牌图标",
+      "contentType": "image/png",
+      "bytes": 14213,
+      "rawUrl": "https://raw.githubusercontent.com/sharebravery/album/05b91bcb4b4ed2b0c98925249887ed52870cfba4/pulse/xhs/2026/07/deepseek-v4-flash-0731/deepseek-logo.png",
+      "cdnUrl": "https://cdn.jsdelivr.net/gh/sharebravery/album@05b91bcb4b4ed2b0c98925249887ed52870cfba4/pulse/xhs/2026/07/deepseek-v4-flash-0731/deepseek-logo.png"
+    }
+  ]
+}
