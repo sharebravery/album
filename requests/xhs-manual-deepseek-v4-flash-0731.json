@@ -1,0 +1,24 @@
+{
+  "version": 1,
+  "requestId": "xhs-manual-deepseek-v4-flash-0731",
+  "images": [
+    {
+      "sourcePageUrl": "https://api-docs.deepseek.com/updates/",
+      "downloadUrl": "https://image.thum.io/get/width/1200/crop/1600/https://api-docs.deepseek.com/updates/",
+      "targetPath": "pulse/xhs/2026/07/deepseek-v4-flash-0731/official-update.jpg",
+      "alt": "DeepSeek官方更新日志中2026年7月31日V4-Flash正式版更新页面"
+    },
+    {
+      "sourcePageUrl": "https://api-docs.deepseek.com/zh-cn/quick_start/pricing/",
+      "downloadUrl": "https://image.thum.io/get/width/1200/crop/1600/https://api-docs.deepseek.com/zh-cn/quick_start/pricing/",
+      "targetPath": "pulse/xhs/2026/07/deepseek-v4-flash-0731/model-pricing.jpg",
+      "alt": "DeepSeek官方模型与价格页面中的V4-Flash-0731规格和价格"
+    },
+    {
+      "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:Deepseek-logo-icon.png",
+      "downloadUrl": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Deepseek-logo-icon.png",
+      "targetPath": "pulse/xhs/2026/07/deepseek-v4-flash-0731/deepseek-logo.png",
+      "alt": "DeepSeek品牌图标"
+    }
+  ]
+}
