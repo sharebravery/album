@@ -27,7 +27,6 @@ MAX_BYTES = 10 * 1024 * 1024
 DOWNLOAD_TIMEOUT_SECONDS = 60
 DOWNLOAD_ATTEMPTS = 2
 DOWNLOAD_WORKERS = 4
-MAX_REQUEST_ASSETS = 12
 MAX_CANDIDATES_PER_ASSET = 3
 ARTICLE_PREFIX = ("pulse", "article")
 ALLOWED_MIME = {
@@ -78,28 +77,16 @@ def validate_target_path(value: Any) -> Path:
     if not posix.parts or posix.parts[0] != "pulse":
         fail("targetPath must be inside pulse/")
 
-    # Article assets always publish as JPEG. Version 1 requests are normalized
-    # for compatibility; version 2 fixed paths are separately required to
-    # already use the resulting .jpg path.
     if is_article_path(posix):
-        if not posix.name or posix.name in {".", ".."}:
-            fail("targetPath must include a filename")
-        return posix.with_suffix(".jpg")
+        if posix.suffix.lower() != ".jpg":
+            fail("Article targetPath must end in .jpg")
+        return posix
 
     suffix = posix.suffix.lower()
     allowed_suffixes = {ext for values in ALLOWED_MIME.values() for ext in values}
     if suffix not in allowed_suffixes:
         fail("targetPath must end in .jpg, .jpeg, .png, .webp or .gif")
     return posix
-
-
-def validate_fixed_target_path(value: Any) -> Path:
-    target = validate_target_path(value)
-    requested = Path(value.strip())
-    if target.as_posix() != requested.as_posix():
-        fail("version 2 Article targetPath must already end in .jpg")
-    return target
-
 
 def detect_mime(path: Path) -> str:
     result = subprocess.run(
@@ -185,50 +172,21 @@ def load_request(path: Path) -> dict[str, Any]:
         fail("request must be a JSON object")
 
     version = payload.get("version")
-    if version not in {1, 2}:
-        fail("version must be 1 or 2")
+    if version != 2:
+        fail("version must be 2")
     request_id = payload.get("requestId")
     if not isinstance(request_id, str) or not request_id.strip():
         fail("requestId must be a non-empty string")
     if request_id.strip() != path.stem:
         fail("requestId must match the request filename")
 
-    entry_key = "images" if version == 1 else "assets"
-    entries = payload.get(entry_key)
+    entries = payload.get("assets")
     if not isinstance(entries, list) or not entries:
-        fail(f"{entry_key} must be a non-empty array")
-    if len(entries) > MAX_REQUEST_ASSETS:
-        fail(f"a request may contain at most {MAX_REQUEST_ASSETS} {entry_key}")
+        fail("assets must be a non-empty array")
     return payload
 
 
-def process_download(
-    index: int,
-    download_url: str,
-    source_page_url: str,
-    target: Path,
-    alt: str,
-) -> dict[str, Any]:
-    item: dict[str, Any] = {"index": index, "status": "failed"}
-    try:
-        mime, size = download_image(download_url, ROOT / target)
-        item.update(
-            {
-                "status": "completed",
-                "sourcePageUrl": source_page_url,
-                "downloadUrl": download_url,
-                "targetPath": target.as_posix(),
-                "alt": alt,
-                "contentType": mime,
-                "bytes": size,
-            }
-        )
-    except Exception as exc:
-        item["error"] = str(exc)
-    return item
-
-
-def normalize_v2_article(target: Path) -> tuple[str, int]:
+def normalize_article(target: Path) -> tuple[str, int]:
     if not is_article_path(target):
         destination = ROOT / target
         return detect_mime(destination), destination.stat().st_size
@@ -277,7 +235,7 @@ def process_asset(
 
             mime, size = download_image(download_url, ROOT / target)
             if is_article_path(target):
-                mime, size = normalize_v2_article(target)
+                mime, size = normalize_article(target)
 
             attempt["status"] = "completed"
             item["attempts"].append(attempt)
@@ -326,24 +284,20 @@ def prepare() -> int:
 
     for request_path in request_paths:
         request_result: dict[str, Any] = {
-            "version": 1,
+            "version": 2,
             "requestFile": request_path.relative_to(ROOT).as_posix(),
             "resultFile": f"results/{request_path.name}",
             "requestId": request_path.stem,
-            "images": [],
+            "assets": [],
         }
         try:
             payload = load_request(request_path)
-            version = payload["version"]
-            entry_key = "images" if version == 1 else "assets"
-            entries = payload[entry_key]
-            request_result["version"] = version
-            request_result.pop("images", None)
-            request_result[entry_key] = [
+            entries = payload["assets"]
+            request_result["assets"] = [
                 {
                     "index": index,
                     "status": "failed",
-                    "error": f"{entry_key[:-1]} was not prepared",
+                    "error": "asset was not prepared",
                 }
                 for index in range(len(entries))
             ]
@@ -353,45 +307,25 @@ def prepare() -> int:
                 item: dict[str, Any] = {"index": index, "status": "failed"}
                 try:
                     if not isinstance(entry, dict):
-                        fail(f"{entry_key[:-1]} entry must be an object")
+                        fail("asset entry must be an object")
                     alt = entry.get("alt")
                     if not isinstance(alt, str) or not alt.strip():
                         fail("alt must be a non-empty string")
 
-                    if version == 1:
-                        download_url = validate_public_http_url(entry.get("downloadUrl"), "downloadUrl")
-                        source_page_url = validate_public_http_url(entry.get("sourcePageUrl"), "sourcePageUrl")
-                        target = validate_target_path(entry.get("targetPath"))
-                        claim_target(target, claimed_targets)
-                        jobs.append(
-                            (
-                                "v1",
-                                request_result,
-                                entry_key,
-                                index,
-                                download_url,
-                                source_page_url,
-                                target,
-                                alt.strip(),
-                            )
+                    target = validate_target_path(entry.get("targetPath"))
+                    claim_target(target, claimed_targets)
+                    jobs.append(
+                        (
+                            request_result,
+                            index,
+                            entry.get("candidates"),
+                            target,
+                            alt.strip(),
                         )
-                    else:
-                        target = validate_fixed_target_path(entry.get("targetPath"))
-                        claim_target(target, claimed_targets)
-                        jobs.append(
-                            (
-                                "v2",
-                                request_result,
-                                entry_key,
-                                index,
-                                entry.get("candidates"),
-                                target,
-                                alt.strip(),
-                            )
-                        )
+                    )
                 except Exception as exc:
                     item["error"] = str(exc)
-                    request_result[entry_key][index] = item
+                    request_result["assets"][index] = item
         except Exception as exc:
             request_result["requestError"] = str(exc)
         summary["requests"].append(request_result)
@@ -399,21 +333,17 @@ def prepare() -> int:
     if jobs:
         worker_count = min(DOWNLOAD_WORKERS, len(jobs))
         with ThreadPoolExecutor(max_workers=worker_count) as executor:
-            future_jobs: dict[Any, tuple[dict[str, Any], str, int]] = {}
-            for job in jobs:
-                kind, request_result, entry_key, index, *arguments = job
-                if kind == "v1":
-                    future = executor.submit(process_download, index, *arguments)
-                else:
-                    future = executor.submit(process_asset, index, *arguments)
-                future_jobs[future] = (request_result, entry_key, index)
+            future_jobs: dict[Any, tuple[dict[str, Any], int]] = {}
+            for request_result, index, *arguments in jobs:
+                future = executor.submit(process_asset, index, *arguments)
+                future_jobs[future] = (request_result, index)
 
             for future in as_completed(future_jobs):
-                request_result, entry_key, index = future_jobs[future]
+                request_result, index = future_jobs[future]
                 try:
-                    request_result[entry_key][index] = future.result()
+                    request_result["assets"][index] = future.result()
                 except Exception as exc:
-                    request_result[entry_key][index] = {
+                    request_result["assets"][index] = {
                         "index": index,
                         "status": "failed",
                         "error": str(exc),
@@ -423,7 +353,7 @@ def prepare() -> int:
     completed = sum(
         1
         for request in summary["requests"]
-        for item in request.get("images", request.get("assets", []))
+        for item in request.get("assets", [])
         if item.get("status") == "completed"
     )
     print(
@@ -433,16 +363,14 @@ def prepare() -> int:
     return 0
 
 
-def finalize(asset_commit: str) -> int:
+def finalize() -> int:
     if not SUMMARY_PATH.exists():
         fail("missing preparation summary")
     summary = json.loads(SUMMARY_PATH.read_text(encoding="utf-8"))
     RESULTS_DIR.mkdir(parents=True, exist_ok=True)
 
     for request in summary.get("requests", []):
-        version = request.get("version", 1)
-        entry_key = "images" if version == 1 else "assets"
-        entries = request.get(entry_key, [])
+        entries = request.get("assets", [])
         completed = 0
         finalized_entries: list[dict[str, Any]] = []
         for item in entries:
@@ -451,20 +379,12 @@ def finalize(asset_commit: str) -> int:
             if item.get("status") == "completed":
                 completed += 1
                 target = item["targetPath"]
-                if version == 1:
-                    output["rawUrl"] = (
-                        f"https://raw.githubusercontent.com/sharebravery/album/{asset_commit}/{target}"
-                    )
-                    output["cdnUrl"] = (
-                        f"https://cdn.jsdelivr.net/gh/sharebravery/album@{asset_commit}/{target}"
-                    )
-                else:
-                    output["rawUrl"] = (
-                        f"https://raw.githubusercontent.com/sharebravery/album/master/{target}"
-                    )
-                    output["cdnUrl"] = (
-                        f"https://cdn.jsdelivr.net/gh/sharebravery/album@master/{target}"
-                    )
+                output["rawUrl"] = (
+                    f"https://raw.githubusercontent.com/sharebravery/album/master/{target}"
+                )
+                output["cdnUrl"] = (
+                    f"https://cdn.jsdelivr.net/gh/sharebravery/album@master/{target}"
+                )
             finalized_entries.append(output)
 
         if request.get("requestError"):
@@ -477,13 +397,11 @@ def finalize(asset_commit: str) -> int:
             status = "failed"
 
         result: dict[str, Any] = {
-            "version": version,
+            "version": 2,
             "requestId": request.get("requestId"),
             "status": status,
-            entry_key: finalized_entries,
+            "assets": finalized_entries,
         }
-        if version == 1:
-            result["assetCommit"] = asset_commit if completed else None
         if request.get("requestError"):
             result["error"] = request["requestError"]
 
@@ -498,13 +416,10 @@ def finalize(asset_commit: str) -> int:
 def main() -> int:
     parser = argparse.ArgumentParser()
     parser.add_argument("mode", choices={"prepare", "finalize"})
-    parser.add_argument("--asset-commit")
     args = parser.parse_args()
     if args.mode == "prepare":
         return prepare()
-    if not args.asset_commit:
-        parser.error("--asset-commit is required for finalize")
-    return finalize(args.asset_commit)
+    return finalize()
 
 
 if __name__ == "__main__":

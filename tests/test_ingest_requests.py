@@ -21,7 +21,7 @@ class RequestValidationTests(unittest.TestCase):
         request_path.write_text(json.dumps(payload), encoding="utf-8")
         return request_path
 
-    def test_loads_version_1_request(self) -> None:
+    def test_rejects_version_1_request(self) -> None:
         with tempfile.TemporaryDirectory() as directory:
             request_id = "legacy-request"
             request_path = self.write_request(
@@ -33,7 +33,8 @@ class RequestValidationTests(unittest.TestCase):
                     "images": [{"placeholder": True}],
                 },
             )
-            self.assertEqual(ingest.load_request(request_path)["version"], 1)
+            with self.assertRaisesRegex(ValueError, "version must be 2"):
+                ingest.load_request(request_path)
 
     def test_loads_version_2_fixed_asset_request(self) -> None:
         with tempfile.TemporaryDirectory() as directory:
@@ -50,8 +51,22 @@ class RequestValidationTests(unittest.TestCase):
             self.assertEqual(ingest.load_request(request_path)["version"], 2)
 
     def test_rejects_non_jpg_fixed_article_target(self) -> None:
-        with self.assertRaisesRegex(ValueError, "must already end in .jpg"):
-            ingest.validate_fixed_target_path("pulse/article/2026/08/topic/lead.png")
+        with self.assertRaisesRegex(ValueError, "must end in .jpg"):
+            ingest.validate_target_path("pulse/article/2026/08/topic/lead.png")
+
+    def test_does_not_cap_the_number_of_assets(self) -> None:
+        with tempfile.TemporaryDirectory() as directory:
+            request_id = "many-assets"
+            request_path = self.write_request(
+                Path(directory),
+                request_id,
+                {
+                    "version": 2,
+                    "requestId": request_id,
+                    "assets": [{"placeholder": index} for index in range(20)],
+                },
+            )
+            self.assertEqual(len(ingest.load_request(request_path)["assets"]), 20)
 
 
 class CandidateFallbackTests(unittest.TestCase):
@@ -226,7 +241,7 @@ class ResultTests(unittest.TestCase):
                 patch.object(ingest, "WORK_DIR", work),
                 patch.object(ingest, "SUMMARY_PATH", summary_path),
             ):
-                ingest.finalize("0123456789abcdef")
+                ingest.finalize()
 
             result = json.loads((results / "fixed-assets.json").read_text(encoding="utf-8"))
             asset = result["assets"][0]
@@ -235,55 +250,6 @@ class ResultTests(unittest.TestCase):
             self.assertNotIn("normalized", asset)
             self.assertIn("/master/pulse/article/2026/08/topic/lead.jpg", asset["rawUrl"])
             self.assertIn("@master/pulse/article/2026/08/topic/lead.jpg", asset["cdnUrl"])
-
-    def test_version_1_result_remains_commit_pinned(self) -> None:
-        with tempfile.TemporaryDirectory() as directory:
-            root = Path(directory)
-            requests = root / "requests"
-            results = root / "results"
-            work = root / ".album-work"
-            requests.mkdir()
-            work.mkdir()
-            request_path = requests / "legacy.json"
-            request_path.write_text("{}", encoding="utf-8")
-            summary_path = work / "summary.json"
-            summary_path.write_text(
-                json.dumps(
-                    {
-                        "requests": [
-                            {
-                                "version": 1,
-                                "requestFile": "requests/legacy.json",
-                                "resultFile": "results/legacy.json",
-                                "requestId": "legacy",
-                                "images": [
-                                    {
-                                        "index": 0,
-                                        "status": "completed",
-                                        "targetPath": "pulse/xhs/legacy.png",
-                                        "alt": "Legacy",
-                                    }
-                                ],
-                            }
-                        ]
-                    }
-                ),
-                encoding="utf-8",
-            )
-
-            with (
-                patch.object(ingest, "ROOT", root),
-                patch.object(ingest, "REQUESTS_DIR", requests),
-                patch.object(ingest, "RESULTS_DIR", results),
-                patch.object(ingest, "WORK_DIR", work),
-                patch.object(ingest, "SUMMARY_PATH", summary_path),
-            ):
-                ingest.finalize("0123456789abcdef")
-
-            result = json.loads((results / "legacy.json").read_text(encoding="utf-8"))
-            self.assertEqual(result["assetCommit"], "0123456789abcdef")
-            self.assertIn("@0123456789abcdef/", result["images"][0]["cdnUrl"])
-
 
 if __name__ == "__main__":
     unittest.main()
