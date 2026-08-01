@@ -17,7 +17,7 @@ The workflow:
 5. rejects SVG, non-image responses, private-network URLs and unsafe paths;
 6. normalizes Article assets to baseline JPEG;
 7. stores successful assets under their predetermined `pulse/` paths;
-8. commits assets, writes a terminal result and removes the processed request.
+8. writes a terminal result, removes the processed request and commits all three changes together.
 
 Relay does not inspect Album results or wait for image ingestion. Version 2 paths are unique and never overwritten, so Operators can derive their predictable `@master` URLs before upload.
 
@@ -50,7 +50,7 @@ Create `requests/<requestId>.json` before substantive writing:
 
 Rules:
 
-- a request contains at most 12 fixed assets;
+- a request has no editorial asset limit; Album processes at most four downloads concurrently;
 - one asset contains one to three candidates in preference order;
 - every candidate has already passed editorial inspection for the same slot;
 - `targetPath` is unique across all requests and must not already exist;
@@ -101,13 +101,7 @@ The result is operational evidence and is not a publication gate:
 }
 ```
 
-`completed`, `partial` and `failed` are terminal processing records. Pulse Operators do not poll them during the publication run.
-
-## Version 1 compatibility
-
-Existing version 1 `images` requests remain supported without format changes. Their results retain `assetCommit` and commit-pinned URLs so historical clients continue to work.
-
-New Pulse Operators use version 2.
+`completed`, `partial` and `failed` are terminal processing records. The processed request is removed and is not retried automatically. Pulse Operators do not poll results during the publication run. A manual repair may submit a new request containing only missing target paths and new candidates; the fixed public URLs do not change.
 
 ## Change hygiene
 

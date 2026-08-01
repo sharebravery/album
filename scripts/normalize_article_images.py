@@ -3,27 +3,12 @@
 
 from __future__ import annotations
 
-import json
 import os
 from pathlib import Path
-from typing import Any
 
 from PIL import Image, ImageOps
 
-ROOT = Path(__file__).resolve().parents[1]
-WORK_DIR = ROOT / ".album-work"
-SUMMARY_PATH = WORK_DIR / "summary.json"
-ARTICLE_PREFIX = "pulse/article/"
 JPEG_QUALITY = 92
-
-
-def fail(message: str) -> None:
-    raise ValueError(message)
-
-
-def normalized_target(target: str) -> str:
-    path = Path(target)
-    return path.with_suffix(".jpg").as_posix()
 
 
 def flatten_to_rgb(image: Image.Image) -> Image.Image:
@@ -64,63 +49,3 @@ def normalize_file(source: Path, destination: Path) -> int:
     if source != destination:
         source.unlink(missing_ok=True)
     return destination.stat().st_size
-
-
-def normalize_summary(summary: dict[str, Any]) -> tuple[int, int]:
-    normalized = 0
-    failed = 0
-
-    for request in summary.get("requests", []):
-        entries = request.get("images", request.get("assets", []))
-        for image in entries:
-            if image.get("status") != "completed":
-                continue
-            if image.get("normalized") is True:
-                continue
-
-            target = image.get("targetPath")
-            if not isinstance(target, str) or not target.startswith(ARTICLE_PREFIX):
-                continue
-
-            source = ROOT / target
-            destination_target = normalized_target(target)
-            destination = ROOT / destination_target
-
-            try:
-                size = normalize_file(source, destination)
-            except Exception as exc:
-                source.unlink(missing_ok=True)
-                image["status"] = "failed"
-                image["error"] = f"JPEG normalization failed: {exc}"
-                image.pop("contentType", None)
-                image.pop("bytes", None)
-                failed += 1
-                continue
-
-            image["targetPath"] = destination_target
-            image["contentType"] = "image/jpeg"
-            image["bytes"] = size
-            normalized += 1
-
-    return normalized, failed
-
-
-def main() -> int:
-    if not SUMMARY_PATH.exists():
-        fail("missing preparation summary")
-
-    summary = json.loads(SUMMARY_PATH.read_text(encoding="utf-8"))
-    normalized, failed = normalize_summary(summary)
-    SUMMARY_PATH.write_text(
-        json.dumps(summary, ensure_ascii=False, indent=2) + "\n",
-        encoding="utf-8",
-    )
-    print(
-        f"Normalized {normalized} Article image asset(s) to baseline RGB JPEG; "
-        f"{failed} image(s) failed normalization."
-    )
-    return 0
-
-
-if __name__ == "__main__":
-    raise SystemExit(main())
