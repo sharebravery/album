@@ -71,8 +71,11 @@ def normalize_summary(summary: dict[str, Any]) -> tuple[int, int]:
     failed = 0
 
     for request in summary.get("requests", []):
-        for image in request.get("images", []):
+        entries = request.get("images", request.get("assets", []))
+        for image in entries:
             if image.get("status") != "completed":
+                continue
+            if image.get("normalized") is True:
                 continue
 
             target = image.get("targetPath")

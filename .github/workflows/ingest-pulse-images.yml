@@ -6,6 +6,7 @@ on:
     paths:
       - "requests/*.json"
       - "scripts/**"
+      - "tests/**"
       - ".github/workflows/ingest-pulse-images.yml"
   schedule:
     - cron: "2-59/5 * * * *"
@@ -41,13 +42,17 @@ jobs:
             echo "No image-ingestion requests found."
           fi
 
+      - name: Install image normalizer
+        if: steps.requests.outputs.found == 'true' || github.event_name != 'schedule'
+        run: python3 -m pip install --disable-pip-version-check --no-cache-dir "Pillow>=10,<13"
+
+      - name: Test ingestion contracts
+        if: steps.requests.outputs.found == 'true' || github.event_name != 'schedule'
+        run: python3 -m unittest discover -s tests -v
+
       - name: Download and validate images
         if: steps.requests.outputs.found == 'true'
         run: python3 scripts/ingest_requests.py prepare
-
-      - name: Install image normalizer
-        if: steps.requests.outputs.found == 'true'
-        run: python3 -m pip install --disable-pip-version-check --no-cache-dir "Pillow>=10,<13"
 
       - name: Normalize Article images to JPG
         if: steps.requests.outputs.found == 'true'

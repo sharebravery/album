@@ -4,72 +4,111 @@ Public image assets used by Pulse Deliveries.
 
 ## Pulse image ingestion
 
-The selected `pulse-platforms` Operator chooses real images, determines their editorial roles and alt text, and submits a JSON request under `requests/`.
+`pulse-operators` selects and inspects public images, assigns their editorial roles and submits one JSON request under `requests/`.
 
-The permanent workflow runs on each new request push. A five-minute scheduled scan is only a fallback for delayed or missed push processing.
+The permanent workflow runs on each request push. A five-minute scheduled scan is only a fallback for delayed or missed push processing.
 
-The workflow then:
+The workflow:
 
-1. validates the request and public source URLs;
-2. downloads raster images on GitHub Actions with at most four parallel downloads;
-3. accepts JPEG, PNG, WebP, GIF and article-source AVIF files up to 10 MiB;
-4. rejects SVG, non-image responses, private-network URLs and unsafe paths;
-5. normalizes Article assets to JPEG and stores all assets under `pulse/`;
-6. commits the image assets;
-7. writes commit-pinned Raw and jsDelivr URLs to `results/`;
-8. removes the processed request.
+1. validates the request, public source URLs and fixed target paths;
+2. downloads up to four assets in parallel;
+3. tries the already approved candidates for each version 2 asset in order;
+4. accepts JPEG, PNG, WebP, GIF and Article-source AVIF files up to 10 MiB;
+5. rejects SVG, non-image responses, private-network URLs and unsafe paths;
+6. normalizes Article assets to baseline JPEG;
+7. stores successful assets under their predetermined `pulse/` paths;
+8. commits assets, writes a terminal result and removes the processed request.
 
-Relay does not download, transform, inspect or upload images. It only renders the final URLs already present in a Delivery.
+Relay does not inspect Album results or wait for image ingestion. Version 2 paths are unique and never overwritten, so Operators can derive their predictable `@master` URLs before upload.
 
-### Request
+## Request v2: fixed assets with fallbacks
 
-Create one file such as `requests/20260727-agent-sandbox.json`:
+Create `requests/<requestId>.json` before substantive writing:
 
 ```json
 {
-  "version": 1,
-  "requestId": "20260727-agent-sandbox",
-  "images": [
+  "version": 2,
+  "requestId": "20260801-agent-sandbox",
+  "assets": [
     {
-      "sourcePageUrl": "https://example.com/original-page",
-      "downloadUrl": "https://example.com/image.jpg",
-      "targetPath": "pulse/article/2026/07/agent-sandbox/image.jpg",
-      "alt": "Useful description of the image"
+      "targetPath": "pulse/article/2026/08/agent-sandbox/01-lead.jpg",
+      "alt": "Agent sandbox control interface",
+      "candidates": [
+        {
+          "sourcePageUrl": "https://example.com/primary-page",
+          "downloadUrl": "https://example.com/primary.jpg"
+        },
+        {
+          "sourcePageUrl": "https://example.com/fallback-page",
+          "downloadUrl": "https://example.com/fallback.jpg"
+        }
+      ]
     }
   ]
 }
 ```
 
-A request may contain up to 12 images. `targetPath` must be a safe relative path inside `pulse/`. Article assets use a `.jpg` target and are normalized by content; other assets must use an extension matching the downloaded image type.
+Rules:
 
-### Result
+- a request contains at most 12 fixed assets;
+- one asset contains one to three candidates in preference order;
+- every candidate has already passed editorial inspection for the same slot;
+- `targetPath` is unique across all requests and must not already exist;
+- an Article target already ends in `.jpg`;
+- Xiaohongshu and other non-Article targets use an extension matching the downloaded file type;
+- candidates use public direct URLs without authentication, cookies, JavaScript or expiring sessions.
 
-The workflow writes `results/<request-file-name>.json`:
+Album tries candidates sequentially inside each asset. A candidate is selected only after its download, type validation and required Article JPEG normalization succeed.
+
+The predictable public URL is:
+
+```text
+https://cdn.jsdelivr.net/gh/sharebravery/album@master/<targetPath>
+```
+
+## Result v2
+
+The result is operational evidence and is not a publication gate:
 
 ```json
 {
-  "version": 1,
-  "requestId": "20260727-agent-sandbox",
+  "version": 2,
+  "requestId": "20260801-agent-sandbox",
   "status": "completed",
-  "assetCommit": "COMMIT_SHA",
-  "images": [
+  "assets": [
     {
+      "index": 0,
       "status": "completed",
-      "sourcePageUrl": "https://example.com/original-page",
-      "downloadUrl": "https://example.com/image.jpg",
-      "targetPath": "pulse/article/2026/07/agent-sandbox/image.jpg",
-      "alt": "Useful description of the image",
+      "targetPath": "pulse/article/2026/08/agent-sandbox/01-lead.jpg",
+      "alt": "Agent sandbox control interface",
+      "selectedCandidateIndex": 0,
+      "sourcePageUrl": "https://example.com/primary-page",
+      "downloadUrl": "https://example.com/primary.jpg",
       "contentType": "image/jpeg",
       "bytes": 123456,
-      "rawUrl": "https://raw.githubusercontent.com/sharebravery/album/COMMIT_SHA/pulse/article/2026/07/agent-sandbox/image.jpg",
-      "cdnUrl": "https://cdn.jsdelivr.net/gh/sharebravery/album@COMMIT_SHA/pulse/article/2026/07/agent-sandbox/image.jpg"
+      "rawUrl": "https://raw.githubusercontent.com/sharebravery/album/master/pulse/article/2026/08/agent-sandbox/01-lead.jpg",
+      "cdnUrl": "https://cdn.jsdelivr.net/gh/sharebravery/album@master/pulse/article/2026/08/agent-sandbox/01-lead.jpg",
+      "attempts": [
+        {
+          "index": 0,
+          "status": "completed",
+          "sourcePageUrl": "https://example.com/primary-page",
+          "downloadUrl": "https://example.com/primary.jpg"
+        }
+      ]
     }
   ]
 }
 ```
 
-A missing result file means processing is pending. A result with `status: completed`, `partial` or `failed` is terminal. The Operator inspects successful assets, makes at most one replacement request when allowed by its image flow, and only then creates the Markdown Delivery.
+`completed`, `partial` and `failed` are terminal processing records. Pulse Operators do not poll them during the publication run.
+
+## Version 1 compatibility
+
+Existing version 1 `images` requests remain supported without format changes. Their results retain `assetCommit` and commit-pinned URLs so historical clients continue to work.
+
+New Pulse Operators use version 2.
 
 ## Change hygiene
 
-Temporary test requests, test assets, diagnostics and one-off workflows are removed in the same verification cycle. The active tree keeps only the permanent ingestion workflow, its processor, durable image assets and result records.
+Temporary requests, test assets, diagnostics and one-off workflows are removed in the same verification cycle. Unit tests use temporary directories and never create durable image assets.
