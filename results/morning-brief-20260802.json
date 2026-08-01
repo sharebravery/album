@@ -1,0 +1,28 @@
+{
+  "version": 2,
+  "requestId": "morning-brief-20260802",
+  "status": "completed",
+  "assets": [
+    {
+      "index": 0,
+      "status": "completed",
+      "targetPath": "pulse/article/2026/08/morning-brief-20260802/cover.jpg",
+      "alt": "NVIDIA 在 CES 2026 展示的 AI 数据中心服务器机架与算力基础设施",
+      "attempts": [
+        {
+          "index": 0,
+          "status": "completed",
+          "sourcePageUrl": "https://www.digitimes.com/news/a20260114PD253/infrastructure-ces-taiwan-2026-data-center.html",
+          "downloadUrl": "https://img.digitimes.com/tw/x/img/viewpoint/orange/960801a.jpg?v=20260601"
+        }
+      ],
+      "selectedCandidateIndex": 0,
+      "sourcePageUrl": "https://www.digitimes.com/news/a20260114PD253/infrastructure-ces-taiwan-2026-data-center.html",
+      "downloadUrl": "https://img.digitimes.com/tw/x/img/viewpoint/orange/960801a.jpg?v=20260601",
+      "contentType": "image/jpeg",
+      "bytes": 58061,
+      "rawUrl": "https://raw.githubusercontent.com/sharebravery/album/master/pulse/article/2026/08/morning-brief-20260802/cover.jpg",
+      "cdnUrl": "https://cdn.jsdelivr.net/gh/sharebravery/album@master/pulse/article/2026/08/morning-brief-20260802/cover.jpg"
+    }
+  ]
+}
