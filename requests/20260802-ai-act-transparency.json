@@ -1,0 +1,48 @@
+{
+  "version": 2,
+  "requestId": "20260802-ai-act-transparency",
+  "assets": [
+    {
+      "targetPath": "pulse/article/2026/08/ai-act-transparency-20260802/01-lead.jpg",
+      "alt": "欧盟人工智能透明度规则主视觉：人在 AI 系统、数据图表和多组内容卡片前工作",
+      "candidates": [
+        {
+          "sourcePageUrl": "https://digital-strategy.ec.europa.eu/en/news/commission-opens-consultation-draft-guidelines-ai-transparency-obligations",
+          "downloadUrl": "https://digital-strategy.ec.europa.eu/sites/default/files/styles/newsroom_large/public/newsroom/items/AI_cards_5AI_on_demand_TsrslXgEtp4v4Nz6r4FFlOX1IRE_233772.jpg?itok=QcmgS-TB"
+        },
+        {
+          "sourcePageUrl": "https://digital-strategy.ec.europa.eu/en/library/guidelines-transparency-obligations-providers-and-deployers-ai-systems",
+          "downloadUrl": "https://digital-strategy.ec.europa.eu/sites/default/files/styles/newsroom_large/public/newsroom/items/7_GPAI_CoP_Documentation_Jic10w91oXHE9jpiwiGysX4P4_241037.jpg?itok=6ixNBNvj"
+        }
+      ]
+    },
+    {
+      "targetPath": "pulse/article/2026/08/ai-act-transparency-20260802/02-evidence.jpg",
+      "alt": "欧盟 AI 生成内容透明度规范的提供方流程插图，包含模型、数据、盾牌和代码界面",
+      "candidates": [
+        {
+          "sourcePageUrl": "https://digital-strategy.ec.europa.eu/en/news/commission-publishes-code-practice-marking-and-labelling-ai-generated-content",
+          "downloadUrl": "https://digital-strategy.ec.europa.eu/sites/default/files/styles/newsroom_large/public/newsroom/items/AI_Code_of_Practice_Thumbnail_Section_1_Providers_wScJiynJ38HzIHvqxtp7w0H4_237188.jpg?itok=OMYBcSHt"
+        },
+        {
+          "sourcePageUrl": "https://digital-strategy.ec.europa.eu/en/factpages/quick-facts-transparency-rules-ai-systems",
+          "downloadUrl": "https://digital-strategy.ec.europa.eu/sites/default/files/2025-07/2transparency.jpg"
+        }
+      ]
+    },
+    {
+      "targetPath": "pulse/article/2026/08/ai-act-transparency-20260802/03-mechanism.jpg",
+      "alt": "AI 内容标签决策流程图：从发布、适用范围和例外判断到最终披露结果",
+      "candidates": [
+        {
+          "sourcePageUrl": "https://www.modulos.ai/blog/eu-ai-content-labels-article-50",
+          "downloadUrl": "https://bclcdwrltnjawehbgbpi.supabase.co/storage/v1/object/public/content-images/1781704829871-do-you-label-v2.png"
+        },
+        {
+          "sourcePageUrl": "https://www.modulos.ai/blog/eu-ai-content-labels-article-50",
+          "downloadUrl": "https://bclcdwrltnjawehbgbpi.supabase.co/storage/v1/object/public/content-images/1781704814500-which-label-v2.png"
+        }
+      ]
+    }
+  ]
+}
