@@ -1,0 +1,70 @@
+{
+  "version": 2,
+  "requestId": "agentic-data-infra-20260802",
+  "status": "completed",
+  "assets": [
+    {
+      "index": 0,
+      "status": "completed",
+      "targetPath": "pulse/article/2026/08/agentic-data-infra-20260802/01-lead.jpg",
+      "alt": "Google Cloud 关于 Agent 与数据基础设施准备度的主视觉",
+      "attempts": [
+        {
+          "index": 0,
+          "status": "completed",
+          "sourcePageUrl": "https://cloud.google.com/blog/topics/ai-infrastructure/state-of-ai-infrastructure-report-and-the-agentic-data-cloud",
+          "downloadUrl": "https://storage.googleapis.com/gweb-cloudblog-publish/images/1_TdmG649.max-2000x2000.png"
+        }
+      ],
+      "selectedCandidateIndex": 0,
+      "sourcePageUrl": "https://cloud.google.com/blog/topics/ai-infrastructure/state-of-ai-infrastructure-report-and-the-agentic-data-cloud",
+      "downloadUrl": "https://storage.googleapis.com/gweb-cloudblog-publish/images/1_TdmG649.max-2000x2000.png",
+      "contentType": "image/jpeg",
+      "bytes": 300546,
+      "rawUrl": "https://raw.githubusercontent.com/sharebravery/album/master/pulse/article/2026/08/agentic-data-infra-20260802/01-lead.jpg",
+      "cdnUrl": "https://cdn.jsdelivr.net/gh/sharebravery/album@master/pulse/article/2026/08/agentic-data-infra-20260802/01-lead.jpg"
+    },
+    {
+      "index": 1,
+      "status": "completed",
+      "targetPath": "pulse/article/2026/08/agentic-data-infra-20260802/02-evidence.jpg",
+      "alt": "调查显示 83% 组织认为支持 Agentic AI 需要升级基础设施",
+      "attempts": [
+        {
+          "index": 0,
+          "status": "completed",
+          "sourcePageUrl": "https://cloud.google.com/blog/topics/ai-infrastructure/state-of-ai-infrastructure-report-and-the-agentic-data-cloud",
+          "downloadUrl": "https://storage.googleapis.com/gweb-cloudblog-publish/images/2_bR2eV1x.max-1100x1100.png"
+        }
+      ],
+      "selectedCandidateIndex": 0,
+      "sourcePageUrl": "https://cloud.google.com/blog/topics/ai-infrastructure/state-of-ai-infrastructure-report-and-the-agentic-data-cloud",
+      "downloadUrl": "https://storage.googleapis.com/gweb-cloudblog-publish/images/2_bR2eV1x.max-1100x1100.png",
+      "contentType": "image/jpeg",
+      "bytes": 112372,
+      "rawUrl": "https://raw.githubusercontent.com/sharebravery/album/master/pulse/article/2026/08/agentic-data-infra-20260802/02-evidence.jpg",
+      "cdnUrl": "https://cdn.jsdelivr.net/gh/sharebravery/album@master/pulse/article/2026/08/agentic-data-infra-20260802/02-evidence.jpg"
+    },
+    {
+      "index": 2,
+      "status": "completed",
+      "targetPath": "pulse/article/2026/08/agentic-data-infra-20260802/03-architecture.jpg",
+      "alt": "Agentic Data Cloud 从 AI 超级计算机到数据、知识目录和 Agent 体验的分层架构",
+      "attempts": [
+        {
+          "index": 0,
+          "status": "completed",
+          "sourcePageUrl": "https://cloud.google.com/blog/topics/ai-infrastructure/state-of-ai-infrastructure-report-and-the-agentic-data-cloud",
+          "downloadUrl": "https://storage.googleapis.com/gweb-cloudblog-publish/images/3_pykJFMI.max-800x800.png"
+        }
+      ],
+      "selectedCandidateIndex": 0,
+      "sourcePageUrl": "https://cloud.google.com/blog/topics/ai-infrastructure/state-of-ai-infrastructure-report-and-the-agentic-data-cloud",
+      "downloadUrl": "https://storage.googleapis.com/gweb-cloudblog-publish/images/3_pykJFMI.max-800x800.png",
+      "contentType": "image/jpeg",
+      "bytes": 86666,
+      "rawUrl": "https://raw.githubusercontent.com/sharebravery/album/master/pulse/article/2026/08/agentic-data-infra-20260802/03-architecture.jpg",
+      "cdnUrl": "https://cdn.jsdelivr.net/gh/sharebravery/album@master/pulse/article/2026/08/agentic-data-infra-20260802/03-architecture.jpg"
+    }
+  ]
+}
