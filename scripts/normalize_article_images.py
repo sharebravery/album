@@ -9,12 +9,21 @@ from pathlib import Path
 from PIL import Image, ImageOps
 
 JPEG_QUALITY = 92
+MIN_SHORT_SIDE = 240
+MIN_PIXELS = 160_000
 
 
 def flatten_to_rgb(image: Image.Image) -> Image.Image:
     image = ImageOps.exif_transpose(image)
     if getattr(image, "is_animated", False):
         image.seek(0)
+
+    width, height = image.size
+    if min(width, height) < MIN_SHORT_SIDE or width * height < MIN_PIXELS:
+        raise ValueError(
+            f"Article image is too small for publication: {width}x{height}; "
+            f"minimum short side is {MIN_SHORT_SIDE}px and minimum area is {MIN_PIXELS} pixels"
+        )
 
     if image.mode in {"RGBA", "LA"} or "transparency" in image.info:
         rgba = image.convert("RGBA")
