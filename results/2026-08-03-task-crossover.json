@@ -1,0 +1,76 @@
+{
+  "version": 2,
+  "requestId": "2026-08-03-task-crossover",
+  "status": "failed",
+  "assets": [
+    {
+      "index": 0,
+      "status": "failed",
+      "targetPath": "pulse/article/2026/08/2026-08-03-task-crossover/01-lead.jpg",
+      "alt": "一位小型团队成员独自在桌前使用笔记本电脑处理跨职能工作",
+      "attempts": [
+        {
+          "index": 0,
+          "status": "failed",
+          "sourcePageUrl": "https://unsplash.com/photos/C3V88BOoRoM",
+          "downloadUrl": "https://unsplash.com/photos/C3V88BOoRoM/download?force=true",
+          "error": "HTTP Error 401: Unauthorized"
+        },
+        {
+          "index": 1,
+          "status": "failed",
+          "sourcePageUrl": "https://unsplash.com/photos/HaTIYO87qWQ",
+          "downloadUrl": "https://unsplash.com/photos/HaTIYO87qWQ/download?force=true",
+          "error": "HTTP Error 401: Unauthorized"
+        }
+      ],
+      "error": "all candidates failed"
+    },
+    {
+      "index": 1,
+      "status": "failed",
+      "targetPath": "pulse/article/2026/08/2026-08-03-task-crossover/02-collaboration.jpg",
+      "alt": "两名同事围绕笔记本电脑共同处理一个数字化任务",
+      "attempts": [
+        {
+          "index": 0,
+          "status": "failed",
+          "sourcePageUrl": "https://unsplash.com/photos/nNMBa7Y1Ymk",
+          "downloadUrl": "https://unsplash.com/photos/nNMBa7Y1Ymk/download?force=true",
+          "error": "HTTP Error 401: Unauthorized"
+        },
+        {
+          "index": 1,
+          "status": "failed",
+          "sourcePageUrl": "https://unsplash.com/photos/FlPc9_VocJ4",
+          "downloadUrl": "https://unsplash.com/photos/FlPc9_VocJ4/download?force=true",
+          "error": "HTTP Error 401: Unauthorized"
+        }
+      ],
+      "error": "all candidates failed"
+    },
+    {
+      "index": 2,
+      "status": "failed",
+      "targetPath": "pulse/article/2026/08/2026-08-03-task-crossover/03-technical-work.jpg",
+      "alt": "工作人员在多屏电脑前处理软件与技术任务",
+      "attempts": [
+        {
+          "index": 0,
+          "status": "failed",
+          "sourcePageUrl": "https://unsplash.com/photos/CPs2X8JYmS8",
+          "downloadUrl": "https://unsplash.com/photos/CPs2X8JYmS8/download?force=true",
+          "error": "HTTP Error 401: Unauthorized"
+        },
+        {
+          "index": 1,
+          "status": "failed",
+          "sourcePageUrl": "https://unsplash.com/photos/npxXWgQ33ZQ",
+          "downloadUrl": "https://unsplash.com/photos/npxXWgQ33ZQ/download?force=true",
+          "error": "HTTP Error 401: Unauthorized"
+        }
+      ],
+      "error": "all candidates failed"
+    }
+  ]
+}
