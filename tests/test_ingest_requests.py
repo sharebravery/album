@@ -27,11 +27,7 @@ class RequestValidationTests(unittest.TestCase):
             request_path = self.write_request(
                 Path(directory),
                 request_id,
-                {
-                    "version": 1,
-                    "requestId": request_id,
-                    "images": [{"placeholder": True}],
-                },
+                {"version": 1, "requestId": request_id, "images": [{"placeholder": True}]},
             )
             with self.assertRaisesRegex(ValueError, "version must be 2"):
                 ingest.load_request(request_path)
@@ -42,11 +38,7 @@ class RequestValidationTests(unittest.TestCase):
             request_path = self.write_request(
                 Path(directory),
                 request_id,
-                {
-                    "version": 2,
-                    "requestId": request_id,
-                    "assets": [{"placeholder": True}],
-                },
+                {"version": 2, "requestId": request_id, "assets": [{"placeholder": True}]},
             )
             self.assertEqual(ingest.load_request(request_path)["version"], 2)
 
@@ -120,7 +112,7 @@ class CandidateFallbackTests(unittest.TestCase):
                 if url.endswith("one.png"):
                     destination.write_bytes(b"not a decodable image")
                 else:
-                    Image.new("RGBA", (20, 12), (20, 80, 160, 180)).save(destination, format="PNG")
+                    Image.new("RGBA", (640, 360), (20, 80, 160, 180)).save(destination, format="PNG")
                 return "image/png", destination.stat().st_size
 
             with (
@@ -139,6 +131,30 @@ class CandidateFallbackTests(unittest.TestCase):
         self.assertEqual(result["selectedCandidateIndex"], 1)
         self.assertEqual(result["contentType"], "image/jpeg")
         self.assertEqual([attempt["status"] for attempt in result["attempts"]], ["failed", "completed"])
+
+    def test_rejects_a_tiny_decodable_article_placeholder(self) -> None:
+        candidates = [
+            {"sourcePageUrl": "https://source.example/tiny", "downloadUrl": "https://img.example/tiny.png"}
+        ]
+        target = Path("pulse/article/2026/08/topic/tiny.jpg")
+
+        with tempfile.TemporaryDirectory() as directory:
+            root = Path(directory)
+
+            def fake_download(_url: str, destination: Path) -> tuple[str, int]:
+                destination.parent.mkdir(parents=True, exist_ok=True)
+                Image.new("RGB", (64, 64), "white").save(destination, format="PNG")
+                return "image/png", destination.stat().st_size
+
+            with (
+                patch.object(ingest, "ROOT", root),
+                patch.object(ingest, "validate_public_http_url", side_effect=lambda value, _field: value),
+                patch.object(ingest, "download_image", side_effect=fake_download),
+            ):
+                result = ingest.process_asset(0, candidates, target, "Tiny placeholder")
+
+        self.assertEqual(result["status"], "failed")
+        self.assertIn("too small for publication", result["attempts"][0]["error"])
 
 
 class PrepareIntegrationTests(unittest.TestCase):
@@ -174,7 +190,7 @@ class PrepareIntegrationTests(unittest.TestCase):
 
             def fake_download(_url: str, destination: Path) -> tuple[str, int]:
                 destination.parent.mkdir(parents=True, exist_ok=True)
-                Image.new("RGB", (24, 16), "navy").save(destination, format="PNG")
+                Image.new("RGB", (640, 360), "navy").save(destination, format="PNG")
                 return "image/png", destination.stat().st_size
 
             with (
@@ -250,6 +266,7 @@ class ResultTests(unittest.TestCase):
             self.assertNotIn("normalized", asset)
             self.assertIn("/master/pulse/article/2026/08/topic/lead.jpg", asset["rawUrl"])
             self.assertIn("@master/pulse/article/2026/08/topic/lead.jpg", asset["cdnUrl"])
+
 
 if __name__ == "__main__":
     unittest.main()
