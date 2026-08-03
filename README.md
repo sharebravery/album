@@ -14,7 +14,7 @@ The workflow:
 2. downloads up to four assets in parallel;
 3. tries the already approved candidates for each version 2 asset in order;
 4. accepts JPEG, PNG, WebP, GIF and Article-source AVIF files up to 10 MiB;
-5. rejects SVG, non-image responses, private-network URLs and unsafe paths;
+5. rejects SVG, non-image responses, private-network URLs, unsafe paths, HTML error pages and undecodable image payloads;
 6. normalizes Article assets to baseline JPEG;
 7. stores successful assets under their predetermined `pulse/` paths;
 8. writes a terminal result, removes the processed request and commits all three changes together.
@@ -52,11 +52,15 @@ Rules:
 
 - a request has no editorial asset limit; Album processes at most four downloads concurrently;
 - one asset contains one to three candidates in preference order;
-- every candidate has already passed editorial inspection for the same slot;
+- every candidate has already passed editorial inspection and a real download check for the same slot;
 - `targetPath` is unique across all requests and must not already exist;
 - an Article target already ends in `.jpg`;
 - Xiaohongshu and other non-Article targets use an extension matching the downloaded file type;
-- candidates use public direct URLs without authentication, cookies, JavaScript or expiring sessions.
+- candidates may use verified Google Images, Bing Images or Baidu Images proxy/cache URLs, official CDN URLs or other public image URLs;
+- domain type is not a quality gate: the URL must work without authentication, cookies or JavaScript and return a decodable raster image rather than HTML, an error page or a tiny placeholder;
+- webpage-style download endpoints that return `401`, `403`, session redirects or HTML are not valid candidates.
+
+Search-engine proxy URLs are first-class sources because Album only needs them to remain valid long enough to ingest the image. The published Delivery references the permanent Album path, not the temporary source URL.
 
 Album tries candidates sequentially inside each asset. A candidate is selected only after its download, type validation and required Article JPEG normalization succeed.
 
@@ -68,40 +72,7 @@ https://cdn.jsdelivr.net/gh/sharebravery/album@master/<targetPath>
 
 ## Result v2
 
-The result is operational evidence and is not a publication gate:
-
-```json
-{
-  "version": 2,
-  "requestId": "20260801-agent-sandbox",
-  "status": "completed",
-  "assets": [
-    {
-      "index": 0,
-      "status": "completed",
-      "targetPath": "pulse/article/2026/08/agent-sandbox/01-lead.jpg",
-      "alt": "Agent sandbox control interface",
-      "selectedCandidateIndex": 0,
-      "sourcePageUrl": "https://example.com/primary-page",
-      "downloadUrl": "https://example.com/primary.jpg",
-      "contentType": "image/jpeg",
-      "bytes": 123456,
-      "rawUrl": "https://raw.githubusercontent.com/sharebravery/album/master/pulse/article/2026/08/agent-sandbox/01-lead.jpg",
-      "cdnUrl": "https://cdn.jsdelivr.net/gh/sharebravery/album@master/pulse/article/2026/08/agent-sandbox/01-lead.jpg",
-      "attempts": [
-        {
-          "index": 0,
-          "status": "completed",
-          "sourcePageUrl": "https://example.com/primary-page",
-          "downloadUrl": "https://example.com/primary.jpg"
-        }
-      ]
-    }
-  ]
-}
-```
-
-`completed`, `partial` and `failed` are terminal processing records. The processed request is removed and is not retried automatically. Pulse Operators do not poll results during the publication run. A manual repair may submit a new request containing only missing target paths and new candidates; the fixed public URLs do not change.
+The result is operational evidence and is not a publication gate. `completed`, `partial` and `failed` are terminal processing records. The processed request is removed and is not retried automatically. Pulse Operators do not poll results during the publication run. A manual repair may submit a new request containing only missing target paths and new candidates; the fixed public URLs do not change.
 
 ## Change hygiene
 
