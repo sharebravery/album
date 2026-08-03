@@ -15,9 +15,10 @@ The workflow:
 3. tries the already approved candidates for each version 2 asset in order;
 4. accepts JPEG, PNG, WebP, GIF and Article-source AVIF files up to 10 MiB;
 5. rejects SVG, non-image responses, private-network URLs, unsafe paths, HTML error pages and undecodable image payloads;
-6. normalizes Article assets to baseline JPEG;
-7. stores successful assets under their predetermined `pulse/` paths;
-8. writes a terminal result, removes the processed request and commits all three changes together.
+6. rejects tiny Article placeholders: the short side must be at least 240 pixels and total area at least 160,000 pixels;
+7. normalizes Article assets to baseline JPEG;
+8. stores successful assets under their predetermined `pulse/` paths;
+9. writes a terminal result, removes the processed request and commits assets, results and request removal together.
 
 Relay does not inspect Album results or wait for image ingestion. Version 2 paths are unique and never overwritten, so Operators can derive their predictable `@master` URLs before upload.
 
@@ -62,7 +63,7 @@ Rules:
 
 Search-engine proxy URLs are first-class sources because Album only needs them to remain valid long enough to ingest the image. The published Delivery references the permanent Album path, not the temporary source URL.
 
-Album tries candidates sequentially inside each asset. A candidate is selected only after its download, type validation and required Article JPEG normalization succeed.
+Album tries candidates sequentially inside each asset. A candidate is selected only after its download, MIME validation, decode and Article quality/normalization checks succeed.
 
 The predictable public URL is:
 
