@@ -6,7 +6,7 @@ Public image assets used by Pulse Deliveries.
 
 `pulse-operators` selects and inspects public images, assigns their editorial roles and submits one JSON request under `requests/`.
 
-The permanent workflow runs on each request push. A five-minute scheduled scan is only a fallback for delayed or missed push processing.
+The permanent ingestion workflow runs on each request push. A five-minute scheduled scan is only a fallback for delayed or missed push processing. Request runs stay on the fast path: they validate the scripts, download, normalize, write terminal results and commit. Full unit tests run in a separate CI workflow when ingestion code, tests or workflow definitions change.
 
 The workflow:
 
