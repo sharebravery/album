@@ -1,0 +1,36 @@
+name: Test Album ingestion
+
+on:
+  pull_request:
+    paths:
+      - "scripts/**"
+      - "tests/**"
+      - ".github/workflows/ingest-pulse-images.yml"
+      - ".github/workflows/test-ingestion.yml"
+  push:
+    branches: [master]
+    paths:
+      - "scripts/**"
+      - "tests/**"
+      - ".github/workflows/ingest-pulse-images.yml"
+      - ".github/workflows/test-ingestion.yml"
+  workflow_dispatch: {}
+
+permissions:
+  contents: read
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v5
+
+      - name: Install test dependencies
+        run: python3 -m pip install --disable-pip-version-check --no-cache-dir "Pillow>=10,<13"
+
+      - name: Validate scripts
+        run: python3 -m py_compile scripts/*.py
+
+      - name: Run ingestion tests
+        run: python3 -m unittest discover -s tests -v
