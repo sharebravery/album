@@ -1,0 +1,16 @@
+{
+  "version": 2,
+  "requestId": "audit-yunbei-20260805-1452-album-e2e",
+  "assets": [
+    {
+      "targetPath": "pulse/article/audit/2026/08/audit-yunbei-20260805-1452-album-e2e/a/01-lead.jpg",
+      "alt": "Album 端到端审计使用的公开 AI 基础设施图片",
+      "candidates": [
+        {
+          "sourcePageUrl": "https://cloud.google.com/blog/topics/ai-infrastructure/state-of-ai-infrastructure-report-and-the-agentic-data-cloud",
+          "downloadUrl": "https://storage.googleapis.com/gweb-cloudblog-publish/images/1_TdmG649.max-2000x2000.png"
+        }
+      ]
+    }
+  ]
+}
