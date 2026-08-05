@@ -1,0 +1,28 @@
+{
+  "version": 2,
+  "requestId": "audit-yunbei-20260805-1452-album-e2e",
+  "status": "completed",
+  "assets": [
+    {
+      "index": 0,
+      "status": "completed",
+      "targetPath": "pulse/article/audit/2026/08/audit-yunbei-20260805-1452-album-e2e/a/01-lead.jpg",
+      "alt": "Album 端到端审计使用的公开 AI 基础设施图片",
+      "attempts": [
+        {
+          "index": 0,
+          "status": "completed",
+          "sourcePageUrl": "https://cloud.google.com/blog/topics/ai-infrastructure/state-of-ai-infrastructure-report-and-the-agentic-data-cloud",
+          "downloadUrl": "https://storage.googleapis.com/gweb-cloudblog-publish/images/1_TdmG649.max-2000x2000.png"
+        }
+      ],
+      "selectedCandidateIndex": 0,
+      "sourcePageUrl": "https://cloud.google.com/blog/topics/ai-infrastructure/state-of-ai-infrastructure-report-and-the-agentic-data-cloud",
+      "downloadUrl": "https://storage.googleapis.com/gweb-cloudblog-publish/images/1_TdmG649.max-2000x2000.png",
+      "contentType": "image/jpeg",
+      "bytes": 300546,
+      "rawUrl": "https://raw.githubusercontent.com/sharebravery/album/master/pulse/article/audit/2026/08/audit-yunbei-20260805-1452-album-e2e/a/01-lead.jpg",
+      "cdnUrl": "https://cdn.jsdelivr.net/gh/sharebravery/album@master/pulse/article/audit/2026/08/audit-yunbei-20260805-1452-album-e2e/a/01-lead.jpg"
+    }
+  ]
+}
