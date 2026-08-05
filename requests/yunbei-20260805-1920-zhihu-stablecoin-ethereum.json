@@ -1,0 +1,78 @@
+{
+  "version": 2,
+  "requestId": "yunbei-20260805-1920-zhihu-stablecoin-ethereum",
+  "assets": [
+    {
+      "targetPath": "pulse/article/yunbei/2026/08/2026-08-05T1920-zhihu-stablecoin-ethereum/a/01-lead.jpg",
+      "alt": "USDC 标志，用于说明 Circle 的核心稳定币业务",
+      "candidates": [{
+        "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:USDC_Logo.png",
+        "downloadUrl": "https://commons.wikimedia.org/wiki/Special:Redirect/file/USDC_Logo.png"
+      }]
+    },
+    {
+      "targetPath": "pulse/article/yunbei/2026/08/2026-08-05T1920-zhihu-stablecoin-ethereum/a/02-reserve.jpg",
+      "alt": "美国财政部建筑，用于说明稳定币储备资产与短期国债收益",
+      "candidates": [{
+        "sourcePageUrl": "https://commons.wikimedia.org/wiki/Category:United_States_Department_of_the_Treasury",
+        "downloadUrl": "https://commons.wikimedia.org/wiki/Special:Redirect/file/United_States_Treasury_Department_building.jpg"
+      }]
+    },
+    {
+      "targetPath": "pulse/article/yunbei/2026/08/2026-08-05T1920-zhihu-stablecoin-ethereum/a/03-dollar.jpg",
+      "alt": "美元纸币，用于说明稳定币规模、储备收益率和利率周期之间的关系",
+      "candidates": [{
+        "sourcePageUrl": "https://commons.wikimedia.org/wiki/Category:United_States_dollar_banknotes",
+        "downloadUrl": "https://commons.wikimedia.org/wiki/Special:Redirect/file/US_one_dollar_bill%2C_obverse%2C_series_2009.jpg"
+      }]
+    },
+    {
+      "targetPath": "pulse/article/yunbei/2026/08/2026-08-05T1920-zhihu-stablecoin-ethereum/b/01-lead.jpg",
+      "alt": "欧洲联盟旗帜，用于说明 MiCA 对稳定币交易入口的监管作用",
+      "candidates": [{
+        "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:European_Union_flag.jpg",
+        "downloadUrl": "https://commons.wikimedia.org/wiki/Special:Redirect/file/European_Union_flag.jpg"
+      }]
+    },
+    {
+      "targetPath": "pulse/article/yunbei/2026/08/2026-08-05T1920-zhihu-stablecoin-ethereum/b/02-usdc.jpg",
+      "alt": "USDC 标志，用于说明获得合规入口后稳定币份额的变化",
+      "candidates": [{
+        "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:USDC_Logo.png",
+        "downloadUrl": "https://commons.wikimedia.org/wiki/Special:Redirect/file/USDC_Logo.png"
+      }]
+    },
+    {
+      "targetPath": "pulse/article/yunbei/2026/08/2026-08-05T1920-zhihu-stablecoin-ethereum/b/03-market.jpg",
+      "alt": "比特币标志，用于代表加密交易市场与稳定币交易对的入口",
+      "candidates": [{
+        "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:Bitcoin.png",
+        "downloadUrl": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Bitcoin.png"
+      }]
+    },
+    {
+      "targetPath": "pulse/article/yunbei/2026/08/2026-08-05T1920-zhihu-stablecoin-ethereum/c/01-lead.jpg",
+      "alt": "以太坊标志，用于说明主网和二层扩容的整体变化",
+      "candidates": [{
+        "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:Ethereum_Logo.png",
+        "downloadUrl": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Ethereum_Logo.png"
+      }]
+    },
+    {
+      "targetPath": "pulse/article/yunbei/2026/08/2026-08-05T1920-zhihu-stablecoin-ethereum/c/02-network.jpg",
+      "alt": "以太坊图形，用于说明主网费用、吞吐量与二层网络之间的关系",
+      "candidates": [{
+        "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:Ethereum.png",
+        "downloadUrl": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Ethereum.png"
+      }]
+    },
+    {
+      "targetPath": "pulse/article/yunbei/2026/08/2026-08-05T1920-zhihu-stablecoin-ethereum/c/03-server.jpg",
+      "alt": "服务器机房，用于说明区块链扩容最终受到节点计算、存储和带宽约束",
+      "candidates": [{
+        "sourcePageUrl": "https://commons.wikimedia.org/wiki/Category:Server_rooms",
+        "downloadUrl": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Server-room.jpg"
+      }]
+    }
+  ]
+}
