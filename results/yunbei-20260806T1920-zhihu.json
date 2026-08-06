@@ -1,0 +1,191 @@
+{
+  "version": 2,
+  "requestId": "yunbei-20260806T1920-zhihu",
+  "status": "partial",
+  "assets": [
+    {
+      "index": 0,
+      "status": "completed",
+      "targetPath": "pulse/article/yunbei/2026/08/2026-08-06T1920-zhihu/a/01-lead.jpg",
+      "alt": "硬件钱包与比特币市场背景，说明离线设备仍可能因密钥生成缺陷失效",
+      "attempts": [
+        {
+          "index": 0,
+          "status": "completed",
+          "sourcePageUrl": "https://www.barrons.com/articles/bitcoin-price-security-breach-strategy-stock-75dcdf54",
+          "downloadUrl": "https://images.barrons.com/im-16139283?height=900&width=1600"
+        }
+      ],
+      "selectedCandidateIndex": 0,
+      "sourcePageUrl": "https://www.barrons.com/articles/bitcoin-price-security-breach-strategy-stock-75dcdf54",
+      "downloadUrl": "https://images.barrons.com/im-16139283?height=900&width=1600",
+      "contentType": "image/jpeg",
+      "bytes": 293674,
+      "rawUrl": "https://raw.githubusercontent.com/sharebravery/album/master/pulse/article/yunbei/2026/08/2026-08-06T1920-zhihu/a/01-lead.jpg",
+      "cdnUrl": "https://cdn.jsdelivr.net/gh/sharebravery/album@master/pulse/article/yunbei/2026/08/2026-08-06T1920-zhihu/a/01-lead.jpg"
+    },
+    {
+      "index": 1,
+      "status": "completed",
+      "targetPath": "pulse/article/yunbei/2026/08/2026-08-06T1920-zhihu/a/02-evidence.jpg",
+      "alt": "桌面上的支付与密钥设备，表现安全产品依赖完整实现链",
+      "attempts": [
+        {
+          "index": 0,
+          "status": "completed",
+          "sourcePageUrl": "https://unsplash.com/photos/1563013544-824ae1b704d3",
+          "downloadUrl": "https://images.unsplash.com/photo-1563013544-824ae1b704d3?auto=format&fit=crop&w=1600&q=85"
+        }
+      ],
+      "selectedCandidateIndex": 0,
+      "sourcePageUrl": "https://unsplash.com/photos/1563013544-824ae1b704d3",
+      "downloadUrl": "https://images.unsplash.com/photo-1563013544-824ae1b704d3?auto=format&fit=crop&w=1600&q=85",
+      "contentType": "image/jpeg",
+      "bytes": 211252,
+      "rawUrl": "https://raw.githubusercontent.com/sharebravery/album/master/pulse/article/yunbei/2026/08/2026-08-06T1920-zhihu/a/02-evidence.jpg",
+      "cdnUrl": "https://cdn.jsdelivr.net/gh/sharebravery/album@master/pulse/article/yunbei/2026/08/2026-08-06T1920-zhihu/a/02-evidence.jpg"
+    },
+    {
+      "index": 2,
+      "status": "completed",
+      "targetPath": "pulse/article/yunbei/2026/08/2026-08-06T1920-zhihu/a/03-product.jpg",
+      "alt": "开发者在电脑上检查代码，说明随机数与固件审计是钱包安全边界",
+      "attempts": [
+        {
+          "index": 0,
+          "status": "completed",
+          "sourcePageUrl": "https://unsplash.com/photos/1516321318423-f06f85e504b3",
+          "downloadUrl": "https://images.unsplash.com/photo-1516321318423-f06f85e504b3?auto=format&fit=crop&w=1600&q=85"
+        }
+      ],
+      "selectedCandidateIndex": 0,
+      "sourcePageUrl": "https://unsplash.com/photos/1516321318423-f06f85e504b3",
+      "downloadUrl": "https://images.unsplash.com/photo-1516321318423-f06f85e504b3?auto=format&fit=crop&w=1600&q=85",
+      "contentType": "image/jpeg",
+      "bytes": 252005,
+      "rawUrl": "https://raw.githubusercontent.com/sharebravery/album/master/pulse/article/yunbei/2026/08/2026-08-06T1920-zhihu/a/03-product.jpg",
+      "cdnUrl": "https://cdn.jsdelivr.net/gh/sharebravery/album@master/pulse/article/yunbei/2026/08/2026-08-06T1920-zhihu/a/03-product.jpg"
+    },
+    {
+      "index": 3,
+      "status": "completed",
+      "targetPath": "pulse/article/yunbei/2026/08/2026-08-06T1920-zhihu/b/01-lead.jpg",
+      "alt": "欧洲议会建筑与城市环境，说明监管切换期带来的市场迁移",
+      "attempts": [
+        {
+          "index": 0,
+          "status": "completed",
+          "sourcePageUrl": "https://unsplash.com/photos/1529107386315-e1a2ed48a620",
+          "downloadUrl": "https://images.unsplash.com/photo-1529107386315-e1a2ed48a620?auto=format&fit=crop&w=1600&q=85"
+        }
+      ],
+      "selectedCandidateIndex": 0,
+      "sourcePageUrl": "https://unsplash.com/photos/1529107386315-e1a2ed48a620",
+      "downloadUrl": "https://images.unsplash.com/photo-1529107386315-e1a2ed48a620?auto=format&fit=crop&w=1600&q=85",
+      "contentType": "image/jpeg",
+      "bytes": 664158,
+      "rawUrl": "https://raw.githubusercontent.com/sharebravery/album/master/pulse/article/yunbei/2026/08/2026-08-06T1920-zhihu/b/01-lead.jpg",
+      "cdnUrl": "https://cdn.jsdelivr.net/gh/sharebravery/album@master/pulse/article/yunbei/2026/08/2026-08-06T1920-zhihu/b/01-lead.jpg"
+    },
+    {
+      "index": 4,
+      "status": "completed",
+      "targetPath": "pulse/article/yunbei/2026/08/2026-08-06T1920-zhihu/b/02-evidence.jpg",
+      "alt": "手机支付界面与用户操作，表现诈骗者利用迁移通知诱导转账",
+      "attempts": [
+        {
+          "index": 0,
+          "status": "completed",
+          "sourcePageUrl": "https://unsplash.com/photos/1556742049-0cfed4f6a45d",
+          "downloadUrl": "https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?auto=format&fit=crop&w=1600&q=85"
+        }
+      ],
+      "selectedCandidateIndex": 0,
+      "sourcePageUrl": "https://unsplash.com/photos/1556742049-0cfed4f6a45d",
+      "downloadUrl": "https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?auto=format&fit=crop&w=1600&q=85",
+      "contentType": "image/jpeg",
+      "bytes": 277673,
+      "rawUrl": "https://raw.githubusercontent.com/sharebravery/album/master/pulse/article/yunbei/2026/08/2026-08-06T1920-zhihu/b/02-evidence.jpg",
+      "cdnUrl": "https://cdn.jsdelivr.net/gh/sharebravery/album@master/pulse/article/yunbei/2026/08/2026-08-06T1920-zhihu/b/02-evidence.jpg"
+    },
+    {
+      "index": 5,
+      "status": "failed",
+      "targetPath": "pulse/article/yunbei/2026/08/2026-08-06T1920-zhihu/b/03-document.jpg",
+      "alt": "桌面上的正式文件与签署材料，说明牌照与监管信息需要从官方渠道核验",
+      "attempts": [
+        {
+          "index": 0,
+          "status": "failed",
+          "sourcePageUrl": "https://unsplash.com/photos/1450101499163-cb0c1f942f",
+          "downloadUrl": "https://images.unsplash.com/photo-1450101499163-cb0c1f942f?auto=format&fit=crop&w=1600&q=85",
+          "error": "HTTP Error 404: Not Found"
+        }
+      ],
+      "error": "all candidates failed"
+    },
+    {
+      "index": 6,
+      "status": "completed",
+      "targetPath": "pulse/article/yunbei/2026/08/2026-08-06T1920-zhihu/c/01-lead.jpg",
+      "alt": "Ethereum 2026 开发者主题图，说明主网费用与账户模型已经变化",
+      "attempts": [
+        {
+          "index": 0,
+          "status": "completed",
+          "sourcePageUrl": "https://ethereum.org/latest/building-on-ethereum-in-2026",
+          "downloadUrl": "https://ethereum.org/_next/image/?q=85&url=%2Fimages%2Fdevelopers%2Fblog%2Flatest-post-header-3.png&w=1920"
+        }
+      ],
+      "selectedCandidateIndex": 0,
+      "sourcePageUrl": "https://ethereum.org/latest/building-on-ethereum-in-2026",
+      "downloadUrl": "https://ethereum.org/_next/image/?q=85&url=%2Fimages%2Fdevelopers%2Fblog%2Flatest-post-header-3.png&w=1920",
+      "contentType": "image/jpeg",
+      "bytes": 266259,
+      "rawUrl": "https://raw.githubusercontent.com/sharebravery/album/master/pulse/article/yunbei/2026/08/2026-08-06T1920-zhihu/c/01-lead.jpg",
+      "cdnUrl": "https://cdn.jsdelivr.net/gh/sharebravery/album@master/pulse/article/yunbei/2026/08/2026-08-06T1920-zhihu/c/01-lead.jpg"
+    },
+    {
+      "index": 7,
+      "status": "completed",
+      "targetPath": "pulse/article/yunbei/2026/08/2026-08-06T1920-zhihu/c/02-infrastructure.jpg",
+      "alt": "数据中心服务器机柜，说明扩容不只是交易费，还涉及数据可用性与基础设施",
+      "attempts": [
+        {
+          "index": 0,
+          "status": "completed",
+          "sourcePageUrl": "https://unsplash.com/photos/1558494949-ef010cbdcc31",
+          "downloadUrl": "https://images.unsplash.com/photo-1558494949-ef010cbdcc31?auto=format&fit=crop&w=1600&q=85"
+        }
+      ],
+      "selectedCandidateIndex": 0,
+      "sourcePageUrl": "https://unsplash.com/photos/1558494949-ef010cbdcc31",
+      "downloadUrl": "https://images.unsplash.com/photo-1558494949-ef010cbdcc31?auto=format&fit=crop&w=1600&q=85",
+      "contentType": "image/jpeg",
+      "bytes": 473359,
+      "rawUrl": "https://raw.githubusercontent.com/sharebravery/album/master/pulse/article/yunbei/2026/08/2026-08-06T1920-zhihu/c/02-infrastructure.jpg",
+      "cdnUrl": "https://cdn.jsdelivr.net/gh/sharebravery/album@master/pulse/article/yunbei/2026/08/2026-08-06T1920-zhihu/c/02-infrastructure.jpg"
+    },
+    {
+      "index": 8,
+      "status": "completed",
+      "targetPath": "pulse/article/yunbei/2026/08/2026-08-06T1920-zhihu/c/03-architecture.jpg",
+      "alt": "电子电路与计算硬件特写，说明主网和二层在执行、数据与分发上的分工",
+      "attempts": [
+        {
+          "index": 0,
+          "status": "completed",
+          "sourcePageUrl": "https://unsplash.com/photos/1518770660439-4636190af475",
+          "downloadUrl": "https://images.unsplash.com/photo-1518770660439-4636190af475?auto=format&fit=crop&w=1600&q=85"
+        }
+      ],
+      "selectedCandidateIndex": 0,
+      "sourcePageUrl": "https://unsplash.com/photos/1518770660439-4636190af475",
+      "downloadUrl": "https://images.unsplash.com/photo-1518770660439-4636190af475?auto=format&fit=crop&w=1600&q=85",
+      "contentType": "image/jpeg",
+      "bytes": 418198,
+      "rawUrl": "https://raw.githubusercontent.com/sharebravery/album/master/pulse/article/yunbei/2026/08/2026-08-06T1920-zhihu/c/03-architecture.jpg",
+      "cdnUrl": "https://cdn.jsdelivr.net/gh/sharebravery/album@master/pulse/article/yunbei/2026/08/2026-08-06T1920-zhihu/c/03-architecture.jpg"
+    }
+  ]
+}
