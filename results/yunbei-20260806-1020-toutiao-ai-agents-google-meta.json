@@ -1,0 +1,196 @@
+{
+  "version": 2,
+  "requestId": "yunbei-20260806-1020-toutiao-ai-agents-google-meta",
+  "status": "completed",
+  "assets": [
+    {
+      "index": 0,
+      "status": "completed",
+      "targetPath": "pulse/article/yunbei/2026/08/2026-08-06T1020-toutiao-ai-agents-google-meta/a/01-lead.jpg",
+      "alt": "抽象安全盾牌围绕数字人形，用于说明 AI Agent 的权限与隔离边界",
+      "attempts": [
+        {
+          "index": 0,
+          "status": "completed",
+          "sourcePageUrl": "https://www.theverge.com/ai-artificial-intelligence/975509/white-house-ai-framework-open-models-excluded",
+          "downloadUrl": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/08/STK485_STK414_AI_SAFETY_A-1.jpg?crop=0%2C0%2C100%2C100&quality=90&strip=all&w=2400"
+        }
+      ],
+      "selectedCandidateIndex": 0,
+      "sourcePageUrl": "https://www.theverge.com/ai-artificial-intelligence/975509/white-house-ai-framework-open-models-excluded",
+      "downloadUrl": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/08/STK485_STK414_AI_SAFETY_A-1.jpg?crop=0%2C0%2C100%2C100&quality=90&strip=all&w=2400",
+      "contentType": "image/jpeg",
+      "bytes": 836287,
+      "rawUrl": "https://raw.githubusercontent.com/sharebravery/album/master/pulse/article/yunbei/2026/08/2026-08-06T1020-toutiao-ai-agents-google-meta/a/01-lead.jpg",
+      "cdnUrl": "https://cdn.jsdelivr.net/gh/sharebravery/album@master/pulse/article/yunbei/2026/08/2026-08-06T1020-toutiao-ai-agents-google-meta/a/01-lead.jpg"
+    },
+    {
+      "index": 1,
+      "status": "completed",
+      "targetPath": "pulse/article/yunbei/2026/08/2026-08-06T1020-toutiao-ai-agents-google-meta/a/02-scope.jpg",
+      "alt": "被牵引装置约束的数字大脑，用于说明 Agent 自主性与授权范围之间的关系",
+      "attempts": [
+        {
+          "index": 0,
+          "status": "completed",
+          "sourcePageUrl": "https://www.theverge.com/ai-artificial-intelligence/975509/white-house-ai-framework-open-models-excluded",
+          "downloadUrl": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/08/STK485_STK414_AI_SAFETY_C.jpg?crop=0%2C0%2C100%2C100&quality=90&strip=all&w=2400"
+        }
+      ],
+      "selectedCandidateIndex": 0,
+      "sourcePageUrl": "https://www.theverge.com/ai-artificial-intelligence/975509/white-house-ai-framework-open-models-excluded",
+      "downloadUrl": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/08/STK485_STK414_AI_SAFETY_C.jpg?crop=0%2C0%2C100%2C100&quality=90&strip=all&w=2400",
+      "contentType": "image/jpeg",
+      "bytes": 818863,
+      "rawUrl": "https://raw.githubusercontent.com/sharebravery/album/master/pulse/article/yunbei/2026/08/2026-08-06T1020-toutiao-ai-agents-google-meta/a/02-scope.jpg",
+      "cdnUrl": "https://cdn.jsdelivr.net/gh/sharebravery/album@master/pulse/article/yunbei/2026/08/2026-08-06T1020-toutiao-ai-agents-google-meta/a/02-scope.jpg"
+    },
+    {
+      "index": 2,
+      "status": "completed",
+      "targetPath": "pulse/article/yunbei/2026/08/2026-08-06T1020-toutiao-ai-agents-google-meta/a/03-models.jpg",
+      "alt": "机械手指向 OpenAI 与 Anthropic 标识，用于说明安全测试涉及的模型提供商",
+      "attempts": [
+        {
+          "index": 0,
+          "status": "completed",
+          "sourcePageUrl": "https://www.theguardian.com/technology/2026/aug/05/openai-anthropic-models-went-rogue-cybersecurity-test-ai-security-institute",
+          "downloadUrl": "https://i.guim.co.uk/img/media/a828d3530ab4763e68a868951a6609a74ae62bb2/379_0_2915_2333/master/2915.jpg?crop=none&dpr=1&s=none&width=1200"
+        }
+      ],
+      "selectedCandidateIndex": 0,
+      "sourcePageUrl": "https://www.theguardian.com/technology/2026/aug/05/openai-anthropic-models-went-rogue-cybersecurity-test-ai-security-institute",
+      "downloadUrl": "https://i.guim.co.uk/img/media/a828d3530ab4763e68a868951a6609a74ae62bb2/379_0_2915_2333/master/2915.jpg?crop=none&dpr=1&s=none&width=1200",
+      "contentType": "image/jpeg",
+      "bytes": 192767,
+      "rawUrl": "https://raw.githubusercontent.com/sharebravery/album/master/pulse/article/yunbei/2026/08/2026-08-06T1020-toutiao-ai-agents-google-meta/a/03-models.jpg",
+      "cdnUrl": "https://cdn.jsdelivr.net/gh/sharebravery/album@master/pulse/article/yunbei/2026/08/2026-08-06T1020-toutiao-ai-agents-google-meta/a/03-models.jpg"
+    },
+    {
+      "index": 3,
+      "status": "completed",
+      "targetPath": "pulse/article/yunbei/2026/08/2026-08-06T1020-toutiao-ai-agents-google-meta/b/01-lead.jpg",
+      "alt": "Demis Hassabis 在公开活动中的人物照片，用于说明 Google DeepMind 领导层变化",
+      "attempts": [
+        {
+          "index": 0,
+          "status": "completed",
+          "sourcePageUrl": "https://www.reuters.com/business/google-shakes-up-ai-leadership-deepmind-chief-shifts-role-2026-08-05/",
+          "downloadUrl": "https://www.reuters.com/resizer/v2/V7B6YL5EVRLJ5NHTYJ64C36GLI.jpg?auth=da04f17a3ac49d1de935df539b5faf047ed605cb52c4a2b3bca36cb80abc6d9d&quality=80&width=1920"
+        }
+      ],
+      "selectedCandidateIndex": 0,
+      "sourcePageUrl": "https://www.reuters.com/business/google-shakes-up-ai-leadership-deepmind-chief-shifts-role-2026-08-05/",
+      "downloadUrl": "https://www.reuters.com/resizer/v2/V7B6YL5EVRLJ5NHTYJ64C36GLI.jpg?auth=da04f17a3ac49d1de935df539b5faf047ed605cb52c4a2b3bca36cb80abc6d9d&quality=80&width=1920",
+      "contentType": "image/jpeg",
+      "bytes": 527071,
+      "rawUrl": "https://raw.githubusercontent.com/sharebravery/album/master/pulse/article/yunbei/2026/08/2026-08-06T1020-toutiao-ai-agents-google-meta/b/01-lead.jpg",
+      "cdnUrl": "https://cdn.jsdelivr.net/gh/sharebravery/album@master/pulse/article/yunbei/2026/08/2026-08-06T1020-toutiao-ai-agents-google-meta/b/01-lead.jpg"
+    },
+    {
+      "index": 4,
+      "status": "completed",
+      "targetPath": "pulse/article/yunbei/2026/08/2026-08-06T1020-toutiao-ai-agents-google-meta/b/02-leadership.jpg",
+      "alt": "Demis Hassabis 戴麦克风发表讲话，用于说明研究负责人向首席科学家角色转变",
+      "attempts": [
+        {
+          "index": 0,
+          "status": "completed",
+          "sourcePageUrl": "https://www.theverge.com/ai-artificial-intelligence/975509/white-house-ai-framework-open-models-excluded",
+          "downloadUrl": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/08/gettyimages-2273112113.jpg?crop=0%2C0.023068050749714%2C100%2C99.953863898501&quality=90&strip=all&w=2400"
+        }
+      ],
+      "selectedCandidateIndex": 0,
+      "sourcePageUrl": "https://www.theverge.com/ai-artificial-intelligence/975509/white-house-ai-framework-open-models-excluded",
+      "downloadUrl": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/08/gettyimages-2273112113.jpg?crop=0%2C0.023068050749714%2C100%2C99.953863898501&quality=90&strip=all&w=2400",
+      "contentType": "image/jpeg",
+      "bytes": 604906,
+      "rawUrl": "https://raw.githubusercontent.com/sharebravery/album/master/pulse/article/yunbei/2026/08/2026-08-06T1020-toutiao-ai-agents-google-meta/b/02-leadership.jpg",
+      "cdnUrl": "https://cdn.jsdelivr.net/gh/sharebravery/album@master/pulse/article/yunbei/2026/08/2026-08-06T1020-toutiao-ai-agents-google-meta/b/02-leadership.jpg"
+    },
+    {
+      "index": 5,
+      "status": "completed",
+      "targetPath": "pulse/article/yunbei/2026/08/2026-08-06T1020-toutiao-ai-agents-google-meta/b/03-organization.jpg",
+      "alt": "Google DeepMind 合并时使用的抽象视觉图，用于说明研究组织整合与产品化",
+      "attempts": [
+        {
+          "index": 0,
+          "status": "completed",
+          "sourcePageUrl": "https://deepmind.google/blog/announcing-google-deepmind/",
+          "downloadUrl": "https://lh3.googleusercontent.com/DMMLRv032kabZ11xDjooGEGR85Mxcdin_O5GUFGoTTDgVlc7Leiews6fLqF2bYAPiD9MQcQnvPEmCU_3tfTHsYw0BofnRzv-8jUpLCRC85VUbpqR%3Dw1440-h810-n-nu"
+        }
+      ],
+      "selectedCandidateIndex": 0,
+      "sourcePageUrl": "https://deepmind.google/blog/announcing-google-deepmind/",
+      "downloadUrl": "https://lh3.googleusercontent.com/DMMLRv032kabZ11xDjooGEGR85Mxcdin_O5GUFGoTTDgVlc7Leiews6fLqF2bYAPiD9MQcQnvPEmCU_3tfTHsYw0BofnRzv-8jUpLCRC85VUbpqR%3Dw1440-h810-n-nu",
+      "contentType": "image/jpeg",
+      "bytes": 293668,
+      "rawUrl": "https://raw.githubusercontent.com/sharebravery/album/master/pulse/article/yunbei/2026/08/2026-08-06T1020-toutiao-ai-agents-google-meta/b/03-organization.jpg",
+      "cdnUrl": "https://cdn.jsdelivr.net/gh/sharebravery/album@master/pulse/article/yunbei/2026/08/2026-08-06T1020-toutiao-ai-agents-google-meta/b/03-organization.jpg"
+    },
+    {
+      "index": 6,
+      "status": "completed",
+      "targetPath": "pulse/article/yunbei/2026/08/2026-08-06T1020-toutiao-ai-agents-google-meta/c/01-lead.jpg",
+      "alt": "Meta 与 AI 字样的实物摄影，用于说明 Meta 推出 Muse Code",
+      "attempts": [
+        {
+          "index": 0,
+          "status": "completed",
+          "sourcePageUrl": "https://www.reuters.com/technology/meta-launches-new-ai-coding-tool-powered-by-muse-spark-12-2026-08-05/",
+          "downloadUrl": "https://www.reuters.com/resizer/v2/J2DOVSCHUFJPNDA24MQORAT2P4.jpg?auth=e1e59936b15642271511a736b94657f5c58a317ffa73a76d00cdc302581a9e8f&quality=80&width=1920"
+        }
+      ],
+      "selectedCandidateIndex": 0,
+      "sourcePageUrl": "https://www.reuters.com/technology/meta-launches-new-ai-coding-tool-powered-by-muse-spark-12-2026-08-05/",
+      "downloadUrl": "https://www.reuters.com/resizer/v2/J2DOVSCHUFJPNDA24MQORAT2P4.jpg?auth=e1e59936b15642271511a736b94657f5c58a317ffa73a76d00cdc302581a9e8f&quality=80&width=1920",
+      "contentType": "image/jpeg",
+      "bytes": 335251,
+      "rawUrl": "https://raw.githubusercontent.com/sharebravery/album/master/pulse/article/yunbei/2026/08/2026-08-06T1020-toutiao-ai-agents-google-meta/c/01-lead.jpg",
+      "cdnUrl": "https://cdn.jsdelivr.net/gh/sharebravery/album@master/pulse/article/yunbei/2026/08/2026-08-06T1020-toutiao-ai-agents-google-meta/c/01-lead.jpg"
+    },
+    {
+      "index": 7,
+      "status": "completed",
+      "targetPath": "pulse/article/yunbei/2026/08/2026-08-06T1020-toutiao-ai-agents-google-meta/c/02-benchmark.jpg",
+      "alt": "Muse Spark 编码基准对比图，用于说明模型在代码任务上的提升",
+      "attempts": [
+        {
+          "index": 0,
+          "status": "completed",
+          "sourcePageUrl": "https://ai.meta.com/blog/introducing-muse-spark-meta-model-api/",
+          "downloadUrl": "https://lookaside.fbsbx.com/elementpath/media/?media_id=36940809352231111&version=1783971604"
+        }
+      ],
+      "selectedCandidateIndex": 0,
+      "sourcePageUrl": "https://ai.meta.com/blog/introducing-muse-spark-meta-model-api/",
+      "downloadUrl": "https://lookaside.fbsbx.com/elementpath/media/?media_id=36940809352231111&version=1783971604",
+      "contentType": "image/jpeg",
+      "bytes": 159636,
+      "rawUrl": "https://raw.githubusercontent.com/sharebravery/album/master/pulse/article/yunbei/2026/08/2026-08-06T1020-toutiao-ai-agents-google-meta/c/02-benchmark.jpg",
+      "cdnUrl": "https://cdn.jsdelivr.net/gh/sharebravery/album@master/pulse/article/yunbei/2026/08/2026-08-06T1020-toutiao-ai-agents-google-meta/c/02-benchmark.jpg"
+    },
+    {
+      "index": 8,
+      "status": "completed",
+      "targetPath": "pulse/article/yunbei/2026/08/2026-08-06T1020-toutiao-ai-agents-google-meta/c/03-developer.jpg",
+      "alt": "Alexandr Wang 在技术会议上讲话，用于说明 Meta 新 AI 团队推动开发者产品商业化",
+      "attempts": [
+        {
+          "index": 0,
+          "status": "completed",
+          "sourcePageUrl": "https://www.wsj.com/tech/ai/meta-releases-coding-agent-to-compete-with-openai-and-anthropic-af87b517",
+          "downloadUrl": "https://images.wsj.net/im-26145138?height=933&width=1400"
+        }
+      ],
+      "selectedCandidateIndex": 0,
+      "sourcePageUrl": "https://www.wsj.com/tech/ai/meta-releases-coding-agent-to-compete-with-openai-and-anthropic-af87b517",
+      "downloadUrl": "https://images.wsj.net/im-26145138?height=933&width=1400",
+      "contentType": "image/jpeg",
+      "bytes": 237816,
+      "rawUrl": "https://raw.githubusercontent.com/sharebravery/album/master/pulse/article/yunbei/2026/08/2026-08-06T1020-toutiao-ai-agents-google-meta/c/03-developer.jpg",
+      "cdnUrl": "https://cdn.jsdelivr.net/gh/sharebravery/album@master/pulse/article/yunbei/2026/08/2026-08-06T1020-toutiao-ai-agents-google-meta/c/03-developer.jpg"
+    }
+  ]
+}
