@@ -1,0 +1,181 @@
+{
+  "version": 2,
+  "requestId": "2026-08-07T1920-zhihu-license-rails-docs",
+  "status": "partial",
+  "assets": [
+    {
+      "index": 0,
+      "status": "completed",
+      "targetPath": "pulse/article/2026/08/2026-08-07T1920-zhihu-license-rails-docs/a/01-lead.jpg",
+      "alt": "Kimi K3 模型定位与能力概览",
+      "attempts": [
+        {
+          "index": 0,
+          "status": "completed",
+          "sourcePageUrl": "https://www.linkmodel.ai/blog/kimi-k3",
+          "downloadUrl": "https://static.linkmodel.ai/blog-cover/what-is-kimi-k3.png"
+        }
+      ],
+      "selectedCandidateIndex": 0,
+      "sourcePageUrl": "https://www.linkmodel.ai/blog/kimi-k3",
+      "downloadUrl": "https://static.linkmodel.ai/blog-cover/what-is-kimi-k3.png",
+      "contentType": "image/jpeg",
+      "bytes": 389759,
+      "rawUrl": "https://raw.githubusercontent.com/sharebravery/album/master/pulse/article/2026/08/2026-08-07T1920-zhihu-license-rails-docs/a/01-lead.jpg",
+      "cdnUrl": "https://cdn.jsdelivr.net/gh/sharebravery/album@master/pulse/article/2026/08/2026-08-07T1920-zhihu-license-rails-docs/a/01-lead.jpg"
+    },
+    {
+      "index": 1,
+      "status": "completed",
+      "targetPath": "pulse/article/2026/08/2026-08-07T1920-zhihu-license-rails-docs/a/02-evidence.jpg",
+      "alt": "Kimi K3 的百万 token 上下文示意",
+      "attempts": [
+        {
+          "index": 0,
+          "status": "completed",
+          "sourcePageUrl": "https://www.linkmodel.ai/blog/kimi-k3",
+          "downloadUrl": "https://static.linkmodel.ai/blog-cover/a-one-million-token-context-window.png"
+        }
+      ],
+      "selectedCandidateIndex": 0,
+      "sourcePageUrl": "https://www.linkmodel.ai/blog/kimi-k3",
+      "downloadUrl": "https://static.linkmodel.ai/blog-cover/a-one-million-token-context-window.png",
+      "contentType": "image/jpeg",
+      "bytes": 336567,
+      "rawUrl": "https://raw.githubusercontent.com/sharebravery/album/master/pulse/article/2026/08/2026-08-07T1920-zhihu-license-rails-docs/a/02-evidence.jpg",
+      "cdnUrl": "https://cdn.jsdelivr.net/gh/sharebravery/album@master/pulse/article/2026/08/2026-08-07T1920-zhihu-license-rails-docs/a/02-evidence.jpg"
+    },
+    {
+      "index": 2,
+      "status": "completed",
+      "targetPath": "pulse/article/2026/08/2026-08-07T1920-zhihu-license-rails-docs/a/03-product.jpg",
+      "alt": "Kimi K3 多模态与长程任务能力示意",
+      "attempts": [
+        {
+          "index": 0,
+          "status": "completed",
+          "sourcePageUrl": "https://www.linkmodel.ai/blog/kimi-k3",
+          "downloadUrl": "https://static.linkmodel.ai/blog-cover/native-image-and-video-understanding.png"
+        }
+      ],
+      "selectedCandidateIndex": 0,
+      "sourcePageUrl": "https://www.linkmodel.ai/blog/kimi-k3",
+      "downloadUrl": "https://static.linkmodel.ai/blog-cover/native-image-and-video-understanding.png",
+      "contentType": "image/jpeg",
+      "bytes": 356346,
+      "rawUrl": "https://raw.githubusercontent.com/sharebravery/album/master/pulse/article/2026/08/2026-08-07T1920-zhihu-license-rails-docs/a/03-product.jpg",
+      "cdnUrl": "https://cdn.jsdelivr.net/gh/sharebravery/album@master/pulse/article/2026/08/2026-08-07T1920-zhihu-license-rails-docs/a/03-product.jpg"
+    },
+    {
+      "index": 3,
+      "status": "completed",
+      "targetPath": "pulse/article/2026/08/2026-08-07T1920-zhihu-license-rails-docs/b/01-lead.jpg",
+      "alt": "Rails 与 Active Storage 安全更新的项目上下文",
+      "attempts": [
+        {
+          "index": 0,
+          "status": "completed",
+          "sourcePageUrl": "https://github.com/rails/rails/security/advisories/GHSA-xr9x-r78c-5hrm",
+          "downloadUrl": "https://opengraph.githubassets.com/1/rails/rails/security/advisories/GHSA-xr9x-r78c-5hrm"
+        }
+      ],
+      "selectedCandidateIndex": 0,
+      "sourcePageUrl": "https://github.com/rails/rails/security/advisories/GHSA-xr9x-r78c-5hrm",
+      "downloadUrl": "https://opengraph.githubassets.com/1/rails/rails/security/advisories/GHSA-xr9x-r78c-5hrm",
+      "contentType": "image/jpeg",
+      "bytes": 95744,
+      "rawUrl": "https://raw.githubusercontent.com/sharebravery/album/master/pulse/article/2026/08/2026-08-07T1920-zhihu-license-rails-docs/b/01-lead.jpg",
+      "cdnUrl": "https://cdn.jsdelivr.net/gh/sharebravery/album@master/pulse/article/2026/08/2026-08-07T1920-zhihu-license-rails-docs/b/01-lead.jpg"
+    },
+    {
+      "index": 4,
+      "status": "completed",
+      "targetPath": "pulse/article/2026/08/2026-08-07T1920-zhihu-license-rails-docs/b/02-evidence.jpg",
+      "alt": "Rails 安全公告对应的 GitHub 项目与补丁上下文",
+      "attempts": [
+        {
+          "index": 0,
+          "status": "completed",
+          "sourcePageUrl": "https://github.com/rails/rails",
+          "downloadUrl": "https://opengraph.githubassets.com/1/rails/rails"
+        }
+      ],
+      "selectedCandidateIndex": 0,
+      "sourcePageUrl": "https://github.com/rails/rails",
+      "downloadUrl": "https://opengraph.githubassets.com/1/rails/rails",
+      "contentType": "image/jpeg",
+      "bytes": 50665,
+      "rawUrl": "https://raw.githubusercontent.com/sharebravery/album/master/pulse/article/2026/08/2026-08-07T1920-zhihu-license-rails-docs/b/02-evidence.jpg",
+      "cdnUrl": "https://cdn.jsdelivr.net/gh/sharebravery/album@master/pulse/article/2026/08/2026-08-07T1920-zhihu-license-rails-docs/b/02-evidence.jpg"
+    },
+    {
+      "index": 5,
+      "status": "completed",
+      "targetPath": "pulse/article/2026/08/2026-08-07T1920-zhihu-license-rails-docs/b/03-product.jpg",
+      "alt": "libvips 作为底层图像处理组件的项目上下文",
+      "attempts": [
+        {
+          "index": 0,
+          "status": "completed",
+          "sourcePageUrl": "https://github.com/libvips/libvips",
+          "downloadUrl": "https://opengraph.githubassets.com/1/libvips/libvips"
+        }
+      ],
+      "selectedCandidateIndex": 0,
+      "sourcePageUrl": "https://github.com/libvips/libvips",
+      "downloadUrl": "https://opengraph.githubassets.com/1/libvips/libvips",
+      "contentType": "image/jpeg",
+      "bytes": 60340,
+      "rawUrl": "https://raw.githubusercontent.com/sharebravery/album/master/pulse/article/2026/08/2026-08-07T1920-zhihu-license-rails-docs/b/03-product.jpg",
+      "cdnUrl": "https://cdn.jsdelivr.net/gh/sharebravery/album@master/pulse/article/2026/08/2026-08-07T1920-zhihu-license-rails-docs/b/03-product.jpg"
+    },
+    {
+      "index": 6,
+      "status": "failed",
+      "targetPath": "pulse/article/2026/08/2026-08-07T1920-zhihu-license-rails-docs/c/01-lead.jpg",
+      "alt": "开发者文档与 AI 编码工具的界面示例",
+      "attempts": [
+        {
+          "index": 0,
+          "status": "failed",
+          "sourcePageUrl": "https://aicourses.com/ai-for-developers/best-ai-tools-for-developers/",
+          "downloadUrl": "https://aicourses.com/images/blog/best-ai-tools-for-developers-01.png",
+          "error": "HTTP Error 404: Not Found"
+        }
+      ],
+      "error": "all candidates failed"
+    },
+    {
+      "index": 7,
+      "status": "failed",
+      "targetPath": "pulse/article/2026/08/2026-08-07T1920-zhihu-license-rails-docs/c/02-evidence.jpg",
+      "alt": "AI 工具获取代码与文档上下文的流程示意",
+      "attempts": [
+        {
+          "index": 0,
+          "status": "failed",
+          "sourcePageUrl": "https://aicourses.com/ai-for-developers/best-ai-tools-for-developers/",
+          "downloadUrl": "https://aicourses.com/images/blog/best-ai-tools-for-developers-02.png",
+          "error": "HTTP Error 404: Not Found"
+        }
+      ],
+      "error": "all candidates failed"
+    },
+    {
+      "index": 8,
+      "status": "failed",
+      "targetPath": "pulse/article/2026/08/2026-08-07T1920-zhihu-license-rails-docs/c/03-product.jpg",
+      "alt": "不同 AI 编码工具与开发流程的对比界面",
+      "attempts": [
+        {
+          "index": 0,
+          "status": "failed",
+          "sourcePageUrl": "https://aicourses.com/ai-for-developers/best-ai-tools-for-developers/",
+          "downloadUrl": "https://aicourses.com/images/blog/best-ai-tools-for-developers-04.png",
+          "error": "HTTP Error 404: Not Found"
+        }
+      ],
+      "error": "all candidates failed"
+    }
+  ]
+}
