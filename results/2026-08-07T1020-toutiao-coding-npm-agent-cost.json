@@ -1,0 +1,186 @@
+{
+  "version": 2,
+  "requestId": "2026-08-07T1020-toutiao-coding-npm-agent-cost",
+  "status": "partial",
+  "assets": [
+    {
+      "index": 0,
+      "status": "completed",
+      "targetPath": "pulse/article/2026/08/2026-08-07T1020-toutiao-coding-npm-agent-cost/a/01-lead.jpg",
+      "alt": "GitHub Copilot CLI 在终端中的欢迎界面，表现命令行 AI 编程 Agent 已进入完整开发流程",
+      "attempts": [
+        {
+          "index": 0,
+          "status": "completed",
+          "sourcePageUrl": "https://github.blog/changelog/2026-02-25-github-copilot-cli-is-now-generally-available/",
+          "downloadUrl": "https://github.blog/wp-content/uploads/2026/02/554396112-02305897-302e-435b-862b-616faea6a7f5.png?resize=2064%2C1076"
+        }
+      ],
+      "selectedCandidateIndex": 0,
+      "sourcePageUrl": "https://github.blog/changelog/2026-02-25-github-copilot-cli-is-now-generally-available/",
+      "downloadUrl": "https://github.blog/wp-content/uploads/2026/02/554396112-02305897-302e-435b-862b-616faea6a7f5.png?resize=2064%2C1076",
+      "contentType": "image/jpeg",
+      "bytes": 165042,
+      "rawUrl": "https://raw.githubusercontent.com/sharebravery/album/master/pulse/article/2026/08/2026-08-07T1020-toutiao-coding-npm-agent-cost/a/01-lead.jpg",
+      "cdnUrl": "https://cdn.jsdelivr.net/gh/sharebravery/album@master/pulse/article/2026/08/2026-08-07T1020-toutiao-coding-npm-agent-cost/a/01-lead.jpg"
+    },
+    {
+      "index": 1,
+      "status": "completed",
+      "targetPath": "pulse/article/2026/08/2026-08-07T1020-toutiao-coding-npm-agent-cost/a/02-workflow.jpg",
+      "alt": "Copilot CLI 中直接浏览 Issues 与 Pull requests 的界面，说明 Agent 与真实工程任务连接",
+      "attempts": [
+        {
+          "index": 0,
+          "status": "completed",
+          "sourcePageUrl": "https://github.blog/changelog/2026-06-23-copilot-cli-new-terminal-interface-is-generally-available/",
+          "downloadUrl": "https://github.blog/wp-content/uploads/2026/06/611923516-30c08121-80c9-47e5-99cf-1897b743898e.png?resize=2064%2C1096"
+        }
+      ],
+      "selectedCandidateIndex": 0,
+      "sourcePageUrl": "https://github.blog/changelog/2026-06-23-copilot-cli-new-terminal-interface-is-generally-available/",
+      "downloadUrl": "https://github.blog/wp-content/uploads/2026/06/611923516-30c08121-80c9-47e5-99cf-1897b743898e.png?resize=2064%2C1096",
+      "contentType": "image/jpeg",
+      "bytes": 236175,
+      "rawUrl": "https://raw.githubusercontent.com/sharebravery/album/master/pulse/article/2026/08/2026-08-07T1020-toutiao-coding-npm-agent-cost/a/02-workflow.jpg",
+      "cdnUrl": "https://cdn.jsdelivr.net/gh/sharebravery/album@master/pulse/article/2026/08/2026-08-07T1020-toutiao-coding-npm-agent-cost/a/02-workflow.jpg"
+    },
+    {
+      "index": 2,
+      "status": "completed",
+      "targetPath": "pulse/article/2026/08/2026-08-07T1020-toutiao-coding-npm-agent-cost/a/03-review.jpg",
+      "alt": "终端中的 Copilot 代码评审流程，表现 AI 编程工具需要进入可审查的团队协作链",
+      "attempts": [
+        {
+          "index": 0,
+          "status": "completed",
+          "sourcePageUrl": "https://github.blog/changelog/2026-03-11-request-copilot-code-review-from-github-cli/",
+          "downloadUrl": "https://github.blog/wp-content/uploads/2026/03/561023746-24447653-4090-4b7a-9a64-fdf255b84866.jpg?resize=2064%2C974"
+        }
+      ],
+      "selectedCandidateIndex": 0,
+      "sourcePageUrl": "https://github.blog/changelog/2026-03-11-request-copilot-code-review-from-github-cli/",
+      "downloadUrl": "https://github.blog/wp-content/uploads/2026/03/561023746-24447653-4090-4b7a-9a64-fdf255b84866.jpg?resize=2064%2C974",
+      "contentType": "image/jpeg",
+      "bytes": 175126,
+      "rawUrl": "https://raw.githubusercontent.com/sharebravery/album/master/pulse/article/2026/08/2026-08-07T1020-toutiao-coding-npm-agent-cost/a/03-review.jpg",
+      "cdnUrl": "https://cdn.jsdelivr.net/gh/sharebravery/album@master/pulse/article/2026/08/2026-08-07T1020-toutiao-coding-npm-agent-cost/a/03-review.jpg"
+    },
+    {
+      "index": 3,
+      "status": "completed",
+      "targetPath": "pulse/article/2026/08/2026-08-07T1020-toutiao-coding-npm-agent-cost/b/01-lead.jpg",
+      "alt": "npm Trusted Publisher 配置界面，表现软件包发布信任从长期密钥转向显式身份关系",
+      "attempts": [
+        {
+          "index": 0,
+          "status": "completed",
+          "sourcePageUrl": "https://docs.npmjs.com/trusted-publishers/",
+          "downloadUrl": "https://docs.npmjs.com/packages-and-modules/securing-your-code/trusted-publisher.png"
+        }
+      ],
+      "selectedCandidateIndex": 0,
+      "sourcePageUrl": "https://docs.npmjs.com/trusted-publishers/",
+      "downloadUrl": "https://docs.npmjs.com/packages-and-modules/securing-your-code/trusted-publisher.png",
+      "contentType": "image/jpeg",
+      "bytes": 65579,
+      "rawUrl": "https://raw.githubusercontent.com/sharebravery/album/master/pulse/article/2026/08/2026-08-07T1020-toutiao-coding-npm-agent-cost/b/01-lead.jpg",
+      "cdnUrl": "https://cdn.jsdelivr.net/gh/sharebravery/album@master/pulse/article/2026/08/2026-08-07T1020-toutiao-coding-npm-agent-cost/b/01-lead.jpg"
+    },
+    {
+      "index": 4,
+      "status": "completed",
+      "targetPath": "pulse/article/2026/08/2026-08-07T1020-toutiao-coding-npm-agent-cost/b/02-oidc.jpg",
+      "alt": "npm 为 GitHub Actions 配置 OIDC Trusted Publisher 的表单，说明发布权限可绑定具体仓库与工作流",
+      "attempts": [
+        {
+          "index": 0,
+          "status": "completed",
+          "sourcePageUrl": "https://docs.npmjs.com/trusted-publishers/",
+          "downloadUrl": "https://docs.npmjs.com/packages-and-modules/securing-your-code/trusted-publisher-github-actions.png"
+        }
+      ],
+      "selectedCandidateIndex": 0,
+      "sourcePageUrl": "https://docs.npmjs.com/trusted-publishers/",
+      "downloadUrl": "https://docs.npmjs.com/packages-and-modules/securing-your-code/trusted-publisher-github-actions.png",
+      "contentType": "image/jpeg",
+      "bytes": 179467,
+      "rawUrl": "https://raw.githubusercontent.com/sharebravery/album/master/pulse/article/2026/08/2026-08-07T1020-toutiao-coding-npm-agent-cost/b/02-oidc.jpg",
+      "cdnUrl": "https://cdn.jsdelivr.net/gh/sharebravery/album@master/pulse/article/2026/08/2026-08-07T1020-toutiao-coding-npm-agent-cost/b/02-oidc.jpg"
+    },
+    {
+      "index": 5,
+      "status": "failed",
+      "targetPath": "pulse/article/2026/08/2026-08-07T1020-toutiao-coding-npm-agent-cost/b/03-provenance.jpg",
+      "alt": "npm 包页面展示 GitHub Actions 构建来源与 provenance 信息，表现发布链可以被追溯",
+      "attempts": [
+        {
+          "index": 0,
+          "status": "failed",
+          "sourcePageUrl": "https://docs.npmjs.com/trusted-publishers/",
+          "downloadUrl": "https://docs.npmjs.com/packages-and-modules/securing-your-code/trusted-publisher-provenance.png",
+          "error": "Article image is too small for publication: 1534x218; minimum short side is 240px and minimum area is 160000 pixels"
+        }
+      ],
+      "error": "all candidates failed"
+    },
+    {
+      "index": 6,
+      "status": "completed",
+      "targetPath": "pulse/article/2026/08/2026-08-07T1020-toutiao-coding-npm-agent-cost/c/01-lead.jpg",
+      "alt": "农场本地数据与 AI Agent 仪表盘，表现 Agent 成本应按完整任务与业务结果衡量",
+      "attempts": [
+        {
+          "index": 0,
+          "status": "completed",
+          "sourcePageUrl": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/using-gemini-to-manage-farm/",
+          "downloadUrl": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/image1_4m3x82y.width-1200.format-webp.webp"
+        }
+      ],
+      "selectedCandidateIndex": 0,
+      "sourcePageUrl": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/using-gemini-to-manage-farm/",
+      "downloadUrl": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/image1_4m3x82y.width-1200.format-webp.webp",
+      "contentType": "image/jpeg",
+      "bytes": 118686,
+      "rawUrl": "https://raw.githubusercontent.com/sharebravery/album/master/pulse/article/2026/08/2026-08-07T1020-toutiao-coding-npm-agent-cost/c/01-lead.jpg",
+      "cdnUrl": "https://cdn.jsdelivr.net/gh/sharebravery/album@master/pulse/article/2026/08/2026-08-07T1020-toutiao-coding-npm-agent-cost/c/01-lead.jpg"
+    },
+    {
+      "index": 7,
+      "status": "completed",
+      "targetPath": "pulse/article/2026/08/2026-08-07T1020-toutiao-coding-npm-agent-cost/c/02-evidence.jpg",
+      "alt": "农场经营指标图表，说明多轮 Agent 的价值要与真实输出和验证结果一起评估",
+      "attempts": [
+        {
+          "index": 0,
+          "status": "completed",
+          "sourcePageUrl": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/using-gemini-to-manage-farm/",
+          "downloadUrl": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/image2_9p9esCS.width-1200.format-webp.webp"
+        }
+      ],
+      "selectedCandidateIndex": 0,
+      "sourcePageUrl": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/using-gemini-to-manage-farm/",
+      "downloadUrl": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/image2_9p9esCS.width-1200.format-webp.webp",
+      "contentType": "image/jpeg",
+      "bytes": 121110,
+      "rawUrl": "https://raw.githubusercontent.com/sharebravery/album/master/pulse/article/2026/08/2026-08-07T1020-toutiao-coding-npm-agent-cost/c/02-evidence.jpg",
+      "cdnUrl": "https://cdn.jsdelivr.net/gh/sharebravery/album@master/pulse/article/2026/08/2026-08-07T1020-toutiao-coding-npm-agent-cost/c/02-evidence.jpg"
+    },
+    {
+      "index": 8,
+      "status": "failed",
+      "targetPath": "pulse/article/2026/08/2026-08-07T1020-toutiao-coding-npm-agent-cost/c/03-managed-agents.jpg",
+      "alt": "Gemini API Managed Agents 主题图，说明预算上限、工具调用和运行环境共同决定 Agent 总成本",
+      "attempts": [
+        {
+          "index": 0,
+          "status": "failed",
+          "sourcePageUrl": "https://blog.google/innovation-and-ai/technology/developers-tools/expanding-managed-agents-gemini-api-3-6-flash-hooks/",
+          "downloadUrl": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/unnamed_2_vNnOv20.width-200.format-webp.webp",
+          "error": "Article image is too small for publication: 200x112; minimum short side is 240px and minimum area is 160000 pixels"
+        }
+      ],
+      "error": "all candidates failed"
+    }
+  ]
+}
