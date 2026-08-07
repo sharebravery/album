@@ -1,0 +1,96 @@
+{
+  "version": 2,
+  "requestId": "2026-08-07T1820-wechat-agent-instructions-validation-contract-security",
+  "assets": [
+    {
+      "targetPath": "pulse/article/2026/08/2026-08-07T1820-wechat-agent-instructions-validation-contract-security/a/01-lead.jpg",
+      "alt": "AGENTS.md 项目页面展示给编码 Agent 的仓库级说明与示例规则",
+      "candidates": [
+        {
+          "sourcePageUrl": "https://agents.md/",
+          "downloadUrl": "https://image.thum.io/get/width/1200/https://agents.md/"
+        }
+      ]
+    },
+    {
+      "targetPath": "pulse/article/2026/08/2026-08-07T1820-wechat-agent-instructions-validation-contract-security/a/02-scope.jpg",
+      "alt": "GitHub 文档展示仓库级、路径级与 AGENTS.md 指令的作用范围",
+      "candidates": [
+        {
+          "sourcePageUrl": "https://docs.github.com/en/copilot/how-tos/configure-custom-instructions-in-your-ide/add-repository-instructions-in-your-ide",
+          "downloadUrl": "https://image.thum.io/get/width/1200/https://docs.github.com/en/copilot/how-tos/configure-custom-instructions-in-your-ide/add-repository-instructions-in-your-ide"
+        }
+      ]
+    },
+    {
+      "targetPath": "pulse/article/2026/08/2026-08-07T1820-wechat-agent-instructions-validation-contract-security/a/03-research.jpg",
+      "alt": "AGENTS.md 配置异味研究页面，用于说明上下文膨胀与冲突问题",
+      "candidates": [
+        {
+          "sourcePageUrl": "https://arxiv.org/abs/2606.15828",
+          "downloadUrl": "https://image.thum.io/get/width/1200/https://arxiv.org/abs/2606.15828"
+        }
+      ]
+    },
+    {
+      "targetPath": "pulse/article/2026/08/2026-08-07T1820-wechat-agent-instructions-validation-contract-security/b/01-lead.jpg",
+      "alt": "Playwright Test Agents 官方文档展示 Planner、Generator 与 Healer 的测试代理流程",
+      "candidates": [
+        {
+          "sourcePageUrl": "https://playwright.dev/docs/test-agents",
+          "downloadUrl": "https://image.thum.io/get/width/1200/https://playwright.dev/docs/test-agents"
+        }
+      ]
+    },
+    {
+      "targetPath": "pulse/article/2026/08/2026-08-07T1820-wechat-agent-instructions-validation-contract-security/b/02-tests.jpg",
+      "alt": "Playwright 最佳实践文档页面，用于说明测试与 Trace 组成可执行反馈链",
+      "candidates": [
+        {
+          "sourcePageUrl": "https://playwright.dev/docs/best-practices",
+          "downloadUrl": "https://image.thum.io/get/width/1200/https://playwright.dev/docs/best-practices"
+        }
+      ]
+    },
+    {
+      "targetPath": "pulse/article/2026/08/2026-08-07T1820-wechat-agent-instructions-validation-contract-security/b/03-harness.jpg",
+      "alt": "OpenAI Harness Engineering 文章页面，说明 Agent 工程依赖环境、意图与反馈回路",
+      "candidates": [
+        {
+          "sourcePageUrl": "https://openai.com/index/harness-engineering/",
+          "downloadUrl": "https://image.thum.io/get/width/1200/https://openai.com/index/harness-engineering/"
+        }
+      ]
+    },
+    {
+      "targetPath": "pulse/article/2026/08/2026-08-07T1820-wechat-agent-instructions-validation-contract-security/c/01-lead.jpg",
+      "alt": "Ethereum 智能合约安全文档页面，展示安全开发与审计的整体入口",
+      "candidates": [
+        {
+          "sourcePageUrl": "https://ethereum.org/developers/docs/smart-contracts/security",
+          "downloadUrl": "https://image.thum.io/get/width/1200/https://ethereum.org/developers/docs/smart-contracts/security"
+        }
+      ]
+    },
+    {
+      "targetPath": "pulse/article/2026/08/2026-08-07T1820-wechat-agent-instructions-validation-contract-security/c/02-formal.jpg",
+      "alt": "Ethereum 形式化验证文档页面，用于说明关键不变量可以被机器证明和检查",
+      "candidates": [
+        {
+          "sourcePageUrl": "https://ethereum.org/developers/docs/smart-contracts/formal-verification",
+          "downloadUrl": "https://image.thum.io/get/width/1200/https://ethereum.org/developers/docs/smart-contracts/formal-verification"
+        }
+      ]
+    },
+    {
+      "targetPath": "pulse/article/2026/08/2026-08-07T1820-wechat-agent-instructions-validation-contract-security/c/03-upgrade.jpg",
+      "alt": "OpenZeppelin 可升级合约文档页面，说明 initializer 与升级兼容性也是安全边界",
+      "candidates": [
+        {
+          "sourcePageUrl": "https://docs.openzeppelin.com/contracts/5.x/upgradeable",
+          "downloadUrl": "https://image.thum.io/get/width/1200/https://docs.openzeppelin.com/contracts/5.x/upgradeable"
+        }
+      ]
+    }
+  ]
+}
