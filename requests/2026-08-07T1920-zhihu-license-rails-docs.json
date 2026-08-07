@@ -1,0 +1,96 @@
+{
+  "version": 2,
+  "requestId": "2026-08-07T1920-zhihu-license-rails-docs",
+  "assets": [
+    {
+      "targetPath": "pulse/article/2026/08/2026-08-07T1920-zhihu-license-rails-docs/a/01-lead.jpg",
+      "alt": "Kimi K3 模型定位与能力概览",
+      "candidates": [
+        {
+          "sourcePageUrl": "https://www.linkmodel.ai/blog/kimi-k3",
+          "downloadUrl": "https://static.linkmodel.ai/blog-cover/what-is-kimi-k3.png"
+        }
+      ]
+    },
+    {
+      "targetPath": "pulse/article/2026/08/2026-08-07T1920-zhihu-license-rails-docs/a/02-evidence.jpg",
+      "alt": "Kimi K3 的百万 token 上下文示意",
+      "candidates": [
+        {
+          "sourcePageUrl": "https://www.linkmodel.ai/blog/kimi-k3",
+          "downloadUrl": "https://static.linkmodel.ai/blog-cover/a-one-million-token-context-window.png"
+        }
+      ]
+    },
+    {
+      "targetPath": "pulse/article/2026/08/2026-08-07T1920-zhihu-license-rails-docs/a/03-product.jpg",
+      "alt": "Kimi K3 多模态与长程任务能力示意",
+      "candidates": [
+        {
+          "sourcePageUrl": "https://www.linkmodel.ai/blog/kimi-k3",
+          "downloadUrl": "https://static.linkmodel.ai/blog-cover/native-image-and-video-understanding.png"
+        }
+      ]
+    },
+    {
+      "targetPath": "pulse/article/2026/08/2026-08-07T1920-zhihu-license-rails-docs/b/01-lead.jpg",
+      "alt": "Rails 与 Active Storage 安全更新的项目上下文",
+      "candidates": [
+        {
+          "sourcePageUrl": "https://github.com/rails/rails/security/advisories/GHSA-xr9x-r78c-5hrm",
+          "downloadUrl": "https://opengraph.githubassets.com/1/rails/rails/security/advisories/GHSA-xr9x-r78c-5hrm"
+        }
+      ]
+    },
+    {
+      "targetPath": "pulse/article/2026/08/2026-08-07T1920-zhihu-license-rails-docs/b/02-evidence.jpg",
+      "alt": "Rails 安全公告对应的 GitHub 项目与补丁上下文",
+      "candidates": [
+        {
+          "sourcePageUrl": "https://github.com/rails/rails",
+          "downloadUrl": "https://opengraph.githubassets.com/1/rails/rails"
+        }
+      ]
+    },
+    {
+      "targetPath": "pulse/article/2026/08/2026-08-07T1920-zhihu-license-rails-docs/b/03-product.jpg",
+      "alt": "libvips 作为底层图像处理组件的项目上下文",
+      "candidates": [
+        {
+          "sourcePageUrl": "https://github.com/libvips/libvips",
+          "downloadUrl": "https://opengraph.githubassets.com/1/libvips/libvips"
+        }
+      ]
+    },
+    {
+      "targetPath": "pulse/article/2026/08/2026-08-07T1920-zhihu-license-rails-docs/c/01-lead.jpg",
+      "alt": "开发者文档与 AI 编码工具的界面示例",
+      "candidates": [
+        {
+          "sourcePageUrl": "https://aicourses.com/ai-for-developers/best-ai-tools-for-developers/",
+          "downloadUrl": "https://aicourses.com/images/blog/best-ai-tools-for-developers-01.png"
+        }
+      ]
+    },
+    {
+      "targetPath": "pulse/article/2026/08/2026-08-07T1920-zhihu-license-rails-docs/c/02-evidence.jpg",
+      "alt": "AI 工具获取代码与文档上下文的流程示意",
+      "candidates": [
+        {
+          "sourcePageUrl": "https://aicourses.com/ai-for-developers/best-ai-tools-for-developers/",
+          "downloadUrl": "https://aicourses.com/images/blog/best-ai-tools-for-developers-02.png"
+        }
+      ]
+    },
+    {
+      "targetPath": "pulse/article/2026/08/2026-08-07T1920-zhihu-license-rails-docs/c/03-product.jpg",
+      "alt": "不同 AI 编码工具与开发流程的对比界面",
+      "candidates": [
+        {
+          "sourcePageUrl": "https://aicourses.com/ai-for-developers/best-ai-tools-for-developers/",
+          "downloadUrl": "https://aicourses.com/images/blog/best-ai-tools-for-developers-04.png"
+        }
+      ]
+    }
+  ]
+}
