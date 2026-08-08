@@ -1,0 +1,96 @@
+{
+  "version": 2,
+  "requestId": "2026-08-08T1020-toutiao-nextjs-deno-durable-lifecycle",
+  "assets": [
+    {
+      "targetPath": "pulse/article/2026/08/2026-08-08T1020-toutiao-nextjs-deno-durable-lifecycle/a/01-lead.jpg",
+      "alt": "Next.js 16.3 Instant Navigations 官方页面，展示路由即时响应主题",
+      "candidates": [
+        {
+          "sourcePageUrl": "https://nextjs.org/blog/next-16-3-instant-navigations",
+          "downloadUrl": "https://image.thum.io/get/width/1200/crop/900/noanimate/https://nextjs.org/blog/next-16-3-instant-navigations"
+        }
+      ]
+    },
+    {
+      "targetPath": "pulse/article/2026/08/2026-08-08T1020-toutiao-nextjs-deno-durable-lifecycle/a/02-prefetch.jpg",
+      "alt": "Next.js Prefetching 官方文档页面，说明预取与缓存的工程边界",
+      "candidates": [
+        {
+          "sourcePageUrl": "https://nextjs.org/docs/app/guides/prefetching",
+          "downloadUrl": "https://image.thum.io/get/width/1200/crop/900/noanimate/https://nextjs.org/docs/app/guides/prefetching"
+        }
+      ]
+    },
+    {
+      "targetPath": "pulse/article/2026/08/2026-08-08T1020-toutiao-nextjs-deno-durable-lifecycle/a/03-routing.jpg",
+      "alt": "Next.js Linking and Navigating 官方文档页面，展示服务端渲染、预取和流式导航机制",
+      "candidates": [
+        {
+          "sourcePageUrl": "https://nextjs.org/docs/app/getting-started/linking-and-navigating",
+          "downloadUrl": "https://image.thum.io/get/width/1200/crop/900/noanimate/https://nextjs.org/docs/app/getting-started/linking-and-navigating"
+        }
+      ]
+    },
+    {
+      "targetPath": "pulse/article/2026/08/2026-08-08T1020-toutiao-nextjs-deno-durable-lifecycle/b/01-lead.jpg",
+      "alt": "Deno 2.9 官方发布页面，展示 deno desktop 桌面应用能力",
+      "candidates": [
+        {
+          "sourcePageUrl": "https://deno.com/blog/v2.9",
+          "downloadUrl": "https://image.thum.io/get/width/1200/crop/900/noanimate/https://deno.com/blog/v2.9"
+        }
+      ]
+    },
+    {
+      "targetPath": "pulse/article/2026/08/2026-08-08T1020-toutiao-nextjs-deno-durable-lifecycle/b/02-desktop.jpg",
+      "alt": "Deno Desktop 官方文档页面，说明将 Web 项目打包为自包含桌面应用",
+      "candidates": [
+        {
+          "sourcePageUrl": "https://docs.deno.com/runtime/desktop/",
+          "downloadUrl": "https://image.thum.io/get/width/1200/crop/900/noanimate/https://docs.deno.com/runtime/desktop/"
+        }
+      ]
+    },
+    {
+      "targetPath": "pulse/article/2026/08/2026-08-08T1020-toutiao-nextjs-deno-durable-lifecycle/b/03-backends.jpg",
+      "alt": "Deno Desktop Backends 官方文档页面，对比系统 WebView 与 CEF 渲染后端",
+      "candidates": [
+        {
+          "sourcePageUrl": "https://docs.deno.com/runtime/desktop/backends/",
+          "downloadUrl": "https://image.thum.io/get/width/1200/crop/900/noanimate/https://docs.deno.com/runtime/desktop/backends/"
+        }
+      ]
+    },
+    {
+      "targetPath": "pulse/article/2026/08/2026-08-08T1020-toutiao-nextjs-deno-durable-lifecycle/c/01-lead.jpg",
+      "alt": "Cloudflare Durable Object class exports 官方文档，展示声明式状态生命周期配置",
+      "candidates": [
+        {
+          "sourcePageUrl": "https://developers.cloudflare.com/durable-objects/reference/durable-objects-migrations/",
+          "downloadUrl": "https://image.thum.io/get/width/1200/crop/900/noanimate/https://developers.cloudflare.com/durable-objects/reference/durable-objects-migrations/"
+        }
+      ]
+    },
+    {
+      "targetPath": "pulse/article/2026/08/2026-08-08T1020-toutiao-nextjs-deno-durable-lifecycle/c/02-changelog.jpg",
+      "alt": "Cloudflare Durable Objects exports 变更日志，展示从 migrations 到 exports 的前后配置",
+      "candidates": [
+        {
+          "sourcePageUrl": "https://developers.cloudflare.com/changelog/post/2026-06-30-declarative-do-class-exports/",
+          "downloadUrl": "https://image.thum.io/get/width/1200/crop/900/noanimate/https://developers.cloudflare.com/changelog/post/2026-06-30-declarative-do-class-exports/"
+        }
+      ]
+    },
+    {
+      "targetPath": "pulse/article/2026/08/2026-08-08T1020-toutiao-nextjs-deno-durable-lifecycle/c/03-release-notes.jpg",
+      "alt": "Cloudflare Durable Objects Release Notes 页面，记录声明式生命周期和 SQLite 存储变化",
+      "candidates": [
+        {
+          "sourcePageUrl": "https://developers.cloudflare.com/durable-objects/release-notes/",
+          "downloadUrl": "https://image.thum.io/get/width/1200/crop/900/noanimate/https://developers.cloudflare.com/durable-objects/release-notes/"
+        }
+      ]
+    }
+  ]
+}
