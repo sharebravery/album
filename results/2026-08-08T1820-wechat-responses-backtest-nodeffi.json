@@ -1,0 +1,196 @@
+{
+  "version": 2,
+  "requestId": "2026-08-08T1820-wechat-responses-backtest-nodeffi",
+  "status": "completed",
+  "assets": [
+    {
+      "index": 0,
+      "status": "completed",
+      "targetPath": "pulse/article/2026/08/2026-08-08T1820-wechat-responses-backtest-nodeffi/a/01-lead.jpg",
+      "alt": "Assistants API 迁移指南，展示旧概念与 Responses API 新概念的对应关系",
+      "attempts": [
+        {
+          "index": 0,
+          "status": "completed",
+          "sourcePageUrl": "https://ai-pedias.com/tools/openai-assistants",
+          "downloadUrl": "https://ai-pedias.com/screenshots/openai-assistants.webp"
+        }
+      ],
+      "selectedCandidateIndex": 0,
+      "sourcePageUrl": "https://ai-pedias.com/tools/openai-assistants",
+      "downloadUrl": "https://ai-pedias.com/screenshots/openai-assistants.webp",
+      "contentType": "image/jpeg",
+      "bytes": 165967,
+      "rawUrl": "https://raw.githubusercontent.com/sharebravery/album/master/pulse/article/2026/08/2026-08-08T1820-wechat-responses-backtest-nodeffi/a/01-lead.jpg",
+      "cdnUrl": "https://cdn.jsdelivr.net/gh/sharebravery/album@master/pulse/article/2026/08/2026-08-08T1820-wechat-responses-backtest-nodeffi/a/01-lead.jpg"
+    },
+    {
+      "index": 1,
+      "status": "completed",
+      "targetPath": "pulse/article/2026/08/2026-08-08T1820-wechat-responses-backtest-nodeffi/a/02-responses.jpg",
+      "alt": "Responses API 文档页面，展示响应接口、会话状态与工具能力",
+      "attempts": [
+        {
+          "index": 0,
+          "status": "completed",
+          "sourcePageUrl": "https://ai-market.jp/technology/responses-api/",
+          "downloadUrl": "https://ai-market.jp/wp-content/uploads/2025/06/responses.jpg"
+        }
+      ],
+      "selectedCandidateIndex": 0,
+      "sourcePageUrl": "https://ai-market.jp/technology/responses-api/",
+      "downloadUrl": "https://ai-market.jp/wp-content/uploads/2025/06/responses.jpg",
+      "contentType": "image/jpeg",
+      "bytes": 147641,
+      "rawUrl": "https://raw.githubusercontent.com/sharebravery/album/master/pulse/article/2026/08/2026-08-08T1820-wechat-responses-backtest-nodeffi/a/02-responses.jpg",
+      "cdnUrl": "https://cdn.jsdelivr.net/gh/sharebravery/album@master/pulse/article/2026/08/2026-08-08T1820-wechat-responses-backtest-nodeffi/a/02-responses.jpg"
+    },
+    {
+      "index": 2,
+      "status": "completed",
+      "targetPath": "pulse/article/2026/08/2026-08-08T1820-wechat-responses-backtest-nodeffi/a/03-tracing.jpg",
+      "alt": "OpenAI Agents Tracing 界面，展示一次多步骤 Agent 调用中的响应、函数与交接链路",
+      "attempts": [
+        {
+          "index": 0,
+          "status": "completed",
+          "sourcePageUrl": "https://developer.mamezou-tech.com/en/blogs/2025/03/23/openai-agents-sdk-intro/",
+          "downloadUrl": "https://i.gyazo.com/c010a3c43a10c364035d29d9d8e076ad.png"
+        }
+      ],
+      "selectedCandidateIndex": 0,
+      "sourcePageUrl": "https://developer.mamezou-tech.com/en/blogs/2025/03/23/openai-agents-sdk-intro/",
+      "downloadUrl": "https://i.gyazo.com/c010a3c43a10c364035d29d9d8e076ad.png",
+      "contentType": "image/jpeg",
+      "bytes": 114529,
+      "rawUrl": "https://raw.githubusercontent.com/sharebravery/album/master/pulse/article/2026/08/2026-08-08T1820-wechat-responses-backtest-nodeffi/a/03-tracing.jpg",
+      "cdnUrl": "https://cdn.jsdelivr.net/gh/sharebravery/album@master/pulse/article/2026/08/2026-08-08T1820-wechat-responses-backtest-nodeffi/a/03-tracing.jpg"
+    },
+    {
+      "index": 3,
+      "status": "completed",
+      "targetPath": "pulse/article/2026/08/2026-08-08T1820-wechat-responses-backtest-nodeffi/b/01-lead.jpg",
+      "alt": "量化回测结果界面，展示策略曲线、基准与结果指标",
+      "attempts": [
+        {
+          "index": 0,
+          "status": "completed",
+          "sourcePageUrl": "https://www.quantconnect.com/forum/discussion/7374/how-to-plot-benchmark-in-strategy-equity-to-compare-charts/",
+          "downloadUrl": "https://cdn.quantconnect.com/forum/i/9882_1607065832.jpg"
+        }
+      ],
+      "selectedCandidateIndex": 0,
+      "sourcePageUrl": "https://www.quantconnect.com/forum/discussion/7374/how-to-plot-benchmark-in-strategy-equity-to-compare-charts/",
+      "downloadUrl": "https://cdn.quantconnect.com/forum/i/9882_1607065832.jpg",
+      "contentType": "image/jpeg",
+      "bytes": 203477,
+      "rawUrl": "https://raw.githubusercontent.com/sharebravery/album/master/pulse/article/2026/08/2026-08-08T1820-wechat-responses-backtest-nodeffi/b/01-lead.jpg",
+      "cdnUrl": "https://cdn.jsdelivr.net/gh/sharebravery/album@master/pulse/article/2026/08/2026-08-08T1820-wechat-responses-backtest-nodeffi/b/01-lead.jpg"
+    },
+    {
+      "index": 4,
+      "status": "completed",
+      "targetPath": "pulse/article/2026/08/2026-08-08T1820-wechat-responses-backtest-nodeffi/b/02-benchmark.jpg",
+      "alt": "StockBench 架构图，展示市场数据、新闻、评估窗口与执行链路",
+      "attempts": [
+        {
+          "index": 0,
+          "status": "completed",
+          "sourcePageUrl": "https://stockbench.github.io/",
+          "downloadUrl": "https://stockbench.github.io/main.png"
+        }
+      ],
+      "selectedCandidateIndex": 0,
+      "sourcePageUrl": "https://stockbench.github.io/",
+      "downloadUrl": "https://stockbench.github.io/main.png",
+      "contentType": "image/jpeg",
+      "bytes": 367371,
+      "rawUrl": "https://raw.githubusercontent.com/sharebravery/album/master/pulse/article/2026/08/2026-08-08T1820-wechat-responses-backtest-nodeffi/b/02-benchmark.jpg",
+      "cdnUrl": "https://cdn.jsdelivr.net/gh/sharebravery/album@master/pulse/article/2026/08/2026-08-08T1820-wechat-responses-backtest-nodeffi/b/02-benchmark.jpg"
+    },
+    {
+      "index": 5,
+      "status": "completed",
+      "targetPath": "pulse/article/2026/08/2026-08-08T1820-wechat-responses-backtest-nodeffi/b/03-tearsheet.jpg",
+      "alt": "QuantStats 报告示例，展示回测输出中的收益、风险与基准指标",
+      "attempts": [
+        {
+          "index": 0,
+          "status": "completed",
+          "sourcePageUrl": "https://idevbrandon.medium.com/quantitative-analysis-for-oxinion-finance-302b98f4cd6c",
+          "downloadUrl": "https://miro.medium.com/v2/resize%3Afit%3A1400/1%2AQkTPB6beNz63RIq0DUaMAg.png"
+        }
+      ],
+      "selectedCandidateIndex": 0,
+      "sourcePageUrl": "https://idevbrandon.medium.com/quantitative-analysis-for-oxinion-finance-302b98f4cd6c",
+      "downloadUrl": "https://miro.medium.com/v2/resize%3Afit%3A1400/1%2AQkTPB6beNz63RIq0DUaMAg.png",
+      "contentType": "image/jpeg",
+      "bytes": 132332,
+      "rawUrl": "https://raw.githubusercontent.com/sharebravery/album/master/pulse/article/2026/08/2026-08-08T1820-wechat-responses-backtest-nodeffi/b/03-tearsheet.jpg",
+      "cdnUrl": "https://cdn.jsdelivr.net/gh/sharebravery/album@master/pulse/article/2026/08/2026-08-08T1820-wechat-responses-backtest-nodeffi/b/03-tearsheet.jpg"
+    },
+    {
+      "index": 6,
+      "status": "completed",
+      "targetPath": "pulse/article/2026/08/2026-08-08T1820-wechat-responses-backtest-nodeffi/c/01-lead.jpg",
+      "alt": "Node.js Permission Model 拒绝未授权资源访问时的终端输出",
+      "attempts": [
+        {
+          "index": 0,
+          "status": "completed",
+          "sourcePageUrl": "https://blog.appsignal.com/2025/05/09/whats-new-in-nodejs-24.html",
+          "downloadUrl": "https://blog.appsignal.com/images/blog/2025-05/script-failing.png"
+        }
+      ],
+      "selectedCandidateIndex": 0,
+      "sourcePageUrl": "https://blog.appsignal.com/2025/05/09/whats-new-in-nodejs-24.html",
+      "downloadUrl": "https://blog.appsignal.com/images/blog/2025-05/script-failing.png",
+      "contentType": "image/jpeg",
+      "bytes": 293834,
+      "rawUrl": "https://raw.githubusercontent.com/sharebravery/album/master/pulse/article/2026/08/2026-08-08T1820-wechat-responses-backtest-nodeffi/c/01-lead.jpg",
+      "cdnUrl": "https://cdn.jsdelivr.net/gh/sharebravery/album@master/pulse/article/2026/08/2026-08-08T1820-wechat-responses-backtest-nodeffi/c/01-lead.jpg"
+    },
+    {
+      "index": 7,
+      "status": "completed",
+      "targetPath": "pulse/article/2026/08/2026-08-08T1820-wechat-responses-backtest-nodeffi/c/02-permission.jpg",
+      "alt": "Node.js Permissions 文档页面，展示进程级权限模型与权限配置",
+      "attempts": [
+        {
+          "index": 0,
+          "status": "completed",
+          "sourcePageUrl": "https://daily.dev/blog/nodejs-v20-lts-is-now-generally-available-and-its-awesome",
+          "downloadUrl": "https://cdn.prod.website-files.com/5e0f1144930a8bc8aace526c/661f8b5346ae0d5ece5f2f32_nodejs.org-211cc2f9d08b04e16250aaa0e0d98a1d.jpeg"
+        }
+      ],
+      "selectedCandidateIndex": 0,
+      "sourcePageUrl": "https://daily.dev/blog/nodejs-v20-lts-is-now-generally-available-and-its-awesome",
+      "downloadUrl": "https://cdn.prod.website-files.com/5e0f1144930a8bc8aace526c/661f8b5346ae0d5ece5f2f32_nodejs.org-211cc2f9d08b04e16250aaa0e0d98a1d.jpeg",
+      "contentType": "image/jpeg",
+      "bytes": 233917,
+      "rawUrl": "https://raw.githubusercontent.com/sharebravery/album/master/pulse/article/2026/08/2026-08-08T1820-wechat-responses-backtest-nodeffi/c/02-permission.jpg",
+      "cdnUrl": "https://cdn.jsdelivr.net/gh/sharebravery/album@master/pulse/article/2026/08/2026-08-08T1820-wechat-responses-backtest-nodeffi/c/02-permission.jpg"
+    },
+    {
+      "index": 8,
+      "status": "completed",
+      "targetPath": "pulse/article/2026/08/2026-08-08T1820-wechat-responses-backtest-nodeffi/c/03-ffi.jpg",
+      "alt": "早期 node-ffi 项目页面，代表 Node 调用原生动态库曾长期依赖第三方绑定",
+      "attempts": [
+        {
+          "index": 0,
+          "status": "completed",
+          "sourcePageUrl": "https://github.com/node-ffi/node-ffi",
+          "downloadUrl": "https://opengraph.githubassets.com/9bbb6c1a9e96cd7eca95e104950cdb1724adb28d1df788a4897da9230d972841/node-ffi/node-ffi"
+        }
+      ],
+      "selectedCandidateIndex": 0,
+      "sourcePageUrl": "https://github.com/node-ffi/node-ffi",
+      "downloadUrl": "https://opengraph.githubassets.com/9bbb6c1a9e96cd7eca95e104950cdb1724adb28d1df788a4897da9230d972841/node-ffi/node-ffi",
+      "contentType": "image/jpeg",
+      "bytes": 51778,
+      "rawUrl": "https://raw.githubusercontent.com/sharebravery/album/master/pulse/article/2026/08/2026-08-08T1820-wechat-responses-backtest-nodeffi/c/03-ffi.jpg",
+      "cdnUrl": "https://cdn.jsdelivr.net/gh/sharebravery/album@master/pulse/article/2026/08/2026-08-08T1820-wechat-responses-backtest-nodeffi/c/03-ffi.jpg"
+    }
+  ]
+}
