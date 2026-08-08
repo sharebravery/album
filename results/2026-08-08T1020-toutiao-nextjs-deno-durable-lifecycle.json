@@ -1,0 +1,196 @@
+{
+  "version": 2,
+  "requestId": "2026-08-08T1020-toutiao-nextjs-deno-durable-lifecycle",
+  "status": "completed",
+  "assets": [
+    {
+      "index": 0,
+      "status": "completed",
+      "targetPath": "pulse/article/2026/08/2026-08-08T1020-toutiao-nextjs-deno-durable-lifecycle/a/01-lead.jpg",
+      "alt": "Next.js 16.3 Instant Navigations 官方页面，展示路由即时响应主题",
+      "attempts": [
+        {
+          "index": 0,
+          "status": "completed",
+          "sourcePageUrl": "https://nextjs.org/blog/next-16-3-instant-navigations",
+          "downloadUrl": "https://image.thum.io/get/width/1200/crop/900/noanimate/https://nextjs.org/blog/next-16-3-instant-navigations"
+        }
+      ],
+      "selectedCandidateIndex": 0,
+      "sourcePageUrl": "https://nextjs.org/blog/next-16-3-instant-navigations",
+      "downloadUrl": "https://image.thum.io/get/width/1200/crop/900/noanimate/https://nextjs.org/blog/next-16-3-instant-navigations",
+      "contentType": "image/jpeg",
+      "bytes": 217900,
+      "rawUrl": "https://raw.githubusercontent.com/sharebravery/album/master/pulse/article/2026/08/2026-08-08T1020-toutiao-nextjs-deno-durable-lifecycle/a/01-lead.jpg",
+      "cdnUrl": "https://cdn.jsdelivr.net/gh/sharebravery/album@master/pulse/article/2026/08/2026-08-08T1020-toutiao-nextjs-deno-durable-lifecycle/a/01-lead.jpg"
+    },
+    {
+      "index": 1,
+      "status": "completed",
+      "targetPath": "pulse/article/2026/08/2026-08-08T1020-toutiao-nextjs-deno-durable-lifecycle/a/02-prefetch.jpg",
+      "alt": "Next.js Prefetching 官方文档页面，说明预取与缓存的工程边界",
+      "attempts": [
+        {
+          "index": 0,
+          "status": "completed",
+          "sourcePageUrl": "https://nextjs.org/docs/app/guides/prefetching",
+          "downloadUrl": "https://image.thum.io/get/width/1200/crop/900/noanimate/https://nextjs.org/docs/app/guides/prefetching"
+        }
+      ],
+      "selectedCandidateIndex": 0,
+      "sourcePageUrl": "https://nextjs.org/docs/app/guides/prefetching",
+      "downloadUrl": "https://image.thum.io/get/width/1200/crop/900/noanimate/https://nextjs.org/docs/app/guides/prefetching",
+      "contentType": "image/jpeg",
+      "bytes": 235766,
+      "rawUrl": "https://raw.githubusercontent.com/sharebravery/album/master/pulse/article/2026/08/2026-08-08T1020-toutiao-nextjs-deno-durable-lifecycle/a/02-prefetch.jpg",
+      "cdnUrl": "https://cdn.jsdelivr.net/gh/sharebravery/album@master/pulse/article/2026/08/2026-08-08T1020-toutiao-nextjs-deno-durable-lifecycle/a/02-prefetch.jpg"
+    },
+    {
+      "index": 2,
+      "status": "completed",
+      "targetPath": "pulse/article/2026/08/2026-08-08T1020-toutiao-nextjs-deno-durable-lifecycle/a/03-routing.jpg",
+      "alt": "Next.js Linking and Navigating 官方文档页面，展示服务端渲染、预取和流式导航机制",
+      "attempts": [
+        {
+          "index": 0,
+          "status": "completed",
+          "sourcePageUrl": "https://nextjs.org/docs/app/getting-started/linking-and-navigating",
+          "downloadUrl": "https://image.thum.io/get/width/1200/crop/900/noanimate/https://nextjs.org/docs/app/getting-started/linking-and-navigating"
+        }
+      ],
+      "selectedCandidateIndex": 0,
+      "sourcePageUrl": "https://nextjs.org/docs/app/getting-started/linking-and-navigating",
+      "downloadUrl": "https://image.thum.io/get/width/1200/crop/900/noanimate/https://nextjs.org/docs/app/getting-started/linking-and-navigating",
+      "contentType": "image/jpeg",
+      "bytes": 218458,
+      "rawUrl": "https://raw.githubusercontent.com/sharebravery/album/master/pulse/article/2026/08/2026-08-08T1020-toutiao-nextjs-deno-durable-lifecycle/a/03-routing.jpg",
+      "cdnUrl": "https://cdn.jsdelivr.net/gh/sharebravery/album@master/pulse/article/2026/08/2026-08-08T1020-toutiao-nextjs-deno-durable-lifecycle/a/03-routing.jpg"
+    },
+    {
+      "index": 3,
+      "status": "completed",
+      "targetPath": "pulse/article/2026/08/2026-08-08T1020-toutiao-nextjs-deno-durable-lifecycle/b/01-lead.jpg",
+      "alt": "Deno 2.9 官方发布页面，展示 deno desktop 桌面应用能力",
+      "attempts": [
+        {
+          "index": 0,
+          "status": "completed",
+          "sourcePageUrl": "https://deno.com/blog/v2.9",
+          "downloadUrl": "https://image.thum.io/get/width/1200/crop/900/noanimate/https://deno.com/blog/v2.9"
+        }
+      ],
+      "selectedCandidateIndex": 0,
+      "sourcePageUrl": "https://deno.com/blog/v2.9",
+      "downloadUrl": "https://image.thum.io/get/width/1200/crop/900/noanimate/https://deno.com/blog/v2.9",
+      "contentType": "image/jpeg",
+      "bytes": 111768,
+      "rawUrl": "https://raw.githubusercontent.com/sharebravery/album/master/pulse/article/2026/08/2026-08-08T1020-toutiao-nextjs-deno-durable-lifecycle/b/01-lead.jpg",
+      "cdnUrl": "https://cdn.jsdelivr.net/gh/sharebravery/album@master/pulse/article/2026/08/2026-08-08T1020-toutiao-nextjs-deno-durable-lifecycle/b/01-lead.jpg"
+    },
+    {
+      "index": 4,
+      "status": "completed",
+      "targetPath": "pulse/article/2026/08/2026-08-08T1020-toutiao-nextjs-deno-durable-lifecycle/b/02-desktop.jpg",
+      "alt": "Deno Desktop 官方文档页面，说明将 Web 项目打包为自包含桌面应用",
+      "attempts": [
+        {
+          "index": 0,
+          "status": "completed",
+          "sourcePageUrl": "https://docs.deno.com/runtime/desktop/",
+          "downloadUrl": "https://image.thum.io/get/width/1200/crop/900/noanimate/https://docs.deno.com/runtime/desktop/"
+        }
+      ],
+      "selectedCandidateIndex": 0,
+      "sourcePageUrl": "https://docs.deno.com/runtime/desktop/",
+      "downloadUrl": "https://image.thum.io/get/width/1200/crop/900/noanimate/https://docs.deno.com/runtime/desktop/",
+      "contentType": "image/jpeg",
+      "bytes": 352483,
+      "rawUrl": "https://raw.githubusercontent.com/sharebravery/album/master/pulse/article/2026/08/2026-08-08T1020-toutiao-nextjs-deno-durable-lifecycle/b/02-desktop.jpg",
+      "cdnUrl": "https://cdn.jsdelivr.net/gh/sharebravery/album@master/pulse/article/2026/08/2026-08-08T1020-toutiao-nextjs-deno-durable-lifecycle/b/02-desktop.jpg"
+    },
+    {
+      "index": 5,
+      "status": "completed",
+      "targetPath": "pulse/article/2026/08/2026-08-08T1020-toutiao-nextjs-deno-durable-lifecycle/b/03-backends.jpg",
+      "alt": "Deno Desktop Backends 官方文档页面，对比系统 WebView 与 CEF 渲染后端",
+      "attempts": [
+        {
+          "index": 0,
+          "status": "completed",
+          "sourcePageUrl": "https://docs.deno.com/runtime/desktop/backends/",
+          "downloadUrl": "https://image.thum.io/get/width/1200/crop/900/noanimate/https://docs.deno.com/runtime/desktop/backends/"
+        }
+      ],
+      "selectedCandidateIndex": 0,
+      "sourcePageUrl": "https://docs.deno.com/runtime/desktop/backends/",
+      "downloadUrl": "https://image.thum.io/get/width/1200/crop/900/noanimate/https://docs.deno.com/runtime/desktop/backends/",
+      "contentType": "image/jpeg",
+      "bytes": 248627,
+      "rawUrl": "https://raw.githubusercontent.com/sharebravery/album/master/pulse/article/2026/08/2026-08-08T1020-toutiao-nextjs-deno-durable-lifecycle/b/03-backends.jpg",
+      "cdnUrl": "https://cdn.jsdelivr.net/gh/sharebravery/album@master/pulse/article/2026/08/2026-08-08T1020-toutiao-nextjs-deno-durable-lifecycle/b/03-backends.jpg"
+    },
+    {
+      "index": 6,
+      "status": "completed",
+      "targetPath": "pulse/article/2026/08/2026-08-08T1020-toutiao-nextjs-deno-durable-lifecycle/c/01-lead.jpg",
+      "alt": "Cloudflare Durable Object class exports 官方文档，展示声明式状态生命周期配置",
+      "attempts": [
+        {
+          "index": 0,
+          "status": "completed",
+          "sourcePageUrl": "https://developers.cloudflare.com/durable-objects/reference/durable-objects-migrations/",
+          "downloadUrl": "https://image.thum.io/get/width/1200/crop/900/noanimate/https://developers.cloudflare.com/durable-objects/reference/durable-objects-migrations/"
+        }
+      ],
+      "selectedCandidateIndex": 0,
+      "sourcePageUrl": "https://developers.cloudflare.com/durable-objects/reference/durable-objects-migrations/",
+      "downloadUrl": "https://image.thum.io/get/width/1200/crop/900/noanimate/https://developers.cloudflare.com/durable-objects/reference/durable-objects-migrations/",
+      "contentType": "image/jpeg",
+      "bytes": 180102,
+      "rawUrl": "https://raw.githubusercontent.com/sharebravery/album/master/pulse/article/2026/08/2026-08-08T1020-toutiao-nextjs-deno-durable-lifecycle/c/01-lead.jpg",
+      "cdnUrl": "https://cdn.jsdelivr.net/gh/sharebravery/album@master/pulse/article/2026/08/2026-08-08T1020-toutiao-nextjs-deno-durable-lifecycle/c/01-lead.jpg"
+    },
+    {
+      "index": 7,
+      "status": "completed",
+      "targetPath": "pulse/article/2026/08/2026-08-08T1020-toutiao-nextjs-deno-durable-lifecycle/c/02-changelog.jpg",
+      "alt": "Cloudflare Durable Objects exports 变更日志，展示从 migrations 到 exports 的前后配置",
+      "attempts": [
+        {
+          "index": 0,
+          "status": "completed",
+          "sourcePageUrl": "https://developers.cloudflare.com/changelog/post/2026-06-30-declarative-do-class-exports/",
+          "downloadUrl": "https://image.thum.io/get/width/1200/crop/900/noanimate/https://developers.cloudflare.com/changelog/post/2026-06-30-declarative-do-class-exports/"
+        }
+      ],
+      "selectedCandidateIndex": 0,
+      "sourcePageUrl": "https://developers.cloudflare.com/changelog/post/2026-06-30-declarative-do-class-exports/",
+      "downloadUrl": "https://image.thum.io/get/width/1200/crop/900/noanimate/https://developers.cloudflare.com/changelog/post/2026-06-30-declarative-do-class-exports/",
+      "contentType": "image/jpeg",
+      "bytes": 135400,
+      "rawUrl": "https://raw.githubusercontent.com/sharebravery/album/master/pulse/article/2026/08/2026-08-08T1020-toutiao-nextjs-deno-durable-lifecycle/c/02-changelog.jpg",
+      "cdnUrl": "https://cdn.jsdelivr.net/gh/sharebravery/album@master/pulse/article/2026/08/2026-08-08T1020-toutiao-nextjs-deno-durable-lifecycle/c/02-changelog.jpg"
+    },
+    {
+      "index": 8,
+      "status": "completed",
+      "targetPath": "pulse/article/2026/08/2026-08-08T1020-toutiao-nextjs-deno-durable-lifecycle/c/03-release-notes.jpg",
+      "alt": "Cloudflare Durable Objects Release Notes 页面，记录声明式生命周期和 SQLite 存储变化",
+      "attempts": [
+        {
+          "index": 0,
+          "status": "completed",
+          "sourcePageUrl": "https://developers.cloudflare.com/durable-objects/release-notes/",
+          "downloadUrl": "https://image.thum.io/get/width/1200/crop/900/noanimate/https://developers.cloudflare.com/durable-objects/release-notes/"
+        }
+      ],
+      "selectedCandidateIndex": 0,
+      "sourcePageUrl": "https://developers.cloudflare.com/durable-objects/release-notes/",
+      "downloadUrl": "https://image.thum.io/get/width/1200/crop/900/noanimate/https://developers.cloudflare.com/durable-objects/release-notes/",
+      "contentType": "image/jpeg",
+      "bytes": 136159,
+      "rawUrl": "https://raw.githubusercontent.com/sharebravery/album/master/pulse/article/2026/08/2026-08-08T1020-toutiao-nextjs-deno-durable-lifecycle/c/03-release-notes.jpg",
+      "cdnUrl": "https://cdn.jsdelivr.net/gh/sharebravery/album@master/pulse/article/2026/08/2026-08-08T1020-toutiao-nextjs-deno-durable-lifecycle/c/03-release-notes.jpg"
+    }
+  ]
+}
