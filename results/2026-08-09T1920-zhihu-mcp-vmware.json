@@ -1,0 +1,196 @@
+{
+  "version": 2,
+  "requestId": "2026-08-09T1920-zhihu-mcp-vmware",
+  "status": "completed",
+  "assets": [
+    {
+      "index": 0,
+      "status": "completed",
+      "targetPath": "pulse/article/2026/08/2026-08-09T1920-zhihu-mcp-vmware/a/01-lead.jpg",
+      "alt": "服务器机架，代表无状态 MCP 服务在多实例之间横向扩展的运行环境",
+      "attempts": [
+        {
+          "index": 0,
+          "status": "completed",
+          "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:Servers_in_a_Rack.jpg",
+          "downloadUrl": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Servers_in_a_Rack.jpg"
+        }
+      ],
+      "selectedCandidateIndex": 0,
+      "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:Servers_in_a_Rack.jpg",
+      "downloadUrl": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Servers_in_a_Rack.jpg",
+      "contentType": "image/jpeg",
+      "bytes": 1322929,
+      "rawUrl": "https://raw.githubusercontent.com/sharebravery/album/master/pulse/article/2026/08/2026-08-09T1920-zhihu-mcp-vmware/a/01-lead.jpg",
+      "cdnUrl": "https://cdn.jsdelivr.net/gh/sharebravery/album@master/pulse/article/2026/08/2026-08-09T1920-zhihu-mcp-vmware/a/01-lead.jpg"
+    },
+    {
+      "index": 1,
+      "status": "completed",
+      "targetPath": "pulse/article/2026/08/2026-08-09T1920-zhihu-mcp-vmware/a/02-evidence.jpg",
+      "alt": "计算机实验室环境，用于说明协议状态从连接级迁移到请求级后的服务端实现变化",
+      "attempts": [
+        {
+          "index": 0,
+          "status": "completed",
+          "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:Computer_Laboratory.jpg",
+          "downloadUrl": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Computer_Laboratory.jpg"
+        }
+      ],
+      "selectedCandidateIndex": 0,
+      "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:Computer_Laboratory.jpg",
+      "downloadUrl": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Computer_Laboratory.jpg",
+      "contentType": "image/jpeg",
+      "bytes": 2490248,
+      "rawUrl": "https://raw.githubusercontent.com/sharebravery/album/master/pulse/article/2026/08/2026-08-09T1920-zhihu-mcp-vmware/a/02-evidence.jpg",
+      "cdnUrl": "https://cdn.jsdelivr.net/gh/sharebravery/album@master/pulse/article/2026/08/2026-08-09T1920-zhihu-mcp-vmware/a/02-evidence.jpg"
+    },
+    {
+      "index": 2,
+      "status": "completed",
+      "targetPath": "pulse/article/2026/08/2026-08-09T1920-zhihu-mcp-vmware/a/03-architecture.jpg",
+      "alt": "计算机实验室设备，辅助说明 MCP 请求处理、认证与可观测性需要重新划分边界",
+      "attempts": [
+        {
+          "index": 0,
+          "status": "completed",
+          "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:Inside_a_Computer_Lab.jpg",
+          "downloadUrl": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Inside_a_Computer_Lab.jpg"
+        }
+      ],
+      "selectedCandidateIndex": 0,
+      "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:Inside_a_Computer_Lab.jpg",
+      "downloadUrl": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Inside_a_Computer_Lab.jpg",
+      "contentType": "image/jpeg",
+      "bytes": 2223658,
+      "rawUrl": "https://raw.githubusercontent.com/sharebravery/album/master/pulse/article/2026/08/2026-08-09T1920-zhihu-mcp-vmware/a/03-architecture.jpg",
+      "cdnUrl": "https://cdn.jsdelivr.net/gh/sharebravery/album@master/pulse/article/2026/08/2026-08-09T1920-zhihu-mcp-vmware/a/03-architecture.jpg"
+    },
+    {
+      "index": 3,
+      "status": "completed",
+      "targetPath": "pulse/article/2026/08/2026-08-09T1920-zhihu-mcp-vmware/b/01-lead.jpg",
+      "alt": "Cloudflare Code Mode 官方文章主视觉，展示以代码方式压缩超大 API 工具面的主题",
+      "attempts": [
+        {
+          "index": 0,
+          "status": "completed",
+          "sourcePageUrl": "https://blog.cloudflare.com/code-mode-mcp/",
+          "downloadUrl": "https://cf-assets.www.cloudflare.com/zkvhlag99gkb/2080o6v9LBfIFbLUW8elRE/3cfaeb0dc0fa56bcbe4c332b1942a167/Code_Mode-_give_agents_an_entire_API_in_1_000_tokens-OG.png"
+        }
+      ],
+      "selectedCandidateIndex": 0,
+      "sourcePageUrl": "https://blog.cloudflare.com/code-mode-mcp/",
+      "downloadUrl": "https://cf-assets.www.cloudflare.com/zkvhlag99gkb/2080o6v9LBfIFbLUW8elRE/3cfaeb0dc0fa56bcbe4c332b1942a167/Code_Mode-_give_agents_an_entire_API_in_1_000_tokens-OG.png",
+      "contentType": "image/jpeg",
+      "bytes": 111002,
+      "rawUrl": "https://raw.githubusercontent.com/sharebravery/album/master/pulse/article/2026/08/2026-08-09T1920-zhihu-mcp-vmware/b/01-lead.jpg",
+      "cdnUrl": "https://cdn.jsdelivr.net/gh/sharebravery/album@master/pulse/article/2026/08/2026-08-09T1920-zhihu-mcp-vmware/b/01-lead.jpg"
+    },
+    {
+      "index": 4,
+      "status": "completed",
+      "targetPath": "pulse/article/2026/08/2026-08-09T1920-zhihu-mcp-vmware/b/02-context.jpg",
+      "alt": "计算机实验室场景，代表 Agent 在有限上下文中检索并组合大量 API 能力",
+      "attempts": [
+        {
+          "index": 0,
+          "status": "completed",
+          "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:Computer_laboratory.jpg",
+          "downloadUrl": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Computer_laboratory.jpg"
+        }
+      ],
+      "selectedCandidateIndex": 0,
+      "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:Computer_laboratory.jpg",
+      "downloadUrl": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Computer_laboratory.jpg",
+      "contentType": "image/jpeg",
+      "bytes": 2059188,
+      "rawUrl": "https://raw.githubusercontent.com/sharebravery/album/master/pulse/article/2026/08/2026-08-09T1920-zhihu-mcp-vmware/b/02-context.jpg",
+      "cdnUrl": "https://cdn.jsdelivr.net/gh/sharebravery/album@master/pulse/article/2026/08/2026-08-09T1920-zhihu-mcp-vmware/b/02-context.jpg"
+    },
+    {
+      "index": 5,
+      "status": "completed",
+      "targetPath": "pulse/article/2026/08/2026-08-09T1920-zhihu-mcp-vmware/b/03-execution.jpg",
+      "alt": "数字计算实验室设备，用于说明 Code Mode 把多次 API 调用组合进受限执行环境",
+      "attempts": [
+        {
+          "index": 0,
+          "status": "completed",
+          "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:Digital_Computer_Laboratory.jpg",
+          "downloadUrl": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Digital_Computer_Laboratory.jpg"
+        }
+      ],
+      "selectedCandidateIndex": 0,
+      "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:Digital_Computer_Laboratory.jpg",
+      "downloadUrl": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Digital_Computer_Laboratory.jpg",
+      "contentType": "image/jpeg",
+      "bytes": 202316,
+      "rawUrl": "https://raw.githubusercontent.com/sharebravery/album/master/pulse/article/2026/08/2026-08-09T1920-zhihu-mcp-vmware/b/03-execution.jpg",
+      "cdnUrl": "https://cdn.jsdelivr.net/gh/sharebravery/album@master/pulse/article/2026/08/2026-08-09T1920-zhihu-mcp-vmware/b/03-execution.jpg"
+    },
+    {
+      "index": 6,
+      "status": "completed",
+      "targetPath": "pulse/article/2026/08/2026-08-09T1920-zhihu-mcp-vmware/c/01-lead.jpg",
+      "alt": "VMware vSphere 管理界面，代表此次安全公告涉及的虚拟化管理平面",
+      "attempts": [
+        {
+          "index": 0,
+          "status": "completed",
+          "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:VMware_vSphere.jpg",
+          "downloadUrl": "https://commons.wikimedia.org/wiki/Special:Redirect/file/VMware_vSphere.jpg"
+        }
+      ],
+      "selectedCandidateIndex": 0,
+      "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:VMware_vSphere.jpg",
+      "downloadUrl": "https://commons.wikimedia.org/wiki/Special:Redirect/file/VMware_vSphere.jpg",
+      "contentType": "image/jpeg",
+      "bytes": 236976,
+      "rawUrl": "https://raw.githubusercontent.com/sharebravery/album/master/pulse/article/2026/08/2026-08-09T1920-zhihu-mcp-vmware/c/01-lead.jpg",
+      "cdnUrl": "https://cdn.jsdelivr.net/gh/sharebravery/album@master/pulse/article/2026/08/2026-08-09T1920-zhihu-mcp-vmware/c/01-lead.jpg"
+    },
+    {
+      "index": 7,
+      "status": "completed",
+      "targetPath": "pulse/article/2026/08/2026-08-09T1920-zhihu-mcp-vmware/c/02-environment.jpg",
+      "alt": "计算机实验室环境，说明虚拟化管理面通常连接大量主机和工作负载",
+      "attempts": [
+        {
+          "index": 0,
+          "status": "completed",
+          "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:Computer_lab.jpg",
+          "downloadUrl": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Computer_lab.jpg"
+        }
+      ],
+      "selectedCandidateIndex": 0,
+      "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:Computer_lab.jpg",
+      "downloadUrl": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Computer_lab.jpg",
+      "contentType": "image/jpeg",
+      "bytes": 105329,
+      "rawUrl": "https://raw.githubusercontent.com/sharebravery/album/master/pulse/article/2026/08/2026-08-09T1920-zhihu-mcp-vmware/c/02-environment.jpg",
+      "cdnUrl": "https://cdn.jsdelivr.net/gh/sharebravery/album@master/pulse/article/2026/08/2026-08-09T1920-zhihu-mcp-vmware/c/02-environment.jpg"
+    },
+    {
+      "index": 8,
+      "status": "completed",
+      "targetPath": "pulse/article/2026/08/2026-08-09T1920-zhihu-mcp-vmware/c/03-boundary.jpg",
+      "alt": "计算机实验室设备，辅助说明补丁、管理网络隔离与最小权限共同构成安全边界",
+      "attempts": [
+        {
+          "index": 0,
+          "status": "completed",
+          "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:Computer_Lab_.jpg",
+          "downloadUrl": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Computer_Lab_.jpg"
+        }
+      ],
+      "selectedCandidateIndex": 0,
+      "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:Computer_Lab_.jpg",
+      "downloadUrl": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Computer_Lab_.jpg",
+      "contentType": "image/jpeg",
+      "bytes": 2275047,
+      "rawUrl": "https://raw.githubusercontent.com/sharebravery/album/master/pulse/article/2026/08/2026-08-09T1920-zhihu-mcp-vmware/c/03-boundary.jpg",
+      "cdnUrl": "https://cdn.jsdelivr.net/gh/sharebravery/album@master/pulse/article/2026/08/2026-08-09T1920-zhihu-mcp-vmware/c/03-boundary.jpg"
+    }
+  ]
+}
