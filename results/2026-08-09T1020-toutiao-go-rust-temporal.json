@@ -1,0 +1,196 @@
+{
+  "version": 2,
+  "requestId": "2026-08-09T1020-toutiao-go-rust-temporal",
+  "status": "completed",
+  "assets": [
+    {
+      "index": 0,
+      "status": "completed",
+      "targetPath": "pulse/article/2026/08/2026-08-09T1020-toutiao-go-rust-temporal/a/01-lead.jpg",
+      "alt": "GopherCon workshop 中开发者跟随讲师进行 Go 实践",
+      "attempts": [
+        {
+          "index": 0,
+          "status": "completed",
+          "sourcePageUrl": "https://www.ardanlabs.com/community",
+          "downloadUrl": "https://www.ardanlabs.com/images/community/images/P1031269.JPG"
+        }
+      ],
+      "selectedCandidateIndex": 0,
+      "sourcePageUrl": "https://www.ardanlabs.com/community",
+      "downloadUrl": "https://www.ardanlabs.com/images/community/images/P1031269.JPG",
+      "contentType": "image/jpeg",
+      "bytes": 387740,
+      "rawUrl": "https://raw.githubusercontent.com/sharebravery/album/master/pulse/article/2026/08/2026-08-09T1020-toutiao-go-rust-temporal/a/01-lead.jpg",
+      "cdnUrl": "https://cdn.jsdelivr.net/gh/sharebravery/album@master/pulse/article/2026/08/2026-08-09T1020-toutiao-go-rust-temporal/a/01-lead.jpg"
+    },
+    {
+      "index": 1,
+      "status": "completed",
+      "targetPath": "pulse/article/2026/08/2026-08-09T1020-toutiao-go-rust-temporal/a/02-runtime.jpg",
+      "alt": "GopherCon UK 的 State of Go 现场演讲",
+      "attempts": [
+        {
+          "index": 0,
+          "status": "completed",
+          "sourcePageUrl": "https://medium.com/@lauravuo/gophercon-uk-2023-9b9c9388338d",
+          "downloadUrl": "https://miro.medium.com/v2/resize:fit:1400/0*AZdHEdtbk6ZwZuQ3.jpeg"
+        }
+      ],
+      "selectedCandidateIndex": 0,
+      "sourcePageUrl": "https://medium.com/@lauravuo/gophercon-uk-2023-9b9c9388338d",
+      "downloadUrl": "https://miro.medium.com/v2/resize:fit:1400/0*AZdHEdtbk6ZwZuQ3.jpeg",
+      "contentType": "image/jpeg",
+      "bytes": 123797,
+      "rawUrl": "https://raw.githubusercontent.com/sharebravery/album/master/pulse/article/2026/08/2026-08-09T1020-toutiao-go-rust-temporal/a/02-runtime.jpg",
+      "cdnUrl": "https://cdn.jsdelivr.net/gh/sharebravery/album@master/pulse/article/2026/08/2026-08-09T1020-toutiao-go-rust-temporal/a/02-runtime.jpg"
+    },
+    {
+      "index": 2,
+      "status": "completed",
+      "targetPath": "pulse/article/2026/08/2026-08-09T1020-toutiao-go-rust-temporal/a/03-debug.jpg",
+      "alt": "GopherCon 现场开发者使用 Go 控制机器人演示",
+      "attempts": [
+        {
+          "index": 0,
+          "status": "completed",
+          "sourcePageUrl": "https://gobot.io/blog/2014/04/29/taking-the-stage-at-gophercon/",
+          "downloadUrl": "https://gobot.io/images/blog/2014-04-29/gophercon-rob-pike-gobot.jpg"
+        }
+      ],
+      "selectedCandidateIndex": 0,
+      "sourcePageUrl": "https://gobot.io/blog/2014/04/29/taking-the-stage-at-gophercon/",
+      "downloadUrl": "https://gobot.io/images/blog/2014-04-29/gophercon-rob-pike-gobot.jpg",
+      "contentType": "image/jpeg",
+      "bytes": 140900,
+      "rawUrl": "https://raw.githubusercontent.com/sharebravery/album/master/pulse/article/2026/08/2026-08-09T1020-toutiao-go-rust-temporal/a/03-debug.jpg",
+      "cdnUrl": "https://cdn.jsdelivr.net/gh/sharebravery/album@master/pulse/article/2026/08/2026-08-09T1020-toutiao-go-rust-temporal/a/03-debug.jpg"
+    },
+    {
+      "index": 3,
+      "status": "completed",
+      "targetPath": "pulse/article/2026/08/2026-08-09T1020-toutiao-go-rust-temporal/b/01-lead.jpg",
+      "alt": "Rust 社区活动现场的 Ferris 展示",
+      "attempts": [
+        {
+          "index": 0,
+          "status": "completed",
+          "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:Blow-up_Ferris_at_the_Rust_Programming_Language_assembly_at_38c3.jpg",
+          "downloadUrl": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Blow-up_Ferris_at_the_Rust_Programming_Language_assembly_at_38c3.jpg"
+        }
+      ],
+      "selectedCandidateIndex": 0,
+      "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:Blow-up_Ferris_at_the_Rust_Programming_Language_assembly_at_38c3.jpg",
+      "downloadUrl": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Blow-up_Ferris_at_the_Rust_Programming_Language_assembly_at_38c3.jpg",
+      "contentType": "image/jpeg",
+      "bytes": 4779575,
+      "rawUrl": "https://raw.githubusercontent.com/sharebravery/album/master/pulse/article/2026/08/2026-08-09T1020-toutiao-go-rust-temporal/b/01-lead.jpg",
+      "cdnUrl": "https://cdn.jsdelivr.net/gh/sharebravery/album@master/pulse/article/2026/08/2026-08-09T1020-toutiao-go-rust-temporal/b/01-lead.jpg"
+    },
+    {
+      "index": 4,
+      "status": "completed",
+      "targetPath": "pulse/article/2026/08/2026-08-09T1020-toutiao-go-rust-temporal/b/02-code.jpg",
+      "alt": "笔记本屏幕上显示 Rust 源代码",
+      "attempts": [
+        {
+          "index": 0,
+          "status": "completed",
+          "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:RustCodeOnScreen.jpg",
+          "downloadUrl": "https://commons.wikimedia.org/wiki/Special:Redirect/file/RustCodeOnScreen.jpg"
+        }
+      ],
+      "selectedCandidateIndex": 0,
+      "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:RustCodeOnScreen.jpg",
+      "downloadUrl": "https://commons.wikimedia.org/wiki/Special:Redirect/file/RustCodeOnScreen.jpg",
+      "contentType": "image/jpeg",
+      "bytes": 382177,
+      "rawUrl": "https://raw.githubusercontent.com/sharebravery/album/master/pulse/article/2026/08/2026-08-09T1020-toutiao-go-rust-temporal/b/02-code.jpg",
+      "cdnUrl": "https://cdn.jsdelivr.net/gh/sharebravery/album@master/pulse/article/2026/08/2026-08-09T1020-toutiao-go-rust-temporal/b/02-code.jpg"
+    },
+    {
+      "index": 5,
+      "status": "completed",
+      "targetPath": "pulse/article/2026/08/2026-08-09T1020-toutiao-go-rust-temporal/b/03-ci.jpg",
+      "alt": "Cargo Clippy 的 Rust Hello World 检查示例",
+      "attempts": [
+        {
+          "index": 0,
+          "status": "completed",
+          "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:Cargo_clippy_hello_world_example.png",
+          "downloadUrl": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Cargo_clippy_hello_world_example.png"
+        }
+      ],
+      "selectedCandidateIndex": 0,
+      "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:Cargo_clippy_hello_world_example.png",
+      "downloadUrl": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Cargo_clippy_hello_world_example.png",
+      "contentType": "image/jpeg",
+      "bytes": 110902,
+      "rawUrl": "https://raw.githubusercontent.com/sharebravery/album/master/pulse/article/2026/08/2026-08-09T1020-toutiao-go-rust-temporal/b/03-ci.jpg",
+      "cdnUrl": "https://cdn.jsdelivr.net/gh/sharebravery/album@master/pulse/article/2026/08/2026-08-09T1020-toutiao-go-rust-temporal/b/03-ci.jpg"
+    },
+    {
+      "index": 6,
+      "status": "completed",
+      "targetPath": "pulse/article/2026/08/2026-08-09T1020-toutiao-go-rust-temporal/c/01-lead.jpg",
+      "alt": "NodeConf Colombia 的 JavaScript 技术演讲现场",
+      "attempts": [
+        {
+          "index": 0,
+          "status": "completed",
+          "sourcePageUrl": "https://nodesource.com/blog/nodeconf-colombia",
+          "downloadUrl": "https://images.ctfassets.net/hspc7zpa5cvq/730ynaFCSq9oCFbChFydeU/bc142b2a5a59df07ceefda09cf916be2/miguel.jpeg"
+        }
+      ],
+      "selectedCandidateIndex": 0,
+      "sourcePageUrl": "https://nodesource.com/blog/nodeconf-colombia",
+      "downloadUrl": "https://images.ctfassets.net/hspc7zpa5cvq/730ynaFCSq9oCFbChFydeU/bc142b2a5a59df07ceefda09cf916be2/miguel.jpeg",
+      "contentType": "image/jpeg",
+      "bytes": 298796,
+      "rawUrl": "https://raw.githubusercontent.com/sharebravery/album/master/pulse/article/2026/08/2026-08-09T1020-toutiao-go-rust-temporal/c/01-lead.jpg",
+      "cdnUrl": "https://cdn.jsdelivr.net/gh/sharebravery/album@master/pulse/article/2026/08/2026-08-09T1020-toutiao-go-rust-temporal/c/01-lead.jpg"
+    },
+    {
+      "index": 7,
+      "status": "completed",
+      "targetPath": "pulse/article/2026/08/2026-08-09T1020-toutiao-go-rust-temporal/c/02-time-model.jpg",
+      "alt": "Node.js 开发者 Meetup 现场围绕笔记本交流",
+      "attempts": [
+        {
+          "index": 0,
+          "status": "completed",
+          "sourcePageUrl": "https://medium.com/@DenisIzmaylov/sixth-node-js-meetup-in-moscow-a618884835c0",
+          "downloadUrl": "https://miro.medium.com/v2/resize:fit:1400/1*j7iKgdMPrzcgVgpPTGdP0A.jpeg"
+        }
+      ],
+      "selectedCandidateIndex": 0,
+      "sourcePageUrl": "https://medium.com/@DenisIzmaylov/sixth-node-js-meetup-in-moscow-a618884835c0",
+      "downloadUrl": "https://miro.medium.com/v2/resize:fit:1400/1*j7iKgdMPrzcgVgpPTGdP0A.jpeg",
+      "contentType": "image/jpeg",
+      "bytes": 349291,
+      "rawUrl": "https://raw.githubusercontent.com/sharebravery/album/master/pulse/article/2026/08/2026-08-09T1020-toutiao-go-rust-temporal/c/02-time-model.jpg",
+      "cdnUrl": "https://cdn.jsdelivr.net/gh/sharebravery/album@master/pulse/article/2026/08/2026-08-09T1020-toutiao-go-rust-temporal/c/02-time-model.jpg"
+    },
+    {
+      "index": 8,
+      "status": "completed",
+      "targetPath": "pulse/article/2026/08/2026-08-09T1020-toutiao-go-rust-temporal/c/03-migration.jpg",
+      "alt": "Node.js 标识用于说明 Node 26 的运行时迁移背景",
+      "attempts": [
+        {
+          "index": 0,
+          "status": "completed",
+          "sourcePageUrl": "https://news.softpedia.com/news/node-js-foundation-announces-its-first-ever-board-of-directors-491014.shtml",
+          "downloadUrl": "https://news-cdn.softpedia.com/images/news2/node-js-foundation-announces-its-first-ever-board-of-directors-491014-2.jpg"
+        }
+      ],
+      "selectedCandidateIndex": 0,
+      "sourcePageUrl": "https://news.softpedia.com/news/node-js-foundation-announces-its-first-ever-board-of-directors-491014.shtml",
+      "downloadUrl": "https://news-cdn.softpedia.com/images/news2/node-js-foundation-announces-its-first-ever-board-of-directors-491014-2.jpg",
+      "contentType": "image/jpeg",
+      "bytes": 11842,
+      "rawUrl": "https://raw.githubusercontent.com/sharebravery/album/master/pulse/article/2026/08/2026-08-09T1020-toutiao-go-rust-temporal/c/03-migration.jpg",
+      "cdnUrl": "https://cdn.jsdelivr.net/gh/sharebravery/album@master/pulse/article/2026/08/2026-08-09T1020-toutiao-go-rust-temporal/c/03-migration.jpg"
+    }
+  ]
+}
