@@ -1,0 +1,191 @@
+{
+  "version": 2,
+  "requestId": "2026-08-10T1020-toutiao-agent-skills-marketdata",
+  "status": "partial",
+  "assets": [
+    {
+      "index": 0,
+      "status": "completed",
+      "targetPath": "pulse/article/2026/08/2026-08-10T1020-toutiao-agent-skills-marketdata/a/01-lead.jpg",
+      "alt": "ChatGPT Atlas 浏览器界面，用于说明浏览器 Agent 的产品迁移背景",
+      "attempts": [
+        {
+          "index": 0,
+          "status": "completed",
+          "sourcePageUrl": "https://openai.com/fr-FR/index/building-chatgpt-atlas/",
+          "downloadUrl": "https://images.ctfassets.net/kftzwdyauwt9/1ZfyDtGIW848OfrnJTaS9Z/6285496b60a6156fad19eddd9801bf87/AtlasBlog_Hero.png?fm=webp&q=90&w=2048"
+        }
+      ],
+      "selectedCandidateIndex": 0,
+      "sourcePageUrl": "https://openai.com/fr-FR/index/building-chatgpt-atlas/",
+      "downloadUrl": "https://images.ctfassets.net/kftzwdyauwt9/1ZfyDtGIW848OfrnJTaS9Z/6285496b60a6156fad19eddd9801bf87/AtlasBlog_Hero.png?fm=webp&q=90&w=2048",
+      "contentType": "image/jpeg",
+      "bytes": 123789,
+      "rawUrl": "https://raw.githubusercontent.com/sharebravery/album/master/pulse/article/2026/08/2026-08-10T1020-toutiao-agent-skills-marketdata/a/01-lead.jpg",
+      "cdnUrl": "https://cdn.jsdelivr.net/gh/sharebravery/album@master/pulse/article/2026/08/2026-08-10T1020-toutiao-agent-skills-marketdata/a/01-lead.jpg"
+    },
+    {
+      "index": 1,
+      "status": "completed",
+      "targetPath": "pulse/article/2026/08/2026-08-10T1020-toutiao-agent-skills-marketdata/a/02-state.jpg",
+      "alt": "Atlas 浏览器多标签与 Agent 功能界面，用于说明标签页和会话状态",
+      "attempts": [
+        {
+          "index": 0,
+          "status": "completed",
+          "sourcePageUrl": "https://www.digitaltrends.com/computing/24-hours-in-openais-chatgpt-atlas-ai-browser-is-already-surprising-me/",
+          "downloadUrl": "https://www.digitaltrends.com/wp-content/uploads/2025/10/chatgpt-atlas-1.jpg"
+        }
+      ],
+      "selectedCandidateIndex": 0,
+      "sourcePageUrl": "https://www.digitaltrends.com/computing/24-hours-in-openais-chatgpt-atlas-ai-browser-is-already-surprising-me/",
+      "downloadUrl": "https://www.digitaltrends.com/wp-content/uploads/2025/10/chatgpt-atlas-1.jpg",
+      "contentType": "image/jpeg",
+      "bytes": 135779,
+      "rawUrl": "https://raw.githubusercontent.com/sharebravery/album/master/pulse/article/2026/08/2026-08-10T1020-toutiao-agent-skills-marketdata/a/02-state.jpg",
+      "cdnUrl": "https://cdn.jsdelivr.net/gh/sharebravery/album@master/pulse/article/2026/08/2026-08-10T1020-toutiao-agent-skills-marketdata/a/02-state.jpg"
+    },
+    {
+      "index": 2,
+      "status": "completed",
+      "targetPath": "pulse/article/2026/08/2026-08-10T1020-toutiao-agent-skills-marketdata/a/03-migration.jpg",
+      "alt": "MacBook 上的 Atlas 浏览器界面，用于说明迁移后的浏览器运行环境",
+      "attempts": [
+        {
+          "index": 0,
+          "status": "completed",
+          "sourcePageUrl": "https://www.tomsguide.com/ai/chatgpt/chatgpt-atlas-is-here-how-to-download-for-macos-now",
+          "downloadUrl": "https://cdn.mos.cms.futurecdn.net/v2/t%3A0%2Cl%3A437%2Ccw%3A1125%2Cch%3A1125%2Cq%3A80%2Cw%3A1125/YGV9anN93GPXFY7ukrtizm.jpg"
+        }
+      ],
+      "selectedCandidateIndex": 0,
+      "sourcePageUrl": "https://www.tomsguide.com/ai/chatgpt/chatgpt-atlas-is-here-how-to-download-for-macos-now",
+      "downloadUrl": "https://cdn.mos.cms.futurecdn.net/v2/t%3A0%2Cl%3A437%2Ccw%3A1125%2Cch%3A1125%2Cq%3A80%2Cw%3A1125/YGV9anN93GPXFY7ukrtizm.jpg",
+      "contentType": "image/jpeg",
+      "bytes": 86908,
+      "rawUrl": "https://raw.githubusercontent.com/sharebravery/album/master/pulse/article/2026/08/2026-08-10T1020-toutiao-agent-skills-marketdata/a/03-migration.jpg",
+      "cdnUrl": "https://cdn.jsdelivr.net/gh/sharebravery/album@master/pulse/article/2026/08/2026-08-10T1020-toutiao-agent-skills-marketdata/a/03-migration.jpg"
+    },
+    {
+      "index": 3,
+      "status": "completed",
+      "targetPath": "pulse/article/2026/08/2026-08-10T1020-toutiao-agent-skills-marketdata/b/01-lead.jpg",
+      "alt": "OpenHands SDK 代码界面，用于说明 Coding Agent 的技能与工具组合",
+      "attempts": [
+        {
+          "index": 0,
+          "status": "completed",
+          "sourcePageUrl": "https://openhands.dev/",
+          "downloadUrl": "https://cdn.prod.website-files.com/68ff4058b35616cdd47d5b59/691b30aa3c700dcb47a96c00_SDK.webp"
+        }
+      ],
+      "selectedCandidateIndex": 0,
+      "sourcePageUrl": "https://openhands.dev/",
+      "downloadUrl": "https://cdn.prod.website-files.com/68ff4058b35616cdd47d5b59/691b30aa3c700dcb47a96c00_SDK.webp",
+      "contentType": "image/jpeg",
+      "bytes": 152379,
+      "rawUrl": "https://raw.githubusercontent.com/sharebravery/album/master/pulse/article/2026/08/2026-08-10T1020-toutiao-agent-skills-marketdata/b/01-lead.jpg",
+      "cdnUrl": "https://cdn.jsdelivr.net/gh/sharebravery/album@master/pulse/article/2026/08/2026-08-10T1020-toutiao-agent-skills-marketdata/b/01-lead.jpg"
+    },
+    {
+      "index": 4,
+      "status": "completed",
+      "targetPath": "pulse/article/2026/08/2026-08-10T1020-toutiao-agent-skills-marketdata/b/02-agent.jpg",
+      "alt": "mini-SWE-agent GitHub 仓库页面，用于说明论文评测使用的 Coding Agent",
+      "attempts": [
+        {
+          "index": 0,
+          "status": "completed",
+          "sourcePageUrl": "https://toolerific.ai/ai-tools/opensource/code-yeongyu-oh-my-openagent",
+          "downloadUrl": "https://toolerific.ai/screenshots_githubs/SWE-agent-mini-swe-agent.jpg"
+        }
+      ],
+      "selectedCandidateIndex": 0,
+      "sourcePageUrl": "https://toolerific.ai/ai-tools/opensource/code-yeongyu-oh-my-openagent",
+      "downloadUrl": "https://toolerific.ai/screenshots_githubs/SWE-agent-mini-swe-agent.jpg",
+      "contentType": "image/jpeg",
+      "bytes": 120462,
+      "rawUrl": "https://raw.githubusercontent.com/sharebravery/album/master/pulse/article/2026/08/2026-08-10T1020-toutiao-agent-skills-marketdata/b/02-agent.jpg",
+      "cdnUrl": "https://cdn.jsdelivr.net/gh/sharebravery/album@master/pulse/article/2026/08/2026-08-10T1020-toutiao-agent-skills-marketdata/b/02-agent.jpg"
+    },
+    {
+      "index": 5,
+      "status": "completed",
+      "targetPath": "pulse/article/2026/08/2026-08-10T1020-toutiao-agent-skills-marketdata/b/03-workflow.jpg",
+      "alt": "OpenHands 项目界面，用于说明 Coding Agent 的仓库任务工作流",
+      "attempts": [
+        {
+          "index": 0,
+          "status": "completed",
+          "sourcePageUrl": "https://medium.com/%40pulakitbararia/how-to-build-a-fully-local-general-purpose-ai-agent-6d362e34f4ad",
+          "downloadUrl": "https://miro.medium.com/1%2AtJ_4vzZR5kEYdhhc5HqptQ.jpeg"
+        }
+      ],
+      "selectedCandidateIndex": 0,
+      "sourcePageUrl": "https://medium.com/%40pulakitbararia/how-to-build-a-fully-local-general-purpose-ai-agent-6d362e34f4ad",
+      "downloadUrl": "https://miro.medium.com/1%2AtJ_4vzZR5kEYdhhc5HqptQ.jpeg",
+      "contentType": "image/jpeg",
+      "bytes": 43590,
+      "rawUrl": "https://raw.githubusercontent.com/sharebravery/album/master/pulse/article/2026/08/2026-08-10T1020-toutiao-agent-skills-marketdata/b/03-workflow.jpg",
+      "cdnUrl": "https://cdn.jsdelivr.net/gh/sharebravery/album@master/pulse/article/2026/08/2026-08-10T1020-toutiao-agent-skills-marketdata/b/03-workflow.jpg"
+    },
+    {
+      "index": 6,
+      "status": "completed",
+      "targetPath": "pulse/article/2026/08/2026-08-10T1020-toutiao-agent-skills-marketdata/c/01-lead.jpg",
+      "alt": "CME Group 交易大厅与市场数据屏幕，用于说明实时市场数据基础设施",
+      "attempts": [
+        {
+          "index": 0,
+          "status": "completed",
+          "sourcePageUrl": "https://wallstreetcn.com/articles/3766211",
+          "downloadUrl": "https://wpimg-wscn.awtmt.com/b927849d-95f2-4b8f-8ed2-52e85c003dfa.png"
+        }
+      ],
+      "selectedCandidateIndex": 0,
+      "sourcePageUrl": "https://wallstreetcn.com/articles/3766211",
+      "downloadUrl": "https://wpimg-wscn.awtmt.com/b927849d-95f2-4b8f-8ed2-52e85c003dfa.png",
+      "contentType": "image/jpeg",
+      "bytes": 574704,
+      "rawUrl": "https://raw.githubusercontent.com/sharebravery/album/master/pulse/article/2026/08/2026-08-10T1020-toutiao-agent-skills-marketdata/c/01-lead.jpg",
+      "cdnUrl": "https://cdn.jsdelivr.net/gh/sharebravery/album@master/pulse/article/2026/08/2026-08-10T1020-toutiao-agent-skills-marketdata/c/01-lead.jpg"
+    },
+    {
+      "index": 7,
+      "status": "failed",
+      "targetPath": "pulse/article/2026/08/2026-08-10T1020-toutiao-agent-skills-marketdata/c/02-schema.jpg",
+      "alt": "CME Group 行情图表界面，用于说明市场数据字段和下游解析",
+      "attempts": [
+        {
+          "index": 0,
+          "status": "failed",
+          "sourcePageUrl": "https://www.cmegroup.com/markets/metals/precious/100-ounce-silver.html",
+          "downloadUrl": "https://www.cmegroup.com/content/dam/cmegroup/markets/equities/images/etf-trader-trading-sim.png",
+          "error": "The read operation timed out"
+        }
+      ],
+      "error": "all candidates failed"
+    },
+    {
+      "index": 8,
+      "status": "completed",
+      "targetPath": "pulse/article/2026/08/2026-08-10T1020-toutiao-agent-skills-marketdata/c/03-pipeline.jpg",
+      "alt": "期货交易大厅的实时行情屏幕，用于说明行情管道对数据变更的依赖",
+      "attempts": [
+        {
+          "index": 0,
+          "status": "completed",
+          "sourcePageUrl": "https://www.wsj.com/articles/end-of-an-era-as-cme-to-close-almost-all-floor-trading-for-futures-1423100335",
+          "downloadUrl": "https://s.wsj.net/public/resources/images/BN-GU752_cme020_J_20150204195632.jpg"
+        }
+      ],
+      "selectedCandidateIndex": 0,
+      "sourcePageUrl": "https://www.wsj.com/articles/end-of-an-era-as-cme-to-close-almost-all-floor-trading-for-futures-1423100335",
+      "downloadUrl": "https://s.wsj.net/public/resources/images/BN-GU752_cme020_J_20150204195632.jpg",
+      "contentType": "image/jpeg",
+      "bytes": 269141,
+      "rawUrl": "https://raw.githubusercontent.com/sharebravery/album/master/pulse/article/2026/08/2026-08-10T1020-toutiao-agent-skills-marketdata/c/03-pipeline.jpg",
+      "cdnUrl": "https://cdn.jsdelivr.net/gh/sharebravery/album@master/pulse/article/2026/08/2026-08-10T1020-toutiao-agent-skills-marketdata/c/03-pipeline.jpg"
+    }
+  ]
+}
