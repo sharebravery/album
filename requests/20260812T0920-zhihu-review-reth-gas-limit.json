@@ -1,0 +1,36 @@
+{
+  "version": 2,
+  "requestId": "20260812T0920-zhihu-review-reth-gas-limit",
+  "assets": [
+    {
+      "targetPath": "pulse/article/2026/08/reth-gas-limit/01-engine-overview.jpg",
+      "alt": "Reth Engine 处理 payload 的整体流程图",
+      "candidates": [
+        {
+          "sourcePageUrl": "https://github.com/paradigmxyz/reth/blob/f3e49cc6a6e3e60a71404315e9f1e9196df90bad/crates/engine/tree/docs/mermaid/engine.mmd.png",
+          "downloadUrl": "https://raw.githubusercontent.com/paradigmxyz/reth/f3e49cc6a6e3e60a71404315e9f1e9196df90bad/crates/engine/tree/docs/mermaid/engine.mmd.png"
+        }
+      ]
+    },
+    {
+      "targetPath": "pulse/article/2026/08/reth-gas-limit/02-state-root-task.jpg",
+      "alt": "Reth Engine 中状态根任务与执行路径的关系图",
+      "candidates": [
+        {
+          "sourcePageUrl": "https://github.com/paradigmxyz/reth/blob/f3e49cc6a6e3e60a71404315e9f1e9196df90bad/crates/engine/tree/docs/mermaid/state-root-task.mmd.png",
+          "downloadUrl": "https://raw.githubusercontent.com/paradigmxyz/reth/f3e49cc6a6e3e60a71404315e9f1e9196df90bad/crates/engine/tree/docs/mermaid/state-root-task.mmd.png"
+        }
+      ]
+    },
+    {
+      "targetPath": "pulse/article/2026/08/reth-gas-limit/03-reth-performance-context.jpg",
+      "alt": "Reth 官方性能图，用于说明执行客户端为何重视快速路径与校验成本",
+      "candidates": [
+        {
+          "sourcePageUrl": "https://github.com/paradigmxyz/reth/blob/f3e49cc6a6e3e60a71404315e9f1e9196df90bad/README.md",
+          "downloadUrl": "https://raw.githubusercontent.com/paradigmxyz/reth/f3e49cc6a6e3e60a71404315e9f1e9196df90bad/assets/reth-perf.png"
+        }
+      ]
+    }
+  ]
+}
