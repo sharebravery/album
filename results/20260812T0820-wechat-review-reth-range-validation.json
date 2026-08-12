@@ -1,0 +1,70 @@
+{
+  "version": 2,
+  "requestId": "20260812T0820-wechat-review-reth-range-validation",
+  "status": "completed",
+  "assets": [
+    {
+      "index": 0,
+      "status": "completed",
+      "targetPath": "pulse/article/2026/08/reth-range-validation/01-execution-networking.jpg",
+      "alt": "Ethereum execution client networking context",
+      "attempts": [
+        {
+          "index": 0,
+          "status": "completed",
+          "sourcePageUrl": "https://ethereum.org/developers/docs/networking-layer",
+          "downloadUrl": "https://ethereum.org/content/developers/docs/networking-layer/exe_client_net_layer.png"
+        }
+      ],
+      "selectedCandidateIndex": 0,
+      "sourcePageUrl": "https://ethereum.org/developers/docs/networking-layer",
+      "downloadUrl": "https://ethereum.org/content/developers/docs/networking-layer/exe_client_net_layer.png",
+      "contentType": "image/jpeg",
+      "bytes": 112368,
+      "rawUrl": "https://raw.githubusercontent.com/sharebravery/album/master/pulse/article/2026/08/reth-range-validation/01-execution-networking.jpg",
+      "cdnUrl": "https://cdn.jsdelivr.net/gh/sharebravery/album@master/pulse/article/2026/08/reth-range-validation/01-execution-networking.jpg"
+    },
+    {
+      "index": 1,
+      "status": "completed",
+      "targetPath": "pulse/article/2026/08/reth-range-validation/02-half-open-interval.jpg",
+      "alt": "Half-open interval showing inclusive lower bound and exclusive upper bound",
+      "attempts": [
+        {
+          "index": 0,
+          "status": "completed",
+          "sourcePageUrl": "https://www.slideserve.com/mdays/1-6-solving-inequalities-powerpoint-ppt-presentation",
+          "downloadUrl": "https://image5.slideserve.com/9732677/a-half-open-or-half-closed-interval-l.jpg"
+        }
+      ],
+      "selectedCandidateIndex": 0,
+      "sourcePageUrl": "https://www.slideserve.com/mdays/1-6-solving-inequalities-powerpoint-ppt-presentation",
+      "downloadUrl": "https://image5.slideserve.com/9732677/a-half-open-or-half-closed-interval-l.jpg",
+      "contentType": "image/jpeg",
+      "bytes": 58656,
+      "rawUrl": "https://raw.githubusercontent.com/sharebravery/album/master/pulse/article/2026/08/reth-range-validation/02-half-open-interval.jpg",
+      "cdnUrl": "https://cdn.jsdelivr.net/gh/sharebravery/album@master/pulse/article/2026/08/reth-range-validation/02-half-open-interval.jpg"
+    },
+    {
+      "index": 2,
+      "status": "completed",
+      "targetPath": "pulse/article/2026/08/reth-range-validation/03-reth-network-crates.jpg",
+      "alt": "Reth codebase networking crates overview",
+      "attempts": [
+        {
+          "index": 0,
+          "status": "completed",
+          "sourcePageUrl": "https://blog.pangea.foundation/inside-reth-the-journey-of-a-tranaction-through-ethereum/",
+          "downloadUrl": "https://blog.pangea.foundation/content/images/2023/08/image-1.png"
+        }
+      ],
+      "selectedCandidateIndex": 0,
+      "sourcePageUrl": "https://blog.pangea.foundation/inside-reth-the-journey-of-a-tranaction-through-ethereum/",
+      "downloadUrl": "https://blog.pangea.foundation/content/images/2023/08/image-1.png",
+      "contentType": "image/jpeg",
+      "bytes": 75474,
+      "rawUrl": "https://raw.githubusercontent.com/sharebravery/album/master/pulse/article/2026/08/reth-range-validation/03-reth-network-crates.jpg",
+      "cdnUrl": "https://cdn.jsdelivr.net/gh/sharebravery/album@master/pulse/article/2026/08/reth-range-validation/03-reth-network-crates.jpg"
+    }
+  ]
+}
