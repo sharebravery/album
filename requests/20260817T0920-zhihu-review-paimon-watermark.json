@@ -1,0 +1,36 @@
+{
+  "version": 2,
+  "requestId": "20260817T0920-zhihu-review-paimon-watermark",
+  "assets": [
+    {
+      "targetPath": "pulse/article/2026/08/paimon-watermark/01-incremental-read.jpg",
+      "alt": "Apache Paimon 历史读取与增量读取切换示意",
+      "candidates": [
+        {
+          "sourcePageUrl": "https://www.ververica.com/blog/apache-paimon-the-streaming-lakehouse",
+          "downloadUrl": "https://www.ververica.com/hs-fs/hubfs/Google%20Drive%20Integration/Copy%20of%20Apache%20Paimon%20the%20Streaming%20Lakehouse-3.jpeg?height=1540&name=Copy+of+Apache+Paimon+the+Streaming+Lakehouse-3.jpeg&width=2375"
+        }
+      ]
+    },
+    {
+      "targetPath": "pulse/article/2026/08/paimon-watermark/02-snapshot-files.jpg",
+      "alt": "Apache Paimon CDC、snapshot、manifest 与数据文件关系图",
+      "candidates": [
+        {
+          "sourcePageUrl": "https://paimon.apache.org/docs/0.9/learn-paimon/understand-files/",
+          "downloadUrl": "https://paimon.apache.org/docs/0.9/img/cdc-ingestion-compact.png"
+        }
+      ]
+    },
+    {
+      "targetPath": "pulse/article/2026/08/paimon-watermark/03-keeper-context.jpg",
+      "alt": "ClickHouse 集群中 Keeper 协调层示意",
+      "candidates": [
+        {
+          "sourcePageUrl": "https://clickhouse.com/docs/architecture/horizontal-scaling",
+          "downloadUrl": "https://clickhouse.com/docs/assets/ideal-img/sharding.76114bc.1024.png"
+        }
+      ]
+    }
+  ]
+}
