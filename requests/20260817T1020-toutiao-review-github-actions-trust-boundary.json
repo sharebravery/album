@@ -1,0 +1,36 @@
+{
+  "version": 2,
+  "requestId": "20260817T1020-toutiao-review-github-actions-trust-boundary",
+  "assets": [
+    {
+      "targetPath": "pulse/article/2026/08/github-actions-trust-boundary/01-workflow-policy.jpg",
+      "alt": "GitHub Actions workflow execution protections 策略界面",
+      "candidates": [
+        {
+          "sourcePageUrl": "https://github.blog/changelog/2026-06-18-control-who-and-what-triggers-github-actions-workflows/",
+          "downloadUrl": "https://github.blog/wp-content/uploads/2026/06/GitHubActions_NewRelease_Header.jpg?resize=2064%2C1050"
+        }
+      ]
+    },
+    {
+      "targetPath": "pulse/article/2026/08/github-actions-trust-boundary/02-approval-gate.jpg",
+      "alt": "GitHub pull request 等待人工批准运行 CI/CD workflow",
+      "candidates": [
+        {
+          "sourcePageUrl": "https://github.blog/changelog/2026-06-11-bot-created-pull-requests-can-run-workflows-if-approved/",
+          "downloadUrl": "https://github.blog/wp-content/uploads/2026/06/595748062-72665e84-94a7-4441-ab73-9bb858fb4d47.jpeg?resize=2064%2C1096"
+        }
+      ]
+    },
+    {
+      "targetPath": "pulse/article/2026/08/github-actions-trust-boundary/03-workflow-execution.jpg",
+      "alt": "GitHub Actions 工作流执行阶段示意界面",
+      "candidates": [
+        {
+          "sourcePageUrl": "https://github.blog/changelog/2026-06-11-github-agentic-workflows-is-now-in-public-preview/",
+          "downloadUrl": "https://github.blog/wp-content/uploads/2026/06/605360150-74ec2653-4565-4c79-b467-a9d296725e8f.jpg?resize=2064%2C1016"
+        }
+      ]
+    }
+  ]
+}
