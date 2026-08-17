@@ -1,0 +1,60 @@
+{
+  "version": 2,
+  "requestId": "20260817T0920-zhihu-review-paimon-watermark",
+  "status": "partial",
+  "assets": [
+    {
+      "index": 0,
+      "status": "failed",
+      "targetPath": "pulse/article/2026/08/paimon-watermark/01-incremental-read.jpg",
+      "alt": "Apache Paimon 历史读取与增量读取切换示意",
+      "attempts": [
+        {
+          "index": 0,
+          "status": "failed",
+          "sourcePageUrl": "https://www.ververica.com/blog/apache-paimon-the-streaming-lakehouse",
+          "downloadUrl": "https://www.ververica.com/hs-fs/hubfs/Google%20Drive%20Integration/Copy%20of%20Apache%20Paimon%20the%20Streaming%20Lakehouse-3.jpeg?height=1540&name=Copy+of+Apache+Paimon+the+Streaming+Lakehouse-3.jpeg&width=2375",
+          "error": "HTTP Error 404: Not Found"
+        }
+      ],
+      "error": "all candidates failed"
+    },
+    {
+      "index": 1,
+      "status": "completed",
+      "targetPath": "pulse/article/2026/08/paimon-watermark/02-snapshot-files.jpg",
+      "alt": "Apache Paimon CDC、snapshot、manifest 与数据文件关系图",
+      "attempts": [
+        {
+          "index": 0,
+          "status": "completed",
+          "sourcePageUrl": "https://paimon.apache.org/docs/0.9/learn-paimon/understand-files/",
+          "downloadUrl": "https://paimon.apache.org/docs/0.9/img/cdc-ingestion-compact.png"
+        }
+      ],
+      "selectedCandidateIndex": 0,
+      "sourcePageUrl": "https://paimon.apache.org/docs/0.9/learn-paimon/understand-files/",
+      "downloadUrl": "https://paimon.apache.org/docs/0.9/img/cdc-ingestion-compact.png",
+      "contentType": "image/jpeg",
+      "bytes": 1954121,
+      "rawUrl": "https://raw.githubusercontent.com/sharebravery/album/master/pulse/article/2026/08/paimon-watermark/02-snapshot-files.jpg",
+      "cdnUrl": "https://cdn.jsdelivr.net/gh/sharebravery/album@master/pulse/article/2026/08/paimon-watermark/02-snapshot-files.jpg"
+    },
+    {
+      "index": 2,
+      "status": "failed",
+      "targetPath": "pulse/article/2026/08/paimon-watermark/03-keeper-context.jpg",
+      "alt": "ClickHouse 集群中 Keeper 协调层示意",
+      "attempts": [
+        {
+          "index": 0,
+          "status": "failed",
+          "sourcePageUrl": "https://clickhouse.com/docs/architecture/horizontal-scaling",
+          "downloadUrl": "https://clickhouse.com/docs/assets/ideal-img/sharding.76114bc.1024.png",
+          "error": "HTTP Error 404: Not Found"
+        }
+      ],
+      "error": "all candidates failed"
+    }
+  ]
+}
