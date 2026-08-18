@@ -1,0 +1,36 @@
+{
+  "version": 2,
+  "requestId": "20260818T0920-zhihu-review-geth-zero-kzg",
+  "assets": [
+    {
+      "targetPath": "pulse/article/2026/08/geth-zero-kzg/01-polynomial-extension.jpg",
+      "alt": "PeerDAS 中多项式扩展与冗余数据示意",
+      "candidates": [
+        {
+          "sourcePageUrl": "https://ethereum.org/roadmap/fusaka/peerdas/",
+          "downloadUrl": "https://raw.githubusercontent.com/ethereum/ethereum-org-website/dev/public/content/roadmap/fusaka/peerdas/polynomial.png"
+        }
+      ]
+    },
+    {
+      "targetPath": "pulse/article/2026/08/geth-zero-kzg/02-subnets-custody.jpg",
+      "alt": "PeerDAS 节点按子网托管数据列示意",
+      "candidates": [
+        {
+          "sourcePageUrl": "https://ethereum.org/roadmap/fusaka/peerdas/",
+          "downloadUrl": "https://raw.githubusercontent.com/ethereum/ethereum-org-website/dev/public/content/roadmap/fusaka/peerdas/subnets.png"
+        }
+      ]
+    },
+    {
+      "targetPath": "pulse/article/2026/08/geth-zero-kzg/03-blob-count.jpg",
+      "alt": "Fusaka 路线中的区块平均 blob 数量图",
+      "candidates": [
+        {
+          "sourcePageUrl": "https://ethereum.org/roadmap/fusaka/",
+          "downloadUrl": "https://raw.githubusercontent.com/ethereum/ethereum-org-website/dev/public/content/roadmap/fusaka/average-blob-count-per-block.webp"
+        }
+      ]
+    }
+  ]
+}
