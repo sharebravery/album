@@ -1,0 +1,70 @@
+{
+  "version": 2,
+  "requestId": "20260818T0920-zhihu-review-geth-zero-kzg",
+  "status": "completed",
+  "assets": [
+    {
+      "index": 0,
+      "status": "completed",
+      "targetPath": "pulse/article/2026/08/geth-zero-kzg/01-polynomial-extension.jpg",
+      "alt": "PeerDAS 中多项式扩展与冗余数据示意",
+      "attempts": [
+        {
+          "index": 0,
+          "status": "completed",
+          "sourcePageUrl": "https://ethereum.org/roadmap/fusaka/peerdas/",
+          "downloadUrl": "https://raw.githubusercontent.com/ethereum/ethereum-org-website/dev/public/content/roadmap/fusaka/peerdas/polynomial.png"
+        }
+      ],
+      "selectedCandidateIndex": 0,
+      "sourcePageUrl": "https://ethereum.org/roadmap/fusaka/peerdas/",
+      "downloadUrl": "https://raw.githubusercontent.com/ethereum/ethereum-org-website/dev/public/content/roadmap/fusaka/peerdas/polynomial.png",
+      "contentType": "image/jpeg",
+      "bytes": 54005,
+      "rawUrl": "https://raw.githubusercontent.com/sharebravery/album/master/pulse/article/2026/08/geth-zero-kzg/01-polynomial-extension.jpg",
+      "cdnUrl": "https://cdn.jsdelivr.net/gh/sharebravery/album@master/pulse/article/2026/08/geth-zero-kzg/01-polynomial-extension.jpg"
+    },
+    {
+      "index": 1,
+      "status": "completed",
+      "targetPath": "pulse/article/2026/08/geth-zero-kzg/02-subnets-custody.jpg",
+      "alt": "PeerDAS 节点按子网托管数据列示意",
+      "attempts": [
+        {
+          "index": 0,
+          "status": "completed",
+          "sourcePageUrl": "https://ethereum.org/roadmap/fusaka/peerdas/",
+          "downloadUrl": "https://raw.githubusercontent.com/ethereum/ethereum-org-website/dev/public/content/roadmap/fusaka/peerdas/subnets.png"
+        }
+      ],
+      "selectedCandidateIndex": 0,
+      "sourcePageUrl": "https://ethereum.org/roadmap/fusaka/peerdas/",
+      "downloadUrl": "https://raw.githubusercontent.com/ethereum/ethereum-org-website/dev/public/content/roadmap/fusaka/peerdas/subnets.png",
+      "contentType": "image/jpeg",
+      "bytes": 38018,
+      "rawUrl": "https://raw.githubusercontent.com/sharebravery/album/master/pulse/article/2026/08/geth-zero-kzg/02-subnets-custody.jpg",
+      "cdnUrl": "https://cdn.jsdelivr.net/gh/sharebravery/album@master/pulse/article/2026/08/geth-zero-kzg/02-subnets-custody.jpg"
+    },
+    {
+      "index": 2,
+      "status": "completed",
+      "targetPath": "pulse/article/2026/08/geth-zero-kzg/03-blob-count.jpg",
+      "alt": "Fusaka 路线中的区块平均 blob 数量图",
+      "attempts": [
+        {
+          "index": 0,
+          "status": "completed",
+          "sourcePageUrl": "https://ethereum.org/roadmap/fusaka/",
+          "downloadUrl": "https://raw.githubusercontent.com/ethereum/ethereum-org-website/dev/public/content/roadmap/fusaka/average-blob-count-per-block.webp"
+        }
+      ],
+      "selectedCandidateIndex": 0,
+      "sourcePageUrl": "https://ethereum.org/roadmap/fusaka/",
+      "downloadUrl": "https://raw.githubusercontent.com/ethereum/ethereum-org-website/dev/public/content/roadmap/fusaka/average-blob-count-per-block.webp",
+      "contentType": "image/jpeg",
+      "bytes": 174395,
+      "rawUrl": "https://raw.githubusercontent.com/sharebravery/album/master/pulse/article/2026/08/geth-zero-kzg/03-blob-count.jpg",
+      "cdnUrl": "https://cdn.jsdelivr.net/gh/sharebravery/album@master/pulse/article/2026/08/geth-zero-kzg/03-blob-count.jpg"
+    }
+  ]
+}
