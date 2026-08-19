@@ -1,0 +1,36 @@
+{
+  "version": 2,
+  "requestId": "20260819T1020-toutiao-review-exact-count",
+  "assets": [
+    {
+      "targetPath": "pulse/article/2026/08/exact-count/01-rollup-vs-nonrollup.jpg",
+      "alt": "Rollup 与 non-rollup 指标聚合差异示意",
+      "candidates": [
+        {
+          "sourcePageUrl": "https://www.uber.com/us/en/blog/scaling-exact-count/",
+          "downloadUrl": "https://cn-geo1.uber.com/image-proc/resize/udam/format%3Dauto/srcb64%3DaHR0cHM6Ly90Yi1zdGF0aWMudWJlci5jb20vcHJvZC91ZGFtLWFzc2V0cy9iZjM4Y2FmNi01ODYxLTRkMWUtODJiZC03MWRkMGU5ZDA3NjcucG5n"
+        }
+      ]
+    },
+    {
+      "targetPath": "pulse/article/2026/08/exact-count/02-chunked-buffer.jpg",
+      "alt": "单体 Roaring64Bitmap 与分块聚合缓冲策略对比",
+      "candidates": [
+        {
+          "sourcePageUrl": "https://www.uber.com/us/en/blog/scaling-exact-count/",
+          "downloadUrl": "https://cn-geo1.uber.com/image-proc/resize/udam/format%3Dauto/srcb64%3DaHR0cHM6Ly90Yi1zdGF0aWMudWJlci5jb20vcHJvZC91ZGFtLWFzc2V0cy8yYTJkNTU1OC0wYjc2LTRkM2QtOWZhNC1hYmU5ZDBmMjdmZWUucG5n"
+        }
+      ]
+    },
+    {
+      "targetPath": "pulse/article/2026/08/exact-count/03-cardinality-threshold.jpg",
+      "alt": "分块方案前后安全基数阈值对比",
+      "candidates": [
+        {
+          "sourcePageUrl": "https://www.uber.com/us/en/blog/scaling-exact-count/",
+          "downloadUrl": "https://cn-geo1.uber.com/image-proc/resize/udam/format%3Dauto/srcb64%3DaHR0cHM6Ly90Yi1zdGF0aWMudWJlci5jb20vcHJvZC91ZGFtLWFzc2V0cy9hZWU3MzZmZC1kODU4LTQzODYtYjFhMi0zZGI2ZGMzNWFiZTYuanBlZw%3D%3D"
+        }
+      ]
+    }
+  ]
+}
