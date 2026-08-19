@@ -1,0 +1,70 @@
+{
+  "version": 2,
+  "requestId": "20260819T0920-zhihu-review-agave-xdp-default",
+  "status": "completed",
+  "assets": [
+    {
+      "index": 0,
+      "status": "completed",
+      "targetPath": "pulse/article/2026/08/agave-xdp-default/01-af-xdp-architecture.jpg",
+      "alt": "AF_XDP 在用户态与 Linux 网络驱动之间的位置示意",
+      "attempts": [
+        {
+          "index": 0,
+          "status": "completed",
+          "sourcePageUrl": "https://cntt.readthedocs.io/projects/rm/en/latest/chapters/chapter03.html",
+          "downloadUrl": "https://cntt.readthedocs.io/projects/rm/en/latest/_images/ch03-afxdp-arch.png"
+        }
+      ],
+      "selectedCandidateIndex": 0,
+      "sourcePageUrl": "https://cntt.readthedocs.io/projects/rm/en/latest/chapters/chapter03.html",
+      "downloadUrl": "https://cntt.readthedocs.io/projects/rm/en/latest/_images/ch03-afxdp-arch.png",
+      "contentType": "image/jpeg",
+      "bytes": 42279,
+      "rawUrl": "https://raw.githubusercontent.com/sharebravery/album/master/pulse/article/2026/08/agave-xdp-default/01-af-xdp-architecture.jpg",
+      "cdnUrl": "https://cdn.jsdelivr.net/gh/sharebravery/album@master/pulse/article/2026/08/agave-xdp-default/01-af-xdp-architecture.jpg"
+    },
+    {
+      "index": 1,
+      "status": "completed",
+      "targetPath": "pulse/article/2026/08/agave-xdp-default/02-umem-rings.jpg",
+      "alt": "AF_XDP 的 UMEM、RX/TX 与 Fill/Completion ring 数据路径",
+      "attempts": [
+        {
+          "index": 0,
+          "status": "completed",
+          "sourcePageUrl": "https://noise.getoto.net/2023/01/16/a-debugging-story-corrupt-packets-in-af_xdp-a-kernel-bug-or-user-error/",
+          "downloadUrl": "https://blog.cloudflare.com/content/images/2023/01/Untitled--1--1.png"
+        }
+      ],
+      "selectedCandidateIndex": 0,
+      "sourcePageUrl": "https://noise.getoto.net/2023/01/16/a-debugging-story-corrupt-packets-in-af_xdp-a-kernel-bug-or-user-error/",
+      "downloadUrl": "https://blog.cloudflare.com/content/images/2023/01/Untitled--1--1.png",
+      "contentType": "image/jpeg",
+      "bytes": 171211,
+      "rawUrl": "https://raw.githubusercontent.com/sharebravery/album/master/pulse/article/2026/08/agave-xdp-default/02-umem-rings.jpg",
+      "cdnUrl": "https://cdn.jsdelivr.net/gh/sharebravery/album@master/pulse/article/2026/08/agave-xdp-default/02-umem-rings.jpg"
+    },
+    {
+      "index": 2,
+      "status": "completed",
+      "targetPath": "pulse/article/2026/08/agave-xdp-default/03-xdp-actions.jpg",
+      "alt": "XDP 程序在驱动入口执行后可通过、丢弃、转发或重定向数据包",
+      "attempts": [
+        {
+          "index": 0,
+          "status": "completed",
+          "sourcePageUrl": "https://medium.com/@tom_84912/happy-birthday-xdp-a971b8ac75e6",
+          "downloadUrl": "https://miro.medium.com/v2/resize:fit:1400/1*BeZboM9nZ945xV9cbMYIGA.png"
+        }
+      ],
+      "selectedCandidateIndex": 0,
+      "sourcePageUrl": "https://medium.com/@tom_84912/happy-birthday-xdp-a971b8ac75e6",
+      "downloadUrl": "https://miro.medium.com/v2/resize:fit:1400/1*BeZboM9nZ945xV9cbMYIGA.png",
+      "contentType": "image/jpeg",
+      "bytes": 139827,
+      "rawUrl": "https://raw.githubusercontent.com/sharebravery/album/master/pulse/article/2026/08/agave-xdp-default/03-xdp-actions.jpg",
+      "cdnUrl": "https://cdn.jsdelivr.net/gh/sharebravery/album@master/pulse/article/2026/08/agave-xdp-default/03-xdp-actions.jpg"
+    }
+  ]
+}
