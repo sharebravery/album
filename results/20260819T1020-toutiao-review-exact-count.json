@@ -1,0 +1,70 @@
+{
+  "version": 2,
+  "requestId": "20260819T1020-toutiao-review-exact-count",
+  "status": "completed",
+  "assets": [
+    {
+      "index": 0,
+      "status": "completed",
+      "targetPath": "pulse/article/2026/08/exact-count/01-rollup-vs-nonrollup.jpg",
+      "alt": "Rollup 与 non-rollup 指标聚合差异示意",
+      "attempts": [
+        {
+          "index": 0,
+          "status": "completed",
+          "sourcePageUrl": "https://www.uber.com/us/en/blog/scaling-exact-count/",
+          "downloadUrl": "https://cn-geo1.uber.com/image-proc/resize/udam/format%3Dauto/srcb64%3DaHR0cHM6Ly90Yi1zdGF0aWMudWJlci5jb20vcHJvZC91ZGFtLWFzc2V0cy9iZjM4Y2FmNi01ODYxLTRkMWUtODJiZC03MWRkMGU5ZDA3NjcucG5n"
+        }
+      ],
+      "selectedCandidateIndex": 0,
+      "sourcePageUrl": "https://www.uber.com/us/en/blog/scaling-exact-count/",
+      "downloadUrl": "https://cn-geo1.uber.com/image-proc/resize/udam/format%3Dauto/srcb64%3DaHR0cHM6Ly90Yi1zdGF0aWMudWJlci5jb20vcHJvZC91ZGFtLWFzc2V0cy9iZjM4Y2FmNi01ODYxLTRkMWUtODJiZC03MWRkMGU5ZDA3NjcucG5n",
+      "contentType": "image/jpeg",
+      "bytes": 195862,
+      "rawUrl": "https://raw.githubusercontent.com/sharebravery/album/master/pulse/article/2026/08/exact-count/01-rollup-vs-nonrollup.jpg",
+      "cdnUrl": "https://cdn.jsdelivr.net/gh/sharebravery/album@master/pulse/article/2026/08/exact-count/01-rollup-vs-nonrollup.jpg"
+    },
+    {
+      "index": 1,
+      "status": "completed",
+      "targetPath": "pulse/article/2026/08/exact-count/02-chunked-buffer.jpg",
+      "alt": "单体 Roaring64Bitmap 与分块聚合缓冲策略对比",
+      "attempts": [
+        {
+          "index": 0,
+          "status": "completed",
+          "sourcePageUrl": "https://www.uber.com/us/en/blog/scaling-exact-count/",
+          "downloadUrl": "https://cn-geo1.uber.com/image-proc/resize/udam/format%3Dauto/srcb64%3DaHR0cHM6Ly90Yi1zdGF0aWMudWJlci5jb20vcHJvZC91ZGFtLWFzc2V0cy8yYTJkNTU1OC0wYjc2LTRkM2QtOWZhNC1hYmU5ZDBmMjdmZWUucG5n"
+        }
+      ],
+      "selectedCandidateIndex": 0,
+      "sourcePageUrl": "https://www.uber.com/us/en/blog/scaling-exact-count/",
+      "downloadUrl": "https://cn-geo1.uber.com/image-proc/resize/udam/format%3Dauto/srcb64%3DaHR0cHM6Ly90Yi1zdGF0aWMudWJlci5jb20vcHJvZC91ZGFtLWFzc2V0cy8yYTJkNTU1OC0wYjc2LTRkM2QtOWZhNC1hYmU5ZDBmMjdmZWUucG5n",
+      "contentType": "image/jpeg",
+      "bytes": 205980,
+      "rawUrl": "https://raw.githubusercontent.com/sharebravery/album/master/pulse/article/2026/08/exact-count/02-chunked-buffer.jpg",
+      "cdnUrl": "https://cdn.jsdelivr.net/gh/sharebravery/album@master/pulse/article/2026/08/exact-count/02-chunked-buffer.jpg"
+    },
+    {
+      "index": 2,
+      "status": "completed",
+      "targetPath": "pulse/article/2026/08/exact-count/03-cardinality-threshold.jpg",
+      "alt": "分块方案前后安全基数阈值对比",
+      "attempts": [
+        {
+          "index": 0,
+          "status": "completed",
+          "sourcePageUrl": "https://www.uber.com/us/en/blog/scaling-exact-count/",
+          "downloadUrl": "https://cn-geo1.uber.com/image-proc/resize/udam/format%3Dauto/srcb64%3DaHR0cHM6Ly90Yi1zdGF0aWMudWJlci5jb20vcHJvZC91ZGFtLWFzc2V0cy9hZWU3MzZmZC1kODU4LTQzODYtYjFhMi0zZGI2ZGMzNWFiZTYuanBlZw%3D%3D"
+        }
+      ],
+      "selectedCandidateIndex": 0,
+      "sourcePageUrl": "https://www.uber.com/us/en/blog/scaling-exact-count/",
+      "downloadUrl": "https://cn-geo1.uber.com/image-proc/resize/udam/format%3Dauto/srcb64%3DaHR0cHM6Ly90Yi1zdGF0aWMudWJlci5jb20vcHJvZC91ZGFtLWFzc2V0cy9hZWU3MzZmZC1kODU4LTQzODYtYjFhMi0zZGI2ZGMzNWFiZTYuanBlZw%3D%3D",
+      "contentType": "image/jpeg",
+      "bytes": 102036,
+      "rawUrl": "https://raw.githubusercontent.com/sharebravery/album/master/pulse/article/2026/08/exact-count/03-cardinality-threshold.jpg",
+      "cdnUrl": "https://cdn.jsdelivr.net/gh/sharebravery/album@master/pulse/article/2026/08/exact-count/03-cardinality-threshold.jpg"
+    }
+  ]
+}
