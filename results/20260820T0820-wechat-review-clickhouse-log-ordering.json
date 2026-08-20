@@ -1,36 +1,55 @@
 {
   "version": 2,
   "requestId": "20260820T0820-wechat-review-clickhouse-log-ordering",
+  "status": "failed",
   "assets": [
     {
+      "index": 0,
+      "status": "failed",
       "targetPath": "pulse/article/2026-08-20/wechat-clickhouse-log-ordering-01.jpg",
       "alt": "ClickHouse 官方 OpenTelemetry 可观测性架构图，用于说明日志从 Collector 进入 ClickHouse 的数据路径",
-      "candidates": [
+      "attempts": [
         {
+          "index": 0,
+          "status": "failed",
           "sourcePageUrl": "https://github.com/ClickHouse/clickhouse-docs/blob/main/docs/use-cases/observability/build-your-own/integrating-opentelemetry.md",
-          "downloadUrl": "https://raw.githubusercontent.com/ClickHouse/clickhouse-docs/main/static/images/use-cases/observability/observability_3.png"
+          "downloadUrl": "https://raw.githubusercontent.com/ClickHouse/clickhouse-docs/main/static/images/use-cases/observability/observability_3.png",
+          "error": "HTTP Error 404: Not Found"
         }
-      ]
+      ],
+      "error": "all candidates failed"
     },
     {
+      "index": 1,
+      "status": "failed",
       "targetPath": "pulse/article/2026-08-20/wechat-clickhouse-log-ordering-02.jpg",
       "alt": "ClickHouse 官方 OpenTelemetry Collector 部署示意图，用于解释日志写入前的采集与汇聚边界",
-      "candidates": [
+      "attempts": [
         {
+          "index": 0,
+          "status": "failed",
           "sourcePageUrl": "https://github.com/ClickHouse/clickhouse-docs/blob/main/docs/use-cases/observability/build-your-own/integrating-opentelemetry.md",
-          "downloadUrl": "https://raw.githubusercontent.com/ClickHouse/clickhouse-docs/main/static/images/use-cases/observability/observability_4.png"
+          "downloadUrl": "https://raw.githubusercontent.com/ClickHouse/clickhouse-docs/main/static/images/use-cases/observability/observability_4.png",
+          "error": "HTTP Error 404: Not Found"
         }
-      ]
+      ],
+      "error": "all candidates failed"
     },
     {
+      "index": 2,
+      "status": "failed",
       "targetPath": "pulse/article/2026-08-20/wechat-clickhouse-log-ordering-03.jpg",
       "alt": "ClickHouse 官方可观测性查询界面示意图，用于说明时间范围检索与日志过滤的读路径",
-      "candidates": [
+      "attempts": [
         {
+          "index": 0,
+          "status": "failed",
           "sourcePageUrl": "https://github.com/ClickHouse/clickhouse-docs/blob/main/docs/use-cases/observability/build-your-own/integrating-opentelemetry.md",
-          "downloadUrl": "https://raw.githubusercontent.com/ClickHouse/clickhouse-docs/main/static/images/use-cases/observability/observability_5.png"
+          "downloadUrl": "https://raw.githubusercontent.com/ClickHouse/clickhouse-docs/main/static/images/use-cases/observability/observability_5.png",
+          "error": "HTTP Error 404: Not Found"
         }
-      ]
+      ],
+      "error": "all candidates failed"
     }
   ]
 }
