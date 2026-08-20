@@ -1,0 +1,40 @@
+{
+  "version": 2,
+  "requestId": "20260820T0920-zhihu-review-alpenglow-audit-boundary",
+  "assets": [
+    {
+      "targetPath": "pulse/article/2026/08/alpenglow-audit-boundary/01-latency-context.jpg",
+      "alt": "Alpenglow 在不同质押覆盖比例下的网络、传播、投票与最终确认延迟分解",
+      "candidates": [
+        {
+          "sourcePageUrl": "https://www.anza.xyz/blog/alpenglow-a-new-consensus-for-solana",
+          "downloadUrl": "https://framerusercontent.com/images/x3IHLE5YgrS8ZYIOCAnFJefyXY.png"
+        }
+      ]
+    },
+    {
+      "targetPath": "pulse/article/2026/08/alpenglow-audit-boundary/02-block-lifecycle.jpg",
+      "alt": "Alpenglow 区块生命周期中的传播、notarization、fast finalization 与 slow finalization",
+      "candidates": [
+        {
+          "sourcePageUrl": "https://www.helius.dev/blog/alpenglow",
+          "downloadUrl": "https://www.helius.dev/api/media/file/common-case-life-cycle-of-a-block-in-alpenglow.PNG"
+        }
+      ]
+    },
+    {
+      "targetPath": "pulse/article/2026/08/alpenglow-audit-boundary/03-finalization-thresholds.jpg",
+      "alt": "Alpenglow Votor 在 80% 与 60% 质押阈值下形成不同 BLS 证书的示意",
+      "candidates": [
+        {
+          "sourcePageUrl": "https://blog.stake.fish/alpenglow-solanas-leap-toward-real-time-consensus/",
+          "downloadUrl": "https://blog.stake.fish/content/images/2025/09/data-src-image-128a8b39-d0ff-46f0-b9ff-ef543541ac45.png"
+        },
+        {
+          "sourcePageUrl": "https://medium.com/@sidarths/solana-school-lesson-1-learn-solana-architecture-proof-of-history-and-alpenglow-71ffa3dbd39b",
+          "downloadUrl": "https://miro.medium.com/v2/resize:fit:1400/1*FfTILDX3P_mEcKoJraLwRA.png"
+        }
+      ]
+    }
+  ]
+}
