@@ -1,0 +1,70 @@
+{
+  "version": 2,
+  "requestId": "20260821T1020-toutiao-review-model-transparency",
+  "status": "completed",
+  "assets": [
+    {
+      "index": 0,
+      "status": "completed",
+      "targetPath": "pulse/article/2026/08/model-transparency/01-scam-alert-ui.jpg",
+      "alt": "WhatsApp Scam Alert beta interface showing on-device warning and user controls",
+      "attempts": [
+        {
+          "index": 0,
+          "status": "completed",
+          "sourcePageUrl": "https://www.adslzone.net/noticias/whatsapp/alertas-estafas-robo-cuentas-whatsapp/",
+          "downloadUrl": "https://www.adslzone.net/app/uploads-adslzone.net/2026/06/WhatsApp-Alerta-estafas.jpg"
+        }
+      ],
+      "selectedCandidateIndex": 0,
+      "sourcePageUrl": "https://www.adslzone.net/noticias/whatsapp/alertas-estafas-robo-cuentas-whatsapp/",
+      "downloadUrl": "https://www.adslzone.net/app/uploads-adslzone.net/2026/06/WhatsApp-Alerta-estafas.jpg",
+      "contentType": "image/jpeg",
+      "bytes": 158916,
+      "rawUrl": "https://raw.githubusercontent.com/sharebravery/album/master/pulse/article/2026/08/model-transparency/01-scam-alert-ui.jpg",
+      "cdnUrl": "https://cdn.jsdelivr.net/gh/sharebravery/album@master/pulse/article/2026/08/model-transparency/01-scam-alert-ui.jpg"
+    },
+    {
+      "index": 1,
+      "status": "completed",
+      "targetPath": "pulse/article/2026/08/model-transparency/02-transparency-log.jpg",
+      "alt": "Cloudflare transparency workflow illustrating manifest hashes, witnesses and client verification",
+      "attempts": [
+        {
+          "index": 0,
+          "status": "completed",
+          "sourcePageUrl": "https://blog.cloudflare.com/improving-the-trustworthiness-of-javascript-on-the-web/",
+          "downloadUrl": "https://cf-assets.www.cloudflare.com/zkvhlag99gkb/2bq4UBxoOgKPcysPPxnKD8/9e8c2a8a3b092fffae853b8d477efb07/BLOG-2875_7.png"
+        }
+      ],
+      "selectedCandidateIndex": 0,
+      "sourcePageUrl": "https://blog.cloudflare.com/improving-the-trustworthiness-of-javascript-on-the-web/",
+      "downloadUrl": "https://cf-assets.www.cloudflare.com/zkvhlag99gkb/2bq4UBxoOgKPcysPPxnKD8/9e8c2a8a3b092fffae853b8d477efb07/BLOG-2875_7.png",
+      "contentType": "image/jpeg",
+      "bytes": 353934,
+      "rawUrl": "https://raw.githubusercontent.com/sharebravery/album/master/pulse/article/2026/08/model-transparency/02-transparency-log.jpg",
+      "cdnUrl": "https://cdn.jsdelivr.net/gh/sharebravery/album@master/pulse/article/2026/08/model-transparency/02-transparency-log.jpg"
+    },
+    {
+      "index": 2,
+      "status": "completed",
+      "targetPath": "pulse/article/2026/08/model-transparency/03-confidential-analytics.jpg",
+      "alt": "Confidential federated analytics architecture with TEE processing and a transparency log",
+      "attempts": [
+        {
+          "index": 0,
+          "status": "completed",
+          "sourcePageUrl": "https://research.google/blog/discovering-new-words-with-confidential-federated-analytics/",
+          "downloadUrl": "https://storage.googleapis.com/gweb-research2023-media/original_images/ConfidentialFederatedAnalytics-0-Hero.png"
+        }
+      ],
+      "selectedCandidateIndex": 0,
+      "sourcePageUrl": "https://research.google/blog/discovering-new-words-with-confidential-federated-analytics/",
+      "downloadUrl": "https://storage.googleapis.com/gweb-research2023-media/original_images/ConfidentialFederatedAnalytics-0-Hero.png",
+      "contentType": "image/jpeg",
+      "bytes": 169923,
+      "rawUrl": "https://raw.githubusercontent.com/sharebravery/album/master/pulse/article/2026/08/model-transparency/03-confidential-analytics.jpg",
+      "cdnUrl": "https://cdn.jsdelivr.net/gh/sharebravery/album@master/pulse/article/2026/08/model-transparency/03-confidential-analytics.jpg"
+    }
+  ]
+}
