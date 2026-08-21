@@ -1,0 +1,48 @@
+{
+  "version": 2,
+  "requestId": "20260821T1020-toutiao-review-model-transparency",
+  "assets": [
+    {
+      "targetPath": "pulse/article/2026/08/model-transparency/01-scam-alert-ui.jpg",
+      "alt": "WhatsApp Scam Alert beta interface showing on-device warning and user controls",
+      "candidates": [
+        {
+          "sourcePageUrl": "https://www.adslzone.net/noticias/whatsapp/alertas-estafas-robo-cuentas-whatsapp/",
+          "downloadUrl": "https://www.adslzone.net/app/uploads-adslzone.net/2026/06/WhatsApp-Alerta-estafas.jpg"
+        },
+        {
+          "sourcePageUrl": "https://www.deccanherald.com/technology/whatsapp-security-update-meta-tests-scam-alert-to-flag-fraud-messages-in-chats-4035202",
+          "downloadUrl": "https://media.assettype.com/deccanherald%2F2026-06-11%2F6llpssfi%2FWhatsApp_Scam_Alert_feature.jpg?w=undefined"
+        }
+      ]
+    },
+    {
+      "targetPath": "pulse/article/2026/08/model-transparency/02-transparency-log.jpg",
+      "alt": "Cloudflare transparency workflow illustrating manifest hashes, witnesses and client verification",
+      "candidates": [
+        {
+          "sourcePageUrl": "https://blog.cloudflare.com/improving-the-trustworthiness-of-javascript-on-the-web/",
+          "downloadUrl": "https://cf-assets.www.cloudflare.com/zkvhlag99gkb/2bq4UBxoOgKPcysPPxnKD8/9e8c2a8a3b092fffae853b8d477efb07/BLOG-2875_7.png"
+        },
+        {
+          "sourcePageUrl": "https://github.com/sigstore/model-transparency",
+          "downloadUrl": "https://raw.githubusercontent.com/sigstore/model-transparency/main/docs/images/sigstore-model-diagram.png"
+        }
+      ]
+    },
+    {
+      "targetPath": "pulse/article/2026/08/model-transparency/03-confidential-analytics.jpg",
+      "alt": "Confidential federated analytics architecture with TEE processing and a transparency log",
+      "candidates": [
+        {
+          "sourcePageUrl": "https://research.google/blog/discovering-new-words-with-confidential-federated-analytics/",
+          "downloadUrl": "https://storage.googleapis.com/gweb-research2023-media/original_images/ConfidentialFederatedAnalytics-0-Hero.png"
+        },
+        {
+          "sourcePageUrl": "https://research.google/blog/toward-provably-private-insights-into-ai-use/",
+          "downloadUrl": "https://storage.googleapis.com/gweb-research2023-media/original_images/ProvablyPrivateInsights_Overview.png"
+        }
+      ]
+    }
+  ]
+}
