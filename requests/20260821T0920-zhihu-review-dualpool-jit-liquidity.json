@@ -1,0 +1,36 @@
+{
+  "version": 2,
+  "requestId": "20260821T0920-zhihu-review-dualpool-jit-liquidity",
+  "assets": [
+    {
+      "targetPath": "pulse/article/2026/08/dualpool-jit-liquidity/01-dualpool-overview.jpg",
+      "alt": "Uniswap DualPool 官方主视觉，用于建立 DualPool 与 v4 Hook 的整体心智模型",
+      "candidates": [
+        {
+          "sourcePageUrl": "https://blog.uniswap.org/es-ES/dualpool-hook-is-now-live",
+          "downloadUrl": "https://images.ctfassets.net/oc3ca6rftwdu/5nLoUze0pIWqllO16rWSTE/a38f342133a12826a31233bcff3aa4e3/Dualpool.png?fit=crop&h=900&q=100&w=1200"
+        }
+      ]
+    },
+    {
+      "targetPath": "pulse/article/2026/08/dualpool-jit-liquidity/02-hook-swap-flow.jpg",
+      "alt": "Uniswap v4 在 swap 前后调用 Hook 的执行流程，用于解释 DualPool 的 JIT 流动性生命周期",
+      "candidates": [
+        {
+          "sourcePageUrl": "https://metalamp.io/magazine/article/uniswap-v4-explained-hooks-singleton-architecture-dynamic-fees-erc-6909",
+          "downloadUrl": "https://metalamp.io/images/uni_1.png"
+        }
+      ]
+    },
+    {
+      "targetPath": "pulse/article/2026/08/dualpool-jit-liquidity/03-poolmanager-hook-architecture.jpg",
+      "alt": "Uniswap v4 PoolManager、Router 与 Hook 的关系，用于说明 DualPool 对路由层保持标准 v4 执行接口",
+      "candidates": [
+        {
+          "sourcePageUrl": "https://www.uint32.xyz/writing/uniswap-v4-lock-and-callback-mechanism",
+          "downloadUrl": "https://www.uint32.xyz/_next/image?q=75&url=%2Fstatic%2Fimages%2Fhook-overview.png&w=3840"
+        }
+      ]
+    }
+  ]
+}
