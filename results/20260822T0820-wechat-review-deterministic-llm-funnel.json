@@ -1,0 +1,70 @@
+{
+  "version": 2,
+  "requestId": "20260822T0820-wechat-review-deterministic-llm-funnel",
+  "status": "completed",
+  "assets": [
+    {
+      "index": 0,
+      "status": "completed",
+      "targetPath": "pulse/article/2026-08-22/wechat-deterministic-llm-funnel-01.jpg",
+      "alt": "Meta 隐私资产分类系统的双通道架构图，展示确定性规则主路径与 LLM 回退路径",
+      "attempts": [
+        {
+          "index": 0,
+          "status": "completed",
+          "sourcePageUrl": "https://engineering.fb.com/2026/06/25/security/privacy-aware-infrastructure-in-the-ai-native-era-an-asset-classification-case-study/",
+          "downloadUrl": "https://engineering.fb.com/wp-content/uploads/2026/06/Privacy-Aware-Infrastructure-in-the-AI-Native-Era-Figure-4.png"
+        }
+      ],
+      "selectedCandidateIndex": 0,
+      "sourcePageUrl": "https://engineering.fb.com/2026/06/25/security/privacy-aware-infrastructure-in-the-ai-native-era-an-asset-classification-case-study/",
+      "downloadUrl": "https://engineering.fb.com/wp-content/uploads/2026/06/Privacy-Aware-Infrastructure-in-the-AI-Native-Era-Figure-4.png",
+      "contentType": "image/jpeg",
+      "bytes": 226122,
+      "rawUrl": "https://raw.githubusercontent.com/sharebravery/album/master/pulse/article/2026-08-22/wechat-deterministic-llm-funnel-01.jpg",
+      "cdnUrl": "https://cdn.jsdelivr.net/gh/sharebravery/album@master/pulse/article/2026-08-22/wechat-deterministic-llm-funnel-01.jpg"
+    },
+    {
+      "index": 1,
+      "status": "completed",
+      "targetPath": "pulse/article/2026-08-22/wechat-deterministic-llm-funnel-02.jpg",
+      "alt": "Meta 生产分类漏斗图，展示约 85% 请求由确定性规则处理、约 15% 进入 LLM 回退",
+      "attempts": [
+        {
+          "index": 0,
+          "status": "completed",
+          "sourcePageUrl": "https://engineering.fb.com/2026/06/25/security/privacy-aware-infrastructure-in-the-ai-native-era-an-asset-classification-case-study/",
+          "downloadUrl": "https://engineering.fb.com/wp-content/uploads/2026/06/Privacy-Aware-Infrastructure-in-the-AI-Native-Era-Figure-7-e1782178654322.png"
+        }
+      ],
+      "selectedCandidateIndex": 0,
+      "sourcePageUrl": "https://engineering.fb.com/2026/06/25/security/privacy-aware-infrastructure-in-the-ai-native-era-an-asset-classification-case-study/",
+      "downloadUrl": "https://engineering.fb.com/wp-content/uploads/2026/06/Privacy-Aware-Infrastructure-in-the-AI-Native-Era-Figure-7-e1782178654322.png",
+      "contentType": "image/jpeg",
+      "bytes": 174628,
+      "rawUrl": "https://raw.githubusercontent.com/sharebravery/album/master/pulse/article/2026-08-22/wechat-deterministic-llm-funnel-02.jpg",
+      "cdnUrl": "https://cdn.jsdelivr.net/gh/sharebravery/album@master/pulse/article/2026-08-22/wechat-deterministic-llm-funnel-02.jpg"
+    },
+    {
+      "index": 2,
+      "status": "completed",
+      "targetPath": "pulse/article/2026-08-22/wechat-deterministic-llm-funnel-03.jpg",
+      "alt": "Meta 调优控制器状态机图，展示系统在质量下降时从维护进入暂停和诊断",
+      "attempts": [
+        {
+          "index": 0,
+          "status": "completed",
+          "sourcePageUrl": "https://engineering.fb.com/2026/06/25/security/privacy-aware-infrastructure-in-the-ai-native-era-an-asset-classification-case-study/",
+          "downloadUrl": "https://engineering.fb.com/wp-content/uploads/2026/06/Privacy-Aware-Infrastructure-in-the-AI-Native-Era-Figure-9-e1782178824141.png"
+        }
+      ],
+      "selectedCandidateIndex": 0,
+      "sourcePageUrl": "https://engineering.fb.com/2026/06/25/security/privacy-aware-infrastructure-in-the-ai-native-era-an-asset-classification-case-study/",
+      "downloadUrl": "https://engineering.fb.com/wp-content/uploads/2026/06/Privacy-Aware-Infrastructure-in-the-AI-Native-Era-Figure-9-e1782178824141.png",
+      "contentType": "image/jpeg",
+      "bytes": 177414,
+      "rawUrl": "https://raw.githubusercontent.com/sharebravery/album/master/pulse/article/2026-08-22/wechat-deterministic-llm-funnel-03.jpg",
+      "cdnUrl": "https://cdn.jsdelivr.net/gh/sharebravery/album@master/pulse/article/2026-08-22/wechat-deterministic-llm-funnel-03.jpg"
+    }
+  ]
+}
