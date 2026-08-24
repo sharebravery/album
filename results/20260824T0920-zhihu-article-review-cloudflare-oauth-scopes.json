@@ -1,0 +1,70 @@
+{
+  "version": 2,
+  "requestId": "20260824T0920-zhihu-article-review-cloudflare-oauth-scopes",
+  "status": "completed",
+  "assets": [
+    {
+      "index": 0,
+      "status": "completed",
+      "targetPath": "pulse/article/2026/08/cloudflare-oauth-scopes/01-consent-review.jpg",
+      "alt": "Cloudflare OAuth consent screen showing required and additional permissions",
+      "attempts": [
+        {
+          "index": 0,
+          "status": "completed",
+          "sourcePageUrl": "https://developers.cloudflare.com/changelog/post/2026-08-22-wrangler-mcp-optional-oauth-scopes/",
+          "downloadUrl": "https://developers.cloudflare.com/cdn-cgi/image/onerror%3Dredirect%2Cwidth%3D1368%2Cheight%3D1008%2Cformat%3Dwebp/_astro/oauth-optional-scopes-review.BMp1De1d.png"
+        }
+      ],
+      "selectedCandidateIndex": 0,
+      "sourcePageUrl": "https://developers.cloudflare.com/changelog/post/2026-08-22-wrangler-mcp-optional-oauth-scopes/",
+      "downloadUrl": "https://developers.cloudflare.com/cdn-cgi/image/onerror%3Dredirect%2Cwidth%3D1368%2Cheight%3D1008%2Cformat%3Dwebp/_astro/oauth-optional-scopes-review.BMp1De1d.png",
+      "contentType": "image/jpeg",
+      "bytes": 177088,
+      "rawUrl": "https://raw.githubusercontent.com/sharebravery/album/master/pulse/article/2026/08/cloudflare-oauth-scopes/01-consent-review.jpg",
+      "cdnUrl": "https://cdn.jsdelivr.net/gh/sharebravery/album@master/pulse/article/2026/08/cloudflare-oauth-scopes/01-consent-review.jpg"
+    },
+    {
+      "index": 1,
+      "status": "completed",
+      "targetPath": "pulse/article/2026/08/cloudflare-oauth-scopes/02-scope-editor.jpg",
+      "alt": "Cloudflare OAuth permission editor with individual optional scope controls",
+      "attempts": [
+        {
+          "index": 0,
+          "status": "completed",
+          "sourcePageUrl": "https://developers.cloudflare.com/changelog/post/2026-08-22-wrangler-mcp-optional-oauth-scopes/",
+          "downloadUrl": "https://developers.cloudflare.com/cdn-cgi/image/onerror%3Dredirect%2Cwidth%3D1366%2Cheight%3D1312%2Cformat%3Dwebp/_astro/oauth-optional-scopes-edit.BXIdjwS7.png"
+        }
+      ],
+      "selectedCandidateIndex": 0,
+      "sourcePageUrl": "https://developers.cloudflare.com/changelog/post/2026-08-22-wrangler-mcp-optional-oauth-scopes/",
+      "downloadUrl": "https://developers.cloudflare.com/cdn-cgi/image/onerror%3Dredirect%2Cwidth%3D1366%2Cheight%3D1312%2Cformat%3Dwebp/_astro/oauth-optional-scopes-edit.BXIdjwS7.png",
+      "contentType": "image/jpeg",
+      "bytes": 223515,
+      "rawUrl": "https://raw.githubusercontent.com/sharebravery/album/master/pulse/article/2026/08/cloudflare-oauth-scopes/02-scope-editor.jpg",
+      "cdnUrl": "https://cdn.jsdelivr.net/gh/sharebravery/album@master/pulse/article/2026/08/cloudflare-oauth-scopes/02-scope-editor.jpg"
+    },
+    {
+      "index": 2,
+      "status": "completed",
+      "targetPath": "pulse/article/2026/08/cloudflare-oauth-scopes/03-temporary-account-boundary.jpg",
+      "alt": "Cloudflare temporary account flow for AI agent deployment and later account claim",
+      "attempts": [
+        {
+          "index": 0,
+          "status": "completed",
+          "sourcePageUrl": "https://developers.cloudflare.com/changelog/post/2026-06-19-temporary-accounts-for-agents/",
+          "downloadUrl": "https://developers.cloudflare.com/cdn-cgi/image/onerror%3Dredirect%2Cwidth%3D1748%2Cheight%3D368%2Cformat%3Dwebp/_astro/claim-deployments-flow.Co0tUHG4.png"
+        }
+      ],
+      "selectedCandidateIndex": 0,
+      "sourcePageUrl": "https://developers.cloudflare.com/changelog/post/2026-06-19-temporary-accounts-for-agents/",
+      "downloadUrl": "https://developers.cloudflare.com/cdn-cgi/image/onerror%3Dredirect%2Cwidth%3D1748%2Cheight%3D368%2Cformat%3Dwebp/_astro/claim-deployments-flow.Co0tUHG4.png",
+      "contentType": "image/jpeg",
+      "bytes": 61770,
+      "rawUrl": "https://raw.githubusercontent.com/sharebravery/album/master/pulse/article/2026/08/cloudflare-oauth-scopes/03-temporary-account-boundary.jpg",
+      "cdnUrl": "https://cdn.jsdelivr.net/gh/sharebravery/album@master/pulse/article/2026/08/cloudflare-oauth-scopes/03-temporary-account-boundary.jpg"
+    }
+  ]
+}
