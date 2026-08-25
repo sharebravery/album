@@ -1,0 +1,40 @@
+{
+  "version": 2,
+  "requestId": "20260825T1020-toutiao-article-review-duckdb-memory-limit-aggregates",
+  "assets": [
+    {
+      "targetPath": "pulse/article/2026/08/duckdb-memory-limit-aggregates/01-memory-management.jpg",
+      "alt": "DuckDB 内存管理主题图，用于建立 memory_limit 与进程内资源边界的整体心智模型",
+      "candidates": [
+        {
+          "sourcePageUrl": "https://duckdb.org/2024/07/09/memory-management",
+          "downloadUrl": "https://raw.githubusercontent.com/duckdb/duckdb-web/main/images/blog/thumbs/memory-management.png"
+        }
+      ]
+    },
+    {
+      "targetPath": "pulse/article/2026/08/duckdb-memory-limit-aggregates/02-streaming-execution.jpg",
+      "alt": "DuckDB 流式执行示意图，用于说明查询数据流与聚合中间状态的内存关系",
+      "candidates": [
+        {
+          "sourcePageUrl": "https://duckdb.org/2024/07/09/memory-management",
+          "downloadUrl": "https://duckdb.org/images/blog/streamingexecution.png"
+        },
+        {
+          "sourcePageUrl": "https://duckdb.org/2024/07/09/memory-management",
+          "downloadUrl": "https://raw.githubusercontent.com/duckdb/duckdb-web/main/images/blog/streamingexecution.png"
+        }
+      ]
+    },
+    {
+      "targetPath": "pulse/article/2026/08/duckdb-memory-limit-aggregates/03-parallel-aggregation.jpg",
+      "alt": "DuckDB 并行哈希聚合结构图，用于说明 per-group 聚合状态为何会形成独立内存分配路径",
+      "candidates": [
+        {
+          "sourcePageUrl": "https://duckdb.org/2022/03/07/aggregate-hashtable",
+          "downloadUrl": "https://duckdb.org/images/blog/aggregates/aggr-ht-parallel.png"
+        }
+      ]
+    }
+  ]
+}
