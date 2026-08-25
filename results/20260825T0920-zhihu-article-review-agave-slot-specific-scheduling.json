@@ -1,0 +1,70 @@
+{
+  "version": 2,
+  "requestId": "20260825T0920-zhihu-article-review-agave-slot-specific-scheduling",
+  "status": "completed",
+  "assets": [
+    {
+      "index": 0,
+      "status": "completed",
+      "targetPath": "pulse/article/2026/08/agave-slot-specific-scheduling/01-slot-rollout.jpg",
+      "alt": "Solana 2026 年 8 月网络升级与 validator 客户端工程变更概览",
+      "attempts": [
+        {
+          "index": 0,
+          "status": "completed",
+          "sourcePageUrl": "https://solana.com/news/solana-changelog-august-20-2026",
+          "downloadUrl": "https://solana.com/media-assets/_next/image?q=75&url=%2Fuploads%2Fposts%2Fsolana-changelog-august-20-2026%2FheroImage.webp&w=1920"
+        }
+      ],
+      "selectedCandidateIndex": 0,
+      "sourcePageUrl": "https://solana.com/news/solana-changelog-august-20-2026",
+      "downloadUrl": "https://solana.com/media-assets/_next/image?q=75&url=%2Fuploads%2Fposts%2Fsolana-changelog-august-20-2026%2FheroImage.webp&w=1920",
+      "contentType": "image/jpeg",
+      "bytes": 63204,
+      "rawUrl": "https://raw.githubusercontent.com/sharebravery/album/master/pulse/article/2026/08/agave-slot-specific-scheduling/01-slot-rollout.jpg",
+      "cdnUrl": "https://cdn.jsdelivr.net/gh/sharebravery/album@master/pulse/article/2026/08/agave-slot-specific-scheduling/01-slot-rollout.jpg"
+    },
+    {
+      "index": 1,
+      "status": "completed",
+      "targetPath": "pulse/article/2026/08/agave-slot-specific-scheduling/02-tpu-pipeline.jpg",
+      "alt": "Solana TPU 流水线概念图，用于说明交易从接收、验证到 Banking Stage 的处理路径",
+      "attempts": [
+        {
+          "index": 0,
+          "status": "completed",
+          "sourcePageUrl": "https://solana.com/news/pipelining-in-solana-the-transaction-processing-unit",
+          "downloadUrl": "https://solana.com/media-assets/_next/image?q=75&url=%2Fuploads%2Fposts%2Fpipelining-in-solana-the-transaction-processing-unit%2Fimage-1.webp&w=3840"
+        }
+      ],
+      "selectedCandidateIndex": 0,
+      "sourcePageUrl": "https://solana.com/news/pipelining-in-solana-the-transaction-processing-unit",
+      "downloadUrl": "https://solana.com/media-assets/_next/image?q=75&url=%2Fuploads%2Fposts%2Fpipelining-in-solana-the-transaction-processing-unit%2Fimage-1.webp&w=3840",
+      "contentType": "image/jpeg",
+      "bytes": 39173,
+      "rawUrl": "https://raw.githubusercontent.com/sharebravery/album/master/pulse/article/2026/08/agave-slot-specific-scheduling/02-tpu-pipeline.jpg",
+      "cdnUrl": "https://cdn.jsdelivr.net/gh/sharebravery/album@master/pulse/article/2026/08/agave-slot-specific-scheduling/02-tpu-pipeline.jpg"
+    },
+    {
+      "index": 2,
+      "status": "completed",
+      "targetPath": "pulse/article/2026/08/agave-slot-specific-scheduling/03-tpu-banking.jpg",
+      "alt": "Solana TPU 阶段示意图，用于说明 Banking Stage 与并行执行的系统位置",
+      "attempts": [
+        {
+          "index": 0,
+          "status": "completed",
+          "sourcePageUrl": "https://solana.com/news/pipelining-in-solana-the-transaction-processing-unit",
+          "downloadUrl": "https://solana.com/media-assets/_next/image?q=75&url=%2Fuploads%2Fposts%2Fpipelining-in-solana-the-transaction-processing-unit%2Fimage-2.webp&w=3840"
+        }
+      ],
+      "selectedCandidateIndex": 0,
+      "sourcePageUrl": "https://solana.com/news/pipelining-in-solana-the-transaction-processing-unit",
+      "downloadUrl": "https://solana.com/media-assets/_next/image?q=75&url=%2Fuploads%2Fposts%2Fpipelining-in-solana-the-transaction-processing-unit%2Fimage-2.webp&w=3840",
+      "contentType": "image/jpeg",
+      "bytes": 44746,
+      "rawUrl": "https://raw.githubusercontent.com/sharebravery/album/master/pulse/article/2026/08/agave-slot-specific-scheduling/03-tpu-banking.jpg",
+      "cdnUrl": "https://cdn.jsdelivr.net/gh/sharebravery/album@master/pulse/article/2026/08/agave-slot-specific-scheduling/03-tpu-banking.jpg"
+    }
+  ]
+}
