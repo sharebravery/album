@@ -1,0 +1,36 @@
+{
+  "version": 2,
+  "requestId": "20260826T0820-wechat-review-duckdb-java-table-function",
+  "assets": [
+    {
+      "targetPath": "pulse/article/2026/08/duckdb-java-table-function/01-java-duckdb.jpg",
+      "alt": "DuckDB Java 数据接入主题示意",
+      "candidates": [
+        {
+          "sourcePageUrl": "https://duckdb.org/2026/08/25/table-functions-in-java",
+          "downloadUrl": "https://raw.githubusercontent.com/duckdb/duckdb-web/main/images/blog/thumbs/java.png"
+        }
+      ]
+    },
+    {
+      "targetPath": "pulse/article/2026/08/duckdb-java-table-function/02-jdbc-odbc-flow.jpg",
+      "alt": "JDBC 与 ODBC 数据传输路径示意",
+      "candidates": [
+        {
+          "sourcePageUrl": "https://duckdb.org/2023/08/04/adbc",
+          "downloadUrl": "https://raw.githubusercontent.com/duckdb/duckdb-web/main/images/blog/adbc/duck-odbc-jdbc-light.png"
+        }
+      ]
+    },
+    {
+      "targetPath": "pulse/article/2026/08/duckdb-java-table-function/03-adbc-columnar-flow.jpg",
+      "alt": "ADBC 列式数据传输路径示意",
+      "candidates": [
+        {
+          "sourcePageUrl": "https://duckdb.org/2023/08/04/adbc",
+          "downloadUrl": "https://raw.githubusercontent.com/duckdb/duckdb-web/main/images/blog/adbc/duck-adbc-light.png"
+        }
+      ]
+    }
+  ]
+}
