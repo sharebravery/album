@@ -1,0 +1,28 @@
+{
+  "version": 2,
+  "assets": [
+    {
+      "targetPath": "pulse/article/2026/08/nextjs-windows-path-boundary/01-cache-components.jpg",
+      "alt": "Next.js Cache Components 中静态、缓存与动态内容组合的官方示意",
+      "candidates": [
+        "https://nextjs.org/learn/light/thinking-in-ppr.png",
+        "https://nextjs.org/learn/dark/thinking-in-ppr.png"
+      ]
+    },
+    {
+      "targetPath": "pulse/article/2026/08/nextjs-windows-path-boundary/02-streaming-rendering.jpg",
+      "alt": "Next.js 官方文档中服务端流式渲染与加载边界示意",
+      "candidates": [
+        "https://nextjs.org/docs/light/server-rendering-with-streaming.png",
+        "https://nextjs.org/docs/dark/server-rendering-with-streaming.png"
+      ]
+    },
+    {
+      "targetPath": "pulse/article/2026/08/nextjs-windows-path-boundary/03-security-advisory.jpg",
+      "alt": "Next.js Windows 远程代码执行安全公告的 GitHub 官方预览",
+      "candidates": [
+        "https://opengraph.githubassets.com/pulse-20260828/vercel/next.js/security/advisories/GHSA-p293-qw3h-jr36"
+      ]
+    }
+  ]
+}
