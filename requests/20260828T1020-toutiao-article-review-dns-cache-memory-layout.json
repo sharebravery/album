@@ -1,0 +1,48 @@
+{
+  "version": 2,
+  "requestId": "20260828T1020-toutiao-article-review-dns-cache-memory-layout",
+  "assets": [
+    {
+      "targetPath": "pulse/article/2026/08/dns-cache-memory-layout/01-cloudflare-dns-cache.jpg",
+      "alt": "Cloudflare 1.1.1.1 DNS 缓存内存优化文章页面，用于建立 2500 亿级缓存条目的规模背景",
+      "candidates": [
+        {
+          "sourcePageUrl": "https://blog.cloudflare.com/dns-cache-memory-optimization-1111/",
+          "downloadUrl": "https://s.wordpress.com/mshots/v1/https%3A%2F%2Fblog.cloudflare.com%2Fdns-cache-memory-optimization-1111%2F?w=1200"
+        },
+        {
+          "sourcePageUrl": "https://blog.cloudflare.com/dns-cache-memory-optimization-1111/",
+          "downloadUrl": "https://image.thum.io/get/width/1200/https://blog.cloudflare.com/dns-cache-memory-optimization-1111/"
+        }
+      ]
+    },
+    {
+      "targetPath": "pulse/article/2026/08/dns-cache-memory-layout/02-vec-capacity.jpg",
+      "alt": "Cloudflare 文章中 Vec capacity 优化段落，用于说明可增长容器在只读缓存状态中的额外容量成本",
+      "candidates": [
+        {
+          "sourcePageUrl": "https://blog.cloudflare.com/dns-cache-memory-optimization-1111/#the-cost-of-capacity",
+          "downloadUrl": "https://s.wordpress.com/mshots/v1/https%3A%2F%2Fblog.cloudflare.com%2Fdns-cache-memory-optimization-1111%2F%23the-cost-of-capacity?w=1200"
+        },
+        {
+          "sourcePageUrl": "https://doc.rust-lang.org/std/vec/struct.Vec.html#capacity-and-reallocation",
+          "downloadUrl": "https://s.wordpress.com/mshots/v1/https%3A%2F%2Fdoc.rust-lang.org%2Fstd%2Fvec%2Fstruct.Vec.html%23capacity-and-reallocation?w=1200"
+        }
+      ]
+    },
+    {
+      "targetPath": "pulse/article/2026/08/dns-cache-memory-layout/03-production-result.jpg",
+      "alt": "Cloudflare 文章结果段落，用于核对缓存条目内存、插入吞吐和查询延迟的前后变化",
+      "candidates": [
+        {
+          "sourcePageUrl": "https://blog.cloudflare.com/dns-cache-memory-optimization-1111/#the-results",
+          "downloadUrl": "https://s.wordpress.com/mshots/v1/https%3A%2F%2Fblog.cloudflare.com%2Fdns-cache-memory-optimization-1111%2F%23the-results?w=1200"
+        },
+        {
+          "sourcePageUrl": "https://blog.cloudflare.com/dns-cache-memory-optimization-1111/#the-results",
+          "downloadUrl": "https://image.thum.io/get/width/1200/https://blog.cloudflare.com/dns-cache-memory-optimization-1111/#the-results"
+        }
+      ]
+    }
+  ]
+}
