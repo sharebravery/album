@@ -1,0 +1,7 @@
+{
+  "version": 2,
+  "requestId": "20260828T0820-wechat-review-nextjs-windows-path-boundary",
+  "status": "failed",
+  "assets": [],
+  "error": "requestId must be a non-empty string"
+}
