@@ -1,0 +1,70 @@
+{
+  "version": 2,
+  "requestId": "20260828T0920-zhihu-review-glamsterdam-gas-repricing",
+  "status": "completed",
+  "assets": [
+    {
+      "index": 0,
+      "status": "completed",
+      "targetPath": "pulse/article/2026/08/glamsterdam-gas-repricing/01-repricing.jpg",
+      "alt": "Ethereum Glamsterdam gas repricing official illustration",
+      "attempts": [
+        {
+          "index": 0,
+          "status": "completed",
+          "sourcePageUrl": "https://blog.ethereum.org/2026/08/24/glamsterdam-repricing-testing",
+          "downloadUrl": "https://blog.ethereum.org/_next/image?q=75&url=https%3A%2F%2Fstorage.googleapis.com%2Fethereum-hackmd%2Fupload_558cc2161e0fdd518bbcc61368cd0368.png&w=3840"
+        }
+      ],
+      "selectedCandidateIndex": 0,
+      "sourcePageUrl": "https://blog.ethereum.org/2026/08/24/glamsterdam-repricing-testing",
+      "downloadUrl": "https://blog.ethereum.org/_next/image?q=75&url=https%3A%2F%2Fstorage.googleapis.com%2Fethereum-hackmd%2Fupload_558cc2161e0fdd518bbcc61368cd0368.png&w=3840",
+      "contentType": "image/jpeg",
+      "bytes": 113353,
+      "rawUrl": "https://raw.githubusercontent.com/sharebravery/album/master/pulse/article/2026/08/glamsterdam-gas-repricing/01-repricing.jpg",
+      "cdnUrl": "https://cdn.jsdelivr.net/gh/sharebravery/album@master/pulse/article/2026/08/glamsterdam-gas-repricing/01-repricing.jpg"
+    },
+    {
+      "index": 1,
+      "status": "completed",
+      "targetPath": "pulse/article/2026/08/glamsterdam-gas-repricing/02-dashboard.jpg",
+      "alt": "Ethereum repricing impact dashboard overview",
+      "attempts": [
+        {
+          "index": 0,
+          "status": "completed",
+          "sourcePageUrl": "https://ethereum.github.io/repricing-impact/",
+          "downloadUrl": "https://image.thum.io/get/width/1600/https://ethereum.github.io/repricing-impact/"
+        }
+      ],
+      "selectedCandidateIndex": 0,
+      "sourcePageUrl": "https://ethereum.github.io/repricing-impact/",
+      "downloadUrl": "https://image.thum.io/get/width/1600/https://ethereum.github.io/repricing-impact/",
+      "contentType": "image/jpeg",
+      "bytes": 50164,
+      "rawUrl": "https://raw.githubusercontent.com/sharebravery/album/master/pulse/article/2026/08/glamsterdam-gas-repricing/02-dashboard.jpg",
+      "cdnUrl": "https://cdn.jsdelivr.net/gh/sharebravery/album@master/pulse/article/2026/08/glamsterdam-gas-repricing/02-dashboard.jpg"
+    },
+    {
+      "index": 2,
+      "status": "completed",
+      "targetPath": "pulse/article/2026/08/glamsterdam-gas-repricing/03-affected-contracts.jpg",
+      "alt": "Ethereum repricing affected contracts inspection page",
+      "attempts": [
+        {
+          "index": 0,
+          "status": "completed",
+          "sourcePageUrl": "https://ethereum.github.io/repricing-impact/affected-contracts.html?schedule=eip-8038",
+          "downloadUrl": "https://image.thum.io/get/width/1600/https://ethereum.github.io/repricing-impact/affected-contracts.html?schedule=eip-8038"
+        }
+      ],
+      "selectedCandidateIndex": 0,
+      "sourcePageUrl": "https://ethereum.github.io/repricing-impact/affected-contracts.html?schedule=eip-8038",
+      "downloadUrl": "https://image.thum.io/get/width/1600/https://ethereum.github.io/repricing-impact/affected-contracts.html?schedule=eip-8038",
+      "contentType": "image/jpeg",
+      "bytes": 50164,
+      "rawUrl": "https://raw.githubusercontent.com/sharebravery/album/master/pulse/article/2026/08/glamsterdam-gas-repricing/03-affected-contracts.jpg",
+      "cdnUrl": "https://cdn.jsdelivr.net/gh/sharebravery/album@master/pulse/article/2026/08/glamsterdam-gas-repricing/03-affected-contracts.jpg"
+    }
+  ]
+}
