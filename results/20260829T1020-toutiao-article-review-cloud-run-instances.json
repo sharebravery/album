@@ -1,0 +1,70 @@
+{
+  "version": 2,
+  "requestId": "20260829T1020-toutiao-article-review-cloud-run-instances",
+  "status": "completed",
+  "assets": [
+    {
+      "index": 0,
+      "status": "completed",
+      "targetPath": "pulse/article/2026/08/cloud-run-instances/01-lead.jpg",
+      "alt": "Cloud Run instances 官方发布主视觉",
+      "attempts": [
+        {
+          "index": 0,
+          "status": "completed",
+          "sourcePageUrl": "https://cloud.google.com/blog/products/serverless/introducing-cloud-run-instances",
+          "downloadUrl": "https://storage.googleapis.com/gweb-cloudblog-publish/images/cloud_run_instances_blog_hero.max-2500x2500.jpg"
+        }
+      ],
+      "selectedCandidateIndex": 0,
+      "sourcePageUrl": "https://cloud.google.com/blog/products/serverless/introducing-cloud-run-instances",
+      "downloadUrl": "https://storage.googleapis.com/gweb-cloudblog-publish/images/cloud_run_instances_blog_hero.max-2500x2500.jpg",
+      "contentType": "image/jpeg",
+      "bytes": 225348,
+      "rawUrl": "https://raw.githubusercontent.com/sharebravery/album/master/pulse/article/2026/08/cloud-run-instances/01-lead.jpg",
+      "cdnUrl": "https://cdn.jsdelivr.net/gh/sharebravery/album@master/pulse/article/2026/08/cloud-run-instances/01-lead.jpg"
+    },
+    {
+      "index": 1,
+      "status": "completed",
+      "targetPath": "pulse/article/2026/08/cloud-run-instances/02-service-autoscaling.jpg",
+      "alt": "Cloud Run 服务中活动与空闲实例的伸缩示意",
+      "attempts": [
+        {
+          "index": 0,
+          "status": "completed",
+          "sourcePageUrl": "https://medium.com/google-cloud/3-ways-to-optimize-cloud-run-response-times-4504ed0e6804",
+          "downloadUrl": "https://miro.medium.com/v2/resize%3Afit%3A1200/1%2A28p8W3zM-im-qT26U3ePEA.png"
+        }
+      ],
+      "selectedCandidateIndex": 0,
+      "sourcePageUrl": "https://medium.com/google-cloud/3-ways-to-optimize-cloud-run-response-times-4504ed0e6804",
+      "downloadUrl": "https://miro.medium.com/v2/resize%3Afit%3A1200/1%2A28p8W3zM-im-qT26U3ePEA.png",
+      "contentType": "image/jpeg",
+      "bytes": 55674,
+      "rawUrl": "https://raw.githubusercontent.com/sharebravery/album/master/pulse/article/2026/08/cloud-run-instances/02-service-autoscaling.jpg",
+      "cdnUrl": "https://cdn.jsdelivr.net/gh/sharebravery/album@master/pulse/article/2026/08/cloud-run-instances/02-service-autoscaling.jpg"
+    },
+    {
+      "index": 2,
+      "status": "completed",
+      "targetPath": "pulse/article/2026/08/cloud-run-instances/03-service-architecture.jpg",
+      "alt": "Cloud Run service 多实例承接请求的架构示意",
+      "attempts": [
+        {
+          "index": 0,
+          "status": "completed",
+          "sourcePageUrl": "https://www.datadoghq.com/blog/key-metrics-for-cloud-run-monitoring/",
+          "downloadUrl": "https://imgix.datadoghq.com/img/blog/key-metrics-for-cloud-run-monitoring/cloud-run-diagram.png?auto=compress%2Cformat&cs=origin&dpr=3.5&fit=max&lossless=true&q=75&w=1026"
+        }
+      ],
+      "selectedCandidateIndex": 0,
+      "sourcePageUrl": "https://www.datadoghq.com/blog/key-metrics-for-cloud-run-monitoring/",
+      "downloadUrl": "https://imgix.datadoghq.com/img/blog/key-metrics-for-cloud-run-monitoring/cloud-run-diagram.png?auto=compress%2Cformat&cs=origin&dpr=3.5&fit=max&lossless=true&q=75&w=1026",
+      "contentType": "image/jpeg",
+      "bytes": 217756,
+      "rawUrl": "https://raw.githubusercontent.com/sharebravery/album/master/pulse/article/2026/08/cloud-run-instances/03-service-architecture.jpg",
+      "cdnUrl": "https://cdn.jsdelivr.net/gh/sharebravery/album@master/pulse/article/2026/08/cloud-run-instances/03-service-architecture.jpg"
+    }
+  ]
+}
