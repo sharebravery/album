@@ -1,0 +1,70 @@
+{
+  "version": 2,
+  "requestId": "20260829T0920-zhihu-review-cosmos-evm-balance-invariant",
+  "status": "completed",
+  "assets": [
+    {
+      "index": 0,
+      "status": "completed",
+      "targetPath": "pulse/article/2026/08/cosmos-evm-balance-invariant/01-advisory.jpg",
+      "alt": "Cosmos EVM 官方安全公告中的受影响版本与余额下溢说明",
+      "attempts": [
+        {
+          "index": 0,
+          "status": "completed",
+          "sourcePageUrl": "https://github.com/cosmos/evm/security/advisories/GHSA-7g4w-cg88-2cq2",
+          "downloadUrl": "https://image.thum.io/get/width/1400/crop/1000/noanimate/https://github.com/cosmos/evm/security/advisories/GHSA-7g4w-cg88-2cq2"
+        }
+      ],
+      "selectedCandidateIndex": 0,
+      "sourcePageUrl": "https://github.com/cosmos/evm/security/advisories/GHSA-7g4w-cg88-2cq2",
+      "downloadUrl": "https://image.thum.io/get/width/1400/crop/1000/noanimate/https://github.com/cosmos/evm/security/advisories/GHSA-7g4w-cg88-2cq2",
+      "contentType": "image/jpeg",
+      "bytes": 19446,
+      "rawUrl": "https://raw.githubusercontent.com/sharebravery/album/master/pulse/article/2026/08/cosmos-evm-balance-invariant/01-advisory.jpg",
+      "cdnUrl": "https://cdn.jsdelivr.net/gh/sharebravery/album@master/pulse/article/2026/08/cosmos-evm-balance-invariant/01-advisory.jpg"
+    },
+    {
+      "index": 1,
+      "status": "completed",
+      "targetPath": "pulse/article/2026/08/cosmos-evm-balance-invariant/02-patch.jpg",
+      "alt": "Cosmos EVM SubBalance 下溢保护补丁 PR",
+      "attempts": [
+        {
+          "index": 0,
+          "status": "completed",
+          "sourcePageUrl": "https://github.com/cosmos/evm/pull/1176",
+          "downloadUrl": "https://image.thum.io/get/width/1400/crop/1000/noanimate/https://github.com/cosmos/evm/pull/1176/files"
+        }
+      ],
+      "selectedCandidateIndex": 0,
+      "sourcePageUrl": "https://github.com/cosmos/evm/pull/1176",
+      "downloadUrl": "https://image.thum.io/get/width/1400/crop/1000/noanimate/https://github.com/cosmos/evm/pull/1176/files",
+      "contentType": "image/jpeg",
+      "bytes": 284343,
+      "rawUrl": "https://raw.githubusercontent.com/sharebravery/album/master/pulse/article/2026/08/cosmos-evm-balance-invariant/02-patch.jpg",
+      "cdnUrl": "https://cdn.jsdelivr.net/gh/sharebravery/album@master/pulse/article/2026/08/cosmos-evm-balance-invariant/02-patch.jpg"
+    },
+    {
+      "index": 2,
+      "status": "completed",
+      "targetPath": "pulse/article/2026/08/cosmos-evm-balance-invariant/03-postmortem.jpg",
+      "alt": "Cosmos EVM 官方事故复盘与时间线",
+      "attempts": [
+        {
+          "index": 0,
+          "status": "completed",
+          "sourcePageUrl": "https://github.com/cosmos/security/blob/main/communications/cosmos_evm_GHSA-7g4w-cg88-2cq2_post_mortem.md",
+          "downloadUrl": "https://image.thum.io/get/width/1400/crop/1000/noanimate/https://github.com/cosmos/security/blob/main/communications/cosmos_evm_GHSA-7g4w-cg88-2cq2_post_mortem.md"
+        }
+      ],
+      "selectedCandidateIndex": 0,
+      "sourcePageUrl": "https://github.com/cosmos/security/blob/main/communications/cosmos_evm_GHSA-7g4w-cg88-2cq2_post_mortem.md",
+      "downloadUrl": "https://image.thum.io/get/width/1400/crop/1000/noanimate/https://github.com/cosmos/security/blob/main/communications/cosmos_evm_GHSA-7g4w-cg88-2cq2_post_mortem.md",
+      "contentType": "image/jpeg",
+      "bytes": 331055,
+      "rawUrl": "https://raw.githubusercontent.com/sharebravery/album/master/pulse/article/2026/08/cosmos-evm-balance-invariant/03-postmortem.jpg",
+      "cdnUrl": "https://cdn.jsdelivr.net/gh/sharebravery/album@master/pulse/article/2026/08/cosmos-evm-balance-invariant/03-postmortem.jpg"
+    }
+  ]
+}
