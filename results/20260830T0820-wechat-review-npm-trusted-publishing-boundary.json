@@ -1,27 +1,49 @@
 {
   "version": 2,
   "requestId": "20260830T0820-wechat-review-npm-trusted-publishing-boundary",
+  "status": "failed",
   "assets": [
     {
+      "index": 0,
+      "status": "failed",
       "targetPath": "pulse/article/2026/08/npm-trusted-publishing-boundary/01-release-workflow.jpg",
       "alt": "GitHub Actions release workflow 中 issue_comment 触发与 id-token write 权限",
-      "candidates": [
-        "https://cdn.prod.website-files.com/673b71f0790aabf30bd30bf8/6a921123d9c8bbe8229939c5_6a920904245387f333531444_openapi-rqc-release-workflow-trigger.png"
-      ]
+      "attempts": [
+        {
+          "index": 0,
+          "status": "failed",
+          "error": "candidate must be an object"
+        }
+      ],
+      "error": "all candidates failed"
     },
     {
+      "index": 1,
+      "status": "failed",
       "targetPath": "pulse/article/2026/08/npm-trusted-publishing-boundary/02-checkout-install.jpg",
       "alt": "受信发布工作流 checkout PR head 并执行 pnpm install 的关键步骤",
-      "candidates": [
-        "https://cdn.prod.website-files.com/673b71f0790aabf30bd30bf8/6a921123d9c8bbe8229939cb_6a920904f7498c5aa192fc00_openapi-rqc-release-workflow-checkout-install.png"
-      ]
+      "attempts": [
+        {
+          "index": 0,
+          "status": "failed",
+          "error": "candidate must be an object"
+        }
+      ],
+      "error": "all candidates failed"
     },
     {
+      "index": 2,
+      "status": "failed",
       "targetPath": "pulse/article/2026/08/npm-trusted-publishing-boundary/03-provenance.jpg",
       "alt": "npm provenance 将恶意发布关联到 GitHub Actions 与 release workflow",
-      "candidates": [
-        "https://cdn.prod.website-files.com/673b71f0790aabf30bd30bf8/6a921123d9c8bbe8229939c2_6a920904f7498c5aa192fc2c_openapi-rqc-npm-provenance.png"
-      ]
+      "attempts": [
+        {
+          "index": 0,
+          "status": "failed",
+          "error": "candidate must be an object"
+        }
+      ],
+      "error": "all candidates failed"
     }
   ]
 }
