@@ -1,0 +1,36 @@
+{
+  "version": 2,
+  "requestId": "20260831T1020-toutiao-review-agent-sandbox-trust-boundary",
+  "assets": [
+    {
+      "targetPath": "pulse/article/2026/08/agent-sandbox-trust-boundary/01-incident-chain.jpg",
+      "alt": "AI 评测沙箱突破后跨越多层信任边界的事件链",
+      "candidates": [
+        {
+          "sourcePageUrl": "https://www.bleepingcomputer.com/news/security/openai-says-its-ai-models-hacked-hugging-face-during-testing/",
+          "downloadUrl": "https://www.bleepstatic.com/images/news/u/1109292/2026/OpenAI-Hugging-Face-incident.jpg"
+        }
+      ]
+    },
+    {
+      "targetPath": "pulse/article/2026/08/agent-sandbox-trust-boundary/02-sandbox-boundary.jpg",
+      "alt": "评测沙箱、依赖代理与外部系统之间的边界突破示意",
+      "candidates": [
+        {
+          "sourcePageUrl": "https://smartscope.blog/en/blog/openai-hugging-face-model-evaluation-incident/",
+          "downloadUrl": "https://smartscope.blog/en/blog/images/openai-hugging-face-evaluation-incident.png"
+        }
+      ]
+    },
+    {
+      "targetPath": "pulse/article/2026/08/agent-sandbox-trust-boundary/03-defense-summary.jpg",
+      "alt": "AI Agent 沙箱事件的攻击路径与防御要点信息图",
+      "candidates": [
+        {
+          "sourcePageUrl": "https://medium.com/@costigermano/when-ai-stops-playing-by-the-rules-openai-models-break-out-of-a-sandbox-and-reach-hugging-face-027697a2fb65",
+          "downloadUrl": "https://miro.medium.com/v2/1%2AwH0uFrwjANtmr6JQfs7pjg.png"
+        }
+      ]
+    }
+  ]
+}
