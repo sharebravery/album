@@ -1,0 +1,40 @@
+{
+  "version": 2,
+  "requestId": "20260831T0920-zhihu-review-foundry-cross-network-replay",
+  "assets": [
+    {
+      "targetPath": "pulse/article/2026/08/foundry-cross-network-replay/01-foundry-trace.jpg",
+      "alt": "Foundry 交易执行 trace 展示内部调用与状态变化",
+      "candidates": [
+        {
+          "sourcePageUrl": "https://www.paradigm.xyz/2025/02/announcing-foundry-v1-0",
+          "downloadUrl": "https://cdn.sanity.io/images/dgybcd83/production/2d6d6bee08a7c14e94ad22768686b163c0773c4e-1600x930.png"
+        }
+      ]
+    },
+    {
+      "targetPath": "pulse/article/2026/08/foundry-cross-network-replay/02-arbitrum-gas.jpg",
+      "alt": "Arbitrum 浏览器中的交易 gas limit、gas used 与 gas fee 信息",
+      "candidates": [
+        {
+          "sourcePageUrl": "https://blog.ambire.com/how-to-use-arbiscan/",
+          "downloadUrl": "https://blog.ambire.com/content/images/2023/09/Arbiscan-gas-info.jpg"
+        },
+        {
+          "sourcePageUrl": "https://community.metamask.io/t/usdt-from-bybit-via-arbitrum-one-to-my-metamask/28167",
+          "downloadUrl": "https://europe1.discourse-cdn.com/metamask/original/3X/1/9/1978db4213caadd1bba2a9131b81401454f17b25.png"
+        }
+      ]
+    },
+    {
+      "targetPath": "pulse/article/2026/08/foundry-cross-network-replay/03-simulation-trace.jpg",
+      "alt": "Tenderly 在指定网络上模拟交易并展示执行 trace 的界面",
+      "candidates": [
+        {
+          "sourcePageUrl": "https://blog.tenderly.co/how-the-cronos-tenderly-integration-streamlines-dapp-development/",
+          "downloadUrl": "https://storage.ghost.io/c/1c/92/1c92a89a-9dc2-4b17-b608-0360abc12d39/content/images/2023/01/The-output-of-a-simulated-transaction-on-Cronos.png"
+        }
+      ]
+    }
+  ]
+}
