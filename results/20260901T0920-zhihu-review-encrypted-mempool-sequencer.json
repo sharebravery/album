@@ -1,0 +1,70 @@
+{
+  "version": 2,
+  "requestId": "20260901T0920-zhihu-review-encrypted-mempool-sequencer",
+  "status": "completed",
+  "assets": [
+    {
+      "index": 0,
+      "status": "completed",
+      "targetPath": "pulse/article/2026/09/encrypted-mempool-sequencer/01-threshold-commit-flow.jpg",
+      "alt": "阈值加密内存池中先固定交易位置再解密的流程",
+      "attempts": [
+        {
+          "index": 0,
+          "status": "completed",
+          "sourcePageUrl": "https://ethresear.ch/t/an-anti-collusion-mechanism-for-threshold-encrypted-mempools/22129",
+          "downloadUrl": "https://ethresear.ch/uploads/default/original/3X/f/6/f634c9263f11f65857f10635f65d8079cbecd88f.jpeg"
+        }
+      ],
+      "selectedCandidateIndex": 0,
+      "sourcePageUrl": "https://ethresear.ch/t/an-anti-collusion-mechanism-for-threshold-encrypted-mempools/22129",
+      "downloadUrl": "https://ethresear.ch/uploads/default/original/3X/f/6/f634c9263f11f65857f10635f65d8079cbecd88f.jpeg",
+      "contentType": "image/jpeg",
+      "bytes": 128037,
+      "rawUrl": "https://raw.githubusercontent.com/sharebravery/album/master/pulse/article/2026/09/encrypted-mempool-sequencer/01-threshold-commit-flow.jpg",
+      "cdnUrl": "https://cdn.jsdelivr.net/gh/sharebravery/album@master/pulse/article/2026/09/encrypted-mempool-sequencer/01-threshold-commit-flow.jpg"
+    },
+    {
+      "index": 1,
+      "status": "completed",
+      "targetPath": "pulse/article/2026/09/encrypted-mempool-sequencer/02-op-stack-transaction-flow.jpg",
+      "alt": "OP Stack 交易从执行节点到批处理与 L1 的基本流向",
+      "attempts": [
+        {
+          "index": 0,
+          "status": "completed",
+          "sourcePageUrl": "https://learnblockchain.cn/article/7545",
+          "downloadUrl": "https://img.learnblockchain.cn/attachments/2024/03/aFeaEJ6k65ebd84be4a93.png"
+        }
+      ],
+      "selectedCandidateIndex": 0,
+      "sourcePageUrl": "https://learnblockchain.cn/article/7545",
+      "downloadUrl": "https://img.learnblockchain.cn/attachments/2024/03/aFeaEJ6k65ebd84be4a93.png",
+      "contentType": "image/jpeg",
+      "bytes": 95192,
+      "rawUrl": "https://raw.githubusercontent.com/sharebravery/album/master/pulse/article/2026/09/encrypted-mempool-sequencer/02-op-stack-transaction-flow.jpg",
+      "cdnUrl": "https://cdn.jsdelivr.net/gh/sharebravery/album@master/pulse/article/2026/09/encrypted-mempool-sequencer/02-op-stack-transaction-flow.jpg"
+    },
+    {
+      "index": 2,
+      "status": "completed",
+      "targetPath": "pulse/article/2026/09/encrypted-mempool-sequencer/03-encrypted-mempool-roadmap.jpg",
+      "alt": "Shutter 对加密内存池实现、加密与反串谋路径的路线图",
+      "attempts": [
+        {
+          "index": 0,
+          "status": "completed",
+          "sourcePageUrl": "https://docs.shutter.network/docs/shutter/research/the_road_towards_an_encrypted_mempool_on_ethereum",
+          "downloadUrl": "https://docs.shutter.network/assets/images/enc_mem_roadmap-524a188adadb98962a8ea8e800ab7b58.png"
+        }
+      ],
+      "selectedCandidateIndex": 0,
+      "sourcePageUrl": "https://docs.shutter.network/docs/shutter/research/the_road_towards_an_encrypted_mempool_on_ethereum",
+      "downloadUrl": "https://docs.shutter.network/assets/images/enc_mem_roadmap-524a188adadb98962a8ea8e800ab7b58.png",
+      "contentType": "image/jpeg",
+      "bytes": 127859,
+      "rawUrl": "https://raw.githubusercontent.com/sharebravery/album/master/pulse/article/2026/09/encrypted-mempool-sequencer/03-encrypted-mempool-roadmap.jpg",
+      "cdnUrl": "https://cdn.jsdelivr.net/gh/sharebravery/album@master/pulse/article/2026/09/encrypted-mempool-sequencer/03-encrypted-mempool-roadmap.jpg"
+    }
+  ]
+}
