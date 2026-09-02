@@ -1,0 +1,70 @@
+{
+  "version": 2,
+  "requestId": "20260902T0820-wechat-review-duckdb-optimizer-pass-order",
+  "status": "completed",
+  "assets": [
+    {
+      "index": 0,
+      "status": "completed",
+      "targetPath": "pulse/article/2026/09/duckdb-optimizer-pass-order/01-semi-join-plan.jpg",
+      "alt": "DuckDB 历史 issue 中较简单的 Semi Join 查询计划，用于说明不同优化路径会形成不同计划结构",
+      "attempts": [
+        {
+          "index": 0,
+          "status": "completed",
+          "sourcePageUrl": "https://github.com/duckdb/duckdb/issues/4950",
+          "downloadUrl": "https://user-images.githubusercontent.com/34022600/195005405-bd3dd3b7-c676-4454-a6bf-4278779133c2.png"
+        }
+      ],
+      "selectedCandidateIndex": 0,
+      "sourcePageUrl": "https://github.com/duckdb/duckdb/issues/4950",
+      "downloadUrl": "https://user-images.githubusercontent.com/34022600/195005405-bd3dd3b7-c676-4454-a6bf-4278779133c2.png",
+      "contentType": "image/jpeg",
+      "bytes": 40810,
+      "rawUrl": "https://raw.githubusercontent.com/sharebravery/album/master/pulse/article/2026/09/duckdb-optimizer-pass-order/01-semi-join-plan.jpg",
+      "cdnUrl": "https://cdn.jsdelivr.net/gh/sharebravery/album@master/pulse/article/2026/09/duckdb-optimizer-pass-order/01-semi-join-plan.jpg"
+    },
+    {
+      "index": 1,
+      "status": "completed",
+      "targetPath": "pulse/article/2026/09/duckdb-optimizer-pass-order/02-inner-join-plan.jpg",
+      "alt": "DuckDB 历史 issue 中加入额外条件后形成更复杂 Inner Join 路径的查询计划",
+      "attempts": [
+        {
+          "index": 0,
+          "status": "completed",
+          "sourcePageUrl": "https://github.com/duckdb/duckdb/issues/4950",
+          "downloadUrl": "https://user-images.githubusercontent.com/34022600/195005894-78d9b4c8-b9fc-4604-911c-ca42dba9c83c.png"
+        }
+      ],
+      "selectedCandidateIndex": 0,
+      "sourcePageUrl": "https://github.com/duckdb/duckdb/issues/4950",
+      "downloadUrl": "https://user-images.githubusercontent.com/34022600/195005894-78d9b4c8-b9fc-4604-911c-ca42dba9c83c.png",
+      "contentType": "image/jpeg",
+      "bytes": 134210,
+      "rawUrl": "https://raw.githubusercontent.com/sharebravery/album/master/pulse/article/2026/09/duckdb-optimizer-pass-order/02-inner-join-plan.jpg",
+      "cdnUrl": "https://cdn.jsdelivr.net/gh/sharebravery/album@master/pulse/article/2026/09/duckdb-optimizer-pass-order/02-inner-join-plan.jpg"
+    },
+    {
+      "index": 2,
+      "status": "completed",
+      "targetPath": "pulse/article/2026/09/duckdb-optimizer-pass-order/03-complex-join-plan.jpg",
+      "alt": "DuckDB 历史 Hash Join 性能 issue 中的复杂查询计划，用于说明计划形状错误会被数据规模放大",
+      "attempts": [
+        {
+          "index": 0,
+          "status": "completed",
+          "sourcePageUrl": "https://github.com/duckdb/duckdb/issues/1531",
+          "downloadUrl": "https://user-images.githubusercontent.com/14329666/112619476-abac5a00-8e27-11eb-97e6-b28b38ead2e8.png"
+        }
+      ],
+      "selectedCandidateIndex": 0,
+      "sourcePageUrl": "https://github.com/duckdb/duckdb/issues/1531",
+      "downloadUrl": "https://user-images.githubusercontent.com/14329666/112619476-abac5a00-8e27-11eb-97e6-b28b38ead2e8.png",
+      "contentType": "image/jpeg",
+      "bytes": 133102,
+      "rawUrl": "https://raw.githubusercontent.com/sharebravery/album/master/pulse/article/2026/09/duckdb-optimizer-pass-order/03-complex-join-plan.jpg",
+      "cdnUrl": "https://cdn.jsdelivr.net/gh/sharebravery/album@master/pulse/article/2026/09/duckdb-optimizer-pass-order/03-complex-join-plan.jpg"
+    }
+  ]
+}
