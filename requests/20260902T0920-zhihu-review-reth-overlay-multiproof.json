@@ -1,0 +1,43 @@
+{
+  "version": 2,
+  "requestId": "20260902T0920-zhihu-review-reth-overlay-multiproof",
+  "requestedAt": "2026-09-02T01:20:00Z",
+  "assets": [
+    {
+      "assetId": "lead",
+      "targetPath": "pulse/article/2026/09/reth-overlay-multiproof/01-merkle-tree.jpg",
+      "alt": "Merkle 树从叶子逐层哈希得到根的结构示意",
+      "sourcePageUrl": "https://github.com/ethereumbook/ethereumbook/blob/develop/src/chapter_14.md",
+      "candidates": [
+        {
+          "url": "https://raw.githubusercontent.com/ethereumbook/ethereumbook/develop/images/ch14/maet_1402.png",
+          "referer": "https://github.com/ethereumbook/ethereumbook/blob/develop/src/chapter_14.md"
+        }
+      ]
+    },
+    {
+      "assetId": "proof",
+      "targetPath": "pulse/article/2026/09/reth-overlay-multiproof/02-merkle-proof.jpg",
+      "alt": "Merkle proof 只携带重建根所需兄弟节点的示意",
+      "sourcePageUrl": "https://github.com/ethereumbook/ethereumbook/blob/develop/src/chapter_14.md",
+      "candidates": [
+        {
+          "url": "https://raw.githubusercontent.com/ethereumbook/ethereumbook/develop/images/ch14/maet_1403.png",
+          "referer": "https://github.com/ethereumbook/ethereumbook/blob/develop/src/chapter_14.md"
+        }
+      ]
+    },
+    {
+      "assetId": "mpt",
+      "targetPath": "pulse/article/2026/09/reth-overlay-multiproof/03-merkle-patricia-trie.jpg",
+      "alt": "Ethereum Merkle-Patricia Trie 中键路径映射到节点的示意",
+      "sourcePageUrl": "https://github.com/ethereumbook/ethereumbook/blob/develop/src/chapter_14.md",
+      "candidates": [
+        {
+          "url": "https://raw.githubusercontent.com/ethereumbook/ethereumbook/develop/images/ch14/maet_1405.png",
+          "referer": "https://github.com/ethereumbook/ethereumbook/blob/develop/src/chapter_14.md"
+        }
+      ]
+    }
+  ]
+}
