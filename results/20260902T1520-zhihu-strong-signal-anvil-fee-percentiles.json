@@ -1,0 +1,70 @@
+{
+  "version": 2,
+  "requestId": "20260902T1520-zhihu-strong-signal-anvil-fee-percentiles",
+  "status": "completed",
+  "assets": [
+    {
+      "index": 0,
+      "status": "completed",
+      "targetPath": "pulse/article/2026/09/anvil-fee-percentiles/01-anvil-local-node.jpg",
+      "alt": "Anvil 本地 Ethereum 节点运行界面",
+      "attempts": [
+        {
+          "index": 0,
+          "status": "completed",
+          "sourcePageUrl": "https://egghead.io/lessons/ethereum-start-a-local-blockchain-with-anvil",
+          "downloadUrl": "https://dcv19h61vib2d.cloudfront.net/thumbs/egghead-start-a-local-blockchain-with-anvil-phH1aOPbO/egghead-start-a-local-blockchain-with-anvil-phH1aOPbO.jpg"
+        }
+      ],
+      "selectedCandidateIndex": 0,
+      "sourcePageUrl": "https://egghead.io/lessons/ethereum-start-a-local-blockchain-with-anvil",
+      "downloadUrl": "https://dcv19h61vib2d.cloudfront.net/thumbs/egghead-start-a-local-blockchain-with-anvil-phH1aOPbO/egghead-start-a-local-blockchain-with-anvil-phH1aOPbO.jpg",
+      "contentType": "image/jpeg",
+      "bytes": 52204,
+      "rawUrl": "https://raw.githubusercontent.com/sharebravery/album/master/pulse/article/2026/09/anvil-fee-percentiles/01-anvil-local-node.jpg",
+      "cdnUrl": "https://cdn.jsdelivr.net/gh/sharebravery/album@master/pulse/article/2026/09/anvil-fee-percentiles/01-anvil-local-node.jpg"
+    },
+    {
+      "index": 1,
+      "status": "completed",
+      "targetPath": "pulse/article/2026/09/anvil-fee-percentiles/02-eip1559-fee-structure.jpg",
+      "alt": "EIP-1559 基础费与优先费结构示意",
+      "attempts": [
+        {
+          "index": 0,
+          "status": "completed",
+          "sourcePageUrl": "https://finematics.com/ethereum-eip-1559-explained/",
+          "downloadUrl": "https://finematics.com/wp-content/uploads/2020/11/eip-1559-example-1024x706.png"
+        }
+      ],
+      "selectedCandidateIndex": 0,
+      "sourcePageUrl": "https://finematics.com/ethereum-eip-1559-explained/",
+      "downloadUrl": "https://finematics.com/wp-content/uploads/2020/11/eip-1559-example-1024x706.png",
+      "contentType": "image/jpeg",
+      "bytes": 70291,
+      "rawUrl": "https://raw.githubusercontent.com/sharebravery/album/master/pulse/article/2026/09/anvil-fee-percentiles/02-eip1559-fee-structure.jpg",
+      "cdnUrl": "https://cdn.jsdelivr.net/gh/sharebravery/album@master/pulse/article/2026/09/anvil-fee-percentiles/02-eip1559-fee-structure.jpg"
+    },
+    {
+      "index": 2,
+      "status": "completed",
+      "targetPath": "pulse/article/2026/09/anvil-fee-percentiles/03-gas-fee-history.jpg",
+      "alt": "Ethereum 基础费与优先费随时间变化的对比图",
+      "attempts": [
+        {
+          "index": 0,
+          "status": "completed",
+          "sourcePageUrl": "https://www.frontiersin.org/journals/blockchain/articles/10.3389/fbloc.2024.1462666/full",
+          "downloadUrl": "https://www.frontiersin.org/files/Articles/1462666/xml-images/fbloc-07-1462666-g001.webp"
+        }
+      ],
+      "selectedCandidateIndex": 0,
+      "sourcePageUrl": "https://www.frontiersin.org/journals/blockchain/articles/10.3389/fbloc.2024.1462666/full",
+      "downloadUrl": "https://www.frontiersin.org/files/Articles/1462666/xml-images/fbloc-07-1462666-g001.webp",
+      "contentType": "image/jpeg",
+      "bytes": 178659,
+      "rawUrl": "https://raw.githubusercontent.com/sharebravery/album/master/pulse/article/2026/09/anvil-fee-percentiles/03-gas-fee-history.jpg",
+      "cdnUrl": "https://cdn.jsdelivr.net/gh/sharebravery/album@master/pulse/article/2026/09/anvil-fee-percentiles/03-gas-fee-history.jpg"
+    }
+  ]
+}
