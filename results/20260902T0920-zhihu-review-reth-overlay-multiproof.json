@@ -1,0 +1,49 @@
+{
+  "version": 2,
+  "requestId": "20260902T0920-zhihu-review-reth-overlay-multiproof",
+  "status": "failed",
+  "assets": [
+    {
+      "index": 0,
+      "status": "failed",
+      "targetPath": "pulse/article/2026/09/reth-overlay-multiproof/01-merkle-tree.jpg",
+      "alt": "Merkle 树从叶子逐层哈希得到根的结构示意",
+      "attempts": [
+        {
+          "index": 0,
+          "status": "failed",
+          "error": "downloadUrl must be a non-empty string"
+        }
+      ],
+      "error": "all candidates failed"
+    },
+    {
+      "index": 1,
+      "status": "failed",
+      "targetPath": "pulse/article/2026/09/reth-overlay-multiproof/02-merkle-proof.jpg",
+      "alt": "Merkle proof 只携带重建根所需兄弟节点的示意",
+      "attempts": [
+        {
+          "index": 0,
+          "status": "failed",
+          "error": "downloadUrl must be a non-empty string"
+        }
+      ],
+      "error": "all candidates failed"
+    },
+    {
+      "index": 2,
+      "status": "failed",
+      "targetPath": "pulse/article/2026/09/reth-overlay-multiproof/03-merkle-patricia-trie.jpg",
+      "alt": "Ethereum Merkle-Patricia Trie 中键路径映射到节点的示意",
+      "attempts": [
+        {
+          "index": 0,
+          "status": "failed",
+          "error": "downloadUrl must be a non-empty string"
+        }
+      ],
+      "error": "all candidates failed"
+    }
+  ]
+}
