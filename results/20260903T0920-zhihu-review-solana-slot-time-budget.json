@@ -1,0 +1,70 @@
+{
+  "version": 2,
+  "requestId": "20260903T0920-zhihu-review-solana-slot-time-budget",
+  "status": "completed",
+  "assets": [
+    {
+      "index": 0,
+      "status": "completed",
+      "targetPath": "pulse/article/2026/09/solana-slot-time-budget/01-slot-history.jpg",
+      "alt": "Solana 历史中位 slot 时长的长期变化",
+      "attempts": [
+        {
+          "index": 0,
+          "status": "completed",
+          "sourcePageUrl": "https://www.galaxy.com/insights/research/solana-firedancer-anza-alpenglow-internet-capital-markets",
+          "downloadUrl": "https://images.ctfassets.net/h62aj7eo1csj/6i3XpRF8ksUcDailuSFaoS/89db7029694930fcf7ea618de172b14a/Image_1.png?fm=jpg&q=60&w=1100"
+        }
+      ],
+      "selectedCandidateIndex": 0,
+      "sourcePageUrl": "https://www.galaxy.com/insights/research/solana-firedancer-anza-alpenglow-internet-capital-markets",
+      "downloadUrl": "https://images.ctfassets.net/h62aj7eo1csj/6i3XpRF8ksUcDailuSFaoS/89db7029694930fcf7ea618de172b14a/Image_1.png?fm=jpg&q=60&w=1100",
+      "contentType": "image/jpeg",
+      "bytes": 57661,
+      "rawUrl": "https://raw.githubusercontent.com/sharebravery/album/master/pulse/article/2026/09/solana-slot-time-budget/01-slot-history.jpg",
+      "cdnUrl": "https://cdn.jsdelivr.net/gh/sharebravery/album@master/pulse/article/2026/09/solana-slot-time-budget/01-slot-history.jpg"
+    },
+    {
+      "index": 1,
+      "status": "completed",
+      "targetPath": "pulse/article/2026/09/solana-slot-time-budget/02-slot-latency.jpg",
+      "alt": "Agave testnet slot latency 调查中的分布图",
+      "attempts": [
+        {
+          "index": 0,
+          "status": "completed",
+          "sourcePageUrl": "https://github.com/anza-xyz/agave/issues/8171",
+          "downloadUrl": "https://github.com/user-attachments/assets/eca8133b-6b31-470e-86b8-4680dcc949ce"
+        }
+      ],
+      "selectedCandidateIndex": 0,
+      "sourcePageUrl": "https://github.com/anza-xyz/agave/issues/8171",
+      "downloadUrl": "https://github.com/user-attachments/assets/eca8133b-6b31-470e-86b8-4680dcc949ce",
+      "contentType": "image/jpeg",
+      "bytes": 218732,
+      "rawUrl": "https://raw.githubusercontent.com/sharebravery/album/master/pulse/article/2026/09/solana-slot-time-budget/02-slot-latency.jpg",
+      "cdnUrl": "https://cdn.jsdelivr.net/gh/sharebravery/album@master/pulse/article/2026/09/solana-slot-time-budget/02-slot-latency.jpg"
+    },
+    {
+      "index": 2,
+      "status": "completed",
+      "targetPath": "pulse/article/2026/09/solana-slot-time-budget/03-half-slot-heuristic.jpg",
+      "alt": "Agave slot 估计提前半个 slot 后的延迟对比",
+      "attempts": [
+        {
+          "index": 0,
+          "status": "completed",
+          "sourcePageUrl": "https://github.com/anza-xyz/agave/issues/8171",
+          "downloadUrl": "https://github.com/user-attachments/assets/a2c9ab4d-0e15-410f-9bea-c691009013a9"
+        }
+      ],
+      "selectedCandidateIndex": 0,
+      "sourcePageUrl": "https://github.com/anza-xyz/agave/issues/8171",
+      "downloadUrl": "https://github.com/user-attachments/assets/a2c9ab4d-0e15-410f-9bea-c691009013a9",
+      "contentType": "image/jpeg",
+      "bytes": 389666,
+      "rawUrl": "https://raw.githubusercontent.com/sharebravery/album/master/pulse/article/2026/09/solana-slot-time-budget/03-half-slot-heuristic.jpg",
+      "cdnUrl": "https://cdn.jsdelivr.net/gh/sharebravery/album@master/pulse/article/2026/09/solana-slot-time-budget/03-half-slot-heuristic.jpg"
+    }
+  ]
+}
