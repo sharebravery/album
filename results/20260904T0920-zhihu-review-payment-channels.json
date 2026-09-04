@@ -1,0 +1,70 @@
+{
+  "version": 2,
+  "requestId": "20260904T0920-zhihu-review-payment-channels",
+  "status": "completed",
+  "assets": [
+    {
+      "index": 0,
+      "status": "completed",
+      "targetPath": "pulse/article/2026/09/payment-channels/01-solana-payment-channels.jpg",
+      "alt": "Solana Payment Channels 官方主题图",
+      "attempts": [
+        {
+          "index": 0,
+          "status": "completed",
+          "sourcePageUrl": "https://solana.com/news/payment-channels-1-million-payments-per-second",
+          "downloadUrl": "https://solana.com/media-assets/_next/image?q=75&url=%2Fuploads%2Fposts%2Fpayment-channels-1-million-payments-per-second%2FheroImage.webp&w=1920"
+        }
+      ],
+      "selectedCandidateIndex": 0,
+      "sourcePageUrl": "https://solana.com/news/payment-channels-1-million-payments-per-second",
+      "downloadUrl": "https://solana.com/media-assets/_next/image?q=75&url=%2Fuploads%2Fposts%2Fpayment-channels-1-million-payments-per-second%2FheroImage.webp&w=1920",
+      "contentType": "image/jpeg",
+      "bytes": 307282,
+      "rawUrl": "https://raw.githubusercontent.com/sharebravery/album/master/pulse/article/2026/09/payment-channels/01-solana-payment-channels.jpg",
+      "cdnUrl": "https://cdn.jsdelivr.net/gh/sharebravery/album@master/pulse/article/2026/09/payment-channels/01-solana-payment-channels.jpg"
+    },
+    {
+      "index": 1,
+      "status": "completed",
+      "targetPath": "pulse/article/2026/09/payment-channels/02-x402-flow.jpg",
+      "alt": "x402 官方仓库中的典型支付流程图",
+      "attempts": [
+        {
+          "index": 0,
+          "status": "completed",
+          "sourcePageUrl": "https://github.com/x402-foundation/x402",
+          "downloadUrl": "https://raw.githubusercontent.com/x402-foundation/x402/main/static/flow.png"
+        }
+      ],
+      "selectedCandidateIndex": 0,
+      "sourcePageUrl": "https://github.com/x402-foundation/x402",
+      "downloadUrl": "https://raw.githubusercontent.com/x402-foundation/x402/main/static/flow.png",
+      "contentType": "image/jpeg",
+      "bytes": 426012,
+      "rawUrl": "https://raw.githubusercontent.com/sharebravery/album/master/pulse/article/2026/09/payment-channels/02-x402-flow.jpg",
+      "cdnUrl": "https://cdn.jsdelivr.net/gh/sharebravery/album@master/pulse/article/2026/09/payment-channels/02-x402-flow.jpg"
+    },
+    {
+      "index": 2,
+      "status": "completed",
+      "targetPath": "pulse/article/2026/09/payment-channels/03-x402-paywall.jpg",
+      "alt": "x402 官方仓库中的按请求付费界面示例",
+      "attempts": [
+        {
+          "index": 0,
+          "status": "completed",
+          "sourcePageUrl": "https://github.com/x402-foundation/x402",
+          "downloadUrl": "https://raw.githubusercontent.com/x402-foundation/x402/main/static/paywall.jpg"
+        }
+      ],
+      "selectedCandidateIndex": 0,
+      "sourcePageUrl": "https://github.com/x402-foundation/x402",
+      "downloadUrl": "https://raw.githubusercontent.com/x402-foundation/x402/main/static/paywall.jpg",
+      "contentType": "image/jpeg",
+      "bytes": 80589,
+      "rawUrl": "https://raw.githubusercontent.com/sharebravery/album/master/pulse/article/2026/09/payment-channels/03-x402-paywall.jpg",
+      "cdnUrl": "https://cdn.jsdelivr.net/gh/sharebravery/album@master/pulse/article/2026/09/payment-channels/03-x402-paywall.jpg"
+    }
+  ]
+}
