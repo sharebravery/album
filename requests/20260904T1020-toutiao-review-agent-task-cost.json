@@ -1,0 +1,36 @@
+{
+  "version": 2,
+  "requestId": "20260904T1020-toutiao-review-agent-task-cost",
+  "assets": [
+    {
+      "targetPath": "pulse/article/2026/09/agent-task-cost/01-local-metric-trap.jpg",
+      "alt": "单次工具输出变短却触发重读与重跑的成本循环",
+      "candidates": [
+        {
+          "sourcePageUrl": "https://github.blog/ai-and-ml/github-copilot/how-we-make-ai-coding-more-cost-efficient-without-sacrificing-task-quality/",
+          "downloadUrl": "https://github.blog/wp-content/uploads/2026/09/Blog-Graphic-02.png?resize=1024%2C448"
+        }
+      ]
+    },
+    {
+      "targetPath": "pulse/article/2026/09/agent-task-cost/02-selective-compression.jpg",
+      "alt": "GitHub Copilot 按输出类型选择保留、重组或压缩的策略",
+      "candidates": [
+        {
+          "sourcePageUrl": "https://github.blog/ai-and-ml/github-copilot/how-we-make-ai-coding-more-cost-efficient-without-sacrificing-task-quality/",
+          "downloadUrl": "https://github.blog/wp-content/uploads/2026/09/Blog-Graphic-04.png?resize=1024%2C770"
+        }
+      ]
+    },
+    {
+      "targetPath": "pulse/article/2026/09/agent-task-cost/03-formatting-overhead.jpg",
+      "alt": "移除文件读取行号前缀前后的对比",
+      "candidates": [
+        {
+          "sourcePageUrl": "https://github.blog/ai-and-ml/github-copilot/how-we-make-ai-coding-more-cost-efficient-without-sacrificing-task-quality/",
+          "downloadUrl": "https://github.blog/wp-content/uploads/2026/09/Blog-Graphic-03.png?resize=1024%2C185"
+        }
+      ]
+    }
+  ]
+}
