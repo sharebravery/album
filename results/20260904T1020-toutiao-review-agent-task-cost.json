@@ -1,0 +1,65 @@
+{
+  "version": 2,
+  "requestId": "20260904T1020-toutiao-review-agent-task-cost",
+  "status": "partial",
+  "assets": [
+    {
+      "index": 0,
+      "status": "completed",
+      "targetPath": "pulse/article/2026/09/agent-task-cost/01-local-metric-trap.jpg",
+      "alt": "单次工具输出变短却触发重读与重跑的成本循环",
+      "attempts": [
+        {
+          "index": 0,
+          "status": "completed",
+          "sourcePageUrl": "https://github.blog/ai-and-ml/github-copilot/how-we-make-ai-coding-more-cost-efficient-without-sacrificing-task-quality/",
+          "downloadUrl": "https://github.blog/wp-content/uploads/2026/09/Blog-Graphic-02.png?resize=1024%2C448"
+        }
+      ],
+      "selectedCandidateIndex": 0,
+      "sourcePageUrl": "https://github.blog/ai-and-ml/github-copilot/how-we-make-ai-coding-more-cost-efficient-without-sacrificing-task-quality/",
+      "downloadUrl": "https://github.blog/wp-content/uploads/2026/09/Blog-Graphic-02.png?resize=1024%2C448",
+      "contentType": "image/jpeg",
+      "bytes": 57713,
+      "rawUrl": "https://raw.githubusercontent.com/sharebravery/album/master/pulse/article/2026/09/agent-task-cost/01-local-metric-trap.jpg",
+      "cdnUrl": "https://cdn.jsdelivr.net/gh/sharebravery/album@master/pulse/article/2026/09/agent-task-cost/01-local-metric-trap.jpg"
+    },
+    {
+      "index": 1,
+      "status": "completed",
+      "targetPath": "pulse/article/2026/09/agent-task-cost/02-selective-compression.jpg",
+      "alt": "GitHub Copilot 按输出类型选择保留、重组或压缩的策略",
+      "attempts": [
+        {
+          "index": 0,
+          "status": "completed",
+          "sourcePageUrl": "https://github.blog/ai-and-ml/github-copilot/how-we-make-ai-coding-more-cost-efficient-without-sacrificing-task-quality/",
+          "downloadUrl": "https://github.blog/wp-content/uploads/2026/09/Blog-Graphic-04.png?resize=1024%2C770"
+        }
+      ],
+      "selectedCandidateIndex": 0,
+      "sourcePageUrl": "https://github.blog/ai-and-ml/github-copilot/how-we-make-ai-coding-more-cost-efficient-without-sacrificing-task-quality/",
+      "downloadUrl": "https://github.blog/wp-content/uploads/2026/09/Blog-Graphic-04.png?resize=1024%2C770",
+      "contentType": "image/jpeg",
+      "bytes": 93835,
+      "rawUrl": "https://raw.githubusercontent.com/sharebravery/album/master/pulse/article/2026/09/agent-task-cost/02-selective-compression.jpg",
+      "cdnUrl": "https://cdn.jsdelivr.net/gh/sharebravery/album@master/pulse/article/2026/09/agent-task-cost/02-selective-compression.jpg"
+    },
+    {
+      "index": 2,
+      "status": "failed",
+      "targetPath": "pulse/article/2026/09/agent-task-cost/03-formatting-overhead.jpg",
+      "alt": "移除文件读取行号前缀前后的对比",
+      "attempts": [
+        {
+          "index": 0,
+          "status": "failed",
+          "sourcePageUrl": "https://github.blog/ai-and-ml/github-copilot/how-we-make-ai-coding-more-cost-efficient-without-sacrificing-task-quality/",
+          "downloadUrl": "https://github.blog/wp-content/uploads/2026/09/Blog-Graphic-03.png?resize=1024%2C185",
+          "error": "Article image is too small for publication: 1023x185; minimum short side is 240px and minimum area is 160000 pixels"
+        }
+      ],
+      "error": "all candidates failed"
+    }
+  ]
+}
