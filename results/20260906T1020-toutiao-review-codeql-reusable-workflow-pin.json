@@ -1,0 +1,70 @@
+{
+  "version": 2,
+  "requestId": "20260906T1020-toutiao-review-codeql-reusable-workflow-pin",
+  "status": "completed",
+  "assets": [
+    {
+      "index": 0,
+      "status": "completed",
+      "targetPath": "pulse/article/2026/09/codeql-reusable-workflow-pin/01-reusable-flow.jpg",
+      "alt": "GitHub Actions 调用可复用 workflow 的官方关系图",
+      "attempts": [
+        {
+          "index": 0,
+          "status": "completed",
+          "sourcePageUrl": "https://docs.github.com/en/actions/concepts/workflows-and-actions/reusing-workflow-configurations",
+          "downloadUrl": "https://raw.githubusercontent.com/github/docs/main/assets/images/help/actions/reusable-workflows-ci-cd.png"
+        }
+      ],
+      "selectedCandidateIndex": 0,
+      "sourcePageUrl": "https://docs.github.com/en/actions/concepts/workflows-and-actions/reusing-workflow-configurations",
+      "downloadUrl": "https://raw.githubusercontent.com/github/docs/main/assets/images/help/actions/reusable-workflows-ci-cd.png",
+      "contentType": "image/jpeg",
+      "bytes": 69566,
+      "rawUrl": "https://raw.githubusercontent.com/sharebravery/album/master/pulse/article/2026/09/codeql-reusable-workflow-pin/01-reusable-flow.jpg",
+      "cdnUrl": "https://cdn.jsdelivr.net/gh/sharebravery/album@master/pulse/article/2026/09/codeql-reusable-workflow-pin/01-reusable-flow.jpg"
+    },
+    {
+      "index": 1,
+      "status": "completed",
+      "targetPath": "pulse/article/2026/09/codeql-reusable-workflow-pin/02-dependency-review.jpg",
+      "alt": "GitHub 官方 dependency review workflow 运行界面",
+      "attempts": [
+        {
+          "index": 0,
+          "status": "completed",
+          "sourcePageUrl": "https://docs.github.com/en/code-security/concepts/supply-chain-security/dependency-review",
+          "downloadUrl": "https://raw.githubusercontent.com/github/docs/main/assets/images/help/graphs/dependency-review-action.png"
+        }
+      ],
+      "selectedCandidateIndex": 0,
+      "sourcePageUrl": "https://docs.github.com/en/code-security/concepts/supply-chain-security/dependency-review",
+      "downloadUrl": "https://raw.githubusercontent.com/github/docs/main/assets/images/help/graphs/dependency-review-action.png",
+      "contentType": "image/jpeg",
+      "bytes": 98875,
+      "rawUrl": "https://raw.githubusercontent.com/sharebravery/album/master/pulse/article/2026/09/codeql-reusable-workflow-pin/02-dependency-review.jpg",
+      "cdnUrl": "https://cdn.jsdelivr.net/gh/sharebravery/album@master/pulse/article/2026/09/codeql-reusable-workflow-pin/02-dependency-review.jpg"
+    },
+    {
+      "index": 2,
+      "status": "completed",
+      "targetPath": "pulse/article/2026/09/codeql-reusable-workflow-pin/03-workflow-graph.jpg",
+      "alt": "GitHub Actions workflow 运行依赖关系可视化图",
+      "attempts": [
+        {
+          "index": 0,
+          "status": "completed",
+          "sourcePageUrl": "https://docs.github.com/en/actions/how-tos/monitor-workflows/use-the-visualization-graph",
+          "downloadUrl": "https://raw.githubusercontent.com/github/docs/main/assets/images/help/actions/workflow-graph.png"
+        }
+      ],
+      "selectedCandidateIndex": 0,
+      "sourcePageUrl": "https://docs.github.com/en/actions/how-tos/monitor-workflows/use-the-visualization-graph",
+      "downloadUrl": "https://raw.githubusercontent.com/github/docs/main/assets/images/help/actions/workflow-graph.png",
+      "contentType": "image/jpeg",
+      "bytes": 100090,
+      "rawUrl": "https://raw.githubusercontent.com/sharebravery/album/master/pulse/article/2026/09/codeql-reusable-workflow-pin/03-workflow-graph.jpg",
+      "cdnUrl": "https://cdn.jsdelivr.net/gh/sharebravery/album@master/pulse/article/2026/09/codeql-reusable-workflow-pin/03-workflow-graph.jpg"
+    }
+  ]
+}
