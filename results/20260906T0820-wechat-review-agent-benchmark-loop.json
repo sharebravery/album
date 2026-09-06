@@ -1,0 +1,70 @@
+{
+  "version": 2,
+  "requestId": "20260906T0820-wechat-review-agent-benchmark-loop",
+  "status": "completed",
+  "assets": [
+    {
+      "index": 0,
+      "status": "completed",
+      "targetPath": "pulse/article/2026/09/agent-benchmark-loop/01-pass-rate.jpg",
+      "alt": "28 个模型在分析型 Agent 基准中的通过率对比",
+      "attempts": [
+        {
+          "index": 0,
+          "status": "completed",
+          "sourcePageUrl": "https://clickhouse.com/blog/agentic-analytics-benchmark-data-agent-mnist",
+          "downloadUrl": "https://clickhouse.com/uploads/pass_rate_all_models_1910c0d6a2.png"
+        }
+      ],
+      "selectedCandidateIndex": 0,
+      "sourcePageUrl": "https://clickhouse.com/blog/agentic-analytics-benchmark-data-agent-mnist",
+      "downloadUrl": "https://clickhouse.com/uploads/pass_rate_all_models_1910c0d6a2.png",
+      "contentType": "image/jpeg",
+      "bytes": 111161,
+      "rawUrl": "https://raw.githubusercontent.com/sharebravery/album/master/pulse/article/2026/09/agent-benchmark-loop/01-pass-rate.jpg",
+      "cdnUrl": "https://cdn.jsdelivr.net/gh/sharebravery/album@master/pulse/article/2026/09/agent-benchmark-loop/01-pass-rate.jpg"
+    },
+    {
+      "index": 1,
+      "status": "completed",
+      "targetPath": "pulse/article/2026/09/agent-benchmark-loop/02-warehouse.jpg",
+      "alt": "用于可重放评测的合成数据仓库结构",
+      "attempts": [
+        {
+          "index": 0,
+          "status": "completed",
+          "sourcePageUrl": "https://clickhouse.com/blog/agentic-analytics-benchmark-data-agent-mnist",
+          "downloadUrl": "https://clickhouse.com/uploads/synthetic_warehouse_3327263fc3.png"
+        }
+      ],
+      "selectedCandidateIndex": 0,
+      "sourcePageUrl": "https://clickhouse.com/blog/agentic-analytics-benchmark-data-agent-mnist",
+      "downloadUrl": "https://clickhouse.com/uploads/synthetic_warehouse_3327263fc3.png",
+      "contentType": "image/jpeg",
+      "bytes": 88520,
+      "rawUrl": "https://raw.githubusercontent.com/sharebravery/album/master/pulse/article/2026/09/agent-benchmark-loop/02-warehouse.jpg",
+      "cdnUrl": "https://cdn.jsdelivr.net/gh/sharebravery/album@master/pulse/article/2026/09/agent-benchmark-loop/02-warehouse.jpg"
+    },
+    {
+      "index": 2,
+      "status": "completed",
+      "targetPath": "pulse/article/2026/09/agent-benchmark-loop/03-jury.jpg",
+      "alt": "分析型 Agent 候选答案的多模型评审与结果集等价检查流程",
+      "attempts": [
+        {
+          "index": 0,
+          "status": "completed",
+          "sourcePageUrl": "https://clickhouse.com/blog/agentic-analytics-benchmark-data-agent-mnist",
+          "downloadUrl": "https://clickhouse.com/uploads/jury_scoring_136c3e4d58.png"
+        }
+      ],
+      "selectedCandidateIndex": 0,
+      "sourcePageUrl": "https://clickhouse.com/blog/agentic-analytics-benchmark-data-agent-mnist",
+      "downloadUrl": "https://clickhouse.com/uploads/jury_scoring_136c3e4d58.png",
+      "contentType": "image/jpeg",
+      "bytes": 57687,
+      "rawUrl": "https://raw.githubusercontent.com/sharebravery/album/master/pulse/article/2026/09/agent-benchmark-loop/03-jury.jpg",
+      "cdnUrl": "https://cdn.jsdelivr.net/gh/sharebravery/album@master/pulse/article/2026/09/agent-benchmark-loop/03-jury.jpg"
+    }
+  ]
+}
