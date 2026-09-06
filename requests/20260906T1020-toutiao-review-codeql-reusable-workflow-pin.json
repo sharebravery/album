@@ -1,0 +1,36 @@
+{
+  "version": 2,
+  "requestId": "20260906T1020-toutiao-review-codeql-reusable-workflow-pin",
+  "assets": [
+    {
+      "targetPath": "pulse/article/2026/09/codeql-reusable-workflow-pin/01-reusable-flow.jpg",
+      "alt": "GitHub Actions 调用可复用 workflow 的官方关系图",
+      "candidates": [
+        {
+          "sourcePageUrl": "https://docs.github.com/en/actions/concepts/workflows-and-actions/reusing-workflow-configurations",
+          "downloadUrl": "https://raw.githubusercontent.com/github/docs/main/assets/images/help/actions/reusable-workflows-ci-cd.png"
+        }
+      ]
+    },
+    {
+      "targetPath": "pulse/article/2026/09/codeql-reusable-workflow-pin/02-dependency-review.jpg",
+      "alt": "GitHub 官方 dependency review workflow 运行界面",
+      "candidates": [
+        {
+          "sourcePageUrl": "https://docs.github.com/en/code-security/concepts/supply-chain-security/dependency-review",
+          "downloadUrl": "https://raw.githubusercontent.com/github/docs/main/assets/images/help/graphs/dependency-review-action.png"
+        }
+      ]
+    },
+    {
+      "targetPath": "pulse/article/2026/09/codeql-reusable-workflow-pin/03-workflow-graph.jpg",
+      "alt": "GitHub Actions workflow 运行依赖关系可视化图",
+      "candidates": [
+        {
+          "sourcePageUrl": "https://docs.github.com/en/actions/how-tos/monitor-workflows/use-the-visualization-graph",
+          "downloadUrl": "https://raw.githubusercontent.com/github/docs/main/assets/images/help/actions/workflow-graph.png"
+        }
+      ]
+    }
+  ]
+}
