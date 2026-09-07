@@ -1,0 +1,36 @@
+{
+  "version": 2,
+  "requestId": "20260907T0920-zhihu-review-reth-stale-validation",
+  "assets": [
+    {
+      "targetPath": "pulse/article/2026/09/reth-stale-validation/01-reth-architecture.jpg",
+      "alt": "Reth 节点中交易池与网络、存储模块的关系",
+      "candidates": [
+        {
+          "sourcePageUrl": "https://www.merkle.io/blog/modifying-reth-to-build-the-fastest-transaction-network-on-bsc-and-polygon",
+          "downloadUrl": "https://cdn.sanity.io/images/oisfjfmb/production/66664473bf635e83cecc7ddcebe8c4f313dd5820-1448x1156.webp"
+        }
+      ]
+    },
+    {
+      "targetPath": "pulse/article/2026/09/reth-stale-validation/02-txpool-subpools.jpg",
+      "alt": "Reth 交易池 pending、queued 与 base-fee 子池之间的状态关系",
+      "candidates": [
+        {
+          "sourcePageUrl": "https://medium.com/@gregeed/diving-into-the-mempool-094e189f2ff9",
+          "downloadUrl": "https://miro.medium.com/v2/resize%3Afit%3A1400/1%2AtDL2UOAuLfV9W8ZuBiZxHg.png"
+        }
+      ]
+    },
+    {
+      "targetPath": "pulse/article/2026/09/reth-stale-validation/03-ethereum-tx-lifecycle.jpg",
+      "alt": "Ethereum 客户端对交易进行校验并进入 pending 或 queued 队列的流程",
+      "candidates": [
+        {
+          "sourcePageUrl": "https://medium.com/blockvigil/blockvigil-transaction-manager-part-1-the-ethereum-transaction-life-cycle-382d9082e5d9",
+          "downloadUrl": "https://miro.medium.com/max/1322/1%2AQLeORG1SX0EkpaUdTAgYvw.jpeg"
+        }
+      ]
+    }
+  ]
+}
