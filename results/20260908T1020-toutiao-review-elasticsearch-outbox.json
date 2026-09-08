@@ -1,0 +1,60 @@
+{
+  "version": 2,
+  "requestId": "20260908T1020-toutiao-review-elasticsearch-outbox",
+  "status": "partial",
+  "assets": [
+    {
+      "index": 0,
+      "status": "failed",
+      "targetPath": "pulse/article/2026/09/elasticsearch-outbox/01-provider-outbox.jpg",
+      "alt": "LobeHub Elasticsearch full-text search provider and durable Outbox implementation PR",
+      "attempts": [
+        {
+          "index": 0,
+          "status": "failed",
+          "sourcePageUrl": "https://github.com/lobehub/lobehub/pull/18807",
+          "downloadUrl": "https://opengraph.githubassets.com/1/lobehub/lobehub/pull/18807",
+          "error": "HTTP Error 429: Too Many Requests"
+        }
+      ],
+      "error": "all candidates failed"
+    },
+    {
+      "index": 1,
+      "status": "completed",
+      "targetPath": "pulse/article/2026/09/elasticsearch-outbox/02-reindex-recovery.jpg",
+      "alt": "LobeHub Elasticsearch resumable reindex recovery implementation PR",
+      "attempts": [
+        {
+          "index": 0,
+          "status": "completed",
+          "sourcePageUrl": "https://github.com/lobehub/lobehub/pull/18902",
+          "downloadUrl": "https://opengraph.githubassets.com/1/lobehub/lobehub/pull/18902"
+        }
+      ],
+      "selectedCandidateIndex": 0,
+      "sourcePageUrl": "https://github.com/lobehub/lobehub/pull/18902",
+      "downloadUrl": "https://opengraph.githubassets.com/1/lobehub/lobehub/pull/18902",
+      "contentType": "image/jpeg",
+      "bytes": 88745,
+      "rawUrl": "https://raw.githubusercontent.com/sharebravery/album/master/pulse/article/2026/09/elasticsearch-outbox/02-reindex-recovery.jpg",
+      "cdnUrl": "https://cdn.jsdelivr.net/gh/sharebravery/album@master/pulse/article/2026/09/elasticsearch-outbox/02-reindex-recovery.jpg"
+    },
+    {
+      "index": 2,
+      "status": "failed",
+      "targetPath": "pulse/article/2026/09/elasticsearch-outbox/03-compose-cutover.jpg",
+      "alt": "LobeHub optional Elasticsearch Docker Compose deployment and cutover PR",
+      "attempts": [
+        {
+          "index": 0,
+          "status": "failed",
+          "sourcePageUrl": "https://github.com/lobehub/lobehub/pull/19028",
+          "downloadUrl": "https://opengraph.githubassets.com/1/lobehub/lobehub/pull/19028",
+          "error": "HTTP Error 429: Too Many Requests"
+        }
+      ],
+      "error": "all candidates failed"
+    }
+  ]
+}
