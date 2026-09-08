@@ -1,0 +1,70 @@
+{
+  "version": 2,
+  "requestId": "20260908T0820-wechat-review-cache-transcoding",
+  "status": "completed",
+  "assets": [
+    {
+      "index": 0,
+      "status": "completed",
+      "targetPath": "pulse/article/2026/09/cache-transcoding/01-lead.jpg",
+      "alt": "Cloudflare cache storage compression concept",
+      "attempts": [
+        {
+          "index": 0,
+          "status": "completed",
+          "sourcePageUrl": "https://blog.cloudflare.com/cache-transcoding/",
+          "downloadUrl": "https://blog.cloudflare.com/_image?f=webp&fit=cover&h=675&href=https%3A%2F%2Fblog.cloudflare.com%2F_emdash%2Fapi%2Fmedia%2Ffile%2F01M1DADS947G87BAG8BQJ5RZN6.01M1DADSZ25WXKD5DG1M70HJR8.png&position=center&w=1200"
+        }
+      ],
+      "selectedCandidateIndex": 0,
+      "sourcePageUrl": "https://blog.cloudflare.com/cache-transcoding/",
+      "downloadUrl": "https://blog.cloudflare.com/_image?f=webp&fit=cover&h=675&href=https%3A%2F%2Fblog.cloudflare.com%2F_emdash%2Fapi%2Fmedia%2Ffile%2F01M1DADS947G87BAG8BQJ5RZN6.01M1DADSZ25WXKD5DG1M70HJR8.png&position=center&w=1200",
+      "contentType": "image/jpeg",
+      "bytes": 90785,
+      "rawUrl": "https://raw.githubusercontent.com/sharebravery/album/master/pulse/article/2026/09/cache-transcoding/01-lead.jpg",
+      "cdnUrl": "https://cdn.jsdelivr.net/gh/sharebravery/album@master/pulse/article/2026/09/cache-transcoding/01-lead.jpg"
+    },
+    {
+      "index": 1,
+      "status": "completed",
+      "targetPath": "pulse/article/2026/09/cache-transcoding/02-tiered-cache-flow.jpg",
+      "alt": "Cache Transcoding flow across origin, upper tier, lower tier, and client",
+      "attempts": [
+        {
+          "index": 0,
+          "status": "completed",
+          "sourcePageUrl": "https://blog.cloudflare.com/cache-transcoding/",
+          "downloadUrl": "https://blog.cloudflare.com/_image?f=webp&fit=cover&h=472&href=https%3A%2F%2Fblog.cloudflare.com%2F_emdash%2Fapi%2Fmedia%2Ffile%2F01M1DABE8D58WDN8W0YJ66BFK4.01M1DABEZRTM9C8N8YNJKEJS4W.png&position=center&w=715"
+        }
+      ],
+      "selectedCandidateIndex": 0,
+      "sourcePageUrl": "https://blog.cloudflare.com/cache-transcoding/",
+      "downloadUrl": "https://blog.cloudflare.com/_image?f=webp&fit=cover&h=472&href=https%3A%2F%2Fblog.cloudflare.com%2F_emdash%2Fapi%2Fmedia%2Ffile%2F01M1DABE8D58WDN8W0YJ66BFK4.01M1DABEZRTM9C8N8YNJKEJS4W.png&position=center&w=715",
+      "contentType": "image/jpeg",
+      "bytes": 55487,
+      "rawUrl": "https://raw.githubusercontent.com/sharebravery/album/master/pulse/article/2026/09/cache-transcoding/02-tiered-cache-flow.jpg",
+      "cdnUrl": "https://cdn.jsdelivr.net/gh/sharebravery/album@master/pulse/article/2026/09/cache-transcoding/02-tiered-cache-flow.jpg"
+    },
+    {
+      "index": 2,
+      "status": "completed",
+      "targetPath": "pulse/article/2026/09/cache-transcoding/03-zstd-ratio.jpg",
+      "alt": "Cloudflare Zstandard, GZIP, and Brotli compression ratio comparison",
+      "attempts": [
+        {
+          "index": 0,
+          "status": "completed",
+          "sourcePageUrl": "https://blog.cloudflare.com/new-standards/",
+          "downloadUrl": "https://blog.cloudflare.com/_image?f=webp&fit=cover&h=442&href=https%3A%2F%2Fblog.cloudflare.com%2F_emdash%2Fapi%2Fmedia%2Ffile%2F01KW454TDNCRSC19PVFGA73BFA.png&position=center&w=715"
+        }
+      ],
+      "selectedCandidateIndex": 0,
+      "sourcePageUrl": "https://blog.cloudflare.com/new-standards/",
+      "downloadUrl": "https://blog.cloudflare.com/_image?f=webp&fit=cover&h=442&href=https%3A%2F%2Fblog.cloudflare.com%2F_emdash%2Fapi%2Fmedia%2Ffile%2F01KW454TDNCRSC19PVFGA73BFA.png&position=center&w=715",
+      "contentType": "image/jpeg",
+      "bytes": 45933,
+      "rawUrl": "https://raw.githubusercontent.com/sharebravery/album/master/pulse/article/2026/09/cache-transcoding/03-zstd-ratio.jpg",
+      "cdnUrl": "https://cdn.jsdelivr.net/gh/sharebravery/album@master/pulse/article/2026/09/cache-transcoding/03-zstd-ratio.jpg"
+    }
+  ]
+}
