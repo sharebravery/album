@@ -1,0 +1,36 @@
+{
+  "version": 2,
+  "requestId": "20260908T1020-toutiao-review-elasticsearch-outbox",
+  "assets": [
+    {
+      "targetPath": "pulse/article/2026/09/elasticsearch-outbox/01-provider-outbox.jpg",
+      "alt": "LobeHub Elasticsearch full-text search provider and durable Outbox implementation PR",
+      "candidates": [
+        {
+          "sourcePageUrl": "https://github.com/lobehub/lobehub/pull/18807",
+          "downloadUrl": "https://opengraph.githubassets.com/1/lobehub/lobehub/pull/18807"
+        }
+      ]
+    },
+    {
+      "targetPath": "pulse/article/2026/09/elasticsearch-outbox/02-reindex-recovery.jpg",
+      "alt": "LobeHub Elasticsearch resumable reindex recovery implementation PR",
+      "candidates": [
+        {
+          "sourcePageUrl": "https://github.com/lobehub/lobehub/pull/18902",
+          "downloadUrl": "https://opengraph.githubassets.com/1/lobehub/lobehub/pull/18902"
+        }
+      ]
+    },
+    {
+      "targetPath": "pulse/article/2026/09/elasticsearch-outbox/03-compose-cutover.jpg",
+      "alt": "LobeHub optional Elasticsearch Docker Compose deployment and cutover PR",
+      "candidates": [
+        {
+          "sourcePageUrl": "https://github.com/lobehub/lobehub/pull/19028",
+          "downloadUrl": "https://opengraph.githubassets.com/1/lobehub/lobehub/pull/19028"
+        }
+      ]
+    }
+  ]
+}
