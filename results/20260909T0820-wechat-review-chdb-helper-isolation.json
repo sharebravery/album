@@ -1,0 +1,70 @@
+{
+  "version": 2,
+  "requestId": "20260909T0820-wechat-review-chdb-helper-isolation",
+  "status": "completed",
+  "assets": [
+    {
+      "index": 0,
+      "status": "completed",
+      "targetPath": "pulse/article/2026/09/chdb-helper-isolation/01-lead.jpg",
+      "alt": "chDB Postgres extension official launch visual",
+      "attempts": [
+        {
+          "index": 0,
+          "status": "completed",
+          "sourcePageUrl": "https://clickhouse.com/blog/introducing-chdb-postgres",
+          "downloadUrl": "https://clickhouse.com/uploads/Image_512x512_1_8bc569c360.png"
+        }
+      ],
+      "selectedCandidateIndex": 0,
+      "sourcePageUrl": "https://clickhouse.com/blog/introducing-chdb-postgres",
+      "downloadUrl": "https://clickhouse.com/uploads/Image_512x512_1_8bc569c360.png",
+      "contentType": "image/jpeg",
+      "bytes": 62023,
+      "rawUrl": "https://raw.githubusercontent.com/sharebravery/album/master/pulse/article/2026/09/chdb-helper-isolation/01-lead.jpg",
+      "cdnUrl": "https://cdn.jsdelivr.net/gh/sharebravery/album@master/pulse/article/2026/09/chdb-helper-isolation/01-lead.jpg"
+    },
+    {
+      "index": 1,
+      "status": "completed",
+      "targetPath": "pulse/article/2026/09/chdb-helper-isolation/02-extension-benchmark.jpg",
+      "alt": "Official benchmark comparing Postgres cloud-storage import extensions",
+      "attempts": [
+        {
+          "index": 0,
+          "status": "completed",
+          "sourcePageUrl": "https://clickhouse.com/blog/introducing-chdb-postgres",
+          "downloadUrl": "https://clickhouse.com/uploads/pg_chdb_sep2026_image1_dark_f0b53a5236.png"
+        }
+      ],
+      "selectedCandidateIndex": 0,
+      "sourcePageUrl": "https://clickhouse.com/blog/introducing-chdb-postgres",
+      "downloadUrl": "https://clickhouse.com/uploads/pg_chdb_sep2026_image1_dark_f0b53a5236.png",
+      "contentType": "image/jpeg",
+      "bytes": 140801,
+      "rawUrl": "https://raw.githubusercontent.com/sharebravery/album/master/pulse/article/2026/09/chdb-helper-isolation/02-extension-benchmark.jpg",
+      "cdnUrl": "https://cdn.jsdelivr.net/gh/sharebravery/album@master/pulse/article/2026/09/chdb-helper-isolation/02-extension-benchmark.jpg"
+    },
+    {
+      "index": 2,
+      "status": "completed",
+      "targetPath": "pulse/article/2026/09/chdb-helper-isolation/03-format-benchmark.jpg",
+      "alt": "Official chdb import benchmark across multiple data formats",
+      "attempts": [
+        {
+          "index": 0,
+          "status": "completed",
+          "sourcePageUrl": "https://clickhouse.com/blog/introducing-chdb-postgres",
+          "downloadUrl": "https://clickhouse.com/uploads/pg_chdb_sep2026_image2_dark_be65cf7ea0.png"
+        }
+      ],
+      "selectedCandidateIndex": 0,
+      "sourcePageUrl": "https://clickhouse.com/blog/introducing-chdb-postgres",
+      "downloadUrl": "https://clickhouse.com/uploads/pg_chdb_sep2026_image2_dark_be65cf7ea0.png",
+      "contentType": "image/jpeg",
+      "bytes": 146037,
+      "rawUrl": "https://raw.githubusercontent.com/sharebravery/album/master/pulse/article/2026/09/chdb-helper-isolation/03-format-benchmark.jpg",
+      "cdnUrl": "https://cdn.jsdelivr.net/gh/sharebravery/album@master/pulse/article/2026/09/chdb-helper-isolation/03-format-benchmark.jpg"
+    }
+  ]
+}
