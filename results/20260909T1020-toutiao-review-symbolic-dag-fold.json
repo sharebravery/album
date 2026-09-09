@@ -1,0 +1,65 @@
+{
+  "version": 2,
+  "requestId": "20260909T1020-toutiao-review-symbolic-dag-fold",
+  "status": "partial",
+  "assets": [
+    {
+      "index": 0,
+      "status": "completed",
+      "targetPath": "pulse/article/2026/09/symbolic-dag-fold/01-foundry-banner.jpg",
+      "alt": "Foundry 官方项目视觉，用于引入符号执行工具链语境",
+      "attempts": [
+        {
+          "index": 0,
+          "status": "completed",
+          "sourcePageUrl": "https://github.com/foundry-rs/foundry",
+          "downloadUrl": "https://raw.githubusercontent.com/foundry-rs/foundry/master/.github/assets/banner.png"
+        }
+      ],
+      "selectedCandidateIndex": 0,
+      "sourcePageUrl": "https://github.com/foundry-rs/foundry",
+      "downloadUrl": "https://raw.githubusercontent.com/foundry-rs/foundry/master/.github/assets/banner.png",
+      "contentType": "image/jpeg",
+      "bytes": 927858,
+      "rawUrl": "https://raw.githubusercontent.com/sharebravery/album/master/pulse/article/2026/09/symbolic-dag-fold/01-foundry-banner.jpg",
+      "cdnUrl": "https://cdn.jsdelivr.net/gh/sharebravery/album@master/pulse/article/2026/09/symbolic-dag-fold/01-foundry-banner.jpg"
+    },
+    {
+      "index": 1,
+      "status": "completed",
+      "targetPath": "pulse/article/2026/09/symbolic-dag-fold/02-dag-sharing.jpg",
+      "alt": "有向无环图示意，用于解释共享子节点与树式重复遍历的区别",
+      "attempts": [
+        {
+          "index": 0,
+          "status": "completed",
+          "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:Directed_acyclic_graph.svg",
+          "downloadUrl": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Directed%20acyclic%20graph.svg?width=1280"
+        }
+      ],
+      "selectedCandidateIndex": 0,
+      "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:Directed_acyclic_graph.svg",
+      "downloadUrl": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Directed%20acyclic%20graph.svg?width=1280",
+      "contentType": "image/jpeg",
+      "bytes": 75954,
+      "rawUrl": "https://raw.githubusercontent.com/sharebravery/album/master/pulse/article/2026/09/symbolic-dag-fold/02-dag-sharing.jpg",
+      "cdnUrl": "https://cdn.jsdelivr.net/gh/sharebravery/album@master/pulse/article/2026/09/symbolic-dag-fold/02-dag-sharing.jpg"
+    },
+    {
+      "index": 2,
+      "status": "failed",
+      "targetPath": "pulse/article/2026/09/symbolic-dag-fold/03-pr-proof.jpg",
+      "alt": "Foundry PR 16741 合并记录，用于锚定 DAG fold memoization 的代码与基准证据",
+      "attempts": [
+        {
+          "index": 0,
+          "status": "failed",
+          "sourcePageUrl": "https://github.com/foundry-rs/foundry/pull/16741",
+          "downloadUrl": "https://opengraph.githubassets.com/1/foundry-rs/foundry/pull/16741",
+          "error": "HTTP Error 429: Too Many Requests"
+        }
+      ],
+      "error": "all candidates failed"
+    }
+  ]
+}
