@@ -1,0 +1,70 @@
+{
+  "version": 2,
+  "requestId": "20260910T0820-wechat-review-zgateway-connection-boundary",
+  "status": "completed",
+  "assets": [
+    {
+      "index": 0,
+      "status": "completed",
+      "targetPath": "pulse/article/2026/09/zgateway-connection-boundary/01-connection-mesh.jpg",
+      "alt": "ZippyDB direct access many-to-many connection mesh and ZGateway bounded connection topology",
+      "attempts": [
+        {
+          "index": 0,
+          "status": "completed",
+          "sourcePageUrl": "https://engineering.fb.com/2026/09/03/core-infra/zgateway-proxy-zippydb-meta/attachment/zgateway-figure-1/",
+          "downloadUrl": "https://engineering.fb.com/wp-content/uploads/2026/09/ZGateway-Figure-1.png"
+        }
+      ],
+      "selectedCandidateIndex": 0,
+      "sourcePageUrl": "https://engineering.fb.com/2026/09/03/core-infra/zgateway-proxy-zippydb-meta/attachment/zgateway-figure-1/",
+      "downloadUrl": "https://engineering.fb.com/wp-content/uploads/2026/09/ZGateway-Figure-1.png",
+      "contentType": "image/jpeg",
+      "bytes": 261251,
+      "rawUrl": "https://raw.githubusercontent.com/sharebravery/album/master/pulse/article/2026/09/zgateway-connection-boundary/01-connection-mesh.jpg",
+      "cdnUrl": "https://cdn.jsdelivr.net/gh/sharebravery/album@master/pulse/article/2026/09/zgateway-connection-boundary/01-connection-mesh.jpg"
+    },
+    {
+      "index": 1,
+      "status": "completed",
+      "targetPath": "pulse/article/2026/09/zgateway-connection-boundary/02-request-path.jpg",
+      "alt": "ZGateway request path from regional client connection through the stateless proxy tier to ZServer replicas",
+      "attempts": [
+        {
+          "index": 0,
+          "status": "completed",
+          "sourcePageUrl": "https://engineering.fb.com/2026/09/03/core-infra/zgateway-proxy-zippydb-meta/attachment/zgateway-figure-2/",
+          "downloadUrl": "https://engineering.fb.com/wp-content/uploads/2026/09/ZGateway-Figure-2.png"
+        }
+      ],
+      "selectedCandidateIndex": 0,
+      "sourcePageUrl": "https://engineering.fb.com/2026/09/03/core-infra/zgateway-proxy-zippydb-meta/attachment/zgateway-figure-2/",
+      "downloadUrl": "https://engineering.fb.com/wp-content/uploads/2026/09/ZGateway-Figure-2.png",
+      "contentType": "image/jpeg",
+      "bytes": 141886,
+      "rawUrl": "https://raw.githubusercontent.com/sharebravery/album/master/pulse/article/2026/09/zgateway-connection-boundary/02-request-path.jpg",
+      "cdnUrl": "https://cdn.jsdelivr.net/gh/sharebravery/album@master/pulse/article/2026/09/zgateway-connection-boundary/02-request-path.jpg"
+    },
+    {
+      "index": 2,
+      "status": "completed",
+      "targetPath": "pulse/article/2026/09/zgateway-connection-boundary/03-connection-reduction.jpg",
+      "alt": "Meta model-based estimate of per-host connection count reduction after inserting ZGateway",
+      "attempts": [
+        {
+          "index": 0,
+          "status": "completed",
+          "sourcePageUrl": "https://engineering.fb.com/2026/09/03/core-infra/zgateway-proxy-zippydb-meta/attachment/zgateway-figure-3/",
+          "downloadUrl": "https://engineering.fb.com/wp-content/uploads/2026/09/ZGateway-Figure-3.png"
+        }
+      ],
+      "selectedCandidateIndex": 0,
+      "sourcePageUrl": "https://engineering.fb.com/2026/09/03/core-infra/zgateway-proxy-zippydb-meta/attachment/zgateway-figure-3/",
+      "downloadUrl": "https://engineering.fb.com/wp-content/uploads/2026/09/ZGateway-Figure-3.png",
+      "contentType": "image/jpeg",
+      "bytes": 188773,
+      "rawUrl": "https://raw.githubusercontent.com/sharebravery/album/master/pulse/article/2026/09/zgateway-connection-boundary/03-connection-reduction.jpg",
+      "cdnUrl": "https://cdn.jsdelivr.net/gh/sharebravery/album@master/pulse/article/2026/09/zgateway-connection-boundary/03-connection-reduction.jpg"
+    }
+  ]
+}
