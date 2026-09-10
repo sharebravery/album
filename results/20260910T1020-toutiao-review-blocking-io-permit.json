@@ -1,0 +1,70 @@
+{
+  "version": 2,
+  "requestId": "20260910T1020-toutiao-review-blocking-io-permit",
+  "status": "completed",
+  "assets": [
+    {
+      "index": 0,
+      "status": "completed",
+      "targetPath": "pulse/article/2026/09/blocking-io-permit/01-reth-commit.jpg",
+      "alt": "Reth 修复 blocking IO permit 生命周期的提交证据",
+      "attempts": [
+        {
+          "index": 0,
+          "status": "completed",
+          "sourcePageUrl": "https://github.com/paradigmxyz/reth/commit/e63ec720ac2d11d9ff8694e54b22ac88b9714381",
+          "downloadUrl": "https://image.thum.io/get/width/1600/crop/900/noanimate/https://github.com/paradigmxyz/reth/commit/e63ec720ac2d11d9ff8694e54b22ac88b9714381"
+        }
+      ],
+      "selectedCandidateIndex": 0,
+      "sourcePageUrl": "https://github.com/paradigmxyz/reth/commit/e63ec720ac2d11d9ff8694e54b22ac88b9714381",
+      "downloadUrl": "https://image.thum.io/get/width/1600/crop/900/noanimate/https://github.com/paradigmxyz/reth/commit/e63ec720ac2d11d9ff8694e54b22ac88b9714381",
+      "contentType": "image/jpeg",
+      "bytes": 212067,
+      "rawUrl": "https://raw.githubusercontent.com/sharebravery/album/master/pulse/article/2026/09/blocking-io-permit/01-reth-commit.jpg",
+      "cdnUrl": "https://cdn.jsdelivr.net/gh/sharebravery/album@master/pulse/article/2026/09/blocking-io-permit/01-reth-commit.jpg"
+    },
+    {
+      "index": 1,
+      "status": "completed",
+      "targetPath": "pulse/article/2026/09/blocking-io-permit/02-call-diff.jpg",
+      "alt": "Reth call.rs 中把 permit 移入 blocking closure 的代码差异",
+      "attempts": [
+        {
+          "index": 0,
+          "status": "completed",
+          "sourcePageUrl": "https://github.com/paradigmxyz/reth/blob/e63ec720ac2d11d9ff8694e54b22ac88b9714381/crates/rpc/rpc-eth-api/src/helpers/call.rs#L94-L110",
+          "downloadUrl": "https://image.thum.io/get/width/1600/crop/900/noanimate/https://github.com/paradigmxyz/reth/blob/e63ec720ac2d11d9ff8694e54b22ac88b9714381/crates/rpc/rpc-eth-api/src/helpers/call.rs"
+        }
+      ],
+      "selectedCandidateIndex": 0,
+      "sourcePageUrl": "https://github.com/paradigmxyz/reth/blob/e63ec720ac2d11d9ff8694e54b22ac88b9714381/crates/rpc/rpc-eth-api/src/helpers/call.rs#L94-L110",
+      "downloadUrl": "https://image.thum.io/get/width/1600/crop/900/noanimate/https://github.com/paradigmxyz/reth/blob/e63ec720ac2d11d9ff8694e54b22ac88b9714381/crates/rpc/rpc-eth-api/src/helpers/call.rs",
+      "contentType": "image/jpeg",
+      "bytes": 303069,
+      "rawUrl": "https://raw.githubusercontent.com/sharebravery/album/master/pulse/article/2026/09/blocking-io-permit/02-call-diff.jpg",
+      "cdnUrl": "https://cdn.jsdelivr.net/gh/sharebravery/album@master/pulse/article/2026/09/blocking-io-permit/02-call-diff.jpg"
+    },
+    {
+      "index": 2,
+      "status": "completed",
+      "targetPath": "pulse/article/2026/09/blocking-io-permit/03-tokio-semaphore.jpg",
+      "alt": "Tokio Semaphore 文档展示 permit 应由被限流任务持有",
+      "attempts": [
+        {
+          "index": 0,
+          "status": "completed",
+          "sourcePageUrl": "https://docs.rs/tokio/latest/tokio/sync/struct.Semaphore.html",
+          "downloadUrl": "https://image.thum.io/get/width/1600/crop/900/noanimate/https://docs.rs/tokio/latest/tokio/sync/struct.Semaphore.html"
+        }
+      ],
+      "selectedCandidateIndex": 0,
+      "sourcePageUrl": "https://docs.rs/tokio/latest/tokio/sync/struct.Semaphore.html",
+      "downloadUrl": "https://image.thum.io/get/width/1600/crop/900/noanimate/https://docs.rs/tokio/latest/tokio/sync/struct.Semaphore.html",
+      "contentType": "image/jpeg",
+      "bytes": 522859,
+      "rawUrl": "https://raw.githubusercontent.com/sharebravery/album/master/pulse/article/2026/09/blocking-io-permit/03-tokio-semaphore.jpg",
+      "cdnUrl": "https://cdn.jsdelivr.net/gh/sharebravery/album@master/pulse/article/2026/09/blocking-io-permit/03-tokio-semaphore.jpg"
+    }
+  ]
+}
