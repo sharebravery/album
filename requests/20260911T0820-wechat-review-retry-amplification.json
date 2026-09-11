@@ -1,0 +1,36 @@
+{
+  "version": 2,
+  "requestId": "20260911T0820-wechat-review-retry-amplification",
+  "assets": [
+    {
+      "targetPath": "pulse/article/2026/09/retry-amplification/01-retry-storm.jpg",
+      "alt": "Retry storm propagation showing retries amplifying load on an already degraded service",
+      "candidates": [
+        {
+          "sourcePageUrl": "https://systemdr.systemdrd.com/p/retry-storms-prevention-and-mitigation",
+          "downloadUrl": "https://substackcdn.com/image/fetch/%24s_%21w0in%21%2Cw_1456%2Cc_limit%2Cf_auto%2Cq_auto%3Agood%2Cfl_progressive%3Asteep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F0c7d01cd-d9c9-43b0-b8e4-4ab76ad17756_1329x865.png"
+        }
+      ]
+    },
+    {
+      "targetPath": "pulse/article/2026/09/retry-amplification/02-jitter-comparison.jpg",
+      "alt": "Comparison of synchronized immediate retries and jittered retries spreading recovery traffic over time",
+      "candidates": [
+        {
+          "sourcePageUrl": "https://medium.com/@_sidharth_m_/how-to-handle-sudden-bursts-of-traffic-or-thundering-herd-problem-b17a1d0429dd",
+          "downloadUrl": "https://miro.medium.com/v2/resize%3Afit%3A1400/0%2AmJg-fyPr56vLRRDu.png"
+        }
+      ]
+    },
+    {
+      "targetPath": "pulse/article/2026/09/retry-amplification/03-resilience-chain.jpg",
+      "alt": "Circuit breaker timeout and retry chain showing where to fail fast and where bounded retries belong",
+      "candidates": [
+        {
+          "sourcePageUrl": "https://systemdr.systemdrd.com/p/designing-for-failure-mastering-timeouts",
+          "downloadUrl": "https://substackcdn.com/image/fetch/%24s_%21Tz9l%21%2Cf_auto%2Cq_auto%3Agood%2Cfl_progressive%3Asteep/https%3A/substack-post-media.s3.amazonaws.com/public/images/697fa3d0-bfbb-47f1-93c6-d1b890e567c0_1490x858.png"
+        }
+      ]
+    }
+  ]
+}
