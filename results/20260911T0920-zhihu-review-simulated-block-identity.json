@@ -1,0 +1,70 @@
+{
+  "version": 2,
+  "requestId": "20260911T0920-zhihu-review-simulated-block-identity",
+  "status": "completed",
+  "assets": [
+    {
+      "index": 0,
+      "status": "completed",
+      "targetPath": "pulse/article/2026/09/simulated-block-identity/01-rpc-compat-evidence.jpg",
+      "alt": "eth_simulateV1 cross-client compatibility issue showing divergent simulated block fields",
+      "attempts": [
+        {
+          "index": 0,
+          "status": "completed",
+          "sourcePageUrl": "https://github.com/ethereum/execution-apis/issues/868",
+          "downloadUrl": "https://image.thum.io/get/width/1600/https://github.com/ethereum/execution-apis/issues/868"
+        }
+      ],
+      "selectedCandidateIndex": 0,
+      "sourcePageUrl": "https://github.com/ethereum/execution-apis/issues/868",
+      "downloadUrl": "https://image.thum.io/get/width/1600/https://github.com/ethereum/execution-apis/issues/868",
+      "contentType": "image/jpeg",
+      "bytes": 50164,
+      "rawUrl": "https://raw.githubusercontent.com/sharebravery/album/master/pulse/article/2026/09/simulated-block-identity/01-rpc-compat-evidence.jpg",
+      "cdnUrl": "https://cdn.jsdelivr.net/gh/sharebravery/album@master/pulse/article/2026/09/simulated-block-identity/01-rpc-compat-evidence.jpg"
+    },
+    {
+      "index": 1,
+      "status": "completed",
+      "targetPath": "pulse/article/2026/09/simulated-block-identity/02-bal-spec.jpg",
+      "alt": "EIP-7928 specification for block-level access lists and block access list hash",
+      "attempts": [
+        {
+          "index": 0,
+          "status": "completed",
+          "sourcePageUrl": "https://eips.ethereum.org/EIPS/eip-7928",
+          "downloadUrl": "https://image.thum.io/get/width/1600/https://eips.ethereum.org/EIPS/eip-7928"
+        }
+      ],
+      "selectedCandidateIndex": 0,
+      "sourcePageUrl": "https://eips.ethereum.org/EIPS/eip-7928",
+      "downloadUrl": "https://image.thum.io/get/width/1600/https://eips.ethereum.org/EIPS/eip-7928",
+      "contentType": "image/jpeg",
+      "bytes": 50164,
+      "rawUrl": "https://raw.githubusercontent.com/sharebravery/album/master/pulse/article/2026/09/simulated-block-identity/02-bal-spec.jpg",
+      "cdnUrl": "https://cdn.jsdelivr.net/gh/sharebravery/album@master/pulse/article/2026/09/simulated-block-identity/02-bal-spec.jpg"
+    },
+    {
+      "index": 2,
+      "status": "completed",
+      "targetPath": "pulse/article/2026/09/simulated-block-identity/03-glamsterdam-context.jpg",
+      "alt": "Ethereum Glamsterdam roadmap explaining the execution-layer context for Amsterdam-era block changes",
+      "attempts": [
+        {
+          "index": 0,
+          "status": "completed",
+          "sourcePageUrl": "https://ethereum.org/roadmap/glamsterdam/",
+          "downloadUrl": "https://image.thum.io/get/width/1600/https://ethereum.org/roadmap/glamsterdam/"
+        }
+      ],
+      "selectedCandidateIndex": 0,
+      "sourcePageUrl": "https://ethereum.org/roadmap/glamsterdam/",
+      "downloadUrl": "https://image.thum.io/get/width/1600/https://ethereum.org/roadmap/glamsterdam/",
+      "contentType": "image/jpeg",
+      "bytes": 50164,
+      "rawUrl": "https://raw.githubusercontent.com/sharebravery/album/master/pulse/article/2026/09/simulated-block-identity/03-glamsterdam-context.jpg",
+      "cdnUrl": "https://cdn.jsdelivr.net/gh/sharebravery/album@master/pulse/article/2026/09/simulated-block-identity/03-glamsterdam-context.jpg"
+    }
+  ]
+}
