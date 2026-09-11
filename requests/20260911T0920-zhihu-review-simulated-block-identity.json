@@ -1,0 +1,36 @@
+{
+  "version": 2,
+  "requestId": "20260911T0920-zhihu-review-simulated-block-identity",
+  "assets": [
+    {
+      "targetPath": "pulse/article/2026/09/simulated-block-identity/01-rpc-compat-evidence.jpg",
+      "alt": "eth_simulateV1 cross-client compatibility issue showing divergent simulated block fields",
+      "candidates": [
+        {
+          "sourcePageUrl": "https://github.com/ethereum/execution-apis/issues/868",
+          "downloadUrl": "https://image.thum.io/get/width/1600/https://github.com/ethereum/execution-apis/issues/868"
+        }
+      ]
+    },
+    {
+      "targetPath": "pulse/article/2026/09/simulated-block-identity/02-bal-spec.jpg",
+      "alt": "EIP-7928 specification for block-level access lists and block access list hash",
+      "candidates": [
+        {
+          "sourcePageUrl": "https://eips.ethereum.org/EIPS/eip-7928",
+          "downloadUrl": "https://image.thum.io/get/width/1600/https://eips.ethereum.org/EIPS/eip-7928"
+        }
+      ]
+    },
+    {
+      "targetPath": "pulse/article/2026/09/simulated-block-identity/03-glamsterdam-context.jpg",
+      "alt": "Ethereum Glamsterdam roadmap explaining the execution-layer context for Amsterdam-era block changes",
+      "candidates": [
+        {
+          "sourcePageUrl": "https://ethereum.org/roadmap/glamsterdam/",
+          "downloadUrl": "https://image.thum.io/get/width/1600/https://ethereum.org/roadmap/glamsterdam/"
+        }
+      ]
+    }
+  ]
+}
