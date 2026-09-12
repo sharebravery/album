@@ -1,0 +1,36 @@
+{
+  "version": 2,
+  "requestId": "20260912T0820-wechat-review-domain-expert-agent-knowledge-compiler",
+  "assets": [
+    {
+      "targetPath": "pulse/article/2026/09/domain-expert-agent-knowledge-compiler/01-four-layer-architecture.jpg",
+      "alt": "Meta domain-expert agent architecture separating knowledge, reasoning, evaluation, and self-improvement layers",
+      "candidates": [
+        {
+          "sourcePageUrl": "https://engineering.fb.com/2026/09/02/ml-applications/organizational-second-brain-ai-learns-from-experts/",
+          "downloadUrl": "https://engineering.fb.com/wp-content/uploads/2026/08/Domain-Expert-AI-Table.png"
+        }
+      ]
+    },
+    {
+      "targetPath": "pulse/article/2026/09/domain-expert-agent-knowledge-compiler/02-knowledge-system.jpg",
+      "alt": "Meta example of a navigable knowledge filesystem with YAML dependencies, consumers, and routing triggers",
+      "candidates": [
+        {
+          "sourcePageUrl": "https://engineering.fb.com/2026/09/02/ml-applications/organizational-second-brain-ai-learns-from-experts/",
+          "downloadUrl": "https://engineering.fb.com/wp-content/uploads/2026/08/Domain-Expert-AI-knowledge-system.png"
+        }
+      ]
+    },
+    {
+      "targetPath": "pulse/article/2026/09/domain-expert-agent-knowledge-compiler/03-self-improvement-loop.jpg",
+      "alt": "Meta self-improvement loop from expert feedback through diagnosis, minimal edits, replay, regression testing, and landing",
+      "candidates": [
+        {
+          "sourcePageUrl": "https://engineering.fb.com/2026/09/02/ml-applications/organizational-second-brain-ai-learns-from-experts/",
+          "downloadUrl": "https://engineering.fb.com/wp-content/uploads/2026/08/Domain_Expert_AI_Graph1-FINAL-e1787758306337.png"
+        }
+      ]
+    }
+  ]
+}
