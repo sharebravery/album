@@ -1,0 +1,36 @@
+{
+  "version": 2,
+  "requestId": "20260912T1020-toutiao-review-recursive-cte-invariant-state",
+  "assets": [
+    {
+      "targetPath": "pulse/article/2026/09/recursive-cte-invariant-state/01-lead.jpg",
+      "alt": "DuckDB 递归查询主题图，作为递归执行问题的入口",
+      "candidates": [
+        {
+          "sourcePageUrl": "https://www.duckdb.org/2026/08/25/how-duckdb-runs-recursive-ctes-faster",
+          "downloadUrl": "https://wsrv.nl/?url=https%3A%2F%2Fwww.duckdb.org%2Fimages%2Fblog%2Fthumbs%2Frecursive-queries.svg&output=jpg&w=1600"
+        }
+      ]
+    },
+    {
+      "targetPath": "pulse/article/2026/09/recursive-cte-invariant-state/02-execution-reuse.jpg",
+      "alt": "DuckDB 新旧递归执行器对比：静态边表哈希构建从每轮重复改为一次构建重复探测",
+      "candidates": [
+        {
+          "sourcePageUrl": "https://www.duckdb.org/2026/08/25/how-duckdb-runs-recursive-ctes-faster",
+          "downloadUrl": "https://wsrv.nl/?url=https%3A%2F%2Fwww.duckdb.org%2Fimages%2Fblog%2Frecursive-cte-engine%2Fexecution-reuse-light.svg&output=jpg&w=1600"
+        }
+      ]
+    },
+    {
+      "targetPath": "pulse/article/2026/09/recursive-cte-invariant-state/03-keyed-delta.jpg",
+      "alt": "USING KEY 下 UNION 与 UNION ALL 的下一轮 frontier 差异",
+      "candidates": [
+        {
+          "sourcePageUrl": "https://www.duckdb.org/2026/08/25/how-duckdb-runs-recursive-ctes-faster",
+          "downloadUrl": "https://wsrv.nl/?url=https%3A%2F%2Fwww.duckdb.org%2Fimages%2Fblog%2Frecursive-cte-engine%2Fkeyed-delta-light.svg&output=jpg&w=1600"
+        }
+      ]
+    }
+  ]
+}
