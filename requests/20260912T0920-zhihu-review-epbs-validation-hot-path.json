@@ -1,0 +1,36 @@
+{
+  "version": 2,
+  "requestId": "20260912T0920-zhihu-review-epbs-validation-hot-path",
+  "assets": [
+    {
+      "targetPath": "pulse/article/2026/09/epbs-validation-hot-path/01-current-slot-anatomy.jpg",
+      "alt": "Ethereum 当前 12 秒 slot 中区块传播、见证截止和聚合传播的时间结构",
+      "candidates": [
+        {
+          "sourcePageUrl": "https://ethresear.ch/t/payload-timeliness-committee-ptc-an-epbs-design/16054",
+          "downloadUrl": "https://ethresear.ch/uploads/default/original/2X/4/4e5b97fa0c29f5ebb8138e0b01eafabb79598057.png"
+        }
+      ]
+    },
+    {
+      "targetPath": "pulse/article/2026/09/epbs-validation-hot-path/02-epbs-slot-anatomy.jpg",
+      "alt": "ePBS 将共识区块传播、执行 payload 发布和 payload timeliness 投票拆开的 slot 时间结构",
+      "candidates": [
+        {
+          "sourcePageUrl": "https://ethresear.ch/t/payload-timeliness-committee-ptc-an-epbs-design/16054",
+          "downloadUrl": "https://ethresear.ch/uploads/default/original/2X/9/97e11a0f4f54cc43b6c009ff46344e93bbc6ff6b.png"
+        }
+      ]
+    },
+    {
+      "targetPath": "pulse/article/2026/09/epbs-validation-hot-path/03-ptc-split-validation.jpg",
+      "alt": "ePBS 中共识委员会对 CL block 投票、PTC 对执行 payload 是否及时发布进行投票的职责拆分",
+      "candidates": [
+        {
+          "sourcePageUrl": "https://ethresear.ch/t/payload-timeliness-committee-ptc-an-epbs-design/16054",
+          "downloadUrl": "https://ethresear.ch/uploads/default/original/2X/3/3da9f90de6d081ac6724220f0aa64e4d750a41b2.png"
+        }
+      ]
+    }
+  ]
+}
