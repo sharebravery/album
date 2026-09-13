@@ -1,0 +1,70 @@
+{
+  "version": 2,
+  "requestId": "20260913T1020-toutiao-review-hydrafusion-routing",
+  "status": "completed",
+  "assets": [
+    {
+      "index": 0,
+      "status": "completed",
+      "targetPath": "pulse/article/2026/09/20260913T1020-toutiao-hydrafusion/01-preview.jpg",
+      "alt": "HydraFusion research preview in GitHub Copilot CLI",
+      "attempts": [
+        {
+          "index": 0,
+          "status": "completed",
+          "sourcePageUrl": "https://github.blog/ai-and-ml/github-copilot/project-hydrafusion-frontier-quality-via-multi-model-orchestration/",
+          "downloadUrl": "https://github.blog/wp-content/uploads/2026/09/OptA_UI.jpg?resize=1600%2C850"
+        }
+      ],
+      "selectedCandidateIndex": 0,
+      "sourcePageUrl": "https://github.blog/ai-and-ml/github-copilot/project-hydrafusion-frontier-quality-via-multi-model-orchestration/",
+      "downloadUrl": "https://github.blog/wp-content/uploads/2026/09/OptA_UI.jpg?resize=1600%2C850",
+      "contentType": "image/jpeg",
+      "bytes": 148829,
+      "rawUrl": "https://raw.githubusercontent.com/sharebravery/album/master/pulse/article/2026/09/20260913T1020-toutiao-hydrafusion/01-preview.jpg",
+      "cdnUrl": "https://cdn.jsdelivr.net/gh/sharebravery/album@master/pulse/article/2026/09/20260913T1020-toutiao-hydrafusion/01-preview.jpg"
+    },
+    {
+      "index": 1,
+      "status": "completed",
+      "targetPath": "pulse/article/2026/09/20260913T1020-toutiao-hydrafusion/02-architecture.jpg",
+      "alt": "HydraFusion task routing and orchestration architecture",
+      "attempts": [
+        {
+          "index": 0,
+          "status": "completed",
+          "sourcePageUrl": "https://github.blog/ai-and-ml/github-copilot/project-hydrafusion-frontier-quality-via-multi-model-orchestration/",
+          "downloadUrl": "https://github.blog/wp-content/uploads/2026/09/HydraFusion_architecture_02.png?resize=1024%2C334"
+        }
+      ],
+      "selectedCandidateIndex": 0,
+      "sourcePageUrl": "https://github.blog/ai-and-ml/github-copilot/project-hydrafusion-frontier-quality-via-multi-model-orchestration/",
+      "downloadUrl": "https://github.blog/wp-content/uploads/2026/09/HydraFusion_architecture_02.png?resize=1024%2C334",
+      "contentType": "image/jpeg",
+      "bytes": 50983,
+      "rawUrl": "https://raw.githubusercontent.com/sharebravery/album/master/pulse/article/2026/09/20260913T1020-toutiao-hydrafusion/02-architecture.jpg",
+      "cdnUrl": "https://cdn.jsdelivr.net/gh/sharebravery/album@master/pulse/article/2026/09/20260913T1020-toutiao-hydrafusion/02-architecture.jpg"
+    },
+    {
+      "index": 2,
+      "status": "completed",
+      "targetPath": "pulse/article/2026/09/20260913T1020-toutiao-hydrafusion/03-hydra-cost-quality.jpg",
+      "alt": "HyDRA routing quality and cost tradeoff across a five-model pool",
+      "attempts": [
+        {
+          "index": 0,
+          "status": "completed",
+          "sourcePageUrl": "https://github.blog/ai-and-ml/github-copilot/getting-more-from-each-token-how-copilot-improves-context-handling-and-model-routing/",
+          "downloadUrl": "https://github.blog/wp-content/uploads/2026/06/608776889-fa214f25-8231-4b9f-a0cc-9eff3cbb1be8.png?resize=1024%2C576"
+        }
+      ],
+      "selectedCandidateIndex": 0,
+      "sourcePageUrl": "https://github.blog/ai-and-ml/github-copilot/getting-more-from-each-token-how-copilot-improves-context-handling-and-model-routing/",
+      "downloadUrl": "https://github.blog/wp-content/uploads/2026/06/608776889-fa214f25-8231-4b9f-a0cc-9eff3cbb1be8.png?resize=1024%2C576",
+      "contentType": "image/jpeg",
+      "bytes": 65101,
+      "rawUrl": "https://raw.githubusercontent.com/sharebravery/album/master/pulse/article/2026/09/20260913T1020-toutiao-hydrafusion/03-hydra-cost-quality.jpg",
+      "cdnUrl": "https://cdn.jsdelivr.net/gh/sharebravery/album@master/pulse/article/2026/09/20260913T1020-toutiao-hydrafusion/03-hydra-cost-quality.jpg"
+    }
+  ]
+}
