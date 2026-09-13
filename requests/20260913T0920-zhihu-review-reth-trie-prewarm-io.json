@@ -1,0 +1,36 @@
+{
+  "version": 2,
+  "requestId": "20260913T0920-zhihu-review-reth-trie-prewarm-io",
+  "assets": [
+    {
+      "targetPath": "pulse/article/2026/09/reth-trie-prewarm-io/01-reth-engine-context.jpg",
+      "alt": "Reth 执行客户端的工程上下文，用于引出状态根计算与性能优化问题",
+      "candidates": [
+        {
+          "sourcePageUrl": "https://github.com/paradigmxyz/reth/blob/main/docs/vocs/docs/pages/overview.mdx",
+          "downloadUrl": "https://raw.githubusercontent.com/paradigmxyz/reth/main/assets/reth-prod.png"
+        }
+      ]
+    },
+    {
+      "targetPath": "pulse/article/2026/09/reth-trie-prewarm-io/02-reth-storage.jpg",
+      "alt": "Reth Storage V2 官方示意图，用于说明状态访问最终受存储与页面读取约束",
+      "candidates": [
+        {
+          "sourcePageUrl": "https://github.com/paradigmxyz/reth/blob/main/README.md",
+          "downloadUrl": "https://raw.githubusercontent.com/paradigmxyz/reth/main/assets/reth-storage.png"
+        }
+      ]
+    },
+    {
+      "targetPath": "pulse/article/2026/09/reth-trie-prewarm-io/03-reth-performance.jpg",
+      "alt": "Reth 官方主网性能示意图，用于强调局部等待时间与系统整体吞吐并非同一指标",
+      "candidates": [
+        {
+          "sourcePageUrl": "https://github.com/paradigmxyz/reth/blob/main/README.md",
+          "downloadUrl": "https://raw.githubusercontent.com/paradigmxyz/reth/main/assets/reth-perf.png"
+        }
+      ]
+    }
+  ]
+}
