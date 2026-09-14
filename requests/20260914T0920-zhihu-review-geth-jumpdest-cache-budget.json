@@ -1,0 +1,48 @@
+{
+  "version": 2,
+  "requestId": "20260914T0920-zhihu-review-geth-jumpdest-cache-budget",
+  "assets": [
+    {
+      "targetPath": "pulse/article/2026/09/geth-jumpdest-cache-budget/01-pr-evidence.jpg",
+      "alt": "Geth JUMPDEST cache budget 修复的合并 PR 证据",
+      "candidates": [
+        {
+          "sourcePageUrl": "https://github.com/ethereum/go-ethereum/pull/35681",
+          "downloadUrl": "https://image.thum.io/get/width/1600/crop/900/noanimate/https://github.com/ethereum/go-ethereum/pull/35681"
+        },
+        {
+          "sourcePageUrl": "https://github.com/ethereum/go-ethereum/commit/5e664bcb8ebdd57dc9cf9d7cdd962573fb4f7d64",
+          "downloadUrl": "https://image.thum.io/get/width/1600/crop/900/noanimate/https://github.com/ethereum/go-ethereum/commit/5e664bcb8ebdd57dc9cf9d7cdd962573fb4f7d64"
+        }
+      ]
+    },
+    {
+      "targetPath": "pulse/article/2026/09/geth-jumpdest-cache-budget/02-code-diff.jpg",
+      "alt": "Geth jumpdest.go 中为缓存条目计入固定开销的代码变更",
+      "candidates": [
+        {
+          "sourcePageUrl": "https://github.com/ethereum/go-ethereum/commit/5e664bcb8ebdd57dc9cf9d7cdd962573fb4f7d64",
+          "downloadUrl": "https://image.thum.io/get/width/1600/fullpage/noanimate/https://github.com/ethereum/go-ethereum/commit/5e664bcb8ebdd57dc9cf9d7cdd962573fb4f7d64"
+        },
+        {
+          "sourcePageUrl": "https://github.com/ethereum/go-ethereum/blob/5e664bcb8ebdd57dc9cf9d7cdd962573fb4f7d64/core/jumpdest.go",
+          "downloadUrl": "https://image.thum.io/get/width/1600/crop/1000/noanimate/https://github.com/ethereum/go-ethereum/blob/5e664bcb8ebdd57dc9cf9d7cdd962573fb4f7d64/core/jumpdest.go"
+        }
+      ]
+    },
+    {
+      "targetPath": "pulse/article/2026/09/geth-jumpdest-cache-budget/03-evm-context.jpg",
+      "alt": "Geth 执行客户端与 EVM 的官方架构上下文",
+      "candidates": [
+        {
+          "sourcePageUrl": "https://geth.ethereum.org/docs/fundamentals/node-architecture",
+          "downloadUrl": "https://image.thum.io/get/width/1600/crop/900/noanimate/https://geth.ethereum.org/docs/fundamentals/node-architecture"
+        },
+        {
+          "sourcePageUrl": "https://ethereum.org/developers/docs/evm/",
+          "downloadUrl": "https://image.thum.io/get/width/1600/crop/900/noanimate/https://ethereum.org/developers/docs/evm/"
+        }
+      ]
+    }
+  ]
+}
