@@ -1,0 +1,36 @@
+{
+  "version": 2,
+  "requestId": "20260914T1020-toutiao-review-run-finalization-guard",
+  "assets": [
+    {
+      "targetPath": "pulse/article/2026/09/20260914T1020-toutiao-finalization-guard/01-trigger-and-wait.jpg",
+      "alt": "Trigger.dev 文档中的 triggerAndWait 父子任务等待关系",
+      "candidates": [
+        {
+          "sourcePageUrl": "https://github.com/triggerdotdev/trigger.dev/blob/main/docs/runs.mdx",
+          "downloadUrl": "https://raw.githubusercontent.com/triggerdotdev/trigger.dev/main/docs/images/run-with-triggerAndWait().png"
+        }
+      ]
+    },
+    {
+      "targetPath": "pulse/article/2026/09/20260914T1020-toutiao-finalization-guard/02-batch-wait.jpg",
+      "alt": "Trigger.dev 文档中的 batchTriggerAndWait 批量父子任务等待关系",
+      "candidates": [
+        {
+          "sourcePageUrl": "https://github.com/triggerdotdev/trigger.dev/blob/main/docs/runs.mdx",
+          "downloadUrl": "https://raw.githubusercontent.com/triggerdotdev/trigger.dev/main/docs/images/run-with-batchTriggerAndWait().png"
+        }
+      ]
+    },
+    {
+      "targetPath": "pulse/article/2026/09/20260914T1020-toutiao-finalization-guard/03-delayed-run.jpg",
+      "alt": "Trigger.dev 文档中的 delayed runs 界面，用于说明延迟执行的持久任务机制",
+      "candidates": [
+        {
+          "sourcePageUrl": "https://github.com/triggerdotdev/trigger.dev/blob/main/docs/triggering.mdx",
+          "downloadUrl": "https://raw.githubusercontent.com/triggerdotdev/trigger.dev/main/docs/images/delayed-runs.png"
+        }
+      ]
+    }
+  ]
+}
