@@ -1,0 +1,65 @@
+{
+  "version": 2,
+  "requestId": "20260914T1020-toutiao-review-run-finalization-guard",
+  "status": "partial",
+  "assets": [
+    {
+      "index": 0,
+      "status": "completed",
+      "targetPath": "pulse/article/2026/09/20260914T1020-toutiao-finalization-guard/01-trigger-and-wait.jpg",
+      "alt": "Trigger.dev 文档中的 triggerAndWait 父子任务等待关系",
+      "attempts": [
+        {
+          "index": 0,
+          "status": "completed",
+          "sourcePageUrl": "https://github.com/triggerdotdev/trigger.dev/blob/main/docs/runs.mdx",
+          "downloadUrl": "https://raw.githubusercontent.com/triggerdotdev/trigger.dev/main/docs/images/run-with-triggerAndWait().png"
+        }
+      ],
+      "selectedCandidateIndex": 0,
+      "sourcePageUrl": "https://github.com/triggerdotdev/trigger.dev/blob/main/docs/runs.mdx",
+      "downloadUrl": "https://raw.githubusercontent.com/triggerdotdev/trigger.dev/main/docs/images/run-with-triggerAndWait().png",
+      "contentType": "image/jpeg",
+      "bytes": 92013,
+      "rawUrl": "https://raw.githubusercontent.com/sharebravery/album/master/pulse/article/2026/09/20260914T1020-toutiao-finalization-guard/01-trigger-and-wait.jpg",
+      "cdnUrl": "https://cdn.jsdelivr.net/gh/sharebravery/album@master/pulse/article/2026/09/20260914T1020-toutiao-finalization-guard/01-trigger-and-wait.jpg"
+    },
+    {
+      "index": 1,
+      "status": "completed",
+      "targetPath": "pulse/article/2026/09/20260914T1020-toutiao-finalization-guard/02-batch-wait.jpg",
+      "alt": "Trigger.dev 文档中的 batchTriggerAndWait 批量父子任务等待关系",
+      "attempts": [
+        {
+          "index": 0,
+          "status": "completed",
+          "sourcePageUrl": "https://github.com/triggerdotdev/trigger.dev/blob/main/docs/runs.mdx",
+          "downloadUrl": "https://raw.githubusercontent.com/triggerdotdev/trigger.dev/main/docs/images/run-with-batchTriggerAndWait().png"
+        }
+      ],
+      "selectedCandidateIndex": 0,
+      "sourcePageUrl": "https://github.com/triggerdotdev/trigger.dev/blob/main/docs/runs.mdx",
+      "downloadUrl": "https://raw.githubusercontent.com/triggerdotdev/trigger.dev/main/docs/images/run-with-batchTriggerAndWait().png",
+      "contentType": "image/jpeg",
+      "bytes": 123554,
+      "rawUrl": "https://raw.githubusercontent.com/sharebravery/album/master/pulse/article/2026/09/20260914T1020-toutiao-finalization-guard/02-batch-wait.jpg",
+      "cdnUrl": "https://cdn.jsdelivr.net/gh/sharebravery/album@master/pulse/article/2026/09/20260914T1020-toutiao-finalization-guard/02-batch-wait.jpg"
+    },
+    {
+      "index": 2,
+      "status": "failed",
+      "targetPath": "pulse/article/2026/09/20260914T1020-toutiao-finalization-guard/03-delayed-run.jpg",
+      "alt": "Trigger.dev 文档中的 delayed runs 界面，用于说明延迟执行的持久任务机制",
+      "attempts": [
+        {
+          "index": 0,
+          "status": "failed",
+          "sourcePageUrl": "https://github.com/triggerdotdev/trigger.dev/blob/main/docs/triggering.mdx",
+          "downloadUrl": "https://raw.githubusercontent.com/triggerdotdev/trigger.dev/main/docs/images/delayed-runs.png",
+          "error": "Article image is too small for publication: 1134x200; minimum short side is 240px and minimum area is 160000 pixels"
+        }
+      ],
+      "error": "all candidates failed"
+    }
+  ]
+}
