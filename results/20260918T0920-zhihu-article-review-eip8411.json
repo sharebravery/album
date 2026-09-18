@@ -1,0 +1,70 @@
+{
+  "version": 2,
+  "requestId": "20260918T0920-zhihu-article-review-eip8411",
+  "status": "completed",
+  "assets": [
+    {
+      "index": 0,
+      "status": "completed",
+      "targetPath": "pulse/article/2026/09/eip8411-zhihu-0920/01-payload-size.jpg",
+      "alt": "整包传播与分段传播随 payload 大小变化的完成时间对比",
+      "attempts": [
+        {
+          "index": 0,
+          "status": "completed",
+          "sourcePageUrl": "https://ethresear.ch/t/wen-fast-payload-broadcast-segment-code-push-pull-and-everything-in-between/25913",
+          "downloadUrl": "https://ethresear.ch/uploads/default/original/3X/e/4/e40a3b4479fb1aa0fbfe09293cd8f53823c765f7.png"
+        }
+      ],
+      "selectedCandidateIndex": 0,
+      "sourcePageUrl": "https://ethresear.ch/t/wen-fast-payload-broadcast-segment-code-push-pull-and-everything-in-between/25913",
+      "downloadUrl": "https://ethresear.ch/uploads/default/original/3X/e/4/e40a3b4479fb1aa0fbfe09293cd8f53823c765f7.png",
+      "contentType": "image/jpeg",
+      "bytes": 118609,
+      "rawUrl": "https://raw.githubusercontent.com/sharebravery/album/master/pulse/article/2026/09/eip8411-zhihu-0920/01-payload-size.jpg",
+      "cdnUrl": "https://cdn.jsdelivr.net/gh/sharebravery/album@master/pulse/article/2026/09/eip8411-zhihu-0920/01-payload-size.jpg"
+    },
+    {
+      "index": 1,
+      "status": "completed",
+      "targetPath": "pulse/article/2026/09/eip8411-zhihu-0920/02-wavefronts.jpg",
+      "alt": "区块安装与首个 payload segment 到达形成的双波前",
+      "attempts": [
+        {
+          "index": 0,
+          "status": "completed",
+          "sourcePageUrl": "https://ethresear.ch/t/wen-fast-payload-broadcast-segment-code-push-pull-and-everything-in-between/25913",
+          "downloadUrl": "https://ethresear.ch/uploads/default/original/3X/e/6/e6c00a253b445549623715fc1f6b5534b128cb98.png"
+        }
+      ],
+      "selectedCandidateIndex": 0,
+      "sourcePageUrl": "https://ethresear.ch/t/wen-fast-payload-broadcast-segment-code-push-pull-and-everything-in-between/25913",
+      "downloadUrl": "https://ethresear.ch/uploads/default/original/3X/e/6/e6c00a253b445549623715fc1f6b5534b128cb98.png",
+      "contentType": "image/jpeg",
+      "bytes": 113785,
+      "rawUrl": "https://raw.githubusercontent.com/sharebravery/album/master/pulse/article/2026/09/eip8411-zhihu-0920/02-wavefronts.jpg",
+      "cdnUrl": "https://cdn.jsdelivr.net/gh/sharebravery/album@master/pulse/article/2026/09/eip8411-zhihu-0920/02-wavefronts.jpg"
+    },
+    {
+      "index": 2,
+      "status": "completed",
+      "targetPath": "pulse/article/2026/09/eip8411-zhihu-0920/03-variant-comparison.jpg",
+      "alt": "不同 payload 传播方案在完成时间与接收字节成本上的比较",
+      "attempts": [
+        {
+          "index": 0,
+          "status": "completed",
+          "sourcePageUrl": "https://ethresear.ch/t/wen-fast-payload-broadcast-segment-code-push-pull-and-everything-in-between/25913",
+          "downloadUrl": "https://ethresear.ch/uploads/default/original/3X/d/f/dff3a622937ae4fce72d21ae96c031cce3922bd0.png"
+        }
+      ],
+      "selectedCandidateIndex": 0,
+      "sourcePageUrl": "https://ethresear.ch/t/wen-fast-payload-broadcast-segment-code-push-pull-and-everything-in-between/25913",
+      "downloadUrl": "https://ethresear.ch/uploads/default/original/3X/d/f/dff3a622937ae4fce72d21ae96c031cce3922bd0.png",
+      "contentType": "image/jpeg",
+      "bytes": 265863,
+      "rawUrl": "https://raw.githubusercontent.com/sharebravery/album/master/pulse/article/2026/09/eip8411-zhihu-0920/03-variant-comparison.jpg",
+      "cdnUrl": "https://cdn.jsdelivr.net/gh/sharebravery/album@master/pulse/article/2026/09/eip8411-zhihu-0920/03-variant-comparison.jpg"
+    }
+  ]
+}
