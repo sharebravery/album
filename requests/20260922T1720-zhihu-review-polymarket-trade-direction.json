@@ -1,0 +1,36 @@
+{
+  "version": 2,
+  "requestId": "20260922T1720-zhihu-review-polymarket-trade-direction",
+  "assets": [
+    {
+      "targetPath": "pulse/article/2026/09/polymarket-trade-direction/01-longshot-spread.jpg",
+      "alt": "Polymarket 600 个样本市场按价格分位统计的报价价差图",
+      "candidates": [
+        {
+          "sourcePageUrl": "https://arxiv.org/html/2604.24366v2",
+          "downloadUrl": "https://arxiv.org/html/2604.24366v2/figures/sf1_longshot.png"
+        }
+      ]
+    },
+    {
+      "targetPath": "pulse/article/2026/09/polymarket-trade-direction/02-depth-profile.jpg",
+      "alt": "Polymarket 样本市场前十档订单簿深度分布图",
+      "candidates": [
+        {
+          "sourcePageUrl": "https://arxiv.org/html/2604.24366v2",
+          "downloadUrl": "https://arxiv.org/html/2604.24366v2/figures/sf2_depth_profile.png"
+        }
+      ]
+    },
+    {
+      "targetPath": "pulse/article/2026/09/polymarket-trade-direction/03-depth-regression.jpg",
+      "alt": "不同回归设定下距离到期时间与市场深度关系的系数比较图",
+      "candidates": [
+        {
+          "sourcePageUrl": "https://arxiv.org/html/2604.24366v2",
+          "downloadUrl": "https://arxiv.org/html/2604.24366v2/figures/sf8_depth_decay.png"
+        }
+      ]
+    }
+  ]
+}
