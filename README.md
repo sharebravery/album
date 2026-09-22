@@ -40,7 +40,7 @@ For each request Album:
 8. stores successful assets under predetermined `pulse/` paths;
 9. writes a terminal result, removes the processed request and commits the resulting state.
 
-Version-2 target paths are unique and never overwritten, so Operators may reference the predictable `@master` URL in the locked Delivery after the request commit succeeds. They do not need to poll ingestion results during the publication run.
+Version-2 target paths are unique and never overwritten, so Operators may reference the predictable `@master` URL in the locked Delivery after the request commit succeeds. The request commit is only a reservation/handoff receipt; ingestion remains asynchronous. Operators do not need to poll ingestion results during the publication run, and article meaning must remain complete if a sourced image is temporarily unavailable.
 
 ## Request v2 — fixed assets with fallbacks
 
@@ -76,7 +76,7 @@ Rules:
 - candidate URLs have already passed editorial relevance/provenance screening, but Album performs the authoritative download, MIME, decode and quality validation;
 - `targetPath` is unique and must not already exist;
 - Article targets end in `.jpg` because Album normalizes them to JPEG;
-- candidates may use suitable search-engine proxy/cache URLs, official CDN URLs or other public image URLs;
+- candidates should use original publisher, official documentation/repository, official CDN or otherwise clearly attributable public image URLs; search-engine thumbnails, search-result proxy/cache images and unrelated rehosts are not valid source assets;
 - credentials, cookies, private-network URLs and placeholders are not allowed.
 
 Album tries candidates sequentially inside each asset. A candidate succeeds only after Album's actual download, validation, decode and Article normalization checks pass.
