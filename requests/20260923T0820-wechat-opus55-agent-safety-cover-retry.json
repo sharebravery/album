@@ -1,0 +1,16 @@
+{
+  "version": 2,
+  "requestId": "20260923T0820-wechat-opus55-agent-safety-cover-retry",
+  "assets": [
+    {
+      "targetPath": "pulse/article/2026/09/20260923T0820-wechat-opus55-agent-safety/01-claude.jpg",
+      "alt": "Anthropic 与 AI 主题图片，用于介绍 Claude Opus 5.5 发布",
+      "candidates": [
+        {
+          "sourcePageUrl": "https://techcrunch.com/2026/09/22/anthropic-releases-opus-5-5-with-lower-prices-and-fable-level-performance/",
+          "downloadUrl": "https://techcrunch.com/wp-content/uploads/2026/01/GettyImages-2252871842.jpg?w=1024"
+        }
+      ]
+    }
+  ]
+}
