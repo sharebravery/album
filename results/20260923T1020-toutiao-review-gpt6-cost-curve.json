@@ -1,0 +1,70 @@
+{
+  "version": 2,
+  "requestId": "20260923T1020-toutiao-review-gpt6-cost-curve",
+  "status": "completed",
+  "assets": [
+    {
+      "index": 0,
+      "status": "completed",
+      "targetPath": "pulse/article/2026/09/gpt6-sol-luna/01-launch.jpg",
+      "alt": "OpenAI GPT-6 Sol and Luna official launch visual",
+      "attempts": [
+        {
+          "index": 0,
+          "status": "completed",
+          "sourcePageUrl": "https://community.openai.com/t/announcing-gpt-6-sol-and-gpt-6-luna/1399925",
+          "downloadUrl": "https://us1.discourse-cdn.com/openai1/optimized/4X/8/8/8/888d23e5342c8988625f6d7da8ea239b21d1ffeb_2_690x388.jpeg"
+        }
+      ],
+      "selectedCandidateIndex": 0,
+      "sourcePageUrl": "https://community.openai.com/t/announcing-gpt-6-sol-and-gpt-6-luna/1399925",
+      "downloadUrl": "https://us1.discourse-cdn.com/openai1/optimized/4X/8/8/8/888d23e5342c8988625f6d7da8ea239b21d1ffeb_2_690x388.jpeg",
+      "contentType": "image/jpeg",
+      "bytes": 40712,
+      "rawUrl": "https://raw.githubusercontent.com/sharebravery/album/master/pulse/article/2026/09/gpt6-sol-luna/01-launch.jpg",
+      "cdnUrl": "https://cdn.jsdelivr.net/gh/sharebravery/album@master/pulse/article/2026/09/gpt6-sol-luna/01-launch.jpg"
+    },
+    {
+      "index": 1,
+      "status": "completed",
+      "targetPath": "pulse/article/2026/09/gpt6-sol-luna/02-automationbench.jpg",
+      "alt": "OpenAI AutomationBench score versus cost-per-task chart",
+      "attempts": [
+        {
+          "index": 0,
+          "status": "completed",
+          "sourcePageUrl": "https://community.openai.com/t/announcing-gpt-6-sol-and-gpt-6-luna/1399925",
+          "downloadUrl": "https://us1.discourse-cdn.com/openai1/original/4X/8/a/3/8a3e471a9d9e8924a80007e6dac44d5805d5be28.png"
+        }
+      ],
+      "selectedCandidateIndex": 0,
+      "sourcePageUrl": "https://community.openai.com/t/announcing-gpt-6-sol-and-gpt-6-luna/1399925",
+      "downloadUrl": "https://us1.discourse-cdn.com/openai1/original/4X/8/a/3/8a3e471a9d9e8924a80007e6dac44d5805d5be28.png",
+      "contentType": "image/jpeg",
+      "bytes": 42920,
+      "rawUrl": "https://raw.githubusercontent.com/sharebravery/album/master/pulse/article/2026/09/gpt6-sol-luna/02-automationbench.jpg",
+      "cdnUrl": "https://cdn.jsdelivr.net/gh/sharebravery/album@master/pulse/article/2026/09/gpt6-sol-luna/02-automationbench.jpg"
+    },
+    {
+      "index": 2,
+      "status": "completed",
+      "targetPath": "pulse/article/2026/09/gpt6-sol-luna/03-coding-deception.jpg",
+      "alt": "OpenAI coding deception evaluation chart for GPT-6 models",
+      "attempts": [
+        {
+          "index": 0,
+          "status": "completed",
+          "sourcePageUrl": "https://community.openai.com/t/announcing-gpt-6-sol-and-gpt-6-luna/1399925",
+          "downloadUrl": "https://us1.discourse-cdn.com/openai1/original/4X/1/c/2/1c222be7e78cfcf78efda5d4e9126cfdeae8f959.png"
+        }
+      ],
+      "selectedCandidateIndex": 0,
+      "sourcePageUrl": "https://community.openai.com/t/announcing-gpt-6-sol-and-gpt-6-luna/1399925",
+      "downloadUrl": "https://us1.discourse-cdn.com/openai1/original/4X/1/c/2/1c222be7e78cfcf78efda5d4e9126cfdeae8f959.png",
+      "contentType": "image/jpeg",
+      "bytes": 22266,
+      "rawUrl": "https://raw.githubusercontent.com/sharebravery/album/master/pulse/article/2026/09/gpt6-sol-luna/03-coding-deception.jpg",
+      "cdnUrl": "https://cdn.jsdelivr.net/gh/sharebravery/album@master/pulse/article/2026/09/gpt6-sol-luna/03-coding-deception.jpg"
+    }
+  ]
+}
