@@ -1,0 +1,70 @@
+{
+  "version": 2,
+  "requestId": "20260923T0920-zhihu-review-clob-lmsr",
+  "status": "completed",
+  "assets": [
+    {
+      "index": 0,
+      "status": "completed",
+      "targetPath": "pulse/article/2026/09/zhihu-clob-lmsr-20260923/01-spread.jpg",
+      "alt": "订单簿买卖价差示例图",
+      "attempts": [
+        {
+          "index": 0,
+          "status": "completed",
+          "sourcePageUrl": "https://github.com/mansoor-mamnoon/limit-order-book/blob/main/analytics/plots/spread.png",
+          "downloadUrl": "https://raw.githubusercontent.com/mansoor-mamnoon/limit-order-book/main/analytics/plots/spread.png"
+        }
+      ],
+      "selectedCandidateIndex": 0,
+      "sourcePageUrl": "https://github.com/mansoor-mamnoon/limit-order-book/blob/main/analytics/plots/spread.png",
+      "downloadUrl": "https://raw.githubusercontent.com/mansoor-mamnoon/limit-order-book/main/analytics/plots/spread.png",
+      "contentType": "image/jpeg",
+      "bytes": 55992,
+      "rawUrl": "https://raw.githubusercontent.com/sharebravery/album/master/pulse/article/2026/09/zhihu-clob-lmsr-20260923/01-spread.jpg",
+      "cdnUrl": "https://cdn.jsdelivr.net/gh/sharebravery/album@master/pulse/article/2026/09/zhihu-clob-lmsr-20260923/01-spread.jpg"
+    },
+    {
+      "index": 1,
+      "status": "completed",
+      "targetPath": "pulse/article/2026/09/zhihu-clob-lmsr-20260923/02-depth-bid.jpg",
+      "alt": "订单簿买方深度示例图",
+      "attempts": [
+        {
+          "index": 0,
+          "status": "completed",
+          "sourcePageUrl": "https://github.com/mansoor-mamnoon/limit-order-book/blob/main/analytics/plots/depth_bid.png",
+          "downloadUrl": "https://raw.githubusercontent.com/mansoor-mamnoon/limit-order-book/main/analytics/plots/depth_bid.png"
+        }
+      ],
+      "selectedCandidateIndex": 0,
+      "sourcePageUrl": "https://github.com/mansoor-mamnoon/limit-order-book/blob/main/analytics/plots/depth_bid.png",
+      "downloadUrl": "https://raw.githubusercontent.com/mansoor-mamnoon/limit-order-book/main/analytics/plots/depth_bid.png",
+      "contentType": "image/jpeg",
+      "bytes": 209769,
+      "rawUrl": "https://raw.githubusercontent.com/sharebravery/album/master/pulse/article/2026/09/zhihu-clob-lmsr-20260923/02-depth-bid.jpg",
+      "cdnUrl": "https://cdn.jsdelivr.net/gh/sharebravery/album@master/pulse/article/2026/09/zhihu-clob-lmsr-20260923/02-depth-bid.jpg"
+    },
+    {
+      "index": 2,
+      "status": "completed",
+      "targetPath": "pulse/article/2026/09/zhihu-clob-lmsr-20260923/03-impact.jpg",
+      "alt": "订单流市场冲击示例图",
+      "attempts": [
+        {
+          "index": 0,
+          "status": "completed",
+          "sourcePageUrl": "https://github.com/mansoor-mamnoon/limit-order-book/blob/main/analytics/plots/impact.png",
+          "downloadUrl": "https://raw.githubusercontent.com/mansoor-mamnoon/limit-order-book/main/analytics/plots/impact.png"
+        }
+      ],
+      "selectedCandidateIndex": 0,
+      "sourcePageUrl": "https://github.com/mansoor-mamnoon/limit-order-book/blob/main/analytics/plots/impact.png",
+      "downloadUrl": "https://raw.githubusercontent.com/mansoor-mamnoon/limit-order-book/main/analytics/plots/impact.png",
+      "contentType": "image/jpeg",
+      "bytes": 114285,
+      "rawUrl": "https://raw.githubusercontent.com/sharebravery/album/master/pulse/article/2026/09/zhihu-clob-lmsr-20260923/03-impact.jpg",
+      "cdnUrl": "https://cdn.jsdelivr.net/gh/sharebravery/album@master/pulse/article/2026/09/zhihu-clob-lmsr-20260923/03-impact.jpg"
+    }
+  ]
+}
