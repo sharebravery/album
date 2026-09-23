@@ -1,0 +1,23 @@
+{
+  "version": 2,
+  "requestId": "20260923T1720-zhihu-bitmex-perpetual",
+  "status": "failed",
+  "assets": [
+    {
+      "index": 0,
+      "status": "failed",
+      "targetPath": "pulse/article/2026/09/20260923T1720-zhihu-bitmex/03-bitmex-logo.jpg",
+      "alt": "BitMEX 标识，用于说明交易场所结束而永续合约机制继续扩散",
+      "attempts": [
+        {
+          "index": 0,
+          "status": "failed",
+          "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:Bitmex_logo.png",
+          "downloadUrl": "https://commons.wikimedia.org/wiki/Special:Redirect/file/Bitmex_logo.png",
+          "error": "Article image is too small for publication: 960x152; minimum short side is 240px and minimum area is 160000 pixels"
+        }
+      ],
+      "error": "all candidates failed"
+    }
+  ]
+}
