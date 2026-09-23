@@ -1,0 +1,65 @@
+{
+  "version": 2,
+  "requestId": "20260923T0820-wechat-opus55-agent-safety",
+  "status": "partial",
+  "assets": [
+    {
+      "index": 0,
+      "status": "failed",
+      "targetPath": "pulse/article/2026/09/20260923T0820-wechat-opus55-agent-safety/01-claude.jpg",
+      "alt": "Claude 品牌图，用于介绍 Claude Opus 5.5 发布",
+      "attempts": [
+        {
+          "index": 0,
+          "status": "failed",
+          "sourcePageUrl": "https://www.macrumors.com/2026/09/22/anthropic-claude-opus-5-5/",
+          "downloadUrl": "https://images.macrumors.com/t/h-SgaNwlfg1xqeFyNxTtAvRMWhE%3D/400x0/article-new/2025/09/anthopic-claude.jpg?lossy=",
+          "error": "Article image is too small for publication: 400x225; minimum short side is 240px and minimum area is 160000 pixels"
+        }
+      ],
+      "error": "all candidates failed"
+    },
+    {
+      "index": 1,
+      "status": "completed",
+      "targetPath": "pulse/article/2026/09/20260923T0820-wechat-opus55-agent-safety/02-deescalation.jpg",
+      "alt": "Anthropic 对不同 Claude 模型在关键决策点降级停止行为的比较",
+      "attempts": [
+        {
+          "index": 0,
+          "status": "completed",
+          "sourcePageUrl": "https://www.anthropic.com/research/alignment-assessment-cybersecurity-incidents",
+          "downloadUrl": "https://www.anthropic.com/_next/image?q=75&url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2F53bc2c7867fdb5b441e4c46f0b9ee9f5a8e1506a-2000x1112.png&w=3840"
+        }
+      ],
+      "selectedCandidateIndex": 0,
+      "sourcePageUrl": "https://www.anthropic.com/research/alignment-assessment-cybersecurity-incidents",
+      "downloadUrl": "https://www.anthropic.com/_next/image?q=75&url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2F53bc2c7867fdb5b441e4c46f0b9ee9f5a8e1506a-2000x1112.png&w=3840",
+      "contentType": "image/jpeg",
+      "bytes": 277601,
+      "rawUrl": "https://raw.githubusercontent.com/sharebravery/album/master/pulse/article/2026/09/20260923T0820-wechat-opus55-agent-safety/02-deescalation.jpg",
+      "cdnUrl": "https://cdn.jsdelivr.net/gh/sharebravery/album@master/pulse/article/2026/09/20260923T0820-wechat-opus55-agent-safety/02-deescalation.jpg"
+    },
+    {
+      "index": 2,
+      "status": "completed",
+      "targetPath": "pulse/article/2026/09/20260923T0820-wechat-opus55-agent-safety/03-sandbox-escape.jpg",
+      "alt": "Anthropic 对不同 Claude 模型未经授权尝试越过沙箱边界的比较",
+      "attempts": [
+        {
+          "index": 0,
+          "status": "completed",
+          "sourcePageUrl": "https://www.anthropic.com/research/alignment-assessment-cybersecurity-incidents",
+          "downloadUrl": "https://www.anthropic.com/_next/image?q=75&url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2Fdec475a78e14387bc6c73be2c0055fdcf44024b9-1700x863.png&w=3840"
+        }
+      ],
+      "selectedCandidateIndex": 0,
+      "sourcePageUrl": "https://www.anthropic.com/research/alignment-assessment-cybersecurity-incidents",
+      "downloadUrl": "https://www.anthropic.com/_next/image?q=75&url=https%3A%2F%2Fwww-cdn.anthropic.com%2Fimages%2F4zrzovbb%2Fwebsite%2Fdec475a78e14387bc6c73be2c0055fdcf44024b9-1700x863.png&w=3840",
+      "contentType": "image/jpeg",
+      "bytes": 139153,
+      "rawUrl": "https://raw.githubusercontent.com/sharebravery/album/master/pulse/article/2026/09/20260923T0820-wechat-opus55-agent-safety/03-sandbox-escape.jpg",
+      "cdnUrl": "https://cdn.jsdelivr.net/gh/sharebravery/album@master/pulse/article/2026/09/20260923T0820-wechat-opus55-agent-safety/03-sandbox-escape.jpg"
+    }
+  ]
+}
