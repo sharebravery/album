@@ -1,0 +1,49 @@
+{
+  "version": 2,
+  "requestId": "20260923T0920-zhihu-lookahead-pretrained-models",
+  "status": "completed",
+  "assets": [
+    {
+      "index": 0,
+      "status": "completed",
+      "targetPath": "pulse/article/2026/09/20260923T0920-zhihu-lookahead-pretrained-models/02-lookahead-timeline.jpg",
+      "alt": "前视偏差时间线：决策时点之后的信息不应进入当时的研究信息集",
+      "attempts": [
+        {
+          "index": 0,
+          "status": "completed",
+          "sourcePageUrl": "https://www.newsletter.quantreo.com/p/look-ahead-bias-the-invisible-killer",
+          "downloadUrl": "https://substackcdn.com/image/fetch/%24s_%21zJzh%21%2Cf_auto%2Cq_auto%3Abest%2Cfl_progressive%3Asteep/https%3A%2F%2Fquantreo.substack.com%2Fapi%2Fv1%2Fpost_preview%2F182066152%2Ftwitter.jpg%3Fversion%3D4"
+        }
+      ],
+      "selectedCandidateIndex": 0,
+      "sourcePageUrl": "https://www.newsletter.quantreo.com/p/look-ahead-bias-the-invisible-killer",
+      "downloadUrl": "https://substackcdn.com/image/fetch/%24s_%21zJzh%21%2Cf_auto%2Cq_auto%3Abest%2Cfl_progressive%3Asteep/https%3A%2F%2Fquantreo.substack.com%2Fapi%2Fv1%2Fpost_preview%2F182066152%2Ftwitter.jpg%3Fversion%3D4",
+      "contentType": "image/jpeg",
+      "bytes": 86877,
+      "rawUrl": "https://raw.githubusercontent.com/sharebravery/album/master/pulse/article/2026/09/20260923T0920-zhihu-lookahead-pretrained-models/02-lookahead-timeline.jpg",
+      "cdnUrl": "https://cdn.jsdelivr.net/gh/sharebravery/album@master/pulse/article/2026/09/20260923T0920-zhihu-lookahead-pretrained-models/02-lookahead-timeline.jpg"
+    },
+    {
+      "index": 1,
+      "status": "completed",
+      "targetPath": "pulse/article/2026/09/20260923T0920-zhihu-lookahead-pretrained-models/03-backtest-comparison.jpg",
+      "alt": "有前视偏差与无前视偏差的回测对比示意",
+      "attempts": [
+        {
+          "index": 0,
+          "status": "completed",
+          "sourcePageUrl": "https://medium.com/algorithmic-and-quantitative-trading/stop-faking-your-results-the-most-common-backtesting-pitfalls-to-avoid-f8dd94d1ca8e",
+          "downloadUrl": "https://miro.medium.com/v2/resize%3Afit%3A1400/1%2A2k_eYvMRiFWdPE9tGP4v0A.png"
+        }
+      ],
+      "selectedCandidateIndex": 0,
+      "sourcePageUrl": "https://medium.com/algorithmic-and-quantitative-trading/stop-faking-your-results-the-most-common-backtesting-pitfalls-to-avoid-f8dd94d1ca8e",
+      "downloadUrl": "https://miro.medium.com/v2/resize%3Afit%3A1400/1%2A2k_eYvMRiFWdPE9tGP4v0A.png",
+      "contentType": "image/jpeg",
+      "bytes": 250653,
+      "rawUrl": "https://raw.githubusercontent.com/sharebravery/album/master/pulse/article/2026/09/20260923T0920-zhihu-lookahead-pretrained-models/03-backtest-comparison.jpg",
+      "cdnUrl": "https://cdn.jsdelivr.net/gh/sharebravery/album@master/pulse/article/2026/09/20260923T0920-zhihu-lookahead-pretrained-models/03-backtest-comparison.jpg"
+    }
+  ]
+}
