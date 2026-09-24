@@ -1,0 +1,36 @@
+{
+  "version": 2,
+  "requestId": "20260924-wechat-manual-isaac-ros-agent",
+  "assets": [
+    {
+      "targetPath": "pulse/article/2026/09/20260924T1734-wechat-manual-isaac-ros-agent/01-hero.jpg",
+      "alt": "NVIDIA Isaac ROS 5.0 机器人开发与部署场景",
+      "candidates": [
+        {
+          "sourcePageUrl": "https://blogs.nvidia.com/blog/isaac-ros-5-0-agentic-open-source-robotics/",
+          "downloadUrl": "https://blogs.nvidia.com/wp-content/uploads/2026/09/robotics-blog-corp-blog-ROSCon26-1920x1080-1-1280x720.jpeg"
+        }
+      ]
+    },
+    {
+      "targetPath": "pulse/article/2026/09/20260924T1734-wechat-manual-isaac-ros-agent/02-cuda-buffer.jpg",
+      "alt": "ROS 2 CUDA buffer backend 数据传输示意图",
+      "candidates": [
+        {
+          "sourcePageUrl": "https://developer.nvidia.com/blog/accelerating-a-ros-2-node-with-an-ai-agent-and-nvidia-isaac-ros/",
+          "downloadUrl": "https://developer-blogs.nvidia.com/wp-content/uploads/2026/09/ros-2-node-message-transfer-cude-buffer-backend.webp"
+        }
+      ]
+    },
+    {
+      "targetPath": "pulse/article/2026/09/20260924T1734-wechat-manual-isaac-ros-agent/03-depth-anything.jpg",
+      "alt": "Depth Anything 3 机器人场景深度图迁移前后结果",
+      "candidates": [
+        {
+          "sourcePageUrl": "https://developer.nvidia.com/blog/accelerating-a-ros-2-node-with-an-ai-agent-and-nvidia-isaac-ros/",
+          "downloadUrl": "https://developer-blogs.nvidia.com/wp-content/uploads/2026/09/before-after-robotic-arm.webp"
+        }
+      ]
+    }
+  ]
+}
