@@ -1,0 +1,70 @@
+{
+  "version": 2,
+  "requestId": "20260924T0920-zhihu-sembench",
+  "status": "completed",
+  "assets": [
+    {
+      "index": 0,
+      "status": "completed",
+      "targetPath": "pulse/article/2026/09/sembench/01-cost-accuracy.jpg",
+      "alt": "SemBench 平均成本与准确率权衡图",
+      "attempts": [
+        {
+          "index": 0,
+          "status": "completed",
+          "sourcePageUrl": "https://github.com/SemBench/SemBench/blob/main/figures/avg_cost_accuracy_tradeoff.png",
+          "downloadUrl": "https://raw.githubusercontent.com/SemBench/SemBench/main/figures/avg_cost_accuracy_tradeoff.png"
+        }
+      ],
+      "selectedCandidateIndex": 0,
+      "sourcePageUrl": "https://github.com/SemBench/SemBench/blob/main/figures/avg_cost_accuracy_tradeoff.png",
+      "downloadUrl": "https://raw.githubusercontent.com/SemBench/SemBench/main/figures/avg_cost_accuracy_tradeoff.png",
+      "contentType": "image/jpeg",
+      "bytes": 333211,
+      "rawUrl": "https://raw.githubusercontent.com/sharebravery/album/master/pulse/article/2026/09/sembench/01-cost-accuracy.jpg",
+      "cdnUrl": "https://cdn.jsdelivr.net/gh/sharebravery/album@master/pulse/article/2026/09/sembench/01-cost-accuracy.jpg"
+    },
+    {
+      "index": 1,
+      "status": "completed",
+      "targetPath": "pulse/article/2026/09/sembench/02-operator-tradeoff.jpg",
+      "alt": "SemBench 不同语义算子的成本与准确率权衡图",
+      "attempts": [
+        {
+          "index": 0,
+          "status": "completed",
+          "sourcePageUrl": "https://github.com/SemBench/SemBench/blob/main/figures/operator_cost_accuracy_tradeoff.png",
+          "downloadUrl": "https://raw.githubusercontent.com/SemBench/SemBench/main/figures/operator_cost_accuracy_tradeoff.png"
+        }
+      ],
+      "selectedCandidateIndex": 0,
+      "sourcePageUrl": "https://github.com/SemBench/SemBench/blob/main/figures/operator_cost_accuracy_tradeoff.png",
+      "downloadUrl": "https://raw.githubusercontent.com/SemBench/SemBench/main/figures/operator_cost_accuracy_tradeoff.png",
+      "contentType": "image/jpeg",
+      "bytes": 113439,
+      "rawUrl": "https://raw.githubusercontent.com/sharebravery/album/master/pulse/article/2026/09/sembench/02-operator-tradeoff.jpg",
+      "cdnUrl": "https://cdn.jsdelivr.net/gh/sharebravery/album@master/pulse/article/2026/09/sembench/02-operator-tradeoff.jpg"
+    },
+    {
+      "index": 2,
+      "status": "completed",
+      "targetPath": "pulse/article/2026/09/sembench/03-scaling.jpg",
+      "alt": "SemBench 规模扩展实验图",
+      "attempts": [
+        {
+          "index": 0,
+          "status": "completed",
+          "sourcePageUrl": "https://github.com/SemBench/SemBench/blob/main/figures/lotus_sf_scaling_analysis.png",
+          "downloadUrl": "https://raw.githubusercontent.com/SemBench/SemBench/main/figures/lotus_sf_scaling_analysis.png"
+        }
+      ],
+      "selectedCandidateIndex": 0,
+      "sourcePageUrl": "https://github.com/SemBench/SemBench/blob/main/figures/lotus_sf_scaling_analysis.png",
+      "downloadUrl": "https://raw.githubusercontent.com/SemBench/SemBench/main/figures/lotus_sf_scaling_analysis.png",
+      "contentType": "image/jpeg",
+      "bytes": 616978,
+      "rawUrl": "https://raw.githubusercontent.com/sharebravery/album/master/pulse/article/2026/09/sembench/03-scaling.jpg",
+      "cdnUrl": "https://cdn.jsdelivr.net/gh/sharebravery/album@master/pulse/article/2026/09/sembench/03-scaling.jpg"
+    }
+  ]
+}
