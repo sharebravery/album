@@ -1,0 +1,70 @@
+{
+  "version": 2,
+  "requestId": "20260924T0820-wechat-zcode-permission-boundary",
+  "status": "completed",
+  "assets": [
+    {
+      "index": 0,
+      "status": "completed",
+      "targetPath": "pulse/article/2026/09/20260924T0820-wechat-zcode-permission-boundary/01-workspace.jpg",
+      "alt": "ZCode Agent workspace showing project context and execution mode",
+      "attempts": [
+        {
+          "index": 0,
+          "status": "completed",
+          "sourcePageUrl": "https://zcode.z.ai/en/docs/welcome",
+          "downloadUrl": "https://zcode.z.ai/content/docs/v2/screenshots/20260802-glm53/zcode-glm53-new-task-en.png"
+        }
+      ],
+      "selectedCandidateIndex": 0,
+      "sourcePageUrl": "https://zcode.z.ai/en/docs/welcome",
+      "downloadUrl": "https://zcode.z.ai/content/docs/v2/screenshots/20260802-glm53/zcode-glm53-new-task-en.png",
+      "contentType": "image/jpeg",
+      "bytes": 115379,
+      "rawUrl": "https://raw.githubusercontent.com/sharebravery/album/master/pulse/article/2026/09/20260924T0820-wechat-zcode-permission-boundary/01-workspace.jpg",
+      "cdnUrl": "https://cdn.jsdelivr.net/gh/sharebravery/album@master/pulse/article/2026/09/20260924T0820-wechat-zcode-permission-boundary/01-workspace.jpg"
+    },
+    {
+      "index": 1,
+      "status": "completed",
+      "targetPath": "pulse/article/2026/09/20260924T0820-wechat-zcode-permission-boundary/02-permission-modes.jpg",
+      "alt": "ZCode Agent permission modes including Ask before changes and Full access",
+      "attempts": [
+        {
+          "index": 0,
+          "status": "completed",
+          "sourcePageUrl": "https://zcode.z.ai/en/docs/safety-confirm",
+          "downloadUrl": "https://zcode.z.ai/content/docs/v2/screenshots/20260802-glm53/zcode-glm53-permission-modes-en.png"
+        }
+      ],
+      "selectedCandidateIndex": 0,
+      "sourcePageUrl": "https://zcode.z.ai/en/docs/safety-confirm",
+      "downloadUrl": "https://zcode.z.ai/content/docs/v2/screenshots/20260802-glm53/zcode-glm53-permission-modes-en.png",
+      "contentType": "image/jpeg",
+      "bytes": 129315,
+      "rawUrl": "https://raw.githubusercontent.com/sharebravery/album/master/pulse/article/2026/09/20260924T0820-wechat-zcode-permission-boundary/02-permission-modes.jpg",
+      "cdnUrl": "https://cdn.jsdelivr.net/gh/sharebravery/album@master/pulse/article/2026/09/20260924T0820-wechat-zcode-permission-boundary/02-permission-modes.jpg"
+    },
+    {
+      "index": 2,
+      "status": "completed",
+      "targetPath": "pulse/article/2026/09/20260924T0820-wechat-zcode-permission-boundary/03-browser-boundary.jpg",
+      "alt": "ZCode browser automation showing an agent taking an external web action",
+      "attempts": [
+        {
+          "index": 0,
+          "status": "completed",
+          "sourcePageUrl": "https://zcode.z.ai/en/docs/browser-use",
+          "downloadUrl": "https://zcode.z.ai/content/docs/v2/screenshots/20260731-agents-bua/bua-in-action-annotated-en-glm53-aligned.webp"
+        }
+      ],
+      "selectedCandidateIndex": 0,
+      "sourcePageUrl": "https://zcode.z.ai/en/docs/browser-use",
+      "downloadUrl": "https://zcode.z.ai/content/docs/v2/screenshots/20260731-agents-bua/bua-in-action-annotated-en-glm53-aligned.webp",
+      "contentType": "image/jpeg",
+      "bytes": 285228,
+      "rawUrl": "https://raw.githubusercontent.com/sharebravery/album/master/pulse/article/2026/09/20260924T0820-wechat-zcode-permission-boundary/03-browser-boundary.jpg",
+      "cdnUrl": "https://cdn.jsdelivr.net/gh/sharebravery/album@master/pulse/article/2026/09/20260924T0820-wechat-zcode-permission-boundary/03-browser-boundary.jpg"
+    }
+  ]
+}
