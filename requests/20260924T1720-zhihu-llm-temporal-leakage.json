@@ -1,0 +1,36 @@
+{
+  "version": 2,
+  "requestId": "20260924T1720-zhihu-llm-temporal-leakage",
+  "assets": [
+    {
+      "targetPath": "pulse/article/2026/09/llm-temporal-leakage/01-leakage-model.jpg",
+      "alt": "LLM 历史回测中的时间泄漏因果机制与分数膨胀示意",
+      "candidates": [
+        {
+          "sourcePageUrl": "https://zeyuzhang1901.github.io/publications/",
+          "downloadUrl": "https://zeyuzhang1901.github.io/assets/img/publication_preview/leakage2026_preview.png"
+        }
+      ]
+    },
+    {
+      "targetPath": "pulse/article/2026/09/llm-temporal-leakage/02-timespec.jpg",
+      "alt": "TimeSPEC 对模型推理中的时间污染进行声明级检测与过滤",
+      "candidates": [
+        {
+          "sourcePageUrl": "https://zeyuzhang1901.github.io/publications/",
+          "downloadUrl": "https://zeyuzhang1901.github.io/assets/img/publication_preview/timespec2026_preview.png"
+        }
+      ]
+    },
+    {
+      "targetPath": "pulse/article/2026/09/llm-temporal-leakage/03-tempo.jpg",
+      "alt": "TEMPO 通过时间合规与性能双模式训练约束历史预测",
+      "candidates": [
+        {
+          "sourcePageUrl": "https://zeyuzhang1901.github.io/publications/",
+          "downloadUrl": "https://zeyuzhang1901.github.io/assets/img/publication_preview/tempo2026_preview.png"
+        }
+      ]
+    }
+  ]
+}
