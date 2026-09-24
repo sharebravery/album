@@ -1,0 +1,36 @@
+{
+  "version": 2,
+  "requestId": "20260924T1920-wechat-confidential-ai",
+  "assets": [
+    {
+      "targetPath": "pulse/article/2026/09/20260924T1920-wechat-confidential-ai/01-secure-deployment.jpg",
+      "alt": "NVIDIA confidential computing secure model deployment workflow",
+      "candidates": [
+        {
+          "sourcePageUrl": "https://docs.nvidia.com/enterprise-reference-architectures/deploying-proprietary-models-confidential-compute-self-hosted-kubernetes/latest/introduction.html",
+          "downloadUrl": "https://docs.nvidia.com/enterprise-reference-architectures/deploying-proprietary-models-confidential-compute-self-hosted-kubernetes/latest/_images/coco-secure-deployment-workflow.png"
+        }
+      ]
+    },
+    {
+      "targetPath": "pulse/article/2026/09/20260924T1920-wechat-confidential-ai/02-trust-boundaries.jpg",
+      "alt": "NVIDIA confidential container trust boundaries",
+      "candidates": [
+        {
+          "sourcePageUrl": "https://docs.nvidia.com/enterprise-reference-architectures/deploying-proprietary-models-confidential-compute-self-hosted-kubernetes/latest/architecture-summary.html",
+          "downloadUrl": "https://docs.nvidia.com/enterprise-reference-architectures/deploying-proprietary-models-confidential-compute-self-hosted-kubernetes/latest/_images/coco-trust-boundaries.png"
+        }
+      ]
+    },
+    {
+      "targetPath": "pulse/article/2026/09/20260924T1920-wechat-confidential-ai/03-attestation-key-release.jpg",
+      "alt": "NVIDIA attestation and key release workflow",
+      "candidates": [
+        {
+          "sourcePageUrl": "https://docs.nvidia.com/enterprise-reference-architectures/deploying-proprietary-models-confidential-compute-self-hosted-kubernetes/latest/attestation-and-key-release-flow.html",
+          "downloadUrl": "https://docs.nvidia.com/enterprise-reference-architectures/deploying-proprietary-models-confidential-compute-self-hosted-kubernetes/latest/_images/coco-attestation-and-key-release-workflow.png"
+        }
+      ]
+    }
+  ]
+}
