@@ -1,0 +1,36 @@
+{
+  "version": 2,
+  "requestId": "20260924T1320-toutiao-meta-connect-hardware",
+  "assets": [
+    {
+      "targetPath": "pulse/article/2026/09/meta-connect-hardware/01-vr-glasses-product.jpg",
+      "alt": "Meta VR Glasses 与外置计算模块官方产品图",
+      "candidates": [
+        {
+          "sourcePageUrl": "https://www.meta.com/en-gb/blog/meta-vr-glasses-announcement-meta-connect/",
+          "downloadUrl": "https://lookaside.fbsbx.com/mwp/media/?path=wp-content%2Fuploads%2F2026%2F09%2FMeta_VR_Glasses_ProductShot_16x9-1024x578.webp"
+        }
+      ]
+    },
+    {
+      "targetPath": "pulse/article/2026/09/meta-connect-hardware/02-vr-glasses-lenses.jpg",
+      "alt": "Meta VR Glasses 镜片与光学结构官方产品图",
+      "candidates": [
+        {
+          "sourcePageUrl": "https://www.meta.com/en-gb/blog/meta-vr-glasses-announcement-meta-connect/",
+          "downloadUrl": "https://lookaside.fbsbx.com/mwp/media/?path=wp-content%2Fuploads%2F2026%2F09%2FMeta_VR_Glasses_ProductShot_RX_16x9-1024x577.webp"
+        }
+      ]
+    },
+    {
+      "targetPath": "pulse/article/2026/09/meta-connect-hardware/03-vr-glasses-workspace.jpg",
+      "alt": "Meta VR Glasses 多屏工作场景官方示意图",
+      "candidates": [
+        {
+          "sourcePageUrl": "https://www.meta.com/en-gb/blog/meta-vr-glasses-announcement-meta-connect/",
+          "downloadUrl": "https://lookaside.fbsbx.com/mwp/media/?path=wp-content%2Fuploads%2F2026%2F09%2FMeta_VR_Glasses_Lifestyle_Cafe_16x9-1024x576.webp"
+        }
+      ]
+    }
+  ]
+}
