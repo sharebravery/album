@@ -1,0 +1,36 @@
+{
+  "version": 2,
+  "requestId": "20260924T0820-wechat-zcode-permission-boundary",
+  "assets": [
+    {
+      "targetPath": "pulse/article/2026/09/20260924T0820-wechat-zcode-permission-boundary/01-workspace.jpg",
+      "alt": "ZCode Agent workspace showing project context and execution mode",
+      "candidates": [
+        {
+          "sourcePageUrl": "https://zcode.z.ai/en/docs/welcome",
+          "downloadUrl": "https://zcode.z.ai/content/docs/v2/screenshots/20260802-glm53/zcode-glm53-new-task-en.png"
+        }
+      ]
+    },
+    {
+      "targetPath": "pulse/article/2026/09/20260924T0820-wechat-zcode-permission-boundary/02-permission-modes.jpg",
+      "alt": "ZCode Agent permission modes including Ask before changes and Full access",
+      "candidates": [
+        {
+          "sourcePageUrl": "https://zcode.z.ai/en/docs/safety-confirm",
+          "downloadUrl": "https://zcode.z.ai/content/docs/v2/screenshots/20260802-glm53/zcode-glm53-permission-modes-en.png"
+        }
+      ]
+    },
+    {
+      "targetPath": "pulse/article/2026/09/20260924T0820-wechat-zcode-permission-boundary/03-browser-boundary.jpg",
+      "alt": "ZCode browser automation showing an agent taking an external web action",
+      "candidates": [
+        {
+          "sourcePageUrl": "https://zcode.z.ai/en/docs/browser-use",
+          "downloadUrl": "https://zcode.z.ai/content/docs/v2/screenshots/20260731-agents-bua/bua-in-action-annotated-en-glm53-aligned.webp"
+        }
+      ]
+    }
+  ]
+}
