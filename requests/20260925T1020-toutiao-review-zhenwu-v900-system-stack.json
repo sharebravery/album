@@ -1,0 +1,36 @@
+{
+  "version": 2,
+  "requestId": "20260925T1020-toutiao-review-zhenwu-v900-system-stack",
+  "assets": [
+    {
+      "targetPath": "pulse/article/2026/09/zhenwu-v900-system-stack/01-vera-rubin-rack.jpg",
+      "alt": "NVIDIA Vera Rubin NVL72 机架级 AI 系统，作为海外系统级算力参照",
+      "candidates": [
+        {
+          "sourcePageUrl": "https://blogs.nvidia.com/blog/vera-rubin/",
+          "downloadUrl": "https://blogs.nvidia.com/wp-content/uploads/2026/07/vera-tech-blog-vera-rubin-nvl72-1920x1080-1-1280x720.png"
+        }
+      ]
+    },
+    {
+      "targetPath": "pulse/article/2026/09/zhenwu-v900-system-stack/02-vera-compute-tray.jpg",
+      "alt": "NVIDIA Vera compute tray，展示 AI 加速器已进入机架和节点协同阶段",
+      "candidates": [
+        {
+          "sourcePageUrl": "https://blogs.nvidia.com/blog/vera-rubin/",
+          "downloadUrl": "https://blogs.nvidia.com/wp-content/uploads/2026/07/cpu-press-vera-activation-1920x1080-5305300-960x540.png"
+        }
+      ]
+    },
+    {
+      "targetPath": "pulse/article/2026/09/zhenwu-v900-system-stack/03-spectrum-x-fabric.jpg",
+      "alt": "NVIDIA Spectrum-X 网络架构，展示大规模 AI 集群对互联网络的依赖",
+      "candidates": [
+        {
+          "sourcePageUrl": "https://blogs.nvidia.com/blog/nvidia-spectrum-six-arrives-in-gigascale-ai-factories/",
+          "downloadUrl": "https://blogs.nvidia.com/wp-content/uploads/2026/07/ethernet-tech-blog-spectrum-x-corp-blog-1920x1080-5205700-960x540.png"
+        }
+      ]
+    }
+  ]
+}
