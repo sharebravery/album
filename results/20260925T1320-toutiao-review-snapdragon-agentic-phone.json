@@ -1,0 +1,60 @@
+{
+  "version": 2,
+  "requestId": "20260925T1320-toutiao-review-snapdragon-agentic-phone",
+  "status": "partial",
+  "assets": [
+    {
+      "index": 0,
+      "status": "failed",
+      "targetPath": "pulse/article/2026/09/snapdragon-agentic-phone/01-chip-package.jpg",
+      "alt": "第六代骁龙8超级至尊版芯片实物图",
+      "attempts": [
+        {
+          "index": 0,
+          "status": "failed",
+          "sourcePageUrl": "https://www.gamersky.com/news/202609/2205411.shtml",
+          "downloadUrl": "https://imgs.gamersky.com/upimg/new_preview/2026/09/08/origin_b_202609081410111230.jpg",
+          "error": "Article image is too small for publication: 200x112; minimum short side is 240px and minimum area is 160000 pixels"
+        }
+      ],
+      "error": "all candidates failed"
+    },
+    {
+      "index": 1,
+      "status": "completed",
+      "targetPath": "pulse/article/2026/09/snapdragon-agentic-phone/02-motorola-signature27.jpg",
+      "alt": "Motorola Signature 27旗舰手机",
+      "attempts": [
+        {
+          "index": 0,
+          "status": "completed",
+          "sourcePageUrl": "https://www.theverge.com/gadgets/998842/qualcomm-snapdragon-8-elite-extreme-gen-6",
+          "downloadUrl": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/09/motorola-signature-27-green-hand.jpg"
+        }
+      ],
+      "selectedCandidateIndex": 0,
+      "sourcePageUrl": "https://www.theverge.com/gadgets/998842/qualcomm-snapdragon-8-elite-extreme-gen-6",
+      "downloadUrl": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/09/motorola-signature-27-green-hand.jpg",
+      "contentType": "image/jpeg",
+      "bytes": 578297,
+      "rawUrl": "https://raw.githubusercontent.com/sharebravery/album/master/pulse/article/2026/09/snapdragon-agentic-phone/02-motorola-signature27.jpg",
+      "cdnUrl": "https://cdn.jsdelivr.net/gh/sharebravery/album@master/pulse/article/2026/09/snapdragon-agentic-phone/02-motorola-signature27.jpg"
+    },
+    {
+      "index": 2,
+      "status": "failed",
+      "targetPath": "pulse/article/2026/09/snapdragon-agentic-phone/03-xiaomi18-pro.jpg",
+      "alt": "小米18 Pro系列预热图",
+      "attempts": [
+        {
+          "index": 0,
+          "status": "failed",
+          "sourcePageUrl": "https://www.ptt.cc/bbs/MobileComm/M.1789883002.A.474.html",
+          "downloadUrl": "https://i.meee.com.tw/15PrOx0.jpg",
+          "error": "Article image is too small for publication: 600x223; minimum short side is 240px and minimum area is 160000 pixels"
+        }
+      ],
+      "error": "all candidates failed"
+    }
+  ]
+}
