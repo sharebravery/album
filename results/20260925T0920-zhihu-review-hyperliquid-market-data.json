@@ -1,0 +1,70 @@
+{
+  "version": 2,
+  "requestId": "20260925T0920-zhihu-review-hyperliquid-market-data",
+  "status": "completed",
+  "assets": [
+    {
+      "index": 0,
+      "status": "completed",
+      "targetPath": "pulse/article/2026/09/hyperliquid-market-data/01-launch.jpg",
+      "alt": "Hyperliquid market data feed launch context",
+      "attempts": [
+        {
+          "index": 0,
+          "status": "completed",
+          "sourcePageUrl": "https://crypto.news/doublezero-launches-hyperliquid-order-book-feeds-edge/",
+          "downloadUrl": "https://media.crypto.news/2026/06/Hyperliquidcn-1380x776.webp"
+        }
+      ],
+      "selectedCandidateIndex": 0,
+      "sourcePageUrl": "https://crypto.news/doublezero-launches-hyperliquid-order-book-feeds-edge/",
+      "downloadUrl": "https://media.crypto.news/2026/06/Hyperliquidcn-1380x776.webp",
+      "contentType": "image/jpeg",
+      "bytes": 217237,
+      "rawUrl": "https://raw.githubusercontent.com/sharebravery/album/master/pulse/article/2026/09/hyperliquid-market-data/01-launch.jpg",
+      "cdnUrl": "https://cdn.jsdelivr.net/gh/sharebravery/album@master/pulse/article/2026/09/hyperliquid-market-data/01-launch.jpg"
+    },
+    {
+      "index": 1,
+      "status": "completed",
+      "targetPath": "pulse/article/2026/09/hyperliquid-market-data/02-orderbook.jpg",
+      "alt": "Hyperliquid order book interface showing aggregated price levels",
+      "attempts": [
+        {
+          "index": 0,
+          "status": "completed",
+          "sourcePageUrl": "https://mobee.com/mobee-academy/blog/hypercore-to-hyperevm",
+          "downloadUrl": "https://cdn.prod.website-files.com/636a159209fc4a2dd6074cb6/685ccc7e9ac293ae87b71259_AD_4nXcbm91zmWxX104pMkg1--lyVFk70FIyLyOx6X2OjgUh77aR-RCWqEClbFg7kvhIfWTjjmalQ38_loQpY2oaIB5UlGRM6spriGE67YGYWSG7e5C0QSrpAVFOmh5GgrpK_VIK4EbSZg.png"
+        }
+      ],
+      "selectedCandidateIndex": 0,
+      "sourcePageUrl": "https://mobee.com/mobee-academy/blog/hypercore-to-hyperevm",
+      "downloadUrl": "https://cdn.prod.website-files.com/636a159209fc4a2dd6074cb6/685ccc7e9ac293ae87b71259_AD_4nXcbm91zmWxX104pMkg1--lyVFk70FIyLyOx6X2OjgUh77aR-RCWqEClbFg7kvhIfWTjjmalQ38_loQpY2oaIB5UlGRM6spriGE67YGYWSG7e5C0QSrpAVFOmh5GgrpK_VIK4EbSZg.png",
+      "contentType": "image/jpeg",
+      "bytes": 270710,
+      "rawUrl": "https://raw.githubusercontent.com/sharebravery/album/master/pulse/article/2026/09/hyperliquid-market-data/02-orderbook.jpg",
+      "cdnUrl": "https://cdn.jsdelivr.net/gh/sharebravery/album@master/pulse/article/2026/09/hyperliquid-market-data/02-orderbook.jpg"
+    },
+    {
+      "index": 2,
+      "status": "completed",
+      "targetPath": "pulse/article/2026/09/hyperliquid-market-data/03-book-screen.jpg",
+      "alt": "Hyperliquid trading screen with order book and market context",
+      "attempts": [
+        {
+          "index": 0,
+          "status": "completed",
+          "sourcePageUrl": "https://www.bittime.com/blog/airdrop-hyperliquid-bagikan-token-hype-cara-bermain-dan-tanggal-listingnya",
+          "downloadUrl": "https://static.bittime.com/cms-static/upload/Airdrop_Hyperliquid_Bagikan_Token_HYPE_Cara_Bermain_dan_Tanggal_Listingnya_dashboard_1cbcd8a4f8.webp"
+        }
+      ],
+      "selectedCandidateIndex": 0,
+      "sourcePageUrl": "https://www.bittime.com/blog/airdrop-hyperliquid-bagikan-token-hype-cara-bermain-dan-tanggal-listingnya",
+      "downloadUrl": "https://static.bittime.com/cms-static/upload/Airdrop_Hyperliquid_Bagikan_Token_HYPE_Cara_Bermain_dan_Tanggal_Listingnya_dashboard_1cbcd8a4f8.webp",
+      "contentType": "image/jpeg",
+      "bytes": 274870,
+      "rawUrl": "https://raw.githubusercontent.com/sharebravery/album/master/pulse/article/2026/09/hyperliquid-market-data/03-book-screen.jpg",
+      "cdnUrl": "https://cdn.jsdelivr.net/gh/sharebravery/album@master/pulse/article/2026/09/hyperliquid-market-data/03-book-screen.jpg"
+    }
+  ]
+}
